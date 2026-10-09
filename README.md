@@ -1,5 +1,19 @@
 # Lucide for JTE
 
+[![Maven Central][maven-badge]][maven-central]
+[![Build status][build-badge]][build-status]
+[![Java 17+][java-badge]](#dependency)
+[![Lucide 1.54.0][lucide-badge]](https://lucide.dev/)
+[![License: MIT][license-badge]](LICENSE)
+
+[maven-badge]: https://img.shields.io/maven-central/v/io.github.sgruendel/lucide-jte.svg
+[maven-central]: https://central.sonatype.com/artifact/io.github.sgruendel/lucide-jte
+[build-badge]: https://github.com/sgruendel/lucide-jte/actions/workflows/verify.yml/badge.svg?branch=main
+[build-status]: https://github.com/sgruendel/lucide-jte/actions/workflows/verify.yml
+[java-badge]: https://img.shields.io/badge/Java-17%2B-blue.svg
+[lucide-badge]: https://img.shields.io/badge/Lucide-1.54.0-f56565.svg
+[license-badge]: https://img.shields.io/badge/License-MIT-green.svg
+
 Type-safe [Lucide](https://lucide.dev/) icon components for
 [Java Template Engine (JTE)](https://jte.gg/). A regular Java library with no
 Spring or Basecoat dependency.
@@ -8,8 +22,7 @@ Requires Java 17 or newer. Built with JTE 3.2.4 and Lucide 1.54.0.
 
 ## Dependency
 
-The initial version is `1.54.0-SNAPSHOT` for local development. It has not yet
-been published to Maven Central. Once released, the dependency will be:
+Available on [Maven Central][maven-central]. Add the dependency to your project:
 
 ```xml
 <dependency>
@@ -19,7 +32,17 @@ been published to Maven Central. Once released, the dependency will be:
 </dependency>
 ```
 
-For Gradle: `implementation("io.github.sgruendel:lucide-jte:1.54.0")`.
+For Gradle (Kotlin DSL):
+
+```kotlin
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("io.github.sgruendel:lucide-jte:1.54.0")
+}
+```
 
 ## Use icons in a JTE template
 
@@ -48,11 +71,6 @@ return `JteModel`, which JTE renders as HTML content when inserted with `${...}`
 The consumer's ordinary JTE template resolver works in both development and
 precompiled production builds. No template extraction or custom resolver is needed.
 Consumers do not need Node or npm.
-
-Use `${icons.check(...)}` when consuming the library. The `@template.lucide.*`
-includes from the Basecoat demo are not this library's public API. JTE's model
-generator also emits `DynamicLucideIcon`, but it needs a separately configured
-engine with the icon sources; use the static implementation for library consumption.
 
 Canonical filenames become lower camel case: `book-open` becomes `bookOpen`.
 Java keywords get an `Icon` suffix: `package` becomes `packageIcon`, and `import`
@@ -117,114 +135,12 @@ syntax and does not make untrusted JavaScript safe.
 The library renders inline SVG; it does not supply CSS or require Lucide JavaScript
 in the browser. Utility classes such as `size-4` require your application's CSS.
 
-## Build and verify locally
+## Icon versions
 
-```sh
-npm ci
-npm test
-npm run check:generated
-./mvnw clean verify
-```
-
-The generated `.jte` files are kept in `src/main/jte` and should be committed
-with the project, so a Maven build alone does not need Node. The build uses `jte-models` to generate the facade and Java render classes,
-then packages those classes together with their `.bin` resources and license notices.
-The main JAR contains no raw `.jte` files and has only JTE runtime/model dependencies;
-the compiler dependencies are excluded from the published runtime dependency graph.
-
-`verify` runs unit tests, renders every generated icon, and builds the independent
-consumer project under `examples/consumer` against the packaged JAR in an isolated
-repository under `target`. It checks both development and precompiled rendering.
-
-To install the snapshot for another local project:
-
-```sh
-./mvnw install
-```
-
-Use version `1.54.0-SNAPSHOT` in that project's dependency. To run the consumer
-example separately after installation:
-
-```sh
-./mvnw -f examples/consumer/pom.xml clean verify
-```
-
-## Update the Lucide icon set
-
-The generator reads canonical icon exports and SVG nodes from the installed
-`lucide` npm package. The version and lockfile are pinned for repeatable builds.
-
-```sh
-npm install --save-dev --save-exact lucide@latest
-npm run generate:lucide-jte
-npm test
-npm run check:generated
-./mvnw clean verify
-```
-
-Review `package.json`, `package-lock.json`, generated templates, upstream license
-notices, and the embedded Lucide metadata. Removed upstream icons are removed from
-the generated template set. Treat renamed or removed Java methods as API changes
-when upgrading. Keep the version in `package.json` and `package-lock.json` equal
-to the pinned Lucide version, and use that version with a `-SNAPSHOT` suffix in
-`pom.xml` and the example's default `lucide-jte.version` during development.
-Update the version references in this README as well.
-`META-INF/lucide-jte.properties` records the upstream Lucide version.
-
-Generation is deterministic, fails on method-name collisions or unsupported SVG
-nodes, and `--check` reports drift without writing files. CI checks the generated
-files against the locked npm package before running Maven.
-
-## Prepare and publish a Maven Central release
-
-The `release` Maven profile adds sources, Javadoc, GPG signing, and the
-[Central publishing plugin](https://central.sonatype.org/publish/publish-portal-maven/).
-Normal builds and CI do not activate publishing. Follow
-[Central's requirements](https://central.sonatype.org/publish/requirements/) and
-[namespace verification](https://central.sonatype.org/register/namespace/).
-
-Before the first upload:
-
-1. Create a Central Portal account and verify `io.github.sgruendel`.
-2. Generate a publishing token and put its username/password in your personal
-   Maven `settings.xml` under server ID `central` (example below).
-3. Configure your GPG signing key and publish its public key as described in
-   [Sonatype's GPG guide](https://central.sonatype.org/publish/requirements/gpg/).
-4. Set the Maven version to `1.54.0` (remove `-SNAPSHOT`) and update the example's
-   default `lucide-jte.version`. For subsequent releases match the Lucide version
-   pinned in `package.json`.
-5. Review the generated API, tests, licenses, sources, and Javadoc artifacts.
-
-```xml
-<settings>
-    <servers>
-        <server>
-            <id>central</id>
-            <username>${env.CENTRAL_TOKEN_USERNAME}</username>
-            <password>${env.CENTRAL_TOKEN_PASSWORD}</password>
-        </server>
-    </servers>
-</settings>
-```
-
-Check the release artifacts locally without signing or uploading:
-
-```sh
-./mvnw -Prelease -Dgpg.skip=true clean verify
-```
-
-This creates the main, sources, and Javadoc JARs. For the actual upload, once the
-release version and credentials are ready:
-
-```sh
-./mvnw -Prelease clean deploy
-```
-
-That signs the artifacts and uploads them to the Central Portal for validation.
-`autoPublish` is explicitly false: review and publish the validated deployment
-in the Portal. Signing, authentication, and Portal validation require your account
-and key configuration; they are not exercised by the unsigned local check.
-Keep credentials and private keys outside this repository.
+Library versions follow the included Lucide release. This version provides 1,870
+canonical icons from Lucide 1.54.0. Browse the [Lucide icon catalog](https://lucide.dev/icons/)
+to find icon names. Upgrading may rename or remove Java methods when the corresponding
+icons change upstream.
 
 ## License
 
