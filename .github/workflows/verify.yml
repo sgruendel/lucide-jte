@@ -1,0 +1,32 @@
+name: Verify
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        java: ['17', '21']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ matrix.java }}
+          cache: maven
+      - run: npm ci
+      - run: npm test
+      - run: npm run check:generated
+      - run: ./mvnw --batch-mode --no-transfer-progress clean verify
+      - if: matrix.java == '17'
+        run: ./mvnw --batch-mode --no-transfer-progress -Prelease -Dgpg.skip=true -Dinvoker.skip=true package

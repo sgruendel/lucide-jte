@@ -1,0 +1,23 @@
+{
+  "name": "lucide-jte",
+  "version": "1.54.0",
+  "private": true,
+  "description": "Type-safe Lucide icon components for Java Template Engine (JTE)",
+  "author": "Stefan Gründel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgruendel/lucide-jte.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "generate:lucide-jte": "node scripts/generate-lucide-jte.js",
+    "check:generated": "node scripts/generate-lucide-jte.js --check",
+    "test": "node --test scripts/*.test.js"
+  },
+  "devDependencies": {
+    "lucide": "1.54.0"
+  }
+}

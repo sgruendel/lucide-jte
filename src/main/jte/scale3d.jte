@@ -1,0 +1,25 @@
+<%-- Generated from Lucide 1.54.0. See https://lucide.dev/icons/scale-3d --%>
+
+@import io.github.sgruendel.lucide.jte.IconOptions
+@import io.github.sgruendel.lucide.jte.internal.IconAttributes
+
+@param IconOptions options = IconOptions.DEFAULT
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="${options.size()}"
+  height="${options.size()}"
+  viewBox="0 0 24 24"
+  fill="${options.fill()}"
+  stroke="${options.color()}"
+  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="${IconAttributes.classAppend("lucide lucide-scale-3d-icon lucide-scale-3d", options.attrs())}"
+  $unsafe{IconAttributes.attrs(options.attrs())}
+>
+  <path d="M5 7v11a1 1 0 0 0 1 1h11" />
+  <path d="M5.293 18.707 11 13" />
+  <circle cx="19" cy="19" r="2" />
+  <circle cx="5" cy="5" r="2" />
+</svg>
