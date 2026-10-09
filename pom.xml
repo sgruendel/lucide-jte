@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.sgruendel</groupId>
     <artifactId>lucide-jte</artifactId>
-    <version>1.54.0</version>
+    <version>1.54.1</version>
     <name>Lucide for JTE</name>
     <description>Type-safe Lucide icon components for Java Template Engine (JTE).</description>
     <url>https://github.com/sgruendel/lucide-jte</url>
@@ -20,7 +20,7 @@
         <connection>scm:git:https://github.com/sgruendel/lucide-jte.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/sgruendel/lucide-jte.git</developerConnection>
         <url>https://github.com/sgruendel/lucide-jte</url>
-        <tag>HEAD</tag>
+        <tag>v1.54.1</tag>
     </scm>
     <issueManagement><system>GitHub</system><url>https://github.com/sgruendel/lucide-jte/issues</url></issueManagement>
     <properties>
@@ -115,7 +115,7 @@
                 <plugin>
                     <groupId>org.sonatype.central</groupId><artifactId>central-publishing-maven-plugin</artifactId><version>0.11.0</version>
                     <extensions>true</extensions>
-                    <configuration><publishingServerId>central</publishingServerId><autoPublish>false</autoPublish></configuration>
+                    <configuration><publishingServerId>central</publishingServerId></configuration>
                 </plugin>
             </plugins></build>
         </profile>

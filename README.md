@@ -28,7 +28,7 @@ Available on [Maven Central][maven-central]. Add the dependency to your project:
 <dependency>
     <groupId>io.github.sgruendel</groupId>
     <artifactId>lucide-jte</artifactId>
-    <version>1.54.0</version>
+    <version>1.54.1</version>
 </dependency>
 ```
 
@@ -40,34 +40,29 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.sgruendel:lucide-jte:1.54.0")
+    implementation("io.github.sgruendel:lucide-jte:1.54.1")
 }
 ```
 
 ## Use icons in a JTE template
 
 ```jte
-@import io.github.sgruendel.lucide.jte.LucideIcon
-@import io.github.sgruendel.lucide.jte.StaticLucideIcon
-@import io.github.sgruendel.lucide.jte.IconOptions
-@import java.util.Map
+@import static io.github.sgruendel.lucide.jte.LucideIcons.*
 
-@param LucideIcon icons = StaticLucideIcon.INSTANCE
+${mailSearch()}
+${bookOpen()}
 
 <button>
-  ${icons.check(IconOptions.DEFAULT.withSize(16).withClass("size-4"))}
+  ${check().size(16).cssClass("size-4")}
   Save
 </button>
 
-${icons.bookOpen(IconOptions.DEFAULT.withAttrs(Map.of(
-    "aria-hidden", "true",
-    "focusable", "false"
-)))}
+${bookOpen().attr("aria-hidden", "true").attr("focusable", "false")}
 ```
 
-`LucideIcon` is a generated facade with one method per canonical icon. Methods
-return `JteModel`, which JTE renders as HTML content when inserted with `${...}`.
-`StaticLucideIcon.INSTANCE` calls the library's compiled templates directly.
+Each helper returns an immutable `Icon` with Lucide's default options. Chain styling
+methods directly on the icon; each call returns a new icon. JTE renders the SVG
+when the icon is inserted with `${...}`.
 The consumer's ordinary JTE template resolver works in both development and
 precompiled production builds. No template extraction or custom resolver is needed.
 Consumers do not need Node or npm.
@@ -79,19 +74,17 @@ becomes `importIcon`. Lucide alias exports do not create duplicate methods.
 ## Use icons from Java
 
 ```java
-LucideIcon icons = StaticLucideIcon.INSTANCE;
+import static io.github.sgruendel.lucide.jte.LucideIcons.*;
 
-String svg = icons.circleCheck(
-    IconOptions.DEFAULT.withSize(20).withColor("green")
-).render();
+String svg = circleCheck().size(20).color("green").render();
 ```
 
-You can also pass the returned `JteModel` to a template parameter of type
+`Icon` implements `JteModel`. You can also pass an icon to a template parameter of type
 `gg.jte.Content`. Rendering to a string is unnecessary when composing templates.
 
-## IconOptions and attributes
+## Styling and attributes
 
-`IconOptions.DEFAULT` supplies Lucide's defaults:
+Icons start with Lucide's defaults:
 
 | Option | Default |
 | --- | --- |
@@ -102,21 +95,30 @@ You can also pass the returned `JteModel` to a template parameter of type
 | `absoluteStrokeWidth` | `false` |
 | `attrs` | Empty map |
 
-Fluent methods return new values: `withSize`, `withFill`, `withColor`,
-`withStrokeWidth`, `withAbsoluteStrokeWidth`, `withAttrs`, `withAttr`, and `withClass`.
+Fluent methods return new icons: `size`, `fill`, `color`,
+`strokeWidth`, `absoluteStrokeWidth`, `attrs`, `attr`, and `cssClass`.
+CSS classes use `cssClass(...)` because `class` is a Java keyword.
 The size must be positive, stroke width nonnegative, and fill/color non-null.
 
 ```java
-var options = IconOptions.DEFAULT
-    .withSize(16)
-    .withStrokeWidth(2)
-    .withAbsoluteStrokeWidth(true)
-    .withAttrs(Map.of("class", "size-4", "aria-label", "Save"))
-    .withAttr("data-action", "save");
+var icon = check()
+    .size(16)
+    .strokeWidth(2)
+    .absoluteStrokeWidth(true)
+    .attrs(Map.of("class", "size-4", "aria-label", "Save"))
+    .attr("data-action", "save");
 ```
 
-`withAttrs(Map<String, ?>)` merges attributes, replacing previous values with
-the same name. `withAttr` sets a single attribute. Maps are defensively copied,
+For shared settings, pass `IconOptions` to an icon helper:
+
+```java
+var options = IconOptions.DEFAULT.size(16).cssClass("size-4");
+var saveIcon = check(options);
+var bookIcon = bookOpen(options);
+```
+
+`attrs(Map<String, ?>)` merges attributes, replacing previous values with
+the same name. `attr` sets a single attribute. Maps are defensively copied,
 preserve null values, and cannot be modified through the options; their object
 values are not deep-copied. A null map in the record constructor means an empty map.
 
@@ -137,8 +139,9 @@ in the browser. Utility classes such as `size-4` require your application's CSS.
 
 ## Icon versions
 
-Library versions follow the included Lucide release. This version provides 1,870
-canonical icons from Lucide 1.54.0. Browse the [Lucide icon catalog](https://lucide.dev/icons/)
+Version 1.54.1 provides 1,870 canonical icons from Lucide 1.54.0. Library patch
+releases can improve the Java API without changing the included icon set.
+Browse the [Lucide icon catalog](https://lucide.dev/icons/)
 to find icon names. Upgrading may rename or remove Java methods when the corresponding
 icons change upstream.
 

@@ -46,6 +46,11 @@ test("generation removes stale icons, updates notices, and check mode detects dr
     assert.equal(fs.existsSync(path.join(root, "src/main/jte/stale.jte")), false);
     assert.equal(fs.readFileSync(path.join(root, "THIRD-PARTY-LICENSES/LUCIDE.txt"), "utf8"), "upstream notice\n");
     await generate(root, true);
+    const facade = "src/main/java/io/github/sgruendel/lucide/jte/LucideIcons.java";
+    write(facade, "drift");
+    await assert.rejects(generate(root, true), /out of date/);
+    assert.equal(fs.readFileSync(path.join(root, facade), "utf8"), "drift");
+    await generate(root);
     write("src/main/jte/check.jte", "drift");
     await assert.rejects(generate(root, true), /out of date/);
     assert.equal(fs.readFileSync(path.join(root, "src/main/jte/check.jte"), "utf8"), "drift");

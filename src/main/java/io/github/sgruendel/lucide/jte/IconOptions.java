@@ -41,47 +41,47 @@ public record IconOptions(int size, String fill, String color, int strokeWidth,
     }
 
     /** Returns options with the given width and height. */
-    public IconOptions withSize(int size) {
+    public IconOptions size(int size) {
         return new IconOptions(size, fill, color, strokeWidth, absoluteStrokeWidth, attrs);
     }
 
     /** Returns options with the given fill. */
-    public IconOptions withFill(String fill) {
+    public IconOptions fill(String fill) {
         return new IconOptions(size, fill, color, strokeWidth, absoluteStrokeWidth, attrs);
     }
 
     /** Returns options with the given stroke color. */
-    public IconOptions withColor(String color) {
+    public IconOptions color(String color) {
         return new IconOptions(size, fill, color, strokeWidth, absoluteStrokeWidth, attrs);
     }
 
     /** Returns options with the given stroke width. */
-    public IconOptions withStrokeWidth(int strokeWidth) {
+    public IconOptions strokeWidth(int strokeWidth) {
         return new IconOptions(size, fill, color, strokeWidth, absoluteStrokeWidth, attrs);
     }
 
     /** Returns options with the given stroke scaling behavior. */
-    public IconOptions withAbsoluteStrokeWidth(boolean absoluteStrokeWidth) {
+    public IconOptions absoluteStrokeWidth(boolean absoluteStrokeWidth) {
         return new IconOptions(size, fill, color, strokeWidth, absoluteStrokeWidth, attrs);
     }
 
     /** Merges attributes; additions replace existing values with the same name. */
-    public IconOptions withAttrs(Map<String, ?> additions) {
+    public IconOptions attrs(Map<String, ?> additions) {
         var merged = new LinkedHashMap<String, Object>(attrs);
         merged.putAll(Objects.requireNonNull(additions, "additions"));
         return new IconOptions(size, fill, color, strokeWidth, absoluteStrokeWidth, merged);
     }
 
     /** Sets an attribute; false or null omit it when rendered. */
-    public IconOptions withAttr(String name, Object value) {
+    public IconOptions attr(String name, Object value) {
         var merged = new LinkedHashMap<String, Object>(attrs);
         merged.put(Objects.requireNonNull(name, "name"), value);
         return new IconOptions(size, fill, color, strokeWidth, absoluteStrokeWidth, merged);
     }
 
     /** Sets additional CSS classes, appended to the icon's built-in Lucide classes. */
-    public IconOptions withClass(String classes) {
-        return withAttr("class", classes);
+    public IconOptions cssClass(String classes) {
+        return attr("class", classes);
     }
 
     /** Calculates the SVG stroke width, including absolute stroke scaling. */

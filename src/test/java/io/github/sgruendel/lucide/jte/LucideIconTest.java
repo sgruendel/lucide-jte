@@ -13,8 +13,8 @@ class LucideIconTest {
 
     @Test
     void rendersOptionsClassesAndEscapedAttributes() {
-        String html = icons.check(IconOptions.DEFAULT.withSize(16).withColor("red")
-                .withStrokeWidth(3).withAbsoluteStrokeWidth(true).withAttrs(Map.of(
+        String html = icons.check(IconOptions.DEFAULT.size(16).color("red")
+                .strokeWidth(3).absoluteStrokeWidth(true).attrs(Map.of(
                         "class", "size-4", "aria-hidden", "true", "focusable", "false",
                         "title", "<Save \"draft\"> & continue"))).render();
         assertTrue(html.contains("<svg"));
@@ -32,22 +32,22 @@ class LucideIconTest {
 
     @Test
     void rendersBooleanNullNumericAndEventAttributes() {
-        String html = icons.check(IconOptions.DEFAULT.withAttr("data-visible", true)
-                .withAttr("hidden", false).withAttr("title", null).withAttr("data-count", 3)
-                .withAttr("onclick", "alert('x')")).render();
+        String html = icons.check(IconOptions.DEFAULT.attr("data-visible", true)
+                .attr("hidden", false).attr("title", null).attr("data-count", 3)
+                .attr("onclick", "alert('x')")).render();
         assertTrue(html.contains(" data-visible"));
         assertFalse(html.contains(" hidden"));
         assertFalse(html.contains(" title="));
         assertTrue(html.contains("data-count=\"3\""));
         assertTrue(html.contains("onclick=\"alert(\\x27x\\x27)\""));
-        assertFalse(icons.check(IconOptions.DEFAULT.withAttr("class", false)).render().contains("lucide-check false"));
+        assertFalse(icons.check(IconOptions.DEFAULT.attr("class", false)).render().contains("lucide-check false"));
     }
 
     @Test
     void rejectsInvalidAttributeNames() {
         for (var name : List.of("", "data slot", "data/slot", "data=slot", "data>slot", "data\"slot", "data'slot", "\u0000data", "data\uFDD0slot")) {
             var failure = assertThrows(TemplateException.class,
-                    () -> icons.check(IconOptions.DEFAULT.withAttr(name, "value")).render());
+                    () -> icons.check(IconOptions.DEFAULT.attr(name, "value")).render());
             assertInstanceOf(IllegalArgumentException.class, failure.getCause());
         }
     }
@@ -70,5 +70,28 @@ class LucideIconTest {
         }
         assertTrue(icons.packageIcon(IconOptions.DEFAULT).render().contains("lucide-package"));
         assertTrue(icons.importIcon(IconOptions.DEFAULT).render().contains("lucide-import"));
+    }
+
+    @Test
+    void staticHelpersCoverEveryIconWithDefaultsAndCustomOptions() throws Exception {
+        var methods = LucideIcon.class.getDeclaredMethods();
+        assertEquals(methods.length * 2, LucideIcons.class.getDeclaredMethods().length);
+        var custom = IconOptions.DEFAULT.size(16).color("red").cssClass("custom-icon");
+        for (var method : methods) {
+            var defaultHelper = LucideIcons.class.getDeclaredMethod(method.getName());
+            var customHelper = LucideIcons.class.getDeclaredMethod(method.getName(), IconOptions.class);
+            var expectedDefault = (JteModel) method.invoke(icons, IconOptions.DEFAULT);
+            var expectedCustom = (JteModel) method.invoke(icons, custom);
+            assertEquals(Icon.class, defaultHelper.getReturnType());
+            assertEquals(Icon.class, customHelper.getReturnType());
+            var actualDefault = (Icon) defaultHelper.invoke(null);
+            var actualCustom = (JteModel) customHelper.invoke(null, custom);
+            assertEquals(expectedDefault.render(), actualDefault.render(), method.getName());
+            assertEquals(expectedCustom.render(), actualCustom.render(), method.getName());
+            assertEquals(expectedCustom.render(),
+                    actualDefault.size(16).color("red").cssClass("custom-icon").render(), method.getName());
+        }
+        assertTrue(LucideIcons.packageIcon().render().contains("lucide-package"));
+        assertTrue(LucideIcons.importIcon().render().contains("lucide-import"));
     }
 }
