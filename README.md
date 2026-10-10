@@ -28,7 +28,7 @@ Available on [Maven Central][maven-central]. Add the dependency to your project:
 <dependency>
     <groupId>io.github.sgruendel</groupId>
     <artifactId>lucide-jte</artifactId>
-    <version>1.54.1</version>
+    <version>1.54.2</version>
 </dependency>
 ```
 
@@ -40,7 +40,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.sgruendel:lucide-jte:1.54.1")
+    implementation("io.github.sgruendel:lucide-jte:1.54.2")
 }
 ```
 
@@ -159,7 +159,7 @@ in the browser. Utility classes such as `size-4` require your application's CSS.
 
 ## Icon versions
 
-Version 1.54.1 provides 1,870 canonical icons from Lucide 1.54.0. Library patch
+Version 1.54.2 provides 1,870 canonical icons from Lucide 1.54.0. Library patch
 releases can improve the Java API without changing the included icon set.
 Browse the [Lucide icon catalog](https://lucide.dev/icons/)
 to find icon names. Upgrading may rename or remove Java methods when the corresponding

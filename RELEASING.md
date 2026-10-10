@@ -35,7 +35,7 @@ No Central or GPG secrets are required in GitHub Actions.
 1. Update the library version. For example, for the next patch release:
 
    ```sh
-   npm run sync-version -- 1.54.2
+   npm run sync-version -- 1.54.3
    ```
 
    This updates the project version, SCM tag, README dependency snippets and
@@ -57,7 +57,7 @@ No Central or GPG secrets are required in GitHub Actions.
 
    ```sh
    git add pom.xml README.md examples/consumer/pom.xml package.json package-lock.json
-   git commit -m "Release 1.54.2"
+   git commit -m "chore(release): prepare 1.54.3"
    git push origin main
    ```
 
@@ -77,8 +77,8 @@ No Central or GPG secrets are required in GitHub Actions.
 5. After Maven Central publication succeeds, create and push the matching tag:
 
    ```sh
-   git tag v1.54.2
-   git push origin v1.54.2
+   git tag v1.54.3
+   git push origin v1.54.3
    ```
 
    The GitHub Release action verifies the tagged commit and creates the GitHub
