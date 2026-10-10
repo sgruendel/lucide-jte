@@ -86,6 +86,21 @@ String svg = circleCheck().size(20).color("green").render();
 `TemplateEngine` setup. To use the generated `DynamicLucideIcon` with the library's
 precompiled templates, supply a dedicated engine configured with package name
 `io.github.sgruendel.lucide.jte`. Keep your application's template engine separate.
+`TemplateEngine` is included through the transitive `gg.jte:jte-runtime` dependency;
+precompiled rendering needs no additional JTE dependency.
+
+If your application compiles JTE templates at runtime, such as during development,
+add `gg.jte:jte` explicitly. This library excludes that compiler dependency:
+
+```xml
+<dependency>
+    <groupId>gg.jte</groupId>
+    <artifactId>jte</artifactId>
+    <version>3.2.4</version>
+</dependency>
+```
+
+For Gradle, add `implementation("gg.jte:jte:3.2.4")`.
 
 ## Styling and attributes
 
