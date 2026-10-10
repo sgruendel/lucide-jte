@@ -15,6 +15,7 @@
   "scripts": {
     "generate:lucide-jte": "node scripts/generate-lucide-jte.js",
     "check:generated": "node scripts/generate-lucide-jte.js --check",
+    "sync-version": "node scripts/sync-version.js",
     "test": "node --test scripts/*.test.js"
   },
   "devDependencies": {

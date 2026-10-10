@@ -32,6 +32,10 @@
     </properties>
     <dependencies>
         <dependency><groupId>gg.jte</groupId><artifactId>jte-runtime</artifactId><version>${jte.version}</version></dependency>
+        <!-- JTE 3.2.4 bundles gg.jte.models.runtime in jte-models; the separate
+             jte-models-runtime module is introduced upstream after this release.
+             jte and jte-extension-api are excluded: they are only needed by the generator at
+             build time, where jte-models is declared as a jte-maven-plugin dependency. -->
         <dependency>
             <groupId>gg.jte</groupId><artifactId>jte-models</artifactId><version>${jte.version}</version>
             <exclusions>
@@ -97,6 +101,10 @@
             <build><plugins>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId><artifactId>maven-source-plugin</artifactId><version>3.3.1</version>
+                    <configuration>
+                        <!-- generated JTE template implementations are noise in the sources jar -->
+                        <excludes><exclude>**/Jte*Generated.java</exclude></excludes>
+                    </configuration>
                     <executions><execution><id>sources</id><phase>package</phase><goals><goal>jar-no-fork</goal></goals></execution></executions>
                 </plugin>
                 <plugin>
