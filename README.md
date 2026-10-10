@@ -82,6 +82,11 @@ String svg = circleCheck().size(20).color("green").render();
 `Icon` implements `JteModel`. You can also pass an icon to a template parameter of type
 `gg.jte.Content`. Rendering to a string is unnecessary when composing templates.
 
+`LucideIcons` (backed by `StaticLucideIcon`) is the supported entry point and needs no
+`TemplateEngine` setup. To use the generated `DynamicLucideIcon` with the library's
+precompiled templates, supply a dedicated engine configured with package name
+`io.github.sgruendel.lucide.jte`. Keep your application's template engine separate.
+
 ## Styling and attributes
 
 Icons start with Lucide's defaults:
