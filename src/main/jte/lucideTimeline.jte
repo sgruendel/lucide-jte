@@ -1,0 +1,35 @@
+<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/timeline --%>
+
+@import io.github.sgruendel.lucide.jte.IconOptions
+@import io.github.sgruendel.lucide.jte.internal.IconAttributes
+
+@param IconOptions options = IconOptions.DEFAULT
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="${options.size()}"
+  height="${options.size()}"
+  viewBox="0 0 24 24"
+  fill="${options.fill()}"
+  stroke="${options.color()}"
+  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="${IconAttributes.classAppend("lucide lucide-timeline-icon lucide-timeline", options.attrs())}"
+  $unsafe{IconAttributes.attrs(options.attrs())}
+>
+  <path d="M4 12h.01" />
+  <path d="M4 16h.01" />
+  <path d="M4 20h.01" />
+  <path d="M4 4h.01" />
+  <path d="M4 8h.01" />
+  <path
+    d="M9.414 13.414a2 2 0 0 0 1.414.586H19a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-8.172a2 2 0 0 0-1.414.586L8 12z"
+  />
+  <path
+    d="M9.414 21.414a2 2 0 0 0 1.414.586H19a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1h-8.172a2 2 0 0 0-1.414.586L8 20z"
+  />
+  <path
+    d="M9.414 5.414A2 2 0 0 0 10.828 6H19a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1h-8.172a2 2 0 0 0-1.414.586L8 4z"
+  />
+</svg>

@@ -1,0 +1,26 @@
+<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/map-pin-minus --%>
+
+@import io.github.sgruendel.lucide.jte.IconOptions
+@import io.github.sgruendel.lucide.jte.internal.IconAttributes
+
+@param IconOptions options = IconOptions.DEFAULT
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="${options.size()}"
+  height="${options.size()}"
+  viewBox="0 0 24 24"
+  fill="${options.fill()}"
+  stroke="${options.color()}"
+  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="${IconAttributes.classAppend("lucide lucide-map-pin-minus-icon lucide-map-pin-minus", options.attrs())}"
+  $unsafe{IconAttributes.attrs(options.attrs())}
+>
+  <path
+    d="M18.977 14C19.6 12.701 20 11.343 20 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32 32 0 0 0 .824-.738"
+  />
+  <circle cx="12" cy="10" r="3" />
+  <path d="M16 18h6" />
+</svg>

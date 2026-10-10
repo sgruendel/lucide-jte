@@ -17,7 +17,7 @@ class ConsumerTest {
         var location = StaticLucideIcon.class.getProtectionDomain().getCodeSource().getLocation();
         assertTrue(location.getPath().endsWith(".jar"), "Test must use the packaged library");
         try (var jar = new JarFile(Path.of(location.toURI()).toFile())) {
-            assertNotNull(jar.getEntry("io/github/sgruendel/lucide/jte/JtecheckGenerated.bin"));
+            assertNotNull(jar.getEntry("io/github/sgruendel/lucide/jte/JtelucideCheckGenerated.bin"));
             assertNotNull(jar.getEntry("META-INF/LICENSE"));
             assertNotNull(jar.getEntry("META-INF/THIRD-PARTY-LICENSES/LUCIDE.txt"));
             assertFalse(jar.stream().anyMatch(entry -> entry.getName().endsWith(".jte")));

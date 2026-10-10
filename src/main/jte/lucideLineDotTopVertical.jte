@@ -1,0 +1,23 @@
+<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/line-dot-top-vertical --%>
+
+@import io.github.sgruendel.lucide.jte.IconOptions
+@import io.github.sgruendel.lucide.jte.internal.IconAttributes
+
+@param IconOptions options = IconOptions.DEFAULT
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="${options.size()}"
+  height="${options.size()}"
+  viewBox="0 0 24 24"
+  fill="${options.fill()}"
+  stroke="${options.color()}"
+  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="${IconAttributes.classAppend("lucide lucide-line-dot-top-vertical-icon lucide-line-dot-top-vertical", options.attrs())}"
+  $unsafe{IconAttributes.attrs(options.attrs())}
+>
+  <path d="M12 9v12" />
+  <circle cx="12" cy="6" r="3" />
+</svg>

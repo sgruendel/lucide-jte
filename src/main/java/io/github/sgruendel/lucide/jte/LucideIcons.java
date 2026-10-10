@@ -1,4 +1,4 @@
-// Generated from Lucide 1.54.0 by npm run generate:lucide-jte. Do not edit.
+// Generated from Lucide 1.55.0 by npm run generate:lucide-jte. Do not edit.
 package io.github.sgruendel.lucide.jte;
 
 import static io.github.sgruendel.lucide.jte.StaticLucideIcon.INSTANCE;
@@ -8,14963 +8,15019 @@ public final class LucideIcons {
     private LucideIcons() {
     }
 
-    public static Icon aArrowDown() {
-        return aArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideAArrowDown() {
+        return lucideAArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon aArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::aArrowDown, options);
+    public static Icon lucideAArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideAArrowDown, options);
     }
 
-    public static Icon aArrowUp() {
-        return aArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideAArrowUp() {
+        return lucideAArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon aArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::aArrowUp, options);
+    public static Icon lucideAArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideAArrowUp, options);
     }
 
-    public static Icon aLargeSmall() {
-        return aLargeSmall(IconOptions.DEFAULT);
+    public static Icon lucideALargeSmall() {
+        return lucideALargeSmall(IconOptions.DEFAULT);
     }
 
-    public static Icon aLargeSmall(IconOptions options) {
-        return new Icon(INSTANCE::aLargeSmall, options);
+    public static Icon lucideALargeSmall(IconOptions options) {
+        return new Icon(INSTANCE::lucideALargeSmall, options);
     }
 
-    public static Icon accessibility() {
-        return accessibility(IconOptions.DEFAULT);
+    public static Icon lucideAccessibility() {
+        return lucideAccessibility(IconOptions.DEFAULT);
     }
 
-    public static Icon accessibility(IconOptions options) {
-        return new Icon(INSTANCE::accessibility, options);
+    public static Icon lucideAccessibility(IconOptions options) {
+        return new Icon(INSTANCE::lucideAccessibility, options);
     }
 
-    public static Icon activity() {
-        return activity(IconOptions.DEFAULT);
+    public static Icon lucideActivity() {
+        return lucideActivity(IconOptions.DEFAULT);
     }
 
-    public static Icon activity(IconOptions options) {
-        return new Icon(INSTANCE::activity, options);
+    public static Icon lucideActivity(IconOptions options) {
+        return new Icon(INSTANCE::lucideActivity, options);
     }
 
-    public static Icon ad() {
-        return ad(IconOptions.DEFAULT);
+    public static Icon lucideAd() {
+        return lucideAd(IconOptions.DEFAULT);
     }
 
-    public static Icon ad(IconOptions options) {
-        return new Icon(INSTANCE::ad, options);
+    public static Icon lucideAd(IconOptions options) {
+        return new Icon(INSTANCE::lucideAd, options);
     }
 
-    public static Icon airVent() {
-        return airVent(IconOptions.DEFAULT);
+    public static Icon lucideAirVent() {
+        return lucideAirVent(IconOptions.DEFAULT);
     }
 
-    public static Icon airVent(IconOptions options) {
-        return new Icon(INSTANCE::airVent, options);
+    public static Icon lucideAirVent(IconOptions options) {
+        return new Icon(INSTANCE::lucideAirVent, options);
     }
 
-    public static Icon airplay() {
-        return airplay(IconOptions.DEFAULT);
+    public static Icon lucideAirplay() {
+        return lucideAirplay(IconOptions.DEFAULT);
     }
 
-    public static Icon airplay(IconOptions options) {
-        return new Icon(INSTANCE::airplay, options);
+    public static Icon lucideAirplay(IconOptions options) {
+        return new Icon(INSTANCE::lucideAirplay, options);
     }
 
-    public static Icon alarmClock() {
-        return alarmClock(IconOptions.DEFAULT);
+    public static Icon lucideAlarmClock() {
+        return lucideAlarmClock(IconOptions.DEFAULT);
     }
 
-    public static Icon alarmClock(IconOptions options) {
-        return new Icon(INSTANCE::alarmClock, options);
+    public static Icon lucideAlarmClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlarmClock, options);
     }
 
-    public static Icon alarmClockCheck() {
-        return alarmClockCheck(IconOptions.DEFAULT);
+    public static Icon lucideAlarmClockCheck() {
+        return lucideAlarmClockCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon alarmClockCheck(IconOptions options) {
-        return new Icon(INSTANCE::alarmClockCheck, options);
+    public static Icon lucideAlarmClockCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlarmClockCheck, options);
     }
 
-    public static Icon alarmClockMinus() {
-        return alarmClockMinus(IconOptions.DEFAULT);
+    public static Icon lucideAlarmClockMinus() {
+        return lucideAlarmClockMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon alarmClockMinus(IconOptions options) {
-        return new Icon(INSTANCE::alarmClockMinus, options);
+    public static Icon lucideAlarmClockMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlarmClockMinus, options);
     }
 
-    public static Icon alarmClockOff() {
-        return alarmClockOff(IconOptions.DEFAULT);
+    public static Icon lucideAlarmClockOff() {
+        return lucideAlarmClockOff(IconOptions.DEFAULT);
     }
 
-    public static Icon alarmClockOff(IconOptions options) {
-        return new Icon(INSTANCE::alarmClockOff, options);
+    public static Icon lucideAlarmClockOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlarmClockOff, options);
     }
 
-    public static Icon alarmClockPlus() {
-        return alarmClockPlus(IconOptions.DEFAULT);
+    public static Icon lucideAlarmClockPlus() {
+        return lucideAlarmClockPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon alarmClockPlus(IconOptions options) {
-        return new Icon(INSTANCE::alarmClockPlus, options);
+    public static Icon lucideAlarmClockPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlarmClockPlus, options);
     }
 
-    public static Icon alarmSmoke() {
-        return alarmSmoke(IconOptions.DEFAULT);
+    public static Icon lucideAlarmSmoke() {
+        return lucideAlarmSmoke(IconOptions.DEFAULT);
     }
 
-    public static Icon alarmSmoke(IconOptions options) {
-        return new Icon(INSTANCE::alarmSmoke, options);
+    public static Icon lucideAlarmSmoke(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlarmSmoke, options);
     }
 
-    public static Icon alignCenterHorizontal() {
-        return alignCenterHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideAlignCenterHorizontal() {
+        return lucideAlignCenterHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon alignCenterHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::alignCenterHorizontal, options);
+    public static Icon lucideAlignCenterHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignCenterHorizontal, options);
     }
 
-    public static Icon alignCenterVertical() {
-        return alignCenterVertical(IconOptions.DEFAULT);
+    public static Icon lucideAlignCenterVertical() {
+        return lucideAlignCenterVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon alignCenterVertical(IconOptions options) {
-        return new Icon(INSTANCE::alignCenterVertical, options);
+    public static Icon lucideAlignCenterVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignCenterVertical, options);
     }
 
-    public static Icon alignEndHorizontal() {
-        return alignEndHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideAlignEndHorizontal() {
+        return lucideAlignEndHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon alignEndHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::alignEndHorizontal, options);
+    public static Icon lucideAlignEndHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignEndHorizontal, options);
     }
 
-    public static Icon alignEndVertical() {
-        return alignEndVertical(IconOptions.DEFAULT);
+    public static Icon lucideAlignEndVertical() {
+        return lucideAlignEndVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon alignEndVertical(IconOptions options) {
-        return new Icon(INSTANCE::alignEndVertical, options);
+    public static Icon lucideAlignEndVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignEndVertical, options);
     }
 
-    public static Icon alignHorizontalDistributeCenter() {
-        return alignHorizontalDistributeCenter(IconOptions.DEFAULT);
+    public static Icon lucideAlignHorizontalDistributeCenter() {
+        return lucideAlignHorizontalDistributeCenter(IconOptions.DEFAULT);
     }
 
-    public static Icon alignHorizontalDistributeCenter(IconOptions options) {
-        return new Icon(INSTANCE::alignHorizontalDistributeCenter, options);
+    public static Icon lucideAlignHorizontalDistributeCenter(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignHorizontalDistributeCenter, options);
     }
 
-    public static Icon alignHorizontalDistributeEnd() {
-        return alignHorizontalDistributeEnd(IconOptions.DEFAULT);
+    public static Icon lucideAlignHorizontalDistributeEnd() {
+        return lucideAlignHorizontalDistributeEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon alignHorizontalDistributeEnd(IconOptions options) {
-        return new Icon(INSTANCE::alignHorizontalDistributeEnd, options);
+    public static Icon lucideAlignHorizontalDistributeEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignHorizontalDistributeEnd, options);
     }
 
-    public static Icon alignHorizontalDistributeStart() {
-        return alignHorizontalDistributeStart(IconOptions.DEFAULT);
+    public static Icon lucideAlignHorizontalDistributeStart() {
+        return lucideAlignHorizontalDistributeStart(IconOptions.DEFAULT);
     }
 
-    public static Icon alignHorizontalDistributeStart(IconOptions options) {
-        return new Icon(INSTANCE::alignHorizontalDistributeStart, options);
+    public static Icon lucideAlignHorizontalDistributeStart(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignHorizontalDistributeStart, options);
     }
 
-    public static Icon alignHorizontalJustifyCenter() {
-        return alignHorizontalJustifyCenter(IconOptions.DEFAULT);
+    public static Icon lucideAlignHorizontalJustifyCenter() {
+        return lucideAlignHorizontalJustifyCenter(IconOptions.DEFAULT);
     }
 
-    public static Icon alignHorizontalJustifyCenter(IconOptions options) {
-        return new Icon(INSTANCE::alignHorizontalJustifyCenter, options);
+    public static Icon lucideAlignHorizontalJustifyCenter(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignHorizontalJustifyCenter, options);
     }
 
-    public static Icon alignHorizontalJustifyEnd() {
-        return alignHorizontalJustifyEnd(IconOptions.DEFAULT);
+    public static Icon lucideAlignHorizontalJustifyEnd() {
+        return lucideAlignHorizontalJustifyEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon alignHorizontalJustifyEnd(IconOptions options) {
-        return new Icon(INSTANCE::alignHorizontalJustifyEnd, options);
+    public static Icon lucideAlignHorizontalJustifyEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignHorizontalJustifyEnd, options);
     }
 
-    public static Icon alignHorizontalJustifyStart() {
-        return alignHorizontalJustifyStart(IconOptions.DEFAULT);
+    public static Icon lucideAlignHorizontalJustifyStart() {
+        return lucideAlignHorizontalJustifyStart(IconOptions.DEFAULT);
     }
 
-    public static Icon alignHorizontalJustifyStart(IconOptions options) {
-        return new Icon(INSTANCE::alignHorizontalJustifyStart, options);
+    public static Icon lucideAlignHorizontalJustifyStart(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignHorizontalJustifyStart, options);
     }
 
-    public static Icon alignHorizontalSpaceAround() {
-        return alignHorizontalSpaceAround(IconOptions.DEFAULT);
+    public static Icon lucideAlignHorizontalSpaceAround() {
+        return lucideAlignHorizontalSpaceAround(IconOptions.DEFAULT);
     }
 
-    public static Icon alignHorizontalSpaceAround(IconOptions options) {
-        return new Icon(INSTANCE::alignHorizontalSpaceAround, options);
+    public static Icon lucideAlignHorizontalSpaceAround(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignHorizontalSpaceAround, options);
     }
 
-    public static Icon alignHorizontalSpaceBetween() {
-        return alignHorizontalSpaceBetween(IconOptions.DEFAULT);
+    public static Icon lucideAlignHorizontalSpaceBetween() {
+        return lucideAlignHorizontalSpaceBetween(IconOptions.DEFAULT);
     }
 
-    public static Icon alignHorizontalSpaceBetween(IconOptions options) {
-        return new Icon(INSTANCE::alignHorizontalSpaceBetween, options);
+    public static Icon lucideAlignHorizontalSpaceBetween(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignHorizontalSpaceBetween, options);
     }
 
-    public static Icon alignStartHorizontal() {
-        return alignStartHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideAlignStartHorizontal() {
+        return lucideAlignStartHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon alignStartHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::alignStartHorizontal, options);
+    public static Icon lucideAlignStartHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignStartHorizontal, options);
     }
 
-    public static Icon alignStartVertical() {
-        return alignStartVertical(IconOptions.DEFAULT);
+    public static Icon lucideAlignStartVertical() {
+        return lucideAlignStartVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon alignStartVertical(IconOptions options) {
-        return new Icon(INSTANCE::alignStartVertical, options);
+    public static Icon lucideAlignStartVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignStartVertical, options);
     }
 
-    public static Icon alignVerticalDistributeCenter() {
-        return alignVerticalDistributeCenter(IconOptions.DEFAULT);
+    public static Icon lucideAlignVerticalDistributeCenter() {
+        return lucideAlignVerticalDistributeCenter(IconOptions.DEFAULT);
     }
 
-    public static Icon alignVerticalDistributeCenter(IconOptions options) {
-        return new Icon(INSTANCE::alignVerticalDistributeCenter, options);
+    public static Icon lucideAlignVerticalDistributeCenter(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignVerticalDistributeCenter, options);
     }
 
-    public static Icon alignVerticalDistributeEnd() {
-        return alignVerticalDistributeEnd(IconOptions.DEFAULT);
+    public static Icon lucideAlignVerticalDistributeEnd() {
+        return lucideAlignVerticalDistributeEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon alignVerticalDistributeEnd(IconOptions options) {
-        return new Icon(INSTANCE::alignVerticalDistributeEnd, options);
+    public static Icon lucideAlignVerticalDistributeEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignVerticalDistributeEnd, options);
     }
 
-    public static Icon alignVerticalDistributeStart() {
-        return alignVerticalDistributeStart(IconOptions.DEFAULT);
+    public static Icon lucideAlignVerticalDistributeStart() {
+        return lucideAlignVerticalDistributeStart(IconOptions.DEFAULT);
     }
 
-    public static Icon alignVerticalDistributeStart(IconOptions options) {
-        return new Icon(INSTANCE::alignVerticalDistributeStart, options);
+    public static Icon lucideAlignVerticalDistributeStart(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignVerticalDistributeStart, options);
     }
 
-    public static Icon alignVerticalJustifyCenter() {
-        return alignVerticalJustifyCenter(IconOptions.DEFAULT);
+    public static Icon lucideAlignVerticalJustifyCenter() {
+        return lucideAlignVerticalJustifyCenter(IconOptions.DEFAULT);
     }
 
-    public static Icon alignVerticalJustifyCenter(IconOptions options) {
-        return new Icon(INSTANCE::alignVerticalJustifyCenter, options);
+    public static Icon lucideAlignVerticalJustifyCenter(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignVerticalJustifyCenter, options);
     }
 
-    public static Icon alignVerticalJustifyEnd() {
-        return alignVerticalJustifyEnd(IconOptions.DEFAULT);
+    public static Icon lucideAlignVerticalJustifyEnd() {
+        return lucideAlignVerticalJustifyEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon alignVerticalJustifyEnd(IconOptions options) {
-        return new Icon(INSTANCE::alignVerticalJustifyEnd, options);
+    public static Icon lucideAlignVerticalJustifyEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignVerticalJustifyEnd, options);
     }
 
-    public static Icon alignVerticalJustifyStart() {
-        return alignVerticalJustifyStart(IconOptions.DEFAULT);
+    public static Icon lucideAlignVerticalJustifyStart() {
+        return lucideAlignVerticalJustifyStart(IconOptions.DEFAULT);
     }
 
-    public static Icon alignVerticalJustifyStart(IconOptions options) {
-        return new Icon(INSTANCE::alignVerticalJustifyStart, options);
+    public static Icon lucideAlignVerticalJustifyStart(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignVerticalJustifyStart, options);
     }
 
-    public static Icon alignVerticalSpaceAround() {
-        return alignVerticalSpaceAround(IconOptions.DEFAULT);
+    public static Icon lucideAlignVerticalSpaceAround() {
+        return lucideAlignVerticalSpaceAround(IconOptions.DEFAULT);
     }
 
-    public static Icon alignVerticalSpaceAround(IconOptions options) {
-        return new Icon(INSTANCE::alignVerticalSpaceAround, options);
+    public static Icon lucideAlignVerticalSpaceAround(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignVerticalSpaceAround, options);
     }
 
-    public static Icon alignVerticalSpaceBetween() {
-        return alignVerticalSpaceBetween(IconOptions.DEFAULT);
+    public static Icon lucideAlignVerticalSpaceBetween() {
+        return lucideAlignVerticalSpaceBetween(IconOptions.DEFAULT);
     }
 
-    public static Icon alignVerticalSpaceBetween(IconOptions options) {
-        return new Icon(INSTANCE::alignVerticalSpaceBetween, options);
+    public static Icon lucideAlignVerticalSpaceBetween(IconOptions options) {
+        return new Icon(INSTANCE::lucideAlignVerticalSpaceBetween, options);
     }
 
-    public static Icon ambulance() {
-        return ambulance(IconOptions.DEFAULT);
+    public static Icon lucideAmbulance() {
+        return lucideAmbulance(IconOptions.DEFAULT);
     }
 
-    public static Icon ambulance(IconOptions options) {
-        return new Icon(INSTANCE::ambulance, options);
+    public static Icon lucideAmbulance(IconOptions options) {
+        return new Icon(INSTANCE::lucideAmbulance, options);
     }
 
-    public static Icon ampersand() {
-        return ampersand(IconOptions.DEFAULT);
+    public static Icon lucideAmpersand() {
+        return lucideAmpersand(IconOptions.DEFAULT);
     }
 
-    public static Icon ampersand(IconOptions options) {
-        return new Icon(INSTANCE::ampersand, options);
+    public static Icon lucideAmpersand(IconOptions options) {
+        return new Icon(INSTANCE::lucideAmpersand, options);
     }
 
-    public static Icon ampersands() {
-        return ampersands(IconOptions.DEFAULT);
+    public static Icon lucideAmpersands() {
+        return lucideAmpersands(IconOptions.DEFAULT);
     }
 
-    public static Icon ampersands(IconOptions options) {
-        return new Icon(INSTANCE::ampersands, options);
+    public static Icon lucideAmpersands(IconOptions options) {
+        return new Icon(INSTANCE::lucideAmpersands, options);
     }
 
-    public static Icon amphora() {
-        return amphora(IconOptions.DEFAULT);
+    public static Icon lucideAmphora() {
+        return lucideAmphora(IconOptions.DEFAULT);
     }
 
-    public static Icon amphora(IconOptions options) {
-        return new Icon(INSTANCE::amphora, options);
+    public static Icon lucideAmphora(IconOptions options) {
+        return new Icon(INSTANCE::lucideAmphora, options);
     }
 
-    public static Icon anchor() {
-        return anchor(IconOptions.DEFAULT);
+    public static Icon lucideAnchor() {
+        return lucideAnchor(IconOptions.DEFAULT);
     }
 
-    public static Icon anchor(IconOptions options) {
-        return new Icon(INSTANCE::anchor, options);
+    public static Icon lucideAnchor(IconOptions options) {
+        return new Icon(INSTANCE::lucideAnchor, options);
     }
 
-    public static Icon angle() {
-        return angle(IconOptions.DEFAULT);
+    public static Icon lucideAngle() {
+        return lucideAngle(IconOptions.DEFAULT);
     }
 
-    public static Icon angle(IconOptions options) {
-        return new Icon(INSTANCE::angle, options);
+    public static Icon lucideAngle(IconOptions options) {
+        return new Icon(INSTANCE::lucideAngle, options);
     }
 
-    public static Icon antenna() {
-        return antenna(IconOptions.DEFAULT);
+    public static Icon lucideAntenna() {
+        return lucideAntenna(IconOptions.DEFAULT);
     }
 
-    public static Icon antenna(IconOptions options) {
-        return new Icon(INSTANCE::antenna, options);
+    public static Icon lucideAntenna(IconOptions options) {
+        return new Icon(INSTANCE::lucideAntenna, options);
     }
 
-    public static Icon anvil() {
-        return anvil(IconOptions.DEFAULT);
+    public static Icon lucideAnvil() {
+        return lucideAnvil(IconOptions.DEFAULT);
     }
 
-    public static Icon anvil(IconOptions options) {
-        return new Icon(INSTANCE::anvil, options);
+    public static Icon lucideAnvil(IconOptions options) {
+        return new Icon(INSTANCE::lucideAnvil, options);
     }
 
-    public static Icon aperture() {
-        return aperture(IconOptions.DEFAULT);
+    public static Icon lucideAperture() {
+        return lucideAperture(IconOptions.DEFAULT);
     }
 
-    public static Icon aperture(IconOptions options) {
-        return new Icon(INSTANCE::aperture, options);
+    public static Icon lucideAperture(IconOptions options) {
+        return new Icon(INSTANCE::lucideAperture, options);
     }
 
-    public static Icon appWindow() {
-        return appWindow(IconOptions.DEFAULT);
+    public static Icon lucideAppWindow() {
+        return lucideAppWindow(IconOptions.DEFAULT);
     }
 
-    public static Icon appWindow(IconOptions options) {
-        return new Icon(INSTANCE::appWindow, options);
+    public static Icon lucideAppWindow(IconOptions options) {
+        return new Icon(INSTANCE::lucideAppWindow, options);
     }
 
-    public static Icon appWindowMac() {
-        return appWindowMac(IconOptions.DEFAULT);
+    public static Icon lucideAppWindowMac() {
+        return lucideAppWindowMac(IconOptions.DEFAULT);
     }
 
-    public static Icon appWindowMac(IconOptions options) {
-        return new Icon(INSTANCE::appWindowMac, options);
+    public static Icon lucideAppWindowMac(IconOptions options) {
+        return new Icon(INSTANCE::lucideAppWindowMac, options);
     }
 
-    public static Icon apple() {
-        return apple(IconOptions.DEFAULT);
+    public static Icon lucideApple() {
+        return lucideApple(IconOptions.DEFAULT);
     }
 
-    public static Icon apple(IconOptions options) {
-        return new Icon(INSTANCE::apple, options);
+    public static Icon lucideApple(IconOptions options) {
+        return new Icon(INSTANCE::lucideApple, options);
     }
 
-    public static Icon archive() {
-        return archive(IconOptions.DEFAULT);
+    public static Icon lucideArchive() {
+        return lucideArchive(IconOptions.DEFAULT);
     }
 
-    public static Icon archive(IconOptions options) {
-        return new Icon(INSTANCE::archive, options);
+    public static Icon lucideArchive(IconOptions options) {
+        return new Icon(INSTANCE::lucideArchive, options);
     }
 
-    public static Icon archiveRestore() {
-        return archiveRestore(IconOptions.DEFAULT);
+    public static Icon lucideArchiveRestore() {
+        return lucideArchiveRestore(IconOptions.DEFAULT);
     }
 
-    public static Icon archiveRestore(IconOptions options) {
-        return new Icon(INSTANCE::archiveRestore, options);
+    public static Icon lucideArchiveRestore(IconOptions options) {
+        return new Icon(INSTANCE::lucideArchiveRestore, options);
     }
 
-    public static Icon archiveX() {
-        return archiveX(IconOptions.DEFAULT);
+    public static Icon lucideArchiveX() {
+        return lucideArchiveX(IconOptions.DEFAULT);
     }
 
-    public static Icon archiveX(IconOptions options) {
-        return new Icon(INSTANCE::archiveX, options);
+    public static Icon lucideArchiveX(IconOptions options) {
+        return new Icon(INSTANCE::lucideArchiveX, options);
     }
 
-    public static Icon armchair() {
-        return armchair(IconOptions.DEFAULT);
+    public static Icon lucideArmchair() {
+        return lucideArmchair(IconOptions.DEFAULT);
     }
 
-    public static Icon armchair(IconOptions options) {
-        return new Icon(INSTANCE::armchair, options);
+    public static Icon lucideArmchair(IconOptions options) {
+        return new Icon(INSTANCE::lucideArmchair, options);
     }
 
-    public static Icon armenianDram() {
-        return armenianDram(IconOptions.DEFAULT);
+    public static Icon lucideArmenianDram() {
+        return lucideArmenianDram(IconOptions.DEFAULT);
     }
 
-    public static Icon armenianDram(IconOptions options) {
-        return new Icon(INSTANCE::armenianDram, options);
+    public static Icon lucideArmenianDram(IconOptions options) {
+        return new Icon(INSTANCE::lucideArmenianDram, options);
     }
 
-    public static Icon arrowBigDown() {
-        return arrowBigDown(IconOptions.DEFAULT);
+    public static Icon lucideArrowBigDown() {
+        return lucideArrowBigDown(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowBigDown(IconOptions options) {
-        return new Icon(INSTANCE::arrowBigDown, options);
+    public static Icon lucideArrowBigDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowBigDown, options);
     }
 
-    public static Icon arrowBigDownDash() {
-        return arrowBigDownDash(IconOptions.DEFAULT);
+    public static Icon lucideArrowBigDownDash() {
+        return lucideArrowBigDownDash(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowBigDownDash(IconOptions options) {
-        return new Icon(INSTANCE::arrowBigDownDash, options);
+    public static Icon lucideArrowBigDownDash(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowBigDownDash, options);
     }
 
-    public static Icon arrowBigLeft() {
-        return arrowBigLeft(IconOptions.DEFAULT);
+    public static Icon lucideArrowBigLeft() {
+        return lucideArrowBigLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowBigLeft(IconOptions options) {
-        return new Icon(INSTANCE::arrowBigLeft, options);
+    public static Icon lucideArrowBigLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowBigLeft, options);
     }
 
-    public static Icon arrowBigLeftDash() {
-        return arrowBigLeftDash(IconOptions.DEFAULT);
+    public static Icon lucideArrowBigLeftDash() {
+        return lucideArrowBigLeftDash(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowBigLeftDash(IconOptions options) {
-        return new Icon(INSTANCE::arrowBigLeftDash, options);
+    public static Icon lucideArrowBigLeftDash(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowBigLeftDash, options);
     }
 
-    public static Icon arrowBigRight() {
-        return arrowBigRight(IconOptions.DEFAULT);
+    public static Icon lucideArrowBigRight() {
+        return lucideArrowBigRight(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowBigRight(IconOptions options) {
-        return new Icon(INSTANCE::arrowBigRight, options);
+    public static Icon lucideArrowBigRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowBigRight, options);
     }
 
-    public static Icon arrowBigRightDash() {
-        return arrowBigRightDash(IconOptions.DEFAULT);
+    public static Icon lucideArrowBigRightDash() {
+        return lucideArrowBigRightDash(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowBigRightDash(IconOptions options) {
-        return new Icon(INSTANCE::arrowBigRightDash, options);
+    public static Icon lucideArrowBigRightDash(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowBigRightDash, options);
     }
 
-    public static Icon arrowBigUp() {
-        return arrowBigUp(IconOptions.DEFAULT);
+    public static Icon lucideArrowBigUp() {
+        return lucideArrowBigUp(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowBigUp(IconOptions options) {
-        return new Icon(INSTANCE::arrowBigUp, options);
+    public static Icon lucideArrowBigUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowBigUp, options);
     }
 
-    public static Icon arrowBigUpDash() {
-        return arrowBigUpDash(IconOptions.DEFAULT);
+    public static Icon lucideArrowBigUpDash() {
+        return lucideArrowBigUpDash(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowBigUpDash(IconOptions options) {
-        return new Icon(INSTANCE::arrowBigUpDash, options);
+    public static Icon lucideArrowBigUpDash(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowBigUpDash, options);
     }
 
-    public static Icon arrowDown() {
-        return arrowDown(IconOptions.DEFAULT);
+    public static Icon lucideArrowDown() {
+        return lucideArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDown(IconOptions options) {
-        return new Icon(INSTANCE::arrowDown, options);
+    public static Icon lucideArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDown, options);
     }
 
-    public static Icon arrowDown01() {
-        return arrowDown01(IconOptions.DEFAULT);
+    public static Icon lucideArrowDown01() {
+        return lucideArrowDown01(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDown01(IconOptions options) {
-        return new Icon(INSTANCE::arrowDown01, options);
+    public static Icon lucideArrowDown01(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDown01, options);
     }
 
-    public static Icon arrowDown10() {
-        return arrowDown10(IconOptions.DEFAULT);
+    public static Icon lucideArrowDown10() {
+        return lucideArrowDown10(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDown10(IconOptions options) {
-        return new Icon(INSTANCE::arrowDown10, options);
+    public static Icon lucideArrowDown10(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDown10, options);
     }
 
-    public static Icon arrowDownAZ() {
-        return arrowDownAZ(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownAZ() {
+        return lucideArrowDownAZ(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownAZ(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownAZ, options);
+    public static Icon lucideArrowDownAZ(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownAZ, options);
     }
 
-    public static Icon arrowDownFromLine() {
-        return arrowDownFromLine(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownFromLine() {
+        return lucideArrowDownFromLine(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownFromLine(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownFromLine, options);
+    public static Icon lucideArrowDownFromLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownFromLine, options);
     }
 
-    public static Icon arrowDownLeft() {
-        return arrowDownLeft(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownLeft() {
+        return lucideArrowDownLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownLeft(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownLeft, options);
+    public static Icon lucideArrowDownLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownLeft, options);
     }
 
-    public static Icon arrowDownNarrowWide() {
-        return arrowDownNarrowWide(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownNarrowWide() {
+        return lucideArrowDownNarrowWide(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownNarrowWide(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownNarrowWide, options);
+    public static Icon lucideArrowDownNarrowWide(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownNarrowWide, options);
     }
 
-    public static Icon arrowDownRight() {
-        return arrowDownRight(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownRight() {
+        return lucideArrowDownRight(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownRight(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownRight, options);
+    public static Icon lucideArrowDownRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownRight, options);
     }
 
-    public static Icon arrowDownToDot() {
-        return arrowDownToDot(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownToDot() {
+        return lucideArrowDownToDot(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownToDot(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownToDot, options);
+    public static Icon lucideArrowDownToDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownToDot, options);
     }
 
-    public static Icon arrowDownToLine() {
-        return arrowDownToLine(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownToLine() {
+        return lucideArrowDownToLine(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownToLine(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownToLine, options);
+    public static Icon lucideArrowDownToLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownToLine, options);
     }
 
-    public static Icon arrowDownUp() {
-        return arrowDownUp(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownUp() {
+        return lucideArrowDownUp(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownUp(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownUp, options);
+    public static Icon lucideArrowDownUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownUp, options);
     }
 
-    public static Icon arrowDownWideNarrow() {
-        return arrowDownWideNarrow(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownWideNarrow() {
+        return lucideArrowDownWideNarrow(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownWideNarrow(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownWideNarrow, options);
+    public static Icon lucideArrowDownWideNarrow(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownWideNarrow, options);
     }
 
-    public static Icon arrowDownZA() {
-        return arrowDownZA(IconOptions.DEFAULT);
+    public static Icon lucideArrowDownZA() {
+        return lucideArrowDownZA(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowDownZA(IconOptions options) {
-        return new Icon(INSTANCE::arrowDownZA, options);
+    public static Icon lucideArrowDownZA(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowDownZA, options);
     }
 
-    public static Icon arrowLeft() {
-        return arrowLeft(IconOptions.DEFAULT);
+    public static Icon lucideArrowLeft() {
+        return lucideArrowLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowLeft(IconOptions options) {
-        return new Icon(INSTANCE::arrowLeft, options);
+    public static Icon lucideArrowLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowLeft, options);
     }
 
-    public static Icon arrowLeftFromLine() {
-        return arrowLeftFromLine(IconOptions.DEFAULT);
+    public static Icon lucideArrowLeftFromLine() {
+        return lucideArrowLeftFromLine(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowLeftFromLine(IconOptions options) {
-        return new Icon(INSTANCE::arrowLeftFromLine, options);
+    public static Icon lucideArrowLeftFromLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowLeftFromLine, options);
     }
 
-    public static Icon arrowLeftRight() {
-        return arrowLeftRight(IconOptions.DEFAULT);
+    public static Icon lucideArrowLeftRight() {
+        return lucideArrowLeftRight(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowLeftRight(IconOptions options) {
-        return new Icon(INSTANCE::arrowLeftRight, options);
+    public static Icon lucideArrowLeftRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowLeftRight, options);
     }
 
-    public static Icon arrowLeftToLine() {
-        return arrowLeftToLine(IconOptions.DEFAULT);
+    public static Icon lucideArrowLeftToLine() {
+        return lucideArrowLeftToLine(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowLeftToLine(IconOptions options) {
-        return new Icon(INSTANCE::arrowLeftToLine, options);
+    public static Icon lucideArrowLeftToLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowLeftToLine, options);
     }
 
-    public static Icon arrowRight() {
-        return arrowRight(IconOptions.DEFAULT);
+    public static Icon lucideArrowRight() {
+        return lucideArrowRight(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowRight(IconOptions options) {
-        return new Icon(INSTANCE::arrowRight, options);
+    public static Icon lucideArrowRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowRight, options);
     }
 
-    public static Icon arrowRightFromLine() {
-        return arrowRightFromLine(IconOptions.DEFAULT);
+    public static Icon lucideArrowRightFromLine() {
+        return lucideArrowRightFromLine(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowRightFromLine(IconOptions options) {
-        return new Icon(INSTANCE::arrowRightFromLine, options);
+    public static Icon lucideArrowRightFromLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowRightFromLine, options);
     }
 
-    public static Icon arrowRightLeft() {
-        return arrowRightLeft(IconOptions.DEFAULT);
+    public static Icon lucideArrowRightLeft() {
+        return lucideArrowRightLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowRightLeft(IconOptions options) {
-        return new Icon(INSTANCE::arrowRightLeft, options);
+    public static Icon lucideArrowRightLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowRightLeft, options);
     }
 
-    public static Icon arrowRightToLine() {
-        return arrowRightToLine(IconOptions.DEFAULT);
+    public static Icon lucideArrowRightToLine() {
+        return lucideArrowRightToLine(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowRightToLine(IconOptions options) {
-        return new Icon(INSTANCE::arrowRightToLine, options);
+    public static Icon lucideArrowRightToLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowRightToLine, options);
     }
 
-    public static Icon arrowUp() {
-        return arrowUp(IconOptions.DEFAULT);
+    public static Icon lucideArrowUp() {
+        return lucideArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUp(IconOptions options) {
-        return new Icon(INSTANCE::arrowUp, options);
+    public static Icon lucideArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUp, options);
     }
 
-    public static Icon arrowUp01() {
-        return arrowUp01(IconOptions.DEFAULT);
+    public static Icon lucideArrowUp01() {
+        return lucideArrowUp01(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUp01(IconOptions options) {
-        return new Icon(INSTANCE::arrowUp01, options);
+    public static Icon lucideArrowUp01(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUp01, options);
     }
 
-    public static Icon arrowUp10() {
-        return arrowUp10(IconOptions.DEFAULT);
+    public static Icon lucideArrowUp10() {
+        return lucideArrowUp10(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUp10(IconOptions options) {
-        return new Icon(INSTANCE::arrowUp10, options);
+    public static Icon lucideArrowUp10(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUp10, options);
     }
 
-    public static Icon arrowUpAZ() {
-        return arrowUpAZ(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpAZ() {
+        return lucideArrowUpAZ(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpAZ(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpAZ, options);
+    public static Icon lucideArrowUpAZ(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpAZ, options);
     }
 
-    public static Icon arrowUpDown() {
-        return arrowUpDown(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpDown() {
+        return lucideArrowUpDown(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpDown(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpDown, options);
+    public static Icon lucideArrowUpDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpDown, options);
     }
 
-    public static Icon arrowUpFromDot() {
-        return arrowUpFromDot(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpFromDot() {
+        return lucideArrowUpFromDot(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpFromDot(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpFromDot, options);
+    public static Icon lucideArrowUpFromDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpFromDot, options);
     }
 
-    public static Icon arrowUpFromLine() {
-        return arrowUpFromLine(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpFromLine() {
+        return lucideArrowUpFromLine(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpFromLine(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpFromLine, options);
+    public static Icon lucideArrowUpFromLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpFromLine, options);
     }
 
-    public static Icon arrowUpLeft() {
-        return arrowUpLeft(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpLeft() {
+        return lucideArrowUpLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpLeft(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpLeft, options);
+    public static Icon lucideArrowUpLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpLeft, options);
     }
 
-    public static Icon arrowUpNarrowWide() {
-        return arrowUpNarrowWide(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpNarrowWide() {
+        return lucideArrowUpNarrowWide(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpNarrowWide(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpNarrowWide, options);
+    public static Icon lucideArrowUpNarrowWide(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpNarrowWide, options);
     }
 
-    public static Icon arrowUpRight() {
-        return arrowUpRight(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpRight() {
+        return lucideArrowUpRight(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpRight(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpRight, options);
+    public static Icon lucideArrowUpRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpRight, options);
     }
 
-    public static Icon arrowUpToLine() {
-        return arrowUpToLine(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpToLine() {
+        return lucideArrowUpToLine(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpToLine(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpToLine, options);
+    public static Icon lucideArrowUpToLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpToLine, options);
     }
 
-    public static Icon arrowUpWideNarrow() {
-        return arrowUpWideNarrow(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpWideNarrow() {
+        return lucideArrowUpWideNarrow(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpWideNarrow(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpWideNarrow, options);
+    public static Icon lucideArrowUpWideNarrow(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpWideNarrow, options);
     }
 
-    public static Icon arrowUpZA() {
-        return arrowUpZA(IconOptions.DEFAULT);
+    public static Icon lucideArrowUpZA() {
+        return lucideArrowUpZA(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowUpZA(IconOptions options) {
-        return new Icon(INSTANCE::arrowUpZA, options);
+    public static Icon lucideArrowUpZA(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowUpZA, options);
     }
 
-    public static Icon arrowsUpFromLine() {
-        return arrowsUpFromLine(IconOptions.DEFAULT);
+    public static Icon lucideArrowsUpFromLine() {
+        return lucideArrowsUpFromLine(IconOptions.DEFAULT);
     }
 
-    public static Icon arrowsUpFromLine(IconOptions options) {
-        return new Icon(INSTANCE::arrowsUpFromLine, options);
+    public static Icon lucideArrowsUpFromLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideArrowsUpFromLine, options);
     }
 
-    public static Icon asterisk() {
-        return asterisk(IconOptions.DEFAULT);
+    public static Icon lucideAsterisk() {
+        return lucideAsterisk(IconOptions.DEFAULT);
     }
 
-    public static Icon asterisk(IconOptions options) {
-        return new Icon(INSTANCE::asterisk, options);
+    public static Icon lucideAsterisk(IconOptions options) {
+        return new Icon(INSTANCE::lucideAsterisk, options);
     }
 
-    public static Icon astroid() {
-        return astroid(IconOptions.DEFAULT);
+    public static Icon lucideAstroid() {
+        return lucideAstroid(IconOptions.DEFAULT);
     }
 
-    public static Icon astroid(IconOptions options) {
-        return new Icon(INSTANCE::astroid, options);
+    public static Icon lucideAstroid(IconOptions options) {
+        return new Icon(INSTANCE::lucideAstroid, options);
     }
 
-    public static Icon atSign() {
-        return atSign(IconOptions.DEFAULT);
+    public static Icon lucideAtSign() {
+        return lucideAtSign(IconOptions.DEFAULT);
     }
 
-    public static Icon atSign(IconOptions options) {
-        return new Icon(INSTANCE::atSign, options);
+    public static Icon lucideAtSign(IconOptions options) {
+        return new Icon(INSTANCE::lucideAtSign, options);
     }
 
-    public static Icon atom() {
-        return atom(IconOptions.DEFAULT);
+    public static Icon lucideAtom() {
+        return lucideAtom(IconOptions.DEFAULT);
     }
 
-    public static Icon atom(IconOptions options) {
-        return new Icon(INSTANCE::atom, options);
+    public static Icon lucideAtom(IconOptions options) {
+        return new Icon(INSTANCE::lucideAtom, options);
     }
 
-    public static Icon audioLines() {
-        return audioLines(IconOptions.DEFAULT);
+    public static Icon lucideAudioLines() {
+        return lucideAudioLines(IconOptions.DEFAULT);
     }
 
-    public static Icon audioLines(IconOptions options) {
-        return new Icon(INSTANCE::audioLines, options);
+    public static Icon lucideAudioLines(IconOptions options) {
+        return new Icon(INSTANCE::lucideAudioLines, options);
     }
 
-    public static Icon audioLinesOff() {
-        return audioLinesOff(IconOptions.DEFAULT);
+    public static Icon lucideAudioLinesOff() {
+        return lucideAudioLinesOff(IconOptions.DEFAULT);
     }
 
-    public static Icon audioLinesOff(IconOptions options) {
-        return new Icon(INSTANCE::audioLinesOff, options);
+    public static Icon lucideAudioLinesOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideAudioLinesOff, options);
     }
 
-    public static Icon audioLinesX() {
-        return audioLinesX(IconOptions.DEFAULT);
+    public static Icon lucideAudioLinesX() {
+        return lucideAudioLinesX(IconOptions.DEFAULT);
     }
 
-    public static Icon audioLinesX(IconOptions options) {
-        return new Icon(INSTANCE::audioLinesX, options);
+    public static Icon lucideAudioLinesX(IconOptions options) {
+        return new Icon(INSTANCE::lucideAudioLinesX, options);
     }
 
-    public static Icon audioWaveform() {
-        return audioWaveform(IconOptions.DEFAULT);
+    public static Icon lucideAudioWaveform() {
+        return lucideAudioWaveform(IconOptions.DEFAULT);
     }
 
-    public static Icon audioWaveform(IconOptions options) {
-        return new Icon(INSTANCE::audioWaveform, options);
+    public static Icon lucideAudioWaveform(IconOptions options) {
+        return new Icon(INSTANCE::lucideAudioWaveform, options);
     }
 
-    public static Icon award() {
-        return award(IconOptions.DEFAULT);
+    public static Icon lucideAward() {
+        return lucideAward(IconOptions.DEFAULT);
     }
 
-    public static Icon award(IconOptions options) {
-        return new Icon(INSTANCE::award, options);
+    public static Icon lucideAward(IconOptions options) {
+        return new Icon(INSTANCE::lucideAward, options);
     }
 
-    public static Icon axe() {
-        return axe(IconOptions.DEFAULT);
+    public static Icon lucideAxe() {
+        return lucideAxe(IconOptions.DEFAULT);
     }
 
-    public static Icon axe(IconOptions options) {
-        return new Icon(INSTANCE::axe, options);
+    public static Icon lucideAxe(IconOptions options) {
+        return new Icon(INSTANCE::lucideAxe, options);
     }
 
-    public static Icon axis3d() {
-        return axis3d(IconOptions.DEFAULT);
+    public static Icon lucideAxis3d() {
+        return lucideAxis3d(IconOptions.DEFAULT);
     }
 
-    public static Icon axis3d(IconOptions options) {
-        return new Icon(INSTANCE::axis3d, options);
+    public static Icon lucideAxis3d(IconOptions options) {
+        return new Icon(INSTANCE::lucideAxis3d, options);
     }
 
-    public static Icon baby() {
-        return baby(IconOptions.DEFAULT);
+    public static Icon lucideBaby() {
+        return lucideBaby(IconOptions.DEFAULT);
     }
 
-    public static Icon baby(IconOptions options) {
-        return new Icon(INSTANCE::baby, options);
+    public static Icon lucideBaby(IconOptions options) {
+        return new Icon(INSTANCE::lucideBaby, options);
     }
 
-    public static Icon backpack() {
-        return backpack(IconOptions.DEFAULT);
+    public static Icon lucideBackpack() {
+        return lucideBackpack(IconOptions.DEFAULT);
     }
 
-    public static Icon backpack(IconOptions options) {
-        return new Icon(INSTANCE::backpack, options);
+    public static Icon lucideBackpack(IconOptions options) {
+        return new Icon(INSTANCE::lucideBackpack, options);
     }
 
-    public static Icon badge() {
-        return badge(IconOptions.DEFAULT);
+    public static Icon lucideBadge() {
+        return lucideBadge(IconOptions.DEFAULT);
     }
 
-    public static Icon badge(IconOptions options) {
-        return new Icon(INSTANCE::badge, options);
+    public static Icon lucideBadge(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadge, options);
     }
 
-    public static Icon badgeAlert() {
-        return badgeAlert(IconOptions.DEFAULT);
+    public static Icon lucideBadgeAlert() {
+        return lucideBadgeAlert(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeAlert(IconOptions options) {
-        return new Icon(INSTANCE::badgeAlert, options);
+    public static Icon lucideBadgeAlert(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeAlert, options);
     }
 
-    public static Icon badgeCent() {
-        return badgeCent(IconOptions.DEFAULT);
+    public static Icon lucideBadgeCent() {
+        return lucideBadgeCent(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeCent(IconOptions options) {
-        return new Icon(INSTANCE::badgeCent, options);
+    public static Icon lucideBadgeCent(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeCent, options);
     }
 
-    public static Icon badgeCheck() {
-        return badgeCheck(IconOptions.DEFAULT);
+    public static Icon lucideBadgeCheck() {
+        return lucideBadgeCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeCheck(IconOptions options) {
-        return new Icon(INSTANCE::badgeCheck, options);
+    public static Icon lucideBadgeCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeCheck, options);
     }
 
-    public static Icon badgeDollarSign() {
-        return badgeDollarSign(IconOptions.DEFAULT);
+    public static Icon lucideBadgeDollarSign() {
+        return lucideBadgeDollarSign(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeDollarSign(IconOptions options) {
-        return new Icon(INSTANCE::badgeDollarSign, options);
+    public static Icon lucideBadgeDollarSign(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeDollarSign, options);
     }
 
-    public static Icon badgeEuro() {
-        return badgeEuro(IconOptions.DEFAULT);
+    public static Icon lucideBadgeEuro() {
+        return lucideBadgeEuro(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeEuro(IconOptions options) {
-        return new Icon(INSTANCE::badgeEuro, options);
+    public static Icon lucideBadgeEuro(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeEuro, options);
     }
 
-    public static Icon badgeIndianRupee() {
-        return badgeIndianRupee(IconOptions.DEFAULT);
+    public static Icon lucideBadgeIndianRupee() {
+        return lucideBadgeIndianRupee(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeIndianRupee(IconOptions options) {
-        return new Icon(INSTANCE::badgeIndianRupee, options);
+    public static Icon lucideBadgeIndianRupee(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeIndianRupee, options);
     }
 
-    public static Icon badgeInfo() {
-        return badgeInfo(IconOptions.DEFAULT);
+    public static Icon lucideBadgeInfo() {
+        return lucideBadgeInfo(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeInfo(IconOptions options) {
-        return new Icon(INSTANCE::badgeInfo, options);
+    public static Icon lucideBadgeInfo(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeInfo, options);
     }
 
-    public static Icon badgeJapaneseYen() {
-        return badgeJapaneseYen(IconOptions.DEFAULT);
+    public static Icon lucideBadgeJapaneseYen() {
+        return lucideBadgeJapaneseYen(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeJapaneseYen(IconOptions options) {
-        return new Icon(INSTANCE::badgeJapaneseYen, options);
+    public static Icon lucideBadgeJapaneseYen(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeJapaneseYen, options);
     }
 
-    public static Icon badgeMinus() {
-        return badgeMinus(IconOptions.DEFAULT);
+    public static Icon lucideBadgeMinus() {
+        return lucideBadgeMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeMinus(IconOptions options) {
-        return new Icon(INSTANCE::badgeMinus, options);
+    public static Icon lucideBadgeMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeMinus, options);
     }
 
-    public static Icon badgePercent() {
-        return badgePercent(IconOptions.DEFAULT);
+    public static Icon lucideBadgePercent() {
+        return lucideBadgePercent(IconOptions.DEFAULT);
     }
 
-    public static Icon badgePercent(IconOptions options) {
-        return new Icon(INSTANCE::badgePercent, options);
+    public static Icon lucideBadgePercent(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgePercent, options);
     }
 
-    public static Icon badgePlus() {
-        return badgePlus(IconOptions.DEFAULT);
+    public static Icon lucideBadgePlus() {
+        return lucideBadgePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon badgePlus(IconOptions options) {
-        return new Icon(INSTANCE::badgePlus, options);
+    public static Icon lucideBadgePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgePlus, options);
     }
 
-    public static Icon badgePoundSterling() {
-        return badgePoundSterling(IconOptions.DEFAULT);
+    public static Icon lucideBadgePoundSterling() {
+        return lucideBadgePoundSterling(IconOptions.DEFAULT);
     }
 
-    public static Icon badgePoundSterling(IconOptions options) {
-        return new Icon(INSTANCE::badgePoundSterling, options);
+    public static Icon lucideBadgePoundSterling(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgePoundSterling, options);
     }
 
-    public static Icon badgeQuestionMark() {
-        return badgeQuestionMark(IconOptions.DEFAULT);
+    public static Icon lucideBadgeQuestionMark() {
+        return lucideBadgeQuestionMark(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeQuestionMark(IconOptions options) {
-        return new Icon(INSTANCE::badgeQuestionMark, options);
+    public static Icon lucideBadgeQuestionMark(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeQuestionMark, options);
     }
 
-    public static Icon badgeRussianRuble() {
-        return badgeRussianRuble(IconOptions.DEFAULT);
+    public static Icon lucideBadgeRussianRuble() {
+        return lucideBadgeRussianRuble(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeRussianRuble(IconOptions options) {
-        return new Icon(INSTANCE::badgeRussianRuble, options);
+    public static Icon lucideBadgeRussianRuble(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeRussianRuble, options);
     }
 
-    public static Icon badgeSwissFranc() {
-        return badgeSwissFranc(IconOptions.DEFAULT);
+    public static Icon lucideBadgeSwissFranc() {
+        return lucideBadgeSwissFranc(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeSwissFranc(IconOptions options) {
-        return new Icon(INSTANCE::badgeSwissFranc, options);
+    public static Icon lucideBadgeSwissFranc(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeSwissFranc, options);
     }
 
-    public static Icon badgeTurkishLira() {
-        return badgeTurkishLira(IconOptions.DEFAULT);
+    public static Icon lucideBadgeTurkishLira() {
+        return lucideBadgeTurkishLira(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeTurkishLira(IconOptions options) {
-        return new Icon(INSTANCE::badgeTurkishLira, options);
+    public static Icon lucideBadgeTurkishLira(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeTurkishLira, options);
     }
 
-    public static Icon badgeX() {
-        return badgeX(IconOptions.DEFAULT);
+    public static Icon lucideBadgeX() {
+        return lucideBadgeX(IconOptions.DEFAULT);
     }
 
-    public static Icon badgeX(IconOptions options) {
-        return new Icon(INSTANCE::badgeX, options);
+    public static Icon lucideBadgeX(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeX, options);
     }
 
-    public static Icon baggageClaim() {
-        return baggageClaim(IconOptions.DEFAULT);
+    public static Icon lucideBaggageClaim() {
+        return lucideBaggageClaim(IconOptions.DEFAULT);
     }
 
-    public static Icon baggageClaim(IconOptions options) {
-        return new Icon(INSTANCE::baggageClaim, options);
+    public static Icon lucideBaggageClaim(IconOptions options) {
+        return new Icon(INSTANCE::lucideBaggageClaim, options);
     }
 
-    public static Icon balloon() {
-        return balloon(IconOptions.DEFAULT);
+    public static Icon lucideBalloon() {
+        return lucideBalloon(IconOptions.DEFAULT);
     }
 
-    public static Icon balloon(IconOptions options) {
-        return new Icon(INSTANCE::balloon, options);
+    public static Icon lucideBalloon(IconOptions options) {
+        return new Icon(INSTANCE::lucideBalloon, options);
     }
 
-    public static Icon ban() {
-        return ban(IconOptions.DEFAULT);
+    public static Icon lucideBan() {
+        return lucideBan(IconOptions.DEFAULT);
     }
 
-    public static Icon ban(IconOptions options) {
-        return new Icon(INSTANCE::ban, options);
+    public static Icon lucideBan(IconOptions options) {
+        return new Icon(INSTANCE::lucideBan, options);
     }
 
-    public static Icon banana() {
-        return banana(IconOptions.DEFAULT);
+    public static Icon lucideBanana() {
+        return lucideBanana(IconOptions.DEFAULT);
     }
 
-    public static Icon banana(IconOptions options) {
-        return new Icon(INSTANCE::banana, options);
+    public static Icon lucideBanana(IconOptions options) {
+        return new Icon(INSTANCE::lucideBanana, options);
     }
 
-    public static Icon bandage() {
-        return bandage(IconOptions.DEFAULT);
+    public static Icon lucideBandage() {
+        return lucideBandage(IconOptions.DEFAULT);
     }
 
-    public static Icon bandage(IconOptions options) {
-        return new Icon(INSTANCE::bandage, options);
+    public static Icon lucideBandage(IconOptions options) {
+        return new Icon(INSTANCE::lucideBandage, options);
     }
 
-    public static Icon bangladeshiTaka() {
-        return bangladeshiTaka(IconOptions.DEFAULT);
+    public static Icon lucideBangladeshiTaka() {
+        return lucideBangladeshiTaka(IconOptions.DEFAULT);
     }
 
-    public static Icon bangladeshiTaka(IconOptions options) {
-        return new Icon(INSTANCE::bangladeshiTaka, options);
+    public static Icon lucideBangladeshiTaka(IconOptions options) {
+        return new Icon(INSTANCE::lucideBangladeshiTaka, options);
     }
 
-    public static Icon banknote() {
-        return banknote(IconOptions.DEFAULT);
+    public static Icon lucideBanknote() {
+        return lucideBanknote(IconOptions.DEFAULT);
     }
 
-    public static Icon banknote(IconOptions options) {
-        return new Icon(INSTANCE::banknote, options);
+    public static Icon lucideBanknote(IconOptions options) {
+        return new Icon(INSTANCE::lucideBanknote, options);
     }
 
-    public static Icon banknoteArrowDown() {
-        return banknoteArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideBanknoteArrowDown() {
+        return lucideBanknoteArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon banknoteArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::banknoteArrowDown, options);
+    public static Icon lucideBanknoteArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideBanknoteArrowDown, options);
     }
 
-    public static Icon banknoteArrowUp() {
-        return banknoteArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideBanknoteArrowUp() {
+        return lucideBanknoteArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon banknoteArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::banknoteArrowUp, options);
+    public static Icon lucideBanknoteArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideBanknoteArrowUp, options);
     }
 
-    public static Icon banknoteCheck() {
-        return banknoteCheck(IconOptions.DEFAULT);
+    public static Icon lucideBanknoteCheck() {
+        return lucideBanknoteCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon banknoteCheck(IconOptions options) {
-        return new Icon(INSTANCE::banknoteCheck, options);
+    public static Icon lucideBanknoteCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideBanknoteCheck, options);
     }
 
-    public static Icon banknoteX() {
-        return banknoteX(IconOptions.DEFAULT);
+    public static Icon lucideBanknoteX() {
+        return lucideBanknoteX(IconOptions.DEFAULT);
     }
 
-    public static Icon banknoteX(IconOptions options) {
-        return new Icon(INSTANCE::banknoteX, options);
+    public static Icon lucideBanknoteX(IconOptions options) {
+        return new Icon(INSTANCE::lucideBanknoteX, options);
     }
 
-    public static Icon barcode() {
-        return barcode(IconOptions.DEFAULT);
+    public static Icon lucideBarcode() {
+        return lucideBarcode(IconOptions.DEFAULT);
     }
 
-    public static Icon barcode(IconOptions options) {
-        return new Icon(INSTANCE::barcode, options);
+    public static Icon lucideBarcode(IconOptions options) {
+        return new Icon(INSTANCE::lucideBarcode, options);
     }
 
-    public static Icon barrel() {
-        return barrel(IconOptions.DEFAULT);
+    public static Icon lucideBarrel() {
+        return lucideBarrel(IconOptions.DEFAULT);
     }
 
-    public static Icon barrel(IconOptions options) {
-        return new Icon(INSTANCE::barrel, options);
+    public static Icon lucideBarrel(IconOptions options) {
+        return new Icon(INSTANCE::lucideBarrel, options);
     }
 
-    public static Icon baseline() {
-        return baseline(IconOptions.DEFAULT);
+    public static Icon lucideBaseline() {
+        return lucideBaseline(IconOptions.DEFAULT);
     }
 
-    public static Icon baseline(IconOptions options) {
-        return new Icon(INSTANCE::baseline, options);
+    public static Icon lucideBaseline(IconOptions options) {
+        return new Icon(INSTANCE::lucideBaseline, options);
     }
 
-    public static Icon bath() {
-        return bath(IconOptions.DEFAULT);
+    public static Icon lucideBath() {
+        return lucideBath(IconOptions.DEFAULT);
     }
 
-    public static Icon bath(IconOptions options) {
-        return new Icon(INSTANCE::bath, options);
+    public static Icon lucideBath(IconOptions options) {
+        return new Icon(INSTANCE::lucideBath, options);
     }
 
-    public static Icon battery() {
-        return battery(IconOptions.DEFAULT);
+    public static Icon lucideBattery() {
+        return lucideBattery(IconOptions.DEFAULT);
     }
 
-    public static Icon battery(IconOptions options) {
-        return new Icon(INSTANCE::battery, options);
+    public static Icon lucideBattery(IconOptions options) {
+        return new Icon(INSTANCE::lucideBattery, options);
     }
 
-    public static Icon batteryCharging() {
-        return batteryCharging(IconOptions.DEFAULT);
+    public static Icon lucideBatteryCharging() {
+        return lucideBatteryCharging(IconOptions.DEFAULT);
     }
 
-    public static Icon batteryCharging(IconOptions options) {
-        return new Icon(INSTANCE::batteryCharging, options);
+    public static Icon lucideBatteryCharging(IconOptions options) {
+        return new Icon(INSTANCE::lucideBatteryCharging, options);
     }
 
-    public static Icon batteryFull() {
-        return batteryFull(IconOptions.DEFAULT);
+    public static Icon lucideBatteryFull() {
+        return lucideBatteryFull(IconOptions.DEFAULT);
     }
 
-    public static Icon batteryFull(IconOptions options) {
-        return new Icon(INSTANCE::batteryFull, options);
+    public static Icon lucideBatteryFull(IconOptions options) {
+        return new Icon(INSTANCE::lucideBatteryFull, options);
     }
 
-    public static Icon batteryLow() {
-        return batteryLow(IconOptions.DEFAULT);
+    public static Icon lucideBatteryLow() {
+        return lucideBatteryLow(IconOptions.DEFAULT);
     }
 
-    public static Icon batteryLow(IconOptions options) {
-        return new Icon(INSTANCE::batteryLow, options);
+    public static Icon lucideBatteryLow(IconOptions options) {
+        return new Icon(INSTANCE::lucideBatteryLow, options);
     }
 
-    public static Icon batteryMedium() {
-        return batteryMedium(IconOptions.DEFAULT);
+    public static Icon lucideBatteryMedium() {
+        return lucideBatteryMedium(IconOptions.DEFAULT);
     }
 
-    public static Icon batteryMedium(IconOptions options) {
-        return new Icon(INSTANCE::batteryMedium, options);
+    public static Icon lucideBatteryMedium(IconOptions options) {
+        return new Icon(INSTANCE::lucideBatteryMedium, options);
     }
 
-    public static Icon batteryPlus() {
-        return batteryPlus(IconOptions.DEFAULT);
+    public static Icon lucideBatteryPlus() {
+        return lucideBatteryPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon batteryPlus(IconOptions options) {
-        return new Icon(INSTANCE::batteryPlus, options);
+    public static Icon lucideBatteryPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBatteryPlus, options);
     }
 
-    public static Icon batteryWarning() {
-        return batteryWarning(IconOptions.DEFAULT);
+    public static Icon lucideBatteryWarning() {
+        return lucideBatteryWarning(IconOptions.DEFAULT);
     }
 
-    public static Icon batteryWarning(IconOptions options) {
-        return new Icon(INSTANCE::batteryWarning, options);
+    public static Icon lucideBatteryWarning(IconOptions options) {
+        return new Icon(INSTANCE::lucideBatteryWarning, options);
     }
 
-    public static Icon beaker() {
-        return beaker(IconOptions.DEFAULT);
+    public static Icon lucideBeaker() {
+        return lucideBeaker(IconOptions.DEFAULT);
     }
 
-    public static Icon beaker(IconOptions options) {
-        return new Icon(INSTANCE::beaker, options);
+    public static Icon lucideBeaker(IconOptions options) {
+        return new Icon(INSTANCE::lucideBeaker, options);
     }
 
-    public static Icon bean() {
-        return bean(IconOptions.DEFAULT);
+    public static Icon lucideBean() {
+        return lucideBean(IconOptions.DEFAULT);
     }
 
-    public static Icon bean(IconOptions options) {
-        return new Icon(INSTANCE::bean, options);
+    public static Icon lucideBean(IconOptions options) {
+        return new Icon(INSTANCE::lucideBean, options);
     }
 
-    public static Icon beanOff() {
-        return beanOff(IconOptions.DEFAULT);
+    public static Icon lucideBeanOff() {
+        return lucideBeanOff(IconOptions.DEFAULT);
     }
 
-    public static Icon beanOff(IconOptions options) {
-        return new Icon(INSTANCE::beanOff, options);
+    public static Icon lucideBeanOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideBeanOff, options);
     }
 
-    public static Icon bed() {
-        return bed(IconOptions.DEFAULT);
+    public static Icon lucideBed() {
+        return lucideBed(IconOptions.DEFAULT);
     }
 
-    public static Icon bed(IconOptions options) {
-        return new Icon(INSTANCE::bed, options);
+    public static Icon lucideBed(IconOptions options) {
+        return new Icon(INSTANCE::lucideBed, options);
     }
 
-    public static Icon bedDouble() {
-        return bedDouble(IconOptions.DEFAULT);
+    public static Icon lucideBedDouble() {
+        return lucideBedDouble(IconOptions.DEFAULT);
     }
 
-    public static Icon bedDouble(IconOptions options) {
-        return new Icon(INSTANCE::bedDouble, options);
+    public static Icon lucideBedDouble(IconOptions options) {
+        return new Icon(INSTANCE::lucideBedDouble, options);
     }
 
-    public static Icon bedSingle() {
-        return bedSingle(IconOptions.DEFAULT);
+    public static Icon lucideBedSingle() {
+        return lucideBedSingle(IconOptions.DEFAULT);
     }
 
-    public static Icon bedSingle(IconOptions options) {
-        return new Icon(INSTANCE::bedSingle, options);
+    public static Icon lucideBedSingle(IconOptions options) {
+        return new Icon(INSTANCE::lucideBedSingle, options);
     }
 
-    public static Icon beef() {
-        return beef(IconOptions.DEFAULT);
+    public static Icon lucideBeef() {
+        return lucideBeef(IconOptions.DEFAULT);
     }
 
-    public static Icon beef(IconOptions options) {
-        return new Icon(INSTANCE::beef, options);
+    public static Icon lucideBeef(IconOptions options) {
+        return new Icon(INSTANCE::lucideBeef, options);
     }
 
-    public static Icon beefOff() {
-        return beefOff(IconOptions.DEFAULT);
+    public static Icon lucideBeefOff() {
+        return lucideBeefOff(IconOptions.DEFAULT);
     }
 
-    public static Icon beefOff(IconOptions options) {
-        return new Icon(INSTANCE::beefOff, options);
+    public static Icon lucideBeefOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideBeefOff, options);
     }
 
-    public static Icon beer() {
-        return beer(IconOptions.DEFAULT);
+    public static Icon lucideBeer() {
+        return lucideBeer(IconOptions.DEFAULT);
     }
 
-    public static Icon beer(IconOptions options) {
-        return new Icon(INSTANCE::beer, options);
+    public static Icon lucideBeer(IconOptions options) {
+        return new Icon(INSTANCE::lucideBeer, options);
     }
 
-    public static Icon beerOff() {
-        return beerOff(IconOptions.DEFAULT);
+    public static Icon lucideBeerOff() {
+        return lucideBeerOff(IconOptions.DEFAULT);
     }
 
-    public static Icon beerOff(IconOptions options) {
-        return new Icon(INSTANCE::beerOff, options);
+    public static Icon lucideBeerOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideBeerOff, options);
     }
 
-    public static Icon bell() {
-        return bell(IconOptions.DEFAULT);
+    public static Icon lucideBell() {
+        return lucideBell(IconOptions.DEFAULT);
     }
 
-    public static Icon bell(IconOptions options) {
-        return new Icon(INSTANCE::bell, options);
+    public static Icon lucideBell(IconOptions options) {
+        return new Icon(INSTANCE::lucideBell, options);
     }
 
-    public static Icon bellCheck() {
-        return bellCheck(IconOptions.DEFAULT);
+    public static Icon lucideBellCheck() {
+        return lucideBellCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon bellCheck(IconOptions options) {
-        return new Icon(INSTANCE::bellCheck, options);
+    public static Icon lucideBellCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideBellCheck, options);
     }
 
-    public static Icon bellDot() {
-        return bellDot(IconOptions.DEFAULT);
+    public static Icon lucideBellDot() {
+        return lucideBellDot(IconOptions.DEFAULT);
     }
 
-    public static Icon bellDot(IconOptions options) {
-        return new Icon(INSTANCE::bellDot, options);
+    public static Icon lucideBellDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideBellDot, options);
     }
 
-    public static Icon bellElectric() {
-        return bellElectric(IconOptions.DEFAULT);
+    public static Icon lucideBellElectric() {
+        return lucideBellElectric(IconOptions.DEFAULT);
     }
 
-    public static Icon bellElectric(IconOptions options) {
-        return new Icon(INSTANCE::bellElectric, options);
+    public static Icon lucideBellElectric(IconOptions options) {
+        return new Icon(INSTANCE::lucideBellElectric, options);
     }
 
-    public static Icon bellMinus() {
-        return bellMinus(IconOptions.DEFAULT);
+    public static Icon lucideBellMinus() {
+        return lucideBellMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon bellMinus(IconOptions options) {
-        return new Icon(INSTANCE::bellMinus, options);
+    public static Icon lucideBellMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBellMinus, options);
     }
 
-    public static Icon bellOff() {
-        return bellOff(IconOptions.DEFAULT);
+    public static Icon lucideBellOff() {
+        return lucideBellOff(IconOptions.DEFAULT);
     }
 
-    public static Icon bellOff(IconOptions options) {
-        return new Icon(INSTANCE::bellOff, options);
+    public static Icon lucideBellOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideBellOff, options);
     }
 
-    public static Icon bellPlus() {
-        return bellPlus(IconOptions.DEFAULT);
+    public static Icon lucideBellPlus() {
+        return lucideBellPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon bellPlus(IconOptions options) {
-        return new Icon(INSTANCE::bellPlus, options);
+    public static Icon lucideBellPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBellPlus, options);
     }
 
-    public static Icon bellRing() {
-        return bellRing(IconOptions.DEFAULT);
+    public static Icon lucideBellRing() {
+        return lucideBellRing(IconOptions.DEFAULT);
     }
 
-    public static Icon bellRing(IconOptions options) {
-        return new Icon(INSTANCE::bellRing, options);
+    public static Icon lucideBellRing(IconOptions options) {
+        return new Icon(INSTANCE::lucideBellRing, options);
     }
 
-    public static Icon betweenHorizontalEnd() {
-        return betweenHorizontalEnd(IconOptions.DEFAULT);
+    public static Icon lucideBetweenHorizontalEnd() {
+        return lucideBetweenHorizontalEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon betweenHorizontalEnd(IconOptions options) {
-        return new Icon(INSTANCE::betweenHorizontalEnd, options);
+    public static Icon lucideBetweenHorizontalEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideBetweenHorizontalEnd, options);
     }
 
-    public static Icon betweenHorizontalStart() {
-        return betweenHorizontalStart(IconOptions.DEFAULT);
+    public static Icon lucideBetweenHorizontalStart() {
+        return lucideBetweenHorizontalStart(IconOptions.DEFAULT);
     }
 
-    public static Icon betweenHorizontalStart(IconOptions options) {
-        return new Icon(INSTANCE::betweenHorizontalStart, options);
+    public static Icon lucideBetweenHorizontalStart(IconOptions options) {
+        return new Icon(INSTANCE::lucideBetweenHorizontalStart, options);
     }
 
-    public static Icon betweenVerticalEnd() {
-        return betweenVerticalEnd(IconOptions.DEFAULT);
+    public static Icon lucideBetweenVerticalEnd() {
+        return lucideBetweenVerticalEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon betweenVerticalEnd(IconOptions options) {
-        return new Icon(INSTANCE::betweenVerticalEnd, options);
+    public static Icon lucideBetweenVerticalEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideBetweenVerticalEnd, options);
     }
 
-    public static Icon betweenVerticalStart() {
-        return betweenVerticalStart(IconOptions.DEFAULT);
+    public static Icon lucideBetweenVerticalStart() {
+        return lucideBetweenVerticalStart(IconOptions.DEFAULT);
     }
 
-    public static Icon betweenVerticalStart(IconOptions options) {
-        return new Icon(INSTANCE::betweenVerticalStart, options);
+    public static Icon lucideBetweenVerticalStart(IconOptions options) {
+        return new Icon(INSTANCE::lucideBetweenVerticalStart, options);
     }
 
-    public static Icon bicepsFlexed() {
-        return bicepsFlexed(IconOptions.DEFAULT);
+    public static Icon lucideBicepsFlexed() {
+        return lucideBicepsFlexed(IconOptions.DEFAULT);
     }
 
-    public static Icon bicepsFlexed(IconOptions options) {
-        return new Icon(INSTANCE::bicepsFlexed, options);
+    public static Icon lucideBicepsFlexed(IconOptions options) {
+        return new Icon(INSTANCE::lucideBicepsFlexed, options);
     }
 
-    public static Icon bike() {
-        return bike(IconOptions.DEFAULT);
+    public static Icon lucideBike() {
+        return lucideBike(IconOptions.DEFAULT);
     }
 
-    public static Icon bike(IconOptions options) {
-        return new Icon(INSTANCE::bike, options);
+    public static Icon lucideBike(IconOptions options) {
+        return new Icon(INSTANCE::lucideBike, options);
     }
 
-    public static Icon binary() {
-        return binary(IconOptions.DEFAULT);
+    public static Icon lucideBinary() {
+        return lucideBinary(IconOptions.DEFAULT);
     }
 
-    public static Icon binary(IconOptions options) {
-        return new Icon(INSTANCE::binary, options);
+    public static Icon lucideBinary(IconOptions options) {
+        return new Icon(INSTANCE::lucideBinary, options);
     }
 
-    public static Icon binoculars() {
-        return binoculars(IconOptions.DEFAULT);
+    public static Icon lucideBinoculars() {
+        return lucideBinoculars(IconOptions.DEFAULT);
     }
 
-    public static Icon binoculars(IconOptions options) {
-        return new Icon(INSTANCE::binoculars, options);
+    public static Icon lucideBinoculars(IconOptions options) {
+        return new Icon(INSTANCE::lucideBinoculars, options);
     }
 
-    public static Icon biohazard() {
-        return biohazard(IconOptions.DEFAULT);
+    public static Icon lucideBiohazard() {
+        return lucideBiohazard(IconOptions.DEFAULT);
     }
 
-    public static Icon biohazard(IconOptions options) {
-        return new Icon(INSTANCE::biohazard, options);
+    public static Icon lucideBiohazard(IconOptions options) {
+        return new Icon(INSTANCE::lucideBiohazard, options);
     }
 
-    public static Icon bird() {
-        return bird(IconOptions.DEFAULT);
+    public static Icon lucideBird() {
+        return lucideBird(IconOptions.DEFAULT);
     }
 
-    public static Icon bird(IconOptions options) {
-        return new Icon(INSTANCE::bird, options);
+    public static Icon lucideBird(IconOptions options) {
+        return new Icon(INSTANCE::lucideBird, options);
     }
 
-    public static Icon birdhouse() {
-        return birdhouse(IconOptions.DEFAULT);
+    public static Icon lucideBirdhouse() {
+        return lucideBirdhouse(IconOptions.DEFAULT);
     }
 
-    public static Icon birdhouse(IconOptions options) {
-        return new Icon(INSTANCE::birdhouse, options);
+    public static Icon lucideBirdhouse(IconOptions options) {
+        return new Icon(INSTANCE::lucideBirdhouse, options);
     }
 
-    public static Icon bitcoin() {
-        return bitcoin(IconOptions.DEFAULT);
+    public static Icon lucideBitcoin() {
+        return lucideBitcoin(IconOptions.DEFAULT);
     }
 
-    public static Icon bitcoin(IconOptions options) {
-        return new Icon(INSTANCE::bitcoin, options);
+    public static Icon lucideBitcoin(IconOptions options) {
+        return new Icon(INSTANCE::lucideBitcoin, options);
     }
 
-    public static Icon blend() {
-        return blend(IconOptions.DEFAULT);
+    public static Icon lucideBlend() {
+        return lucideBlend(IconOptions.DEFAULT);
     }
 
-    public static Icon blend(IconOptions options) {
-        return new Icon(INSTANCE::blend, options);
+    public static Icon lucideBlend(IconOptions options) {
+        return new Icon(INSTANCE::lucideBlend, options);
     }
 
-    public static Icon blender() {
-        return blender(IconOptions.DEFAULT);
+    public static Icon lucideBlender() {
+        return lucideBlender(IconOptions.DEFAULT);
     }
 
-    public static Icon blender(IconOptions options) {
-        return new Icon(INSTANCE::blender, options);
+    public static Icon lucideBlender(IconOptions options) {
+        return new Icon(INSTANCE::lucideBlender, options);
     }
 
-    public static Icon blinds() {
-        return blinds(IconOptions.DEFAULT);
+    public static Icon lucideBlinds() {
+        return lucideBlinds(IconOptions.DEFAULT);
     }
 
-    public static Icon blinds(IconOptions options) {
-        return new Icon(INSTANCE::blinds, options);
+    public static Icon lucideBlinds(IconOptions options) {
+        return new Icon(INSTANCE::lucideBlinds, options);
     }
 
-    public static Icon blocks() {
-        return blocks(IconOptions.DEFAULT);
+    public static Icon lucideBlocks() {
+        return lucideBlocks(IconOptions.DEFAULT);
     }
 
-    public static Icon blocks(IconOptions options) {
-        return new Icon(INSTANCE::blocks, options);
+    public static Icon lucideBlocks(IconOptions options) {
+        return new Icon(INSTANCE::lucideBlocks, options);
     }
 
-    public static Icon bluetooth() {
-        return bluetooth(IconOptions.DEFAULT);
+    public static Icon lucideBluetooth() {
+        return lucideBluetooth(IconOptions.DEFAULT);
     }
 
-    public static Icon bluetooth(IconOptions options) {
-        return new Icon(INSTANCE::bluetooth, options);
+    public static Icon lucideBluetooth(IconOptions options) {
+        return new Icon(INSTANCE::lucideBluetooth, options);
     }
 
-    public static Icon bluetoothConnected() {
-        return bluetoothConnected(IconOptions.DEFAULT);
+    public static Icon lucideBluetoothConnected() {
+        return lucideBluetoothConnected(IconOptions.DEFAULT);
     }
 
-    public static Icon bluetoothConnected(IconOptions options) {
-        return new Icon(INSTANCE::bluetoothConnected, options);
+    public static Icon lucideBluetoothConnected(IconOptions options) {
+        return new Icon(INSTANCE::lucideBluetoothConnected, options);
     }
 
-    public static Icon bluetoothOff() {
-        return bluetoothOff(IconOptions.DEFAULT);
+    public static Icon lucideBluetoothOff() {
+        return lucideBluetoothOff(IconOptions.DEFAULT);
     }
 
-    public static Icon bluetoothOff(IconOptions options) {
-        return new Icon(INSTANCE::bluetoothOff, options);
+    public static Icon lucideBluetoothOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideBluetoothOff, options);
     }
 
-    public static Icon bluetoothSearching() {
-        return bluetoothSearching(IconOptions.DEFAULT);
+    public static Icon lucideBluetoothSearching() {
+        return lucideBluetoothSearching(IconOptions.DEFAULT);
     }
 
-    public static Icon bluetoothSearching(IconOptions options) {
-        return new Icon(INSTANCE::bluetoothSearching, options);
+    public static Icon lucideBluetoothSearching(IconOptions options) {
+        return new Icon(INSTANCE::lucideBluetoothSearching, options);
     }
 
-    public static Icon bold() {
-        return bold(IconOptions.DEFAULT);
+    public static Icon lucideBold() {
+        return lucideBold(IconOptions.DEFAULT);
     }
 
-    public static Icon bold(IconOptions options) {
-        return new Icon(INSTANCE::bold, options);
+    public static Icon lucideBold(IconOptions options) {
+        return new Icon(INSTANCE::lucideBold, options);
     }
 
-    public static Icon bolt() {
-        return bolt(IconOptions.DEFAULT);
+    public static Icon lucideBolt() {
+        return lucideBolt(IconOptions.DEFAULT);
     }
 
-    public static Icon bolt(IconOptions options) {
-        return new Icon(INSTANCE::bolt, options);
+    public static Icon lucideBolt(IconOptions options) {
+        return new Icon(INSTANCE::lucideBolt, options);
     }
 
-    public static Icon bomb() {
-        return bomb(IconOptions.DEFAULT);
+    public static Icon lucideBomb() {
+        return lucideBomb(IconOptions.DEFAULT);
     }
 
-    public static Icon bomb(IconOptions options) {
-        return new Icon(INSTANCE::bomb, options);
+    public static Icon lucideBomb(IconOptions options) {
+        return new Icon(INSTANCE::lucideBomb, options);
     }
 
-    public static Icon bone() {
-        return bone(IconOptions.DEFAULT);
+    public static Icon lucideBone() {
+        return lucideBone(IconOptions.DEFAULT);
     }
 
-    public static Icon bone(IconOptions options) {
-        return new Icon(INSTANCE::bone, options);
+    public static Icon lucideBone(IconOptions options) {
+        return new Icon(INSTANCE::lucideBone, options);
     }
 
-    public static Icon boneFracture() {
-        return boneFracture(IconOptions.DEFAULT);
+    public static Icon lucideBoneFracture() {
+        return lucideBoneFracture(IconOptions.DEFAULT);
     }
 
-    public static Icon boneFracture(IconOptions options) {
-        return new Icon(INSTANCE::boneFracture, options);
+    public static Icon lucideBoneFracture(IconOptions options) {
+        return new Icon(INSTANCE::lucideBoneFracture, options);
     }
 
-    public static Icon book() {
-        return book(IconOptions.DEFAULT);
+    public static Icon lucideBook() {
+        return lucideBook(IconOptions.DEFAULT);
     }
 
-    public static Icon book(IconOptions options) {
-        return new Icon(INSTANCE::book, options);
+    public static Icon lucideBook(IconOptions options) {
+        return new Icon(INSTANCE::lucideBook, options);
     }
 
-    public static Icon bookA() {
-        return bookA(IconOptions.DEFAULT);
+    public static Icon lucideBookA() {
+        return lucideBookA(IconOptions.DEFAULT);
     }
 
-    public static Icon bookA(IconOptions options) {
-        return new Icon(INSTANCE::bookA, options);
+    public static Icon lucideBookA(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookA, options);
     }
 
-    public static Icon bookAlert() {
-        return bookAlert(IconOptions.DEFAULT);
+    public static Icon lucideBookAlert() {
+        return lucideBookAlert(IconOptions.DEFAULT);
     }
 
-    public static Icon bookAlert(IconOptions options) {
-        return new Icon(INSTANCE::bookAlert, options);
+    public static Icon lucideBookAlert(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookAlert, options);
     }
 
-    public static Icon bookAudio() {
-        return bookAudio(IconOptions.DEFAULT);
+    public static Icon lucideBookAudio() {
+        return lucideBookAudio(IconOptions.DEFAULT);
     }
 
-    public static Icon bookAudio(IconOptions options) {
-        return new Icon(INSTANCE::bookAudio, options);
+    public static Icon lucideBookAudio(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookAudio, options);
     }
 
-    public static Icon bookBookmark() {
-        return bookBookmark(IconOptions.DEFAULT);
+    public static Icon lucideBookBookmark() {
+        return lucideBookBookmark(IconOptions.DEFAULT);
     }
 
-    public static Icon bookBookmark(IconOptions options) {
-        return new Icon(INSTANCE::bookBookmark, options);
+    public static Icon lucideBookBookmark(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookBookmark, options);
     }
 
-    public static Icon bookCheck() {
-        return bookCheck(IconOptions.DEFAULT);
+    public static Icon lucideBookCheck() {
+        return lucideBookCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon bookCheck(IconOptions options) {
-        return new Icon(INSTANCE::bookCheck, options);
+    public static Icon lucideBookCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookCheck, options);
     }
 
-    public static Icon bookCopy() {
-        return bookCopy(IconOptions.DEFAULT);
+    public static Icon lucideBookCopy() {
+        return lucideBookCopy(IconOptions.DEFAULT);
     }
 
-    public static Icon bookCopy(IconOptions options) {
-        return new Icon(INSTANCE::bookCopy, options);
+    public static Icon lucideBookCopy(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookCopy, options);
     }
 
-    public static Icon bookDashed() {
-        return bookDashed(IconOptions.DEFAULT);
+    public static Icon lucideBookDashed() {
+        return lucideBookDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon bookDashed(IconOptions options) {
-        return new Icon(INSTANCE::bookDashed, options);
+    public static Icon lucideBookDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookDashed, options);
     }
 
-    public static Icon bookDown() {
-        return bookDown(IconOptions.DEFAULT);
+    public static Icon lucideBookDown() {
+        return lucideBookDown(IconOptions.DEFAULT);
     }
 
-    public static Icon bookDown(IconOptions options) {
-        return new Icon(INSTANCE::bookDown, options);
+    public static Icon lucideBookDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookDown, options);
     }
 
-    public static Icon bookHeadphones() {
-        return bookHeadphones(IconOptions.DEFAULT);
+    public static Icon lucideBookHeadphones() {
+        return lucideBookHeadphones(IconOptions.DEFAULT);
     }
 
-    public static Icon bookHeadphones(IconOptions options) {
-        return new Icon(INSTANCE::bookHeadphones, options);
+    public static Icon lucideBookHeadphones(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookHeadphones, options);
     }
 
-    public static Icon bookHeart() {
-        return bookHeart(IconOptions.DEFAULT);
+    public static Icon lucideBookHeart() {
+        return lucideBookHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon bookHeart(IconOptions options) {
-        return new Icon(INSTANCE::bookHeart, options);
+    public static Icon lucideBookHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookHeart, options);
     }
 
-    public static Icon bookImage() {
-        return bookImage(IconOptions.DEFAULT);
+    public static Icon lucideBookImage() {
+        return lucideBookImage(IconOptions.DEFAULT);
     }
 
-    public static Icon bookImage(IconOptions options) {
-        return new Icon(INSTANCE::bookImage, options);
+    public static Icon lucideBookImage(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookImage, options);
     }
 
-    public static Icon bookKey() {
-        return bookKey(IconOptions.DEFAULT);
+    public static Icon lucideBookKey() {
+        return lucideBookKey(IconOptions.DEFAULT);
     }
 
-    public static Icon bookKey(IconOptions options) {
-        return new Icon(INSTANCE::bookKey, options);
+    public static Icon lucideBookKey(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookKey, options);
     }
 
-    public static Icon bookLock() {
-        return bookLock(IconOptions.DEFAULT);
+    public static Icon lucideBookLock() {
+        return lucideBookLock(IconOptions.DEFAULT);
     }
 
-    public static Icon bookLock(IconOptions options) {
-        return new Icon(INSTANCE::bookLock, options);
+    public static Icon lucideBookLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookLock, options);
     }
 
-    public static Icon bookMinus() {
-        return bookMinus(IconOptions.DEFAULT);
+    public static Icon lucideBookMinus() {
+        return lucideBookMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon bookMinus(IconOptions options) {
-        return new Icon(INSTANCE::bookMinus, options);
+    public static Icon lucideBookMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookMinus, options);
     }
 
-    public static Icon bookOpen() {
-        return bookOpen(IconOptions.DEFAULT);
+    public static Icon lucideBookOpen() {
+        return lucideBookOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon bookOpen(IconOptions options) {
-        return new Icon(INSTANCE::bookOpen, options);
+    public static Icon lucideBookOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookOpen, options);
     }
 
-    public static Icon bookOpenCheck() {
-        return bookOpenCheck(IconOptions.DEFAULT);
+    public static Icon lucideBookOpenCheck() {
+        return lucideBookOpenCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon bookOpenCheck(IconOptions options) {
-        return new Icon(INSTANCE::bookOpenCheck, options);
+    public static Icon lucideBookOpenCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookOpenCheck, options);
     }
 
-    public static Icon bookOpenText() {
-        return bookOpenText(IconOptions.DEFAULT);
+    public static Icon lucideBookOpenText() {
+        return lucideBookOpenText(IconOptions.DEFAULT);
     }
 
-    public static Icon bookOpenText(IconOptions options) {
-        return new Icon(INSTANCE::bookOpenText, options);
+    public static Icon lucideBookOpenText(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookOpenText, options);
     }
 
-    public static Icon bookPlus() {
-        return bookPlus(IconOptions.DEFAULT);
+    public static Icon lucideBookPlus() {
+        return lucideBookPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon bookPlus(IconOptions options) {
-        return new Icon(INSTANCE::bookPlus, options);
+    public static Icon lucideBookPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookPlus, options);
     }
 
-    public static Icon bookSearch() {
-        return bookSearch(IconOptions.DEFAULT);
+    public static Icon lucideBookSearch() {
+        return lucideBookSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon bookSearch(IconOptions options) {
-        return new Icon(INSTANCE::bookSearch, options);
+    public static Icon lucideBookSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookSearch, options);
     }
 
-    public static Icon bookText() {
-        return bookText(IconOptions.DEFAULT);
+    public static Icon lucideBookText() {
+        return lucideBookText(IconOptions.DEFAULT);
     }
 
-    public static Icon bookText(IconOptions options) {
-        return new Icon(INSTANCE::bookText, options);
+    public static Icon lucideBookText(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookText, options);
     }
 
-    public static Icon bookType() {
-        return bookType(IconOptions.DEFAULT);
+    public static Icon lucideBookType() {
+        return lucideBookType(IconOptions.DEFAULT);
     }
 
-    public static Icon bookType(IconOptions options) {
-        return new Icon(INSTANCE::bookType, options);
+    public static Icon lucideBookType(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookType, options);
     }
 
-    public static Icon bookUp() {
-        return bookUp(IconOptions.DEFAULT);
+    public static Icon lucideBookUp() {
+        return lucideBookUp(IconOptions.DEFAULT);
     }
 
-    public static Icon bookUp(IconOptions options) {
-        return new Icon(INSTANCE::bookUp, options);
+    public static Icon lucideBookUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookUp, options);
     }
 
-    public static Icon bookUp2() {
-        return bookUp2(IconOptions.DEFAULT);
+    public static Icon lucideBookUp2() {
+        return lucideBookUp2(IconOptions.DEFAULT);
     }
 
-    public static Icon bookUp2(IconOptions options) {
-        return new Icon(INSTANCE::bookUp2, options);
+    public static Icon lucideBookUp2(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookUp2, options);
     }
 
-    public static Icon bookUser() {
-        return bookUser(IconOptions.DEFAULT);
+    public static Icon lucideBookUser() {
+        return lucideBookUser(IconOptions.DEFAULT);
     }
 
-    public static Icon bookUser(IconOptions options) {
-        return new Icon(INSTANCE::bookUser, options);
+    public static Icon lucideBookUser(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookUser, options);
     }
 
-    public static Icon bookX() {
-        return bookX(IconOptions.DEFAULT);
+    public static Icon lucideBookX() {
+        return lucideBookX(IconOptions.DEFAULT);
     }
 
-    public static Icon bookX(IconOptions options) {
-        return new Icon(INSTANCE::bookX, options);
+    public static Icon lucideBookX(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookX, options);
     }
 
-    public static Icon bookmark() {
-        return bookmark(IconOptions.DEFAULT);
+    public static Icon lucideBookmark() {
+        return lucideBookmark(IconOptions.DEFAULT);
     }
 
-    public static Icon bookmark(IconOptions options) {
-        return new Icon(INSTANCE::bookmark, options);
+    public static Icon lucideBookmark(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookmark, options);
     }
 
-    public static Icon bookmarkCheck() {
-        return bookmarkCheck(IconOptions.DEFAULT);
+    public static Icon lucideBookmarkCheck() {
+        return lucideBookmarkCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon bookmarkCheck(IconOptions options) {
-        return new Icon(INSTANCE::bookmarkCheck, options);
+    public static Icon lucideBookmarkCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookmarkCheck, options);
     }
 
-    public static Icon bookmarkMinus() {
-        return bookmarkMinus(IconOptions.DEFAULT);
+    public static Icon lucideBookmarkMinus() {
+        return lucideBookmarkMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon bookmarkMinus(IconOptions options) {
-        return new Icon(INSTANCE::bookmarkMinus, options);
+    public static Icon lucideBookmarkMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookmarkMinus, options);
     }
 
-    public static Icon bookmarkOff() {
-        return bookmarkOff(IconOptions.DEFAULT);
+    public static Icon lucideBookmarkOff() {
+        return lucideBookmarkOff(IconOptions.DEFAULT);
     }
 
-    public static Icon bookmarkOff(IconOptions options) {
-        return new Icon(INSTANCE::bookmarkOff, options);
+    public static Icon lucideBookmarkOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookmarkOff, options);
     }
 
-    public static Icon bookmarkPlus() {
-        return bookmarkPlus(IconOptions.DEFAULT);
+    public static Icon lucideBookmarkPlus() {
+        return lucideBookmarkPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon bookmarkPlus(IconOptions options) {
-        return new Icon(INSTANCE::bookmarkPlus, options);
+    public static Icon lucideBookmarkPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookmarkPlus, options);
     }
 
-    public static Icon bookmarkX() {
-        return bookmarkX(IconOptions.DEFAULT);
+    public static Icon lucideBookmarkX() {
+        return lucideBookmarkX(IconOptions.DEFAULT);
     }
 
-    public static Icon bookmarkX(IconOptions options) {
-        return new Icon(INSTANCE::bookmarkX, options);
+    public static Icon lucideBookmarkX(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookmarkX, options);
     }
 
-    public static Icon boomBox() {
-        return boomBox(IconOptions.DEFAULT);
+    public static Icon lucideBoomBox() {
+        return lucideBoomBox(IconOptions.DEFAULT);
     }
 
-    public static Icon boomBox(IconOptions options) {
-        return new Icon(INSTANCE::boomBox, options);
+    public static Icon lucideBoomBox(IconOptions options) {
+        return new Icon(INSTANCE::lucideBoomBox, options);
     }
 
-    public static Icon bot() {
-        return bot(IconOptions.DEFAULT);
+    public static Icon lucideBot() {
+        return lucideBot(IconOptions.DEFAULT);
     }
 
-    public static Icon bot(IconOptions options) {
-        return new Icon(INSTANCE::bot, options);
+    public static Icon lucideBot(IconOptions options) {
+        return new Icon(INSTANCE::lucideBot, options);
     }
 
-    public static Icon botMessageSquare() {
-        return botMessageSquare(IconOptions.DEFAULT);
+    public static Icon lucideBotMessageSquare() {
+        return lucideBotMessageSquare(IconOptions.DEFAULT);
     }
 
-    public static Icon botMessageSquare(IconOptions options) {
-        return new Icon(INSTANCE::botMessageSquare, options);
+    public static Icon lucideBotMessageSquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideBotMessageSquare, options);
     }
 
-    public static Icon botOff() {
-        return botOff(IconOptions.DEFAULT);
+    public static Icon lucideBotOff() {
+        return lucideBotOff(IconOptions.DEFAULT);
     }
 
-    public static Icon botOff(IconOptions options) {
-        return new Icon(INSTANCE::botOff, options);
+    public static Icon lucideBotOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideBotOff, options);
     }
 
-    public static Icon bottleWine() {
-        return bottleWine(IconOptions.DEFAULT);
+    public static Icon lucideBottleWine() {
+        return lucideBottleWine(IconOptions.DEFAULT);
     }
 
-    public static Icon bottleWine(IconOptions options) {
-        return new Icon(INSTANCE::bottleWine, options);
+    public static Icon lucideBottleWine(IconOptions options) {
+        return new Icon(INSTANCE::lucideBottleWine, options);
     }
 
-    public static Icon bowArrow() {
-        return bowArrow(IconOptions.DEFAULT);
+    public static Icon lucideBowArrow() {
+        return lucideBowArrow(IconOptions.DEFAULT);
     }
 
-    public static Icon bowArrow(IconOptions options) {
-        return new Icon(INSTANCE::bowArrow, options);
+    public static Icon lucideBowArrow(IconOptions options) {
+        return new Icon(INSTANCE::lucideBowArrow, options);
     }
 
-    public static Icon box() {
-        return box(IconOptions.DEFAULT);
+    public static Icon lucideBox() {
+        return lucideBox(IconOptions.DEFAULT);
     }
 
-    public static Icon box(IconOptions options) {
-        return new Icon(INSTANCE::box, options);
+    public static Icon lucideBox(IconOptions options) {
+        return new Icon(INSTANCE::lucideBox, options);
     }
 
-    public static Icon boxes() {
-        return boxes(IconOptions.DEFAULT);
+    public static Icon lucideBoxes() {
+        return lucideBoxes(IconOptions.DEFAULT);
     }
 
-    public static Icon boxes(IconOptions options) {
-        return new Icon(INSTANCE::boxes, options);
+    public static Icon lucideBoxes(IconOptions options) {
+        return new Icon(INSTANCE::lucideBoxes, options);
     }
 
-    public static Icon braces() {
-        return braces(IconOptions.DEFAULT);
+    public static Icon lucideBraces() {
+        return lucideBraces(IconOptions.DEFAULT);
     }
 
-    public static Icon braces(IconOptions options) {
-        return new Icon(INSTANCE::braces, options);
+    public static Icon lucideBraces(IconOptions options) {
+        return new Icon(INSTANCE::lucideBraces, options);
     }
 
-    public static Icon brackets() {
-        return brackets(IconOptions.DEFAULT);
+    public static Icon lucideBrackets() {
+        return lucideBrackets(IconOptions.DEFAULT);
     }
 
-    public static Icon brackets(IconOptions options) {
-        return new Icon(INSTANCE::brackets, options);
+    public static Icon lucideBrackets(IconOptions options) {
+        return new Icon(INSTANCE::lucideBrackets, options);
     }
 
-    public static Icon brain() {
-        return brain(IconOptions.DEFAULT);
+    public static Icon lucideBrain() {
+        return lucideBrain(IconOptions.DEFAULT);
     }
 
-    public static Icon brain(IconOptions options) {
-        return new Icon(INSTANCE::brain, options);
+    public static Icon lucideBrain(IconOptions options) {
+        return new Icon(INSTANCE::lucideBrain, options);
     }
 
-    public static Icon brainCircuit() {
-        return brainCircuit(IconOptions.DEFAULT);
+    public static Icon lucideBrainCircuit() {
+        return lucideBrainCircuit(IconOptions.DEFAULT);
     }
 
-    public static Icon brainCircuit(IconOptions options) {
-        return new Icon(INSTANCE::brainCircuit, options);
+    public static Icon lucideBrainCircuit(IconOptions options) {
+        return new Icon(INSTANCE::lucideBrainCircuit, options);
     }
 
-    public static Icon brainCog() {
-        return brainCog(IconOptions.DEFAULT);
+    public static Icon lucideBrainCog() {
+        return lucideBrainCog(IconOptions.DEFAULT);
     }
 
-    public static Icon brainCog(IconOptions options) {
-        return new Icon(INSTANCE::brainCog, options);
+    public static Icon lucideBrainCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideBrainCog, options);
     }
 
-    public static Icon brickWall() {
-        return brickWall(IconOptions.DEFAULT);
+    public static Icon lucideBrickWall() {
+        return lucideBrickWall(IconOptions.DEFAULT);
     }
 
-    public static Icon brickWall(IconOptions options) {
-        return new Icon(INSTANCE::brickWall, options);
+    public static Icon lucideBrickWall(IconOptions options) {
+        return new Icon(INSTANCE::lucideBrickWall, options);
     }
 
-    public static Icon brickWallFire() {
-        return brickWallFire(IconOptions.DEFAULT);
+    public static Icon lucideBrickWallFire() {
+        return lucideBrickWallFire(IconOptions.DEFAULT);
     }
 
-    public static Icon brickWallFire(IconOptions options) {
-        return new Icon(INSTANCE::brickWallFire, options);
+    public static Icon lucideBrickWallFire(IconOptions options) {
+        return new Icon(INSTANCE::lucideBrickWallFire, options);
     }
 
-    public static Icon brickWallShield() {
-        return brickWallShield(IconOptions.DEFAULT);
+    public static Icon lucideBrickWallShield() {
+        return lucideBrickWallShield(IconOptions.DEFAULT);
     }
 
-    public static Icon brickWallShield(IconOptions options) {
-        return new Icon(INSTANCE::brickWallShield, options);
+    public static Icon lucideBrickWallShield(IconOptions options) {
+        return new Icon(INSTANCE::lucideBrickWallShield, options);
     }
 
-    public static Icon bridge() {
-        return bridge(IconOptions.DEFAULT);
+    public static Icon lucideBridge() {
+        return lucideBridge(IconOptions.DEFAULT);
     }
 
-    public static Icon bridge(IconOptions options) {
-        return new Icon(INSTANCE::bridge, options);
+    public static Icon lucideBridge(IconOptions options) {
+        return new Icon(INSTANCE::lucideBridge, options);
     }
 
-    public static Icon briefcase() {
-        return briefcase(IconOptions.DEFAULT);
+    public static Icon lucideBriefcase() {
+        return lucideBriefcase(IconOptions.DEFAULT);
     }
 
-    public static Icon briefcase(IconOptions options) {
-        return new Icon(INSTANCE::briefcase, options);
+    public static Icon lucideBriefcase(IconOptions options) {
+        return new Icon(INSTANCE::lucideBriefcase, options);
     }
 
-    public static Icon briefcaseBusiness() {
-        return briefcaseBusiness(IconOptions.DEFAULT);
+    public static Icon lucideBriefcaseBusiness() {
+        return lucideBriefcaseBusiness(IconOptions.DEFAULT);
     }
 
-    public static Icon briefcaseBusiness(IconOptions options) {
-        return new Icon(INSTANCE::briefcaseBusiness, options);
+    public static Icon lucideBriefcaseBusiness(IconOptions options) {
+        return new Icon(INSTANCE::lucideBriefcaseBusiness, options);
     }
 
-    public static Icon briefcaseConveyorBelt() {
-        return briefcaseConveyorBelt(IconOptions.DEFAULT);
+    public static Icon lucideBriefcaseConveyorBelt() {
+        return lucideBriefcaseConveyorBelt(IconOptions.DEFAULT);
     }
 
-    public static Icon briefcaseConveyorBelt(IconOptions options) {
-        return new Icon(INSTANCE::briefcaseConveyorBelt, options);
+    public static Icon lucideBriefcaseConveyorBelt(IconOptions options) {
+        return new Icon(INSTANCE::lucideBriefcaseConveyorBelt, options);
     }
 
-    public static Icon briefcaseMedical() {
-        return briefcaseMedical(IconOptions.DEFAULT);
+    public static Icon lucideBriefcaseMedical() {
+        return lucideBriefcaseMedical(IconOptions.DEFAULT);
     }
 
-    public static Icon briefcaseMedical(IconOptions options) {
-        return new Icon(INSTANCE::briefcaseMedical, options);
+    public static Icon lucideBriefcaseMedical(IconOptions options) {
+        return new Icon(INSTANCE::lucideBriefcaseMedical, options);
     }
 
-    public static Icon briefcasePlus() {
-        return briefcasePlus(IconOptions.DEFAULT);
+    public static Icon lucideBriefcasePlus() {
+        return lucideBriefcasePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon briefcasePlus(IconOptions options) {
-        return new Icon(INSTANCE::briefcasePlus, options);
+    public static Icon lucideBriefcasePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBriefcasePlus, options);
     }
 
-    public static Icon bringToFront() {
-        return bringToFront(IconOptions.DEFAULT);
+    public static Icon lucideBringToFront() {
+        return lucideBringToFront(IconOptions.DEFAULT);
     }
 
-    public static Icon bringToFront(IconOptions options) {
-        return new Icon(INSTANCE::bringToFront, options);
+    public static Icon lucideBringToFront(IconOptions options) {
+        return new Icon(INSTANCE::lucideBringToFront, options);
     }
 
-    public static Icon broccoli() {
-        return broccoli(IconOptions.DEFAULT);
+    public static Icon lucideBroccoli() {
+        return lucideBroccoli(IconOptions.DEFAULT);
     }
 
-    public static Icon broccoli(IconOptions options) {
-        return new Icon(INSTANCE::broccoli, options);
+    public static Icon lucideBroccoli(IconOptions options) {
+        return new Icon(INSTANCE::lucideBroccoli, options);
     }
 
-    public static Icon broom() {
-        return broom(IconOptions.DEFAULT);
+    public static Icon lucideBroom() {
+        return lucideBroom(IconOptions.DEFAULT);
     }
 
-    public static Icon broom(IconOptions options) {
-        return new Icon(INSTANCE::broom, options);
+    public static Icon lucideBroom(IconOptions options) {
+        return new Icon(INSTANCE::lucideBroom, options);
     }
 
-    public static Icon broomSparkles() {
-        return broomSparkles(IconOptions.DEFAULT);
+    public static Icon lucideBroomSparkles() {
+        return lucideBroomSparkles(IconOptions.DEFAULT);
     }
 
-    public static Icon broomSparkles(IconOptions options) {
-        return new Icon(INSTANCE::broomSparkles, options);
+    public static Icon lucideBroomSparkles(IconOptions options) {
+        return new Icon(INSTANCE::lucideBroomSparkles, options);
     }
 
-    public static Icon brush() {
-        return brush(IconOptions.DEFAULT);
+    public static Icon lucideBrush() {
+        return lucideBrush(IconOptions.DEFAULT);
     }
 
-    public static Icon brush(IconOptions options) {
-        return new Icon(INSTANCE::brush, options);
+    public static Icon lucideBrush(IconOptions options) {
+        return new Icon(INSTANCE::lucideBrush, options);
     }
 
-    public static Icon brushCleaning() {
-        return brushCleaning(IconOptions.DEFAULT);
+    public static Icon lucideBrushCleaning() {
+        return lucideBrushCleaning(IconOptions.DEFAULT);
     }
 
-    public static Icon brushCleaning(IconOptions options) {
-        return new Icon(INSTANCE::brushCleaning, options);
+    public static Icon lucideBrushCleaning(IconOptions options) {
+        return new Icon(INSTANCE::lucideBrushCleaning, options);
     }
 
-    public static Icon bubbles() {
-        return bubbles(IconOptions.DEFAULT);
+    public static Icon lucideBubbles() {
+        return lucideBubbles(IconOptions.DEFAULT);
     }
 
-    public static Icon bubbles(IconOptions options) {
-        return new Icon(INSTANCE::bubbles, options);
+    public static Icon lucideBubbles(IconOptions options) {
+        return new Icon(INSTANCE::lucideBubbles, options);
     }
 
-    public static Icon bug() {
-        return bug(IconOptions.DEFAULT);
+    public static Icon lucideBug() {
+        return lucideBug(IconOptions.DEFAULT);
     }
 
-    public static Icon bug(IconOptions options) {
-        return new Icon(INSTANCE::bug, options);
+    public static Icon lucideBug(IconOptions options) {
+        return new Icon(INSTANCE::lucideBug, options);
     }
 
-    public static Icon bugOff() {
-        return bugOff(IconOptions.DEFAULT);
+    public static Icon lucideBugOff() {
+        return lucideBugOff(IconOptions.DEFAULT);
     }
 
-    public static Icon bugOff(IconOptions options) {
-        return new Icon(INSTANCE::bugOff, options);
+    public static Icon lucideBugOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideBugOff, options);
     }
 
-    public static Icon bugPlay() {
-        return bugPlay(IconOptions.DEFAULT);
+    public static Icon lucideBugPlay() {
+        return lucideBugPlay(IconOptions.DEFAULT);
     }
 
-    public static Icon bugPlay(IconOptions options) {
-        return new Icon(INSTANCE::bugPlay, options);
+    public static Icon lucideBugPlay(IconOptions options) {
+        return new Icon(INSTANCE::lucideBugPlay, options);
     }
 
-    public static Icon building() {
-        return building(IconOptions.DEFAULT);
+    public static Icon lucideBuilding() {
+        return lucideBuilding(IconOptions.DEFAULT);
     }
 
-    public static Icon building(IconOptions options) {
-        return new Icon(INSTANCE::building, options);
+    public static Icon lucideBuilding(IconOptions options) {
+        return new Icon(INSTANCE::lucideBuilding, options);
     }
 
-    public static Icon buildingComplex() {
-        return buildingComplex(IconOptions.DEFAULT);
+    public static Icon lucideBuildingComplex() {
+        return lucideBuildingComplex(IconOptions.DEFAULT);
     }
 
-    public static Icon buildingComplex(IconOptions options) {
-        return new Icon(INSTANCE::buildingComplex, options);
+    public static Icon lucideBuildingComplex(IconOptions options) {
+        return new Icon(INSTANCE::lucideBuildingComplex, options);
     }
 
-    public static Icon buildingComplexPlus() {
-        return buildingComplexPlus(IconOptions.DEFAULT);
+    public static Icon lucideBuildingComplexPlus() {
+        return lucideBuildingComplexPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon buildingComplexPlus(IconOptions options) {
-        return new Icon(INSTANCE::buildingComplexPlus, options);
+    public static Icon lucideBuildingComplexPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBuildingComplexPlus, options);
     }
 
-    public static Icon bus() {
-        return bus(IconOptions.DEFAULT);
+    public static Icon lucideBus() {
+        return lucideBus(IconOptions.DEFAULT);
     }
 
-    public static Icon bus(IconOptions options) {
-        return new Icon(INSTANCE::bus, options);
+    public static Icon lucideBus(IconOptions options) {
+        return new Icon(INSTANCE::lucideBus, options);
     }
 
-    public static Icon busFront() {
-        return busFront(IconOptions.DEFAULT);
+    public static Icon lucideBusFront() {
+        return lucideBusFront(IconOptions.DEFAULT);
     }
 
-    public static Icon busFront(IconOptions options) {
-        return new Icon(INSTANCE::busFront, options);
+    public static Icon lucideBusFront(IconOptions options) {
+        return new Icon(INSTANCE::lucideBusFront, options);
     }
 
-    public static Icon cable() {
-        return cable(IconOptions.DEFAULT);
+    public static Icon lucideCable() {
+        return lucideCable(IconOptions.DEFAULT);
     }
 
-    public static Icon cable(IconOptions options) {
-        return new Icon(INSTANCE::cable, options);
+    public static Icon lucideCable(IconOptions options) {
+        return new Icon(INSTANCE::lucideCable, options);
     }
 
-    public static Icon cableCar() {
-        return cableCar(IconOptions.DEFAULT);
+    public static Icon lucideCableCar() {
+        return lucideCableCar(IconOptions.DEFAULT);
     }
 
-    public static Icon cableCar(IconOptions options) {
-        return new Icon(INSTANCE::cableCar, options);
+    public static Icon lucideCableCar(IconOptions options) {
+        return new Icon(INSTANCE::lucideCableCar, options);
     }
 
-    public static Icon cake() {
-        return cake(IconOptions.DEFAULT);
+    public static Icon lucideCake() {
+        return lucideCake(IconOptions.DEFAULT);
     }
 
-    public static Icon cake(IconOptions options) {
-        return new Icon(INSTANCE::cake, options);
+    public static Icon lucideCake(IconOptions options) {
+        return new Icon(INSTANCE::lucideCake, options);
     }
 
-    public static Icon cakeSlice() {
-        return cakeSlice(IconOptions.DEFAULT);
+    public static Icon lucideCakeSlice() {
+        return lucideCakeSlice(IconOptions.DEFAULT);
     }
 
-    public static Icon cakeSlice(IconOptions options) {
-        return new Icon(INSTANCE::cakeSlice, options);
+    public static Icon lucideCakeSlice(IconOptions options) {
+        return new Icon(INSTANCE::lucideCakeSlice, options);
     }
 
-    public static Icon calculator() {
-        return calculator(IconOptions.DEFAULT);
+    public static Icon lucideCalculator() {
+        return lucideCalculator(IconOptions.DEFAULT);
     }
 
-    public static Icon calculator(IconOptions options) {
-        return new Icon(INSTANCE::calculator, options);
+    public static Icon lucideCalculator(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalculator, options);
     }
 
-    public static Icon calendar() {
-        return calendar(IconOptions.DEFAULT);
+    public static Icon lucideCalendar() {
+        return lucideCalendar(IconOptions.DEFAULT);
     }
 
-    public static Icon calendar(IconOptions options) {
-        return new Icon(INSTANCE::calendar, options);
+    public static Icon lucideCalendar(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendar, options);
     }
 
-    public static Icon calendar1() {
-        return calendar1(IconOptions.DEFAULT);
+    public static Icon lucideCalendar1() {
+        return lucideCalendar1(IconOptions.DEFAULT);
     }
 
-    public static Icon calendar1(IconOptions options) {
-        return new Icon(INSTANCE::calendar1, options);
+    public static Icon lucideCalendar1(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendar1, options);
     }
 
-    public static Icon calendarArrowDown() {
-        return calendarArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideCalendarArrowDown() {
+        return lucideCalendarArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::calendarArrowDown, options);
+    public static Icon lucideCalendarArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarArrowDown, options);
     }
 
-    public static Icon calendarArrowUp() {
-        return calendarArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideCalendarArrowUp() {
+        return lucideCalendarArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::calendarArrowUp, options);
+    public static Icon lucideCalendarArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarArrowUp, options);
     }
 
-    public static Icon calendarCheck() {
-        return calendarCheck(IconOptions.DEFAULT);
+    public static Icon lucideCalendarCheck() {
+        return lucideCalendarCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarCheck(IconOptions options) {
-        return new Icon(INSTANCE::calendarCheck, options);
+    public static Icon lucideCalendarCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarCheck, options);
     }
 
-    public static Icon calendarCheck2() {
-        return calendarCheck2(IconOptions.DEFAULT);
+    public static Icon lucideCalendarCheck2() {
+        return lucideCalendarCheck2(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarCheck2(IconOptions options) {
-        return new Icon(INSTANCE::calendarCheck2, options);
+    public static Icon lucideCalendarCheck2(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarCheck2, options);
     }
 
-    public static Icon calendarChevronsRight() {
-        return calendarChevronsRight(IconOptions.DEFAULT);
+    public static Icon lucideCalendarChevronsRight() {
+        return lucideCalendarChevronsRight(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarChevronsRight(IconOptions options) {
-        return new Icon(INSTANCE::calendarChevronsRight, options);
+    public static Icon lucideCalendarChevronsRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarChevronsRight, options);
     }
 
-    public static Icon calendarClock() {
-        return calendarClock(IconOptions.DEFAULT);
+    public static Icon lucideCalendarClock() {
+        return lucideCalendarClock(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarClock(IconOptions options) {
-        return new Icon(INSTANCE::calendarClock, options);
+    public static Icon lucideCalendarClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarClock, options);
     }
 
-    public static Icon calendarCog() {
-        return calendarCog(IconOptions.DEFAULT);
+    public static Icon lucideCalendarCog() {
+        return lucideCalendarCog(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarCog(IconOptions options) {
-        return new Icon(INSTANCE::calendarCog, options);
+    public static Icon lucideCalendarCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarCog, options);
     }
 
-    public static Icon calendarDays() {
-        return calendarDays(IconOptions.DEFAULT);
+    public static Icon lucideCalendarDays() {
+        return lucideCalendarDays(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarDays(IconOptions options) {
-        return new Icon(INSTANCE::calendarDays, options);
+    public static Icon lucideCalendarDays(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarDays, options);
     }
 
-    public static Icon calendarFold() {
-        return calendarFold(IconOptions.DEFAULT);
+    public static Icon lucideCalendarFold() {
+        return lucideCalendarFold(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarFold(IconOptions options) {
-        return new Icon(INSTANCE::calendarFold, options);
+    public static Icon lucideCalendarFold(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarFold, options);
     }
 
-    public static Icon calendarHeart() {
-        return calendarHeart(IconOptions.DEFAULT);
+    public static Icon lucideCalendarHeart() {
+        return lucideCalendarHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarHeart(IconOptions options) {
-        return new Icon(INSTANCE::calendarHeart, options);
+    public static Icon lucideCalendarHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarHeart, options);
     }
 
-    public static Icon calendarMinus() {
-        return calendarMinus(IconOptions.DEFAULT);
+    public static Icon lucideCalendarMinus() {
+        return lucideCalendarMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarMinus(IconOptions options) {
-        return new Icon(INSTANCE::calendarMinus, options);
+    public static Icon lucideCalendarMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarMinus, options);
     }
 
-    public static Icon calendarMinus2() {
-        return calendarMinus2(IconOptions.DEFAULT);
+    public static Icon lucideCalendarMinus2() {
+        return lucideCalendarMinus2(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarMinus2(IconOptions options) {
-        return new Icon(INSTANCE::calendarMinus2, options);
+    public static Icon lucideCalendarMinus2(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarMinus2, options);
     }
 
-    public static Icon calendarOff() {
-        return calendarOff(IconOptions.DEFAULT);
+    public static Icon lucideCalendarOff() {
+        return lucideCalendarOff(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarOff(IconOptions options) {
-        return new Icon(INSTANCE::calendarOff, options);
+    public static Icon lucideCalendarOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarOff, options);
     }
 
-    public static Icon calendarPlus() {
-        return calendarPlus(IconOptions.DEFAULT);
+    public static Icon lucideCalendarPlus() {
+        return lucideCalendarPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarPlus(IconOptions options) {
-        return new Icon(INSTANCE::calendarPlus, options);
+    public static Icon lucideCalendarPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarPlus, options);
     }
 
-    public static Icon calendarPlus2() {
-        return calendarPlus2(IconOptions.DEFAULT);
+    public static Icon lucideCalendarPlus2() {
+        return lucideCalendarPlus2(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarPlus2(IconOptions options) {
-        return new Icon(INSTANCE::calendarPlus2, options);
+    public static Icon lucideCalendarPlus2(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarPlus2, options);
     }
 
-    public static Icon calendarRange() {
-        return calendarRange(IconOptions.DEFAULT);
+    public static Icon lucideCalendarRange() {
+        return lucideCalendarRange(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarRange(IconOptions options) {
-        return new Icon(INSTANCE::calendarRange, options);
+    public static Icon lucideCalendarRange(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarRange, options);
     }
 
-    public static Icon calendarSearch() {
-        return calendarSearch(IconOptions.DEFAULT);
+    public static Icon lucideCalendarSearch() {
+        return lucideCalendarSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarSearch(IconOptions options) {
-        return new Icon(INSTANCE::calendarSearch, options);
+    public static Icon lucideCalendarSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarSearch, options);
     }
 
-    public static Icon calendarSync() {
-        return calendarSync(IconOptions.DEFAULT);
+    public static Icon lucideCalendarSync() {
+        return lucideCalendarSync(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarSync(IconOptions options) {
-        return new Icon(INSTANCE::calendarSync, options);
+    public static Icon lucideCalendarSync(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarSync, options);
     }
 
-    public static Icon calendarX() {
-        return calendarX(IconOptions.DEFAULT);
+    public static Icon lucideCalendarX() {
+        return lucideCalendarX(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarX(IconOptions options) {
-        return new Icon(INSTANCE::calendarX, options);
+    public static Icon lucideCalendarX(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarX, options);
     }
 
-    public static Icon calendarX2() {
-        return calendarX2(IconOptions.DEFAULT);
+    public static Icon lucideCalendarX2() {
+        return lucideCalendarX2(IconOptions.DEFAULT);
     }
 
-    public static Icon calendarX2(IconOptions options) {
-        return new Icon(INSTANCE::calendarX2, options);
+    public static Icon lucideCalendarX2(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarX2, options);
     }
 
-    public static Icon calendars() {
-        return calendars(IconOptions.DEFAULT);
+    public static Icon lucideCalendars() {
+        return lucideCalendars(IconOptions.DEFAULT);
     }
 
-    public static Icon calendars(IconOptions options) {
-        return new Icon(INSTANCE::calendars, options);
+    public static Icon lucideCalendars(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendars, options);
     }
 
-    public static Icon camera() {
-        return camera(IconOptions.DEFAULT);
+    public static Icon lucideCamera() {
+        return lucideCamera(IconOptions.DEFAULT);
     }
 
-    public static Icon camera(IconOptions options) {
-        return new Icon(INSTANCE::camera, options);
+    public static Icon lucideCamera(IconOptions options) {
+        return new Icon(INSTANCE::lucideCamera, options);
     }
 
-    public static Icon cameraOff() {
-        return cameraOff(IconOptions.DEFAULT);
+    public static Icon lucideCameraOff() {
+        return lucideCameraOff(IconOptions.DEFAULT);
     }
 
-    public static Icon cameraOff(IconOptions options) {
-        return new Icon(INSTANCE::cameraOff, options);
+    public static Icon lucideCameraOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCameraOff, options);
     }
 
-    public static Icon can() {
-        return can(IconOptions.DEFAULT);
+    public static Icon lucideCan() {
+        return lucideCan(IconOptions.DEFAULT);
     }
 
-    public static Icon can(IconOptions options) {
-        return new Icon(INSTANCE::can, options);
+    public static Icon lucideCan(IconOptions options) {
+        return new Icon(INSTANCE::lucideCan, options);
     }
 
-    public static Icon canSoda() {
-        return canSoda(IconOptions.DEFAULT);
+    public static Icon lucideCanSoda() {
+        return lucideCanSoda(IconOptions.DEFAULT);
     }
 
-    public static Icon canSoda(IconOptions options) {
-        return new Icon(INSTANCE::canSoda, options);
+    public static Icon lucideCanSoda(IconOptions options) {
+        return new Icon(INSTANCE::lucideCanSoda, options);
     }
 
-    public static Icon candy() {
-        return candy(IconOptions.DEFAULT);
+    public static Icon lucideCandy() {
+        return lucideCandy(IconOptions.DEFAULT);
     }
 
-    public static Icon candy(IconOptions options) {
-        return new Icon(INSTANCE::candy, options);
+    public static Icon lucideCandy(IconOptions options) {
+        return new Icon(INSTANCE::lucideCandy, options);
     }
 
-    public static Icon candyCane() {
-        return candyCane(IconOptions.DEFAULT);
+    public static Icon lucideCandyCane() {
+        return lucideCandyCane(IconOptions.DEFAULT);
     }
 
-    public static Icon candyCane(IconOptions options) {
-        return new Icon(INSTANCE::candyCane, options);
+    public static Icon lucideCandyCane(IconOptions options) {
+        return new Icon(INSTANCE::lucideCandyCane, options);
     }
 
-    public static Icon candyOff() {
-        return candyOff(IconOptions.DEFAULT);
+    public static Icon lucideCandyOff() {
+        return lucideCandyOff(IconOptions.DEFAULT);
     }
 
-    public static Icon candyOff(IconOptions options) {
-        return new Icon(INSTANCE::candyOff, options);
+    public static Icon lucideCandyOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCandyOff, options);
     }
 
-    public static Icon cannabis() {
-        return cannabis(IconOptions.DEFAULT);
+    public static Icon lucideCannabis() {
+        return lucideCannabis(IconOptions.DEFAULT);
     }
 
-    public static Icon cannabis(IconOptions options) {
-        return new Icon(INSTANCE::cannabis, options);
+    public static Icon lucideCannabis(IconOptions options) {
+        return new Icon(INSTANCE::lucideCannabis, options);
     }
 
-    public static Icon cannabisOff() {
-        return cannabisOff(IconOptions.DEFAULT);
+    public static Icon lucideCannabisOff() {
+        return lucideCannabisOff(IconOptions.DEFAULT);
     }
 
-    public static Icon cannabisOff(IconOptions options) {
-        return new Icon(INSTANCE::cannabisOff, options);
+    public static Icon lucideCannabisOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCannabisOff, options);
     }
 
-    public static Icon captions() {
-        return captions(IconOptions.DEFAULT);
+    public static Icon lucideCaptions() {
+        return lucideCaptions(IconOptions.DEFAULT);
     }
 
-    public static Icon captions(IconOptions options) {
-        return new Icon(INSTANCE::captions, options);
+    public static Icon lucideCaptions(IconOptions options) {
+        return new Icon(INSTANCE::lucideCaptions, options);
     }
 
-    public static Icon captionsOff() {
-        return captionsOff(IconOptions.DEFAULT);
+    public static Icon lucideCaptionsOff() {
+        return lucideCaptionsOff(IconOptions.DEFAULT);
     }
 
-    public static Icon captionsOff(IconOptions options) {
-        return new Icon(INSTANCE::captionsOff, options);
+    public static Icon lucideCaptionsOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCaptionsOff, options);
     }
 
-    public static Icon car() {
-        return car(IconOptions.DEFAULT);
+    public static Icon lucideCar() {
+        return lucideCar(IconOptions.DEFAULT);
     }
 
-    public static Icon car(IconOptions options) {
-        return new Icon(INSTANCE::car, options);
+    public static Icon lucideCar(IconOptions options) {
+        return new Icon(INSTANCE::lucideCar, options);
     }
 
-    public static Icon carBattery() {
-        return carBattery(IconOptions.DEFAULT);
+    public static Icon lucideCarBattery() {
+        return lucideCarBattery(IconOptions.DEFAULT);
     }
 
-    public static Icon carBattery(IconOptions options) {
-        return new Icon(INSTANCE::carBattery, options);
+    public static Icon lucideCarBattery(IconOptions options) {
+        return new Icon(INSTANCE::lucideCarBattery, options);
     }
 
-    public static Icon carFront() {
-        return carFront(IconOptions.DEFAULT);
+    public static Icon lucideCarFront() {
+        return lucideCarFront(IconOptions.DEFAULT);
     }
 
-    public static Icon carFront(IconOptions options) {
-        return new Icon(INSTANCE::carFront, options);
+    public static Icon lucideCarFront(IconOptions options) {
+        return new Icon(INSTANCE::lucideCarFront, options);
     }
 
-    public static Icon carTaxiFront() {
-        return carTaxiFront(IconOptions.DEFAULT);
+    public static Icon lucideCarTaxiFront() {
+        return lucideCarTaxiFront(IconOptions.DEFAULT);
     }
 
-    public static Icon carTaxiFront(IconOptions options) {
-        return new Icon(INSTANCE::carTaxiFront, options);
+    public static Icon lucideCarTaxiFront(IconOptions options) {
+        return new Icon(INSTANCE::lucideCarTaxiFront, options);
     }
 
-    public static Icon caravan() {
-        return caravan(IconOptions.DEFAULT);
+    public static Icon lucideCaravan() {
+        return lucideCaravan(IconOptions.DEFAULT);
     }
 
-    public static Icon caravan(IconOptions options) {
-        return new Icon(INSTANCE::caravan, options);
+    public static Icon lucideCaravan(IconOptions options) {
+        return new Icon(INSTANCE::lucideCaravan, options);
     }
 
-    public static Icon cardSim() {
-        return cardSim(IconOptions.DEFAULT);
+    public static Icon lucideCardSim() {
+        return lucideCardSim(IconOptions.DEFAULT);
     }
 
-    public static Icon cardSim(IconOptions options) {
-        return new Icon(INSTANCE::cardSim, options);
+    public static Icon lucideCardSim(IconOptions options) {
+        return new Icon(INSTANCE::lucideCardSim, options);
     }
 
-    public static Icon carrot() {
-        return carrot(IconOptions.DEFAULT);
+    public static Icon lucideCarrot() {
+        return lucideCarrot(IconOptions.DEFAULT);
     }
 
-    public static Icon carrot(IconOptions options) {
-        return new Icon(INSTANCE::carrot, options);
+    public static Icon lucideCarrot(IconOptions options) {
+        return new Icon(INSTANCE::lucideCarrot, options);
     }
 
-    public static Icon carton() {
-        return carton(IconOptions.DEFAULT);
+    public static Icon lucideCarton() {
+        return lucideCarton(IconOptions.DEFAULT);
     }
 
-    public static Icon carton(IconOptions options) {
-        return new Icon(INSTANCE::carton, options);
+    public static Icon lucideCarton(IconOptions options) {
+        return new Icon(INSTANCE::lucideCarton, options);
     }
 
-    public static Icon cartonOff() {
-        return cartonOff(IconOptions.DEFAULT);
+    public static Icon lucideCartonOff() {
+        return lucideCartonOff(IconOptions.DEFAULT);
     }
 
-    public static Icon cartonOff(IconOptions options) {
-        return new Icon(INSTANCE::cartonOff, options);
+    public static Icon lucideCartonOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCartonOff, options);
     }
 
-    public static Icon caseLower() {
-        return caseLower(IconOptions.DEFAULT);
+    public static Icon lucideCaseLower() {
+        return lucideCaseLower(IconOptions.DEFAULT);
     }
 
-    public static Icon caseLower(IconOptions options) {
-        return new Icon(INSTANCE::caseLower, options);
+    public static Icon lucideCaseLower(IconOptions options) {
+        return new Icon(INSTANCE::lucideCaseLower, options);
     }
 
-    public static Icon caseSensitive() {
-        return caseSensitive(IconOptions.DEFAULT);
+    public static Icon lucideCaseSensitive() {
+        return lucideCaseSensitive(IconOptions.DEFAULT);
     }
 
-    public static Icon caseSensitive(IconOptions options) {
-        return new Icon(INSTANCE::caseSensitive, options);
+    public static Icon lucideCaseSensitive(IconOptions options) {
+        return new Icon(INSTANCE::lucideCaseSensitive, options);
     }
 
-    public static Icon caseUpper() {
-        return caseUpper(IconOptions.DEFAULT);
+    public static Icon lucideCaseUpper() {
+        return lucideCaseUpper(IconOptions.DEFAULT);
     }
 
-    public static Icon caseUpper(IconOptions options) {
-        return new Icon(INSTANCE::caseUpper, options);
+    public static Icon lucideCaseUpper(IconOptions options) {
+        return new Icon(INSTANCE::lucideCaseUpper, options);
     }
 
-    public static Icon cassetteTape() {
-        return cassetteTape(IconOptions.DEFAULT);
+    public static Icon lucideCassetteTape() {
+        return lucideCassetteTape(IconOptions.DEFAULT);
     }
 
-    public static Icon cassetteTape(IconOptions options) {
-        return new Icon(INSTANCE::cassetteTape, options);
+    public static Icon lucideCassetteTape(IconOptions options) {
+        return new Icon(INSTANCE::lucideCassetteTape, options);
     }
 
-    public static Icon cast() {
-        return cast(IconOptions.DEFAULT);
+    public static Icon lucideCast() {
+        return lucideCast(IconOptions.DEFAULT);
     }
 
-    public static Icon cast(IconOptions options) {
-        return new Icon(INSTANCE::cast, options);
+    public static Icon lucideCast(IconOptions options) {
+        return new Icon(INSTANCE::lucideCast, options);
     }
 
-    public static Icon castle() {
-        return castle(IconOptions.DEFAULT);
+    public static Icon lucideCastle() {
+        return lucideCastle(IconOptions.DEFAULT);
     }
 
-    public static Icon castle(IconOptions options) {
-        return new Icon(INSTANCE::castle, options);
+    public static Icon lucideCastle(IconOptions options) {
+        return new Icon(INSTANCE::lucideCastle, options);
     }
 
-    public static Icon cat() {
-        return cat(IconOptions.DEFAULT);
+    public static Icon lucideCat() {
+        return lucideCat(IconOptions.DEFAULT);
     }
 
-    public static Icon cat(IconOptions options) {
-        return new Icon(INSTANCE::cat, options);
+    public static Icon lucideCat(IconOptions options) {
+        return new Icon(INSTANCE::lucideCat, options);
     }
 
-    public static Icon cctv() {
-        return cctv(IconOptions.DEFAULT);
+    public static Icon lucideCctv() {
+        return lucideCctv(IconOptions.DEFAULT);
     }
 
-    public static Icon cctv(IconOptions options) {
-        return new Icon(INSTANCE::cctv, options);
+    public static Icon lucideCctv(IconOptions options) {
+        return new Icon(INSTANCE::lucideCctv, options);
     }
 
-    public static Icon cctvOff() {
-        return cctvOff(IconOptions.DEFAULT);
+    public static Icon lucideCctvOff() {
+        return lucideCctvOff(IconOptions.DEFAULT);
     }
 
-    public static Icon cctvOff(IconOptions options) {
-        return new Icon(INSTANCE::cctvOff, options);
+    public static Icon lucideCctvOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCctvOff, options);
     }
 
-    public static Icon chartArea() {
-        return chartArea(IconOptions.DEFAULT);
+    public static Icon lucideChartArea() {
+        return lucideChartArea(IconOptions.DEFAULT);
     }
 
-    public static Icon chartArea(IconOptions options) {
-        return new Icon(INSTANCE::chartArea, options);
+    public static Icon lucideChartArea(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartArea, options);
     }
 
-    public static Icon chartBar() {
-        return chartBar(IconOptions.DEFAULT);
+    public static Icon lucideChartBar() {
+        return lucideChartBar(IconOptions.DEFAULT);
     }
 
-    public static Icon chartBar(IconOptions options) {
-        return new Icon(INSTANCE::chartBar, options);
+    public static Icon lucideChartBar(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartBar, options);
     }
 
-    public static Icon chartBarBig() {
-        return chartBarBig(IconOptions.DEFAULT);
+    public static Icon lucideChartBarBig() {
+        return lucideChartBarBig(IconOptions.DEFAULT);
     }
 
-    public static Icon chartBarBig(IconOptions options) {
-        return new Icon(INSTANCE::chartBarBig, options);
+    public static Icon lucideChartBarBig(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartBarBig, options);
     }
 
-    public static Icon chartBarDecreasing() {
-        return chartBarDecreasing(IconOptions.DEFAULT);
+    public static Icon lucideChartBarDecreasing() {
+        return lucideChartBarDecreasing(IconOptions.DEFAULT);
     }
 
-    public static Icon chartBarDecreasing(IconOptions options) {
-        return new Icon(INSTANCE::chartBarDecreasing, options);
+    public static Icon lucideChartBarDecreasing(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartBarDecreasing, options);
     }
 
-    public static Icon chartBarIncreasing() {
-        return chartBarIncreasing(IconOptions.DEFAULT);
+    public static Icon lucideChartBarIncreasing() {
+        return lucideChartBarIncreasing(IconOptions.DEFAULT);
     }
 
-    public static Icon chartBarIncreasing(IconOptions options) {
-        return new Icon(INSTANCE::chartBarIncreasing, options);
+    public static Icon lucideChartBarIncreasing(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartBarIncreasing, options);
     }
 
-    public static Icon chartBarStacked() {
-        return chartBarStacked(IconOptions.DEFAULT);
+    public static Icon lucideChartBarStacked() {
+        return lucideChartBarStacked(IconOptions.DEFAULT);
     }
 
-    public static Icon chartBarStacked(IconOptions options) {
-        return new Icon(INSTANCE::chartBarStacked, options);
+    public static Icon lucideChartBarStacked(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartBarStacked, options);
     }
 
-    public static Icon chartCandlestick() {
-        return chartCandlestick(IconOptions.DEFAULT);
+    public static Icon lucideChartCandlestick() {
+        return lucideChartCandlestick(IconOptions.DEFAULT);
     }
 
-    public static Icon chartCandlestick(IconOptions options) {
-        return new Icon(INSTANCE::chartCandlestick, options);
+    public static Icon lucideChartCandlestick(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartCandlestick, options);
     }
 
-    public static Icon chartColumn() {
-        return chartColumn(IconOptions.DEFAULT);
+    public static Icon lucideChartColumn() {
+        return lucideChartColumn(IconOptions.DEFAULT);
     }
 
-    public static Icon chartColumn(IconOptions options) {
-        return new Icon(INSTANCE::chartColumn, options);
+    public static Icon lucideChartColumn(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartColumn, options);
     }
 
-    public static Icon chartColumnBig() {
-        return chartColumnBig(IconOptions.DEFAULT);
+    public static Icon lucideChartColumnBig() {
+        return lucideChartColumnBig(IconOptions.DEFAULT);
     }
 
-    public static Icon chartColumnBig(IconOptions options) {
-        return new Icon(INSTANCE::chartColumnBig, options);
+    public static Icon lucideChartColumnBig(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartColumnBig, options);
     }
 
-    public static Icon chartColumnDecreasing() {
-        return chartColumnDecreasing(IconOptions.DEFAULT);
+    public static Icon lucideChartColumnDecreasing() {
+        return lucideChartColumnDecreasing(IconOptions.DEFAULT);
     }
 
-    public static Icon chartColumnDecreasing(IconOptions options) {
-        return new Icon(INSTANCE::chartColumnDecreasing, options);
+    public static Icon lucideChartColumnDecreasing(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartColumnDecreasing, options);
     }
 
-    public static Icon chartColumnIncreasing() {
-        return chartColumnIncreasing(IconOptions.DEFAULT);
+    public static Icon lucideChartColumnIncreasing() {
+        return lucideChartColumnIncreasing(IconOptions.DEFAULT);
     }
 
-    public static Icon chartColumnIncreasing(IconOptions options) {
-        return new Icon(INSTANCE::chartColumnIncreasing, options);
+    public static Icon lucideChartColumnIncreasing(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartColumnIncreasing, options);
     }
 
-    public static Icon chartColumnStacked() {
-        return chartColumnStacked(IconOptions.DEFAULT);
+    public static Icon lucideChartColumnStacked() {
+        return lucideChartColumnStacked(IconOptions.DEFAULT);
     }
 
-    public static Icon chartColumnStacked(IconOptions options) {
-        return new Icon(INSTANCE::chartColumnStacked, options);
+    public static Icon lucideChartColumnStacked(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartColumnStacked, options);
     }
 
-    public static Icon chartGantt() {
-        return chartGantt(IconOptions.DEFAULT);
+    public static Icon lucideChartGantt() {
+        return lucideChartGantt(IconOptions.DEFAULT);
     }
 
-    public static Icon chartGantt(IconOptions options) {
-        return new Icon(INSTANCE::chartGantt, options);
+    public static Icon lucideChartGantt(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartGantt, options);
     }
 
-    public static Icon chartLine() {
-        return chartLine(IconOptions.DEFAULT);
+    public static Icon lucideChartLine() {
+        return lucideChartLine(IconOptions.DEFAULT);
     }
 
-    public static Icon chartLine(IconOptions options) {
-        return new Icon(INSTANCE::chartLine, options);
+    public static Icon lucideChartLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartLine, options);
     }
 
-    public static Icon chartNetwork() {
-        return chartNetwork(IconOptions.DEFAULT);
+    public static Icon lucideChartNetwork() {
+        return lucideChartNetwork(IconOptions.DEFAULT);
     }
 
-    public static Icon chartNetwork(IconOptions options) {
-        return new Icon(INSTANCE::chartNetwork, options);
+    public static Icon lucideChartNetwork(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartNetwork, options);
     }
 
-    public static Icon chartNoAxesColumn() {
-        return chartNoAxesColumn(IconOptions.DEFAULT);
+    public static Icon lucideChartNoAxesColumn() {
+        return lucideChartNoAxesColumn(IconOptions.DEFAULT);
     }
 
-    public static Icon chartNoAxesColumn(IconOptions options) {
-        return new Icon(INSTANCE::chartNoAxesColumn, options);
+    public static Icon lucideChartNoAxesColumn(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartNoAxesColumn, options);
     }
 
-    public static Icon chartNoAxesColumnDecreasing() {
-        return chartNoAxesColumnDecreasing(IconOptions.DEFAULT);
+    public static Icon lucideChartNoAxesColumnDecreasing() {
+        return lucideChartNoAxesColumnDecreasing(IconOptions.DEFAULT);
     }
 
-    public static Icon chartNoAxesColumnDecreasing(IconOptions options) {
-        return new Icon(INSTANCE::chartNoAxesColumnDecreasing, options);
+    public static Icon lucideChartNoAxesColumnDecreasing(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartNoAxesColumnDecreasing, options);
     }
 
-    public static Icon chartNoAxesColumnIncreasing() {
-        return chartNoAxesColumnIncreasing(IconOptions.DEFAULT);
+    public static Icon lucideChartNoAxesColumnIncreasing() {
+        return lucideChartNoAxesColumnIncreasing(IconOptions.DEFAULT);
     }
 
-    public static Icon chartNoAxesColumnIncreasing(IconOptions options) {
-        return new Icon(INSTANCE::chartNoAxesColumnIncreasing, options);
+    public static Icon lucideChartNoAxesColumnIncreasing(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartNoAxesColumnIncreasing, options);
     }
 
-    public static Icon chartNoAxesCombined() {
-        return chartNoAxesCombined(IconOptions.DEFAULT);
+    public static Icon lucideChartNoAxesCombined() {
+        return lucideChartNoAxesCombined(IconOptions.DEFAULT);
     }
 
-    public static Icon chartNoAxesCombined(IconOptions options) {
-        return new Icon(INSTANCE::chartNoAxesCombined, options);
+    public static Icon lucideChartNoAxesCombined(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartNoAxesCombined, options);
     }
 
-    public static Icon chartNoAxesGantt() {
-        return chartNoAxesGantt(IconOptions.DEFAULT);
+    public static Icon lucideChartNoAxesGantt() {
+        return lucideChartNoAxesGantt(IconOptions.DEFAULT);
     }
 
-    public static Icon chartNoAxesGantt(IconOptions options) {
-        return new Icon(INSTANCE::chartNoAxesGantt, options);
+    public static Icon lucideChartNoAxesGantt(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartNoAxesGantt, options);
     }
 
-    public static Icon chartPie() {
-        return chartPie(IconOptions.DEFAULT);
+    public static Icon lucideChartPie() {
+        return lucideChartPie(IconOptions.DEFAULT);
     }
 
-    public static Icon chartPie(IconOptions options) {
-        return new Icon(INSTANCE::chartPie, options);
+    public static Icon lucideChartPie(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartPie, options);
     }
 
-    public static Icon chartScatter() {
-        return chartScatter(IconOptions.DEFAULT);
+    public static Icon lucideChartScatter() {
+        return lucideChartScatter(IconOptions.DEFAULT);
     }
 
-    public static Icon chartScatter(IconOptions options) {
-        return new Icon(INSTANCE::chartScatter, options);
+    public static Icon lucideChartScatter(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartScatter, options);
     }
 
-    public static Icon chartSpline() {
-        return chartSpline(IconOptions.DEFAULT);
+    public static Icon lucideChartSpline() {
+        return lucideChartSpline(IconOptions.DEFAULT);
     }
 
-    public static Icon chartSpline(IconOptions options) {
-        return new Icon(INSTANCE::chartSpline, options);
+    public static Icon lucideChartSpline(IconOptions options) {
+        return new Icon(INSTANCE::lucideChartSpline, options);
     }
 
-    public static Icon check() {
-        return check(IconOptions.DEFAULT);
+    public static Icon lucideCheck() {
+        return lucideCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon check(IconOptions options) {
-        return new Icon(INSTANCE::check, options);
+    public static Icon lucideCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideCheck, options);
     }
 
-    public static Icon checkCheck() {
-        return checkCheck(IconOptions.DEFAULT);
+    public static Icon lucideCheckCheck() {
+        return lucideCheckCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon checkCheck(IconOptions options) {
-        return new Icon(INSTANCE::checkCheck, options);
+    public static Icon lucideCheckCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideCheckCheck, options);
     }
 
-    public static Icon checkLine() {
-        return checkLine(IconOptions.DEFAULT);
+    public static Icon lucideCheckLine() {
+        return lucideCheckLine(IconOptions.DEFAULT);
     }
 
-    public static Icon checkLine(IconOptions options) {
-        return new Icon(INSTANCE::checkLine, options);
+    public static Icon lucideCheckLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideCheckLine, options);
     }
 
-    public static Icon chefHat() {
-        return chefHat(IconOptions.DEFAULT);
+    public static Icon lucideChefHat() {
+        return lucideChefHat(IconOptions.DEFAULT);
     }
 
-    public static Icon chefHat(IconOptions options) {
-        return new Icon(INSTANCE::chefHat, options);
+    public static Icon lucideChefHat(IconOptions options) {
+        return new Icon(INSTANCE::lucideChefHat, options);
     }
 
-    public static Icon cherry() {
-        return cherry(IconOptions.DEFAULT);
+    public static Icon lucideCherry() {
+        return lucideCherry(IconOptions.DEFAULT);
     }
 
-    public static Icon cherry(IconOptions options) {
-        return new Icon(INSTANCE::cherry, options);
+    public static Icon lucideCherry(IconOptions options) {
+        return new Icon(INSTANCE::lucideCherry, options);
     }
 
-    public static Icon chessBishop() {
-        return chessBishop(IconOptions.DEFAULT);
+    public static Icon lucideChessBishop() {
+        return lucideChessBishop(IconOptions.DEFAULT);
     }
 
-    public static Icon chessBishop(IconOptions options) {
-        return new Icon(INSTANCE::chessBishop, options);
+    public static Icon lucideChessBishop(IconOptions options) {
+        return new Icon(INSTANCE::lucideChessBishop, options);
     }
 
-    public static Icon chessKing() {
-        return chessKing(IconOptions.DEFAULT);
+    public static Icon lucideChessKing() {
+        return lucideChessKing(IconOptions.DEFAULT);
     }
 
-    public static Icon chessKing(IconOptions options) {
-        return new Icon(INSTANCE::chessKing, options);
+    public static Icon lucideChessKing(IconOptions options) {
+        return new Icon(INSTANCE::lucideChessKing, options);
     }
 
-    public static Icon chessKnight() {
-        return chessKnight(IconOptions.DEFAULT);
+    public static Icon lucideChessKnight() {
+        return lucideChessKnight(IconOptions.DEFAULT);
     }
 
-    public static Icon chessKnight(IconOptions options) {
-        return new Icon(INSTANCE::chessKnight, options);
+    public static Icon lucideChessKnight(IconOptions options) {
+        return new Icon(INSTANCE::lucideChessKnight, options);
     }
 
-    public static Icon chessPawn() {
-        return chessPawn(IconOptions.DEFAULT);
+    public static Icon lucideChessPawn() {
+        return lucideChessPawn(IconOptions.DEFAULT);
     }
 
-    public static Icon chessPawn(IconOptions options) {
-        return new Icon(INSTANCE::chessPawn, options);
+    public static Icon lucideChessPawn(IconOptions options) {
+        return new Icon(INSTANCE::lucideChessPawn, options);
     }
 
-    public static Icon chessQueen() {
-        return chessQueen(IconOptions.DEFAULT);
+    public static Icon lucideChessQueen() {
+        return lucideChessQueen(IconOptions.DEFAULT);
     }
 
-    public static Icon chessQueen(IconOptions options) {
-        return new Icon(INSTANCE::chessQueen, options);
+    public static Icon lucideChessQueen(IconOptions options) {
+        return new Icon(INSTANCE::lucideChessQueen, options);
     }
 
-    public static Icon chessRook() {
-        return chessRook(IconOptions.DEFAULT);
+    public static Icon lucideChessRook() {
+        return lucideChessRook(IconOptions.DEFAULT);
     }
 
-    public static Icon chessRook(IconOptions options) {
-        return new Icon(INSTANCE::chessRook, options);
+    public static Icon lucideChessRook(IconOptions options) {
+        return new Icon(INSTANCE::lucideChessRook, options);
     }
 
-    public static Icon chevronDown() {
-        return chevronDown(IconOptions.DEFAULT);
+    public static Icon lucideChevronDown() {
+        return lucideChevronDown(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronDown(IconOptions options) {
-        return new Icon(INSTANCE::chevronDown, options);
+    public static Icon lucideChevronDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronDown, options);
     }
 
-    public static Icon chevronFirst() {
-        return chevronFirst(IconOptions.DEFAULT);
+    public static Icon lucideChevronFirst() {
+        return lucideChevronFirst(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronFirst(IconOptions options) {
-        return new Icon(INSTANCE::chevronFirst, options);
+    public static Icon lucideChevronFirst(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronFirst, options);
     }
 
-    public static Icon chevronLast() {
-        return chevronLast(IconOptions.DEFAULT);
+    public static Icon lucideChevronLast() {
+        return lucideChevronLast(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronLast(IconOptions options) {
-        return new Icon(INSTANCE::chevronLast, options);
+    public static Icon lucideChevronLast(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronLast, options);
     }
 
-    public static Icon chevronLeft() {
-        return chevronLeft(IconOptions.DEFAULT);
+    public static Icon lucideChevronLeft() {
+        return lucideChevronLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronLeft(IconOptions options) {
-        return new Icon(INSTANCE::chevronLeft, options);
+    public static Icon lucideChevronLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronLeft, options);
     }
 
-    public static Icon chevronRight() {
-        return chevronRight(IconOptions.DEFAULT);
+    public static Icon lucideChevronRight() {
+        return lucideChevronRight(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronRight(IconOptions options) {
-        return new Icon(INSTANCE::chevronRight, options);
+    public static Icon lucideChevronRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronRight, options);
     }
 
-    public static Icon chevronUp() {
-        return chevronUp(IconOptions.DEFAULT);
+    public static Icon lucideChevronUp() {
+        return lucideChevronUp(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronUp(IconOptions options) {
-        return new Icon(INSTANCE::chevronUp, options);
+    public static Icon lucideChevronUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronUp, options);
     }
 
-    public static Icon chevronsDown() {
-        return chevronsDown(IconOptions.DEFAULT);
+    public static Icon lucideChevronsDown() {
+        return lucideChevronsDown(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronsDown(IconOptions options) {
-        return new Icon(INSTANCE::chevronsDown, options);
+    public static Icon lucideChevronsDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronsDown, options);
     }
 
-    public static Icon chevronsDownUp() {
-        return chevronsDownUp(IconOptions.DEFAULT);
+    public static Icon lucideChevronsDownUp() {
+        return lucideChevronsDownUp(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronsDownUp(IconOptions options) {
-        return new Icon(INSTANCE::chevronsDownUp, options);
+    public static Icon lucideChevronsDownUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronsDownUp, options);
     }
 
-    public static Icon chevronsLeft() {
-        return chevronsLeft(IconOptions.DEFAULT);
+    public static Icon lucideChevronsLeft() {
+        return lucideChevronsLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronsLeft(IconOptions options) {
-        return new Icon(INSTANCE::chevronsLeft, options);
+    public static Icon lucideChevronsLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronsLeft, options);
     }
 
-    public static Icon chevronsLeftRight() {
-        return chevronsLeftRight(IconOptions.DEFAULT);
+    public static Icon lucideChevronsLeftRight() {
+        return lucideChevronsLeftRight(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronsLeftRight(IconOptions options) {
-        return new Icon(INSTANCE::chevronsLeftRight, options);
+    public static Icon lucideChevronsLeftRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronsLeftRight, options);
     }
 
-    public static Icon chevronsLeftRightEllipsis() {
-        return chevronsLeftRightEllipsis(IconOptions.DEFAULT);
+    public static Icon lucideChevronsLeftRightEllipsis() {
+        return lucideChevronsLeftRightEllipsis(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronsLeftRightEllipsis(IconOptions options) {
-        return new Icon(INSTANCE::chevronsLeftRightEllipsis, options);
+    public static Icon lucideChevronsLeftRightEllipsis(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronsLeftRightEllipsis, options);
     }
 
-    public static Icon chevronsRight() {
-        return chevronsRight(IconOptions.DEFAULT);
+    public static Icon lucideChevronsRight() {
+        return lucideChevronsRight(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronsRight(IconOptions options) {
-        return new Icon(INSTANCE::chevronsRight, options);
+    public static Icon lucideChevronsRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronsRight, options);
     }
 
-    public static Icon chevronsRightLeft() {
-        return chevronsRightLeft(IconOptions.DEFAULT);
+    public static Icon lucideChevronsRightLeft() {
+        return lucideChevronsRightLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronsRightLeft(IconOptions options) {
-        return new Icon(INSTANCE::chevronsRightLeft, options);
+    public static Icon lucideChevronsRightLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronsRightLeft, options);
     }
 
-    public static Icon chevronsUp() {
-        return chevronsUp(IconOptions.DEFAULT);
+    public static Icon lucideChevronsUp() {
+        return lucideChevronsUp(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronsUp(IconOptions options) {
-        return new Icon(INSTANCE::chevronsUp, options);
+    public static Icon lucideChevronsUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronsUp, options);
     }
 
-    public static Icon chevronsUpDown() {
-        return chevronsUpDown(IconOptions.DEFAULT);
+    public static Icon lucideChevronsUpDown() {
+        return lucideChevronsUpDown(IconOptions.DEFAULT);
     }
 
-    public static Icon chevronsUpDown(IconOptions options) {
-        return new Icon(INSTANCE::chevronsUpDown, options);
+    public static Icon lucideChevronsUpDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideChevronsUpDown, options);
     }
 
-    public static Icon church() {
-        return church(IconOptions.DEFAULT);
+    public static Icon lucideChurch() {
+        return lucideChurch(IconOptions.DEFAULT);
     }
 
-    public static Icon church(IconOptions options) {
-        return new Icon(INSTANCE::church, options);
+    public static Icon lucideChurch(IconOptions options) {
+        return new Icon(INSTANCE::lucideChurch, options);
     }
 
-    public static Icon cigarette() {
-        return cigarette(IconOptions.DEFAULT);
+    public static Icon lucideCigarette() {
+        return lucideCigarette(IconOptions.DEFAULT);
     }
 
-    public static Icon cigarette(IconOptions options) {
-        return new Icon(INSTANCE::cigarette, options);
+    public static Icon lucideCigarette(IconOptions options) {
+        return new Icon(INSTANCE::lucideCigarette, options);
     }
 
-    public static Icon cigaretteOff() {
-        return cigaretteOff(IconOptions.DEFAULT);
+    public static Icon lucideCigaretteOff() {
+        return lucideCigaretteOff(IconOptions.DEFAULT);
     }
 
-    public static Icon cigaretteOff(IconOptions options) {
-        return new Icon(INSTANCE::cigaretteOff, options);
+    public static Icon lucideCigaretteOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCigaretteOff, options);
     }
 
-    public static Icon circle() {
-        return circle(IconOptions.DEFAULT);
+    public static Icon lucideCircle() {
+        return lucideCircle(IconOptions.DEFAULT);
     }
 
-    public static Icon circle(IconOptions options) {
-        return new Icon(INSTANCE::circle, options);
+    public static Icon lucideCircle(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircle, options);
     }
 
-    public static Icon circleAlert() {
-        return circleAlert(IconOptions.DEFAULT);
+    public static Icon lucideCircleAlert() {
+        return lucideCircleAlert(IconOptions.DEFAULT);
     }
 
-    public static Icon circleAlert(IconOptions options) {
-        return new Icon(INSTANCE::circleAlert, options);
+    public static Icon lucideCircleAlert(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleAlert, options);
     }
 
-    public static Icon circleArrowDown() {
-        return circleArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideCircleArrowDown() {
+        return lucideCircleArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon circleArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::circleArrowDown, options);
+    public static Icon lucideCircleArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleArrowDown, options);
     }
 
-    public static Icon circleArrowLeft() {
-        return circleArrowLeft(IconOptions.DEFAULT);
+    public static Icon lucideCircleArrowLeft() {
+        return lucideCircleArrowLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon circleArrowLeft(IconOptions options) {
-        return new Icon(INSTANCE::circleArrowLeft, options);
+    public static Icon lucideCircleArrowLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleArrowLeft, options);
     }
 
-    public static Icon circleArrowOutDownLeft() {
-        return circleArrowOutDownLeft(IconOptions.DEFAULT);
+    public static Icon lucideCircleArrowOutDownLeft() {
+        return lucideCircleArrowOutDownLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon circleArrowOutDownLeft(IconOptions options) {
-        return new Icon(INSTANCE::circleArrowOutDownLeft, options);
+    public static Icon lucideCircleArrowOutDownLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleArrowOutDownLeft, options);
     }
 
-    public static Icon circleArrowOutDownRight() {
-        return circleArrowOutDownRight(IconOptions.DEFAULT);
+    public static Icon lucideCircleArrowOutDownRight() {
+        return lucideCircleArrowOutDownRight(IconOptions.DEFAULT);
     }
 
-    public static Icon circleArrowOutDownRight(IconOptions options) {
-        return new Icon(INSTANCE::circleArrowOutDownRight, options);
+    public static Icon lucideCircleArrowOutDownRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleArrowOutDownRight, options);
     }
 
-    public static Icon circleArrowOutUpLeft() {
-        return circleArrowOutUpLeft(IconOptions.DEFAULT);
+    public static Icon lucideCircleArrowOutUpLeft() {
+        return lucideCircleArrowOutUpLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon circleArrowOutUpLeft(IconOptions options) {
-        return new Icon(INSTANCE::circleArrowOutUpLeft, options);
+    public static Icon lucideCircleArrowOutUpLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleArrowOutUpLeft, options);
     }
 
-    public static Icon circleArrowOutUpRight() {
-        return circleArrowOutUpRight(IconOptions.DEFAULT);
+    public static Icon lucideCircleArrowOutUpRight() {
+        return lucideCircleArrowOutUpRight(IconOptions.DEFAULT);
     }
 
-    public static Icon circleArrowOutUpRight(IconOptions options) {
-        return new Icon(INSTANCE::circleArrowOutUpRight, options);
+    public static Icon lucideCircleArrowOutUpRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleArrowOutUpRight, options);
     }
 
-    public static Icon circleArrowRight() {
-        return circleArrowRight(IconOptions.DEFAULT);
+    public static Icon lucideCircleArrowRight() {
+        return lucideCircleArrowRight(IconOptions.DEFAULT);
     }
 
-    public static Icon circleArrowRight(IconOptions options) {
-        return new Icon(INSTANCE::circleArrowRight, options);
+    public static Icon lucideCircleArrowRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleArrowRight, options);
     }
 
-    public static Icon circleArrowUp() {
-        return circleArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideCircleArrowUp() {
+        return lucideCircleArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon circleArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::circleArrowUp, options);
+    public static Icon lucideCircleArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleArrowUp, options);
     }
 
-    public static Icon circleCheck() {
-        return circleCheck(IconOptions.DEFAULT);
+    public static Icon lucideCircleCheck() {
+        return lucideCircleCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon circleCheck(IconOptions options) {
-        return new Icon(INSTANCE::circleCheck, options);
+    public static Icon lucideCircleCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleCheck, options);
     }
 
-    public static Icon circleCheckBig() {
-        return circleCheckBig(IconOptions.DEFAULT);
+    public static Icon lucideCircleCheckBig() {
+        return lucideCircleCheckBig(IconOptions.DEFAULT);
     }
 
-    public static Icon circleCheckBig(IconOptions options) {
-        return new Icon(INSTANCE::circleCheckBig, options);
+    public static Icon lucideCircleCheckBig(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleCheckBig, options);
     }
 
-    public static Icon circleChevronDown() {
-        return circleChevronDown(IconOptions.DEFAULT);
+    public static Icon lucideCircleChevronDown() {
+        return lucideCircleChevronDown(IconOptions.DEFAULT);
     }
 
-    public static Icon circleChevronDown(IconOptions options) {
-        return new Icon(INSTANCE::circleChevronDown, options);
+    public static Icon lucideCircleChevronDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleChevronDown, options);
     }
 
-    public static Icon circleChevronLeft() {
-        return circleChevronLeft(IconOptions.DEFAULT);
+    public static Icon lucideCircleChevronLeft() {
+        return lucideCircleChevronLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon circleChevronLeft(IconOptions options) {
-        return new Icon(INSTANCE::circleChevronLeft, options);
+    public static Icon lucideCircleChevronLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleChevronLeft, options);
     }
 
-    public static Icon circleChevronRight() {
-        return circleChevronRight(IconOptions.DEFAULT);
+    public static Icon lucideCircleChevronRight() {
+        return lucideCircleChevronRight(IconOptions.DEFAULT);
     }
 
-    public static Icon circleChevronRight(IconOptions options) {
-        return new Icon(INSTANCE::circleChevronRight, options);
+    public static Icon lucideCircleChevronRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleChevronRight, options);
     }
 
-    public static Icon circleChevronUp() {
-        return circleChevronUp(IconOptions.DEFAULT);
+    public static Icon lucideCircleChevronUp() {
+        return lucideCircleChevronUp(IconOptions.DEFAULT);
     }
 
-    public static Icon circleChevronUp(IconOptions options) {
-        return new Icon(INSTANCE::circleChevronUp, options);
+    public static Icon lucideCircleChevronUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleChevronUp, options);
     }
 
-    public static Icon circleDashed() {
-        return circleDashed(IconOptions.DEFAULT);
+    public static Icon lucideCircleDashed() {
+        return lucideCircleDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon circleDashed(IconOptions options) {
-        return new Icon(INSTANCE::circleDashed, options);
+    public static Icon lucideCircleDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleDashed, options);
     }
 
-    public static Icon circleDashedCheck() {
-        return circleDashedCheck(IconOptions.DEFAULT);
+    public static Icon lucideCircleDashedCheck() {
+        return lucideCircleDashedCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon circleDashedCheck(IconOptions options) {
-        return new Icon(INSTANCE::circleDashedCheck, options);
+    public static Icon lucideCircleDashedCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleDashedCheck, options);
     }
 
-    public static Icon circleDivide() {
-        return circleDivide(IconOptions.DEFAULT);
+    public static Icon lucideCircleDivide() {
+        return lucideCircleDivide(IconOptions.DEFAULT);
     }
 
-    public static Icon circleDivide(IconOptions options) {
-        return new Icon(INSTANCE::circleDivide, options);
+    public static Icon lucideCircleDivide(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleDivide, options);
     }
 
-    public static Icon circleDollarSign() {
-        return circleDollarSign(IconOptions.DEFAULT);
+    public static Icon lucideCircleDollarSign() {
+        return lucideCircleDollarSign(IconOptions.DEFAULT);
     }
 
-    public static Icon circleDollarSign(IconOptions options) {
-        return new Icon(INSTANCE::circleDollarSign, options);
+    public static Icon lucideCircleDollarSign(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleDollarSign, options);
     }
 
-    public static Icon circleDot() {
-        return circleDot(IconOptions.DEFAULT);
+    public static Icon lucideCircleDot() {
+        return lucideCircleDot(IconOptions.DEFAULT);
     }
 
-    public static Icon circleDot(IconOptions options) {
-        return new Icon(INSTANCE::circleDot, options);
+    public static Icon lucideCircleDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleDot, options);
     }
 
-    public static Icon circleDotDashed() {
-        return circleDotDashed(IconOptions.DEFAULT);
+    public static Icon lucideCircleDotDashed() {
+        return lucideCircleDotDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon circleDotDashed(IconOptions options) {
-        return new Icon(INSTANCE::circleDotDashed, options);
+    public static Icon lucideCircleDotDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleDotDashed, options);
     }
 
-    public static Icon circleEllipsis() {
-        return circleEllipsis(IconOptions.DEFAULT);
+    public static Icon lucideCircleEllipsis() {
+        return lucideCircleEllipsis(IconOptions.DEFAULT);
     }
 
-    public static Icon circleEllipsis(IconOptions options) {
-        return new Icon(INSTANCE::circleEllipsis, options);
+    public static Icon lucideCircleEllipsis(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleEllipsis, options);
     }
 
-    public static Icon circleEqual() {
-        return circleEqual(IconOptions.DEFAULT);
+    public static Icon lucideCircleEqual() {
+        return lucideCircleEqual(IconOptions.DEFAULT);
     }
 
-    public static Icon circleEqual(IconOptions options) {
-        return new Icon(INSTANCE::circleEqual, options);
+    public static Icon lucideCircleEqual(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleEqual, options);
     }
 
-    public static Icon circleEuro() {
-        return circleEuro(IconOptions.DEFAULT);
+    public static Icon lucideCircleEuro() {
+        return lucideCircleEuro(IconOptions.DEFAULT);
     }
 
-    public static Icon circleEuro(IconOptions options) {
-        return new Icon(INSTANCE::circleEuro, options);
+    public static Icon lucideCircleEuro(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleEuro, options);
     }
 
-    public static Icon circleFadingArrowUp() {
-        return circleFadingArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideCircleFadingArrowUp() {
+        return lucideCircleFadingArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon circleFadingArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::circleFadingArrowUp, options);
+    public static Icon lucideCircleFadingArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleFadingArrowUp, options);
     }
 
-    public static Icon circleFadingPlus() {
-        return circleFadingPlus(IconOptions.DEFAULT);
+    public static Icon lucideCircleFadingPlus() {
+        return lucideCircleFadingPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon circleFadingPlus(IconOptions options) {
-        return new Icon(INSTANCE::circleFadingPlus, options);
+    public static Icon lucideCircleFadingPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleFadingPlus, options);
     }
 
-    public static Icon circleGauge() {
-        return circleGauge(IconOptions.DEFAULT);
+    public static Icon lucideCircleGauge() {
+        return lucideCircleGauge(IconOptions.DEFAULT);
     }
 
-    public static Icon circleGauge(IconOptions options) {
-        return new Icon(INSTANCE::circleGauge, options);
+    public static Icon lucideCircleGauge(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleGauge, options);
     }
 
-    public static Icon circleMinus() {
-        return circleMinus(IconOptions.DEFAULT);
+    public static Icon lucideCircleMinus() {
+        return lucideCircleMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon circleMinus(IconOptions options) {
-        return new Icon(INSTANCE::circleMinus, options);
+    public static Icon lucideCircleMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleMinus, options);
     }
 
-    public static Icon circleOff() {
-        return circleOff(IconOptions.DEFAULT);
+    public static Icon lucideCircleOff() {
+        return lucideCircleOff(IconOptions.DEFAULT);
     }
 
-    public static Icon circleOff(IconOptions options) {
-        return new Icon(INSTANCE::circleOff, options);
+    public static Icon lucideCircleOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleOff, options);
     }
 
-    public static Icon circleParking() {
-        return circleParking(IconOptions.DEFAULT);
+    public static Icon lucideCircleParking() {
+        return lucideCircleParking(IconOptions.DEFAULT);
     }
 
-    public static Icon circleParking(IconOptions options) {
-        return new Icon(INSTANCE::circleParking, options);
+    public static Icon lucideCircleParking(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleParking, options);
     }
 
-    public static Icon circleParkingOff() {
-        return circleParkingOff(IconOptions.DEFAULT);
+    public static Icon lucideCircleParkingOff() {
+        return lucideCircleParkingOff(IconOptions.DEFAULT);
     }
 
-    public static Icon circleParkingOff(IconOptions options) {
-        return new Icon(INSTANCE::circleParkingOff, options);
+    public static Icon lucideCircleParkingOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleParkingOff, options);
     }
 
-    public static Icon circlePause() {
-        return circlePause(IconOptions.DEFAULT);
+    public static Icon lucideCirclePause() {
+        return lucideCirclePause(IconOptions.DEFAULT);
     }
 
-    public static Icon circlePause(IconOptions options) {
-        return new Icon(INSTANCE::circlePause, options);
+    public static Icon lucideCirclePause(IconOptions options) {
+        return new Icon(INSTANCE::lucideCirclePause, options);
     }
 
-    public static Icon circlePercent() {
-        return circlePercent(IconOptions.DEFAULT);
+    public static Icon lucideCirclePercent() {
+        return lucideCirclePercent(IconOptions.DEFAULT);
     }
 
-    public static Icon circlePercent(IconOptions options) {
-        return new Icon(INSTANCE::circlePercent, options);
+    public static Icon lucideCirclePercent(IconOptions options) {
+        return new Icon(INSTANCE::lucideCirclePercent, options);
     }
 
-    public static Icon circlePile() {
-        return circlePile(IconOptions.DEFAULT);
+    public static Icon lucideCirclePile() {
+        return lucideCirclePile(IconOptions.DEFAULT);
     }
 
-    public static Icon circlePile(IconOptions options) {
-        return new Icon(INSTANCE::circlePile, options);
+    public static Icon lucideCirclePile(IconOptions options) {
+        return new Icon(INSTANCE::lucideCirclePile, options);
     }
 
-    public static Icon circlePlay() {
-        return circlePlay(IconOptions.DEFAULT);
+    public static Icon lucideCirclePlay() {
+        return lucideCirclePlay(IconOptions.DEFAULT);
     }
 
-    public static Icon circlePlay(IconOptions options) {
-        return new Icon(INSTANCE::circlePlay, options);
+    public static Icon lucideCirclePlay(IconOptions options) {
+        return new Icon(INSTANCE::lucideCirclePlay, options);
     }
 
-    public static Icon circlePlus() {
-        return circlePlus(IconOptions.DEFAULT);
+    public static Icon lucideCirclePlus() {
+        return lucideCirclePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon circlePlus(IconOptions options) {
-        return new Icon(INSTANCE::circlePlus, options);
+    public static Icon lucideCirclePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCirclePlus, options);
     }
 
-    public static Icon circlePoundSterling() {
-        return circlePoundSterling(IconOptions.DEFAULT);
+    public static Icon lucideCirclePoundSterling() {
+        return lucideCirclePoundSterling(IconOptions.DEFAULT);
     }
 
-    public static Icon circlePoundSterling(IconOptions options) {
-        return new Icon(INSTANCE::circlePoundSterling, options);
+    public static Icon lucideCirclePoundSterling(IconOptions options) {
+        return new Icon(INSTANCE::lucideCirclePoundSterling, options);
     }
 
-    public static Icon circlePower() {
-        return circlePower(IconOptions.DEFAULT);
+    public static Icon lucideCirclePower() {
+        return lucideCirclePower(IconOptions.DEFAULT);
     }
 
-    public static Icon circlePower(IconOptions options) {
-        return new Icon(INSTANCE::circlePower, options);
+    public static Icon lucideCirclePower(IconOptions options) {
+        return new Icon(INSTANCE::lucideCirclePower, options);
     }
 
-    public static Icon circleQuestionMark() {
-        return circleQuestionMark(IconOptions.DEFAULT);
+    public static Icon lucideCircleQuestionMark() {
+        return lucideCircleQuestionMark(IconOptions.DEFAULT);
     }
 
-    public static Icon circleQuestionMark(IconOptions options) {
-        return new Icon(INSTANCE::circleQuestionMark, options);
+    public static Icon lucideCircleQuestionMark(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleQuestionMark, options);
     }
 
-    public static Icon circleSlash() {
-        return circleSlash(IconOptions.DEFAULT);
+    public static Icon lucideCircleSlash() {
+        return lucideCircleSlash(IconOptions.DEFAULT);
     }
 
-    public static Icon circleSlash(IconOptions options) {
-        return new Icon(INSTANCE::circleSlash, options);
+    public static Icon lucideCircleSlash(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleSlash, options);
     }
 
-    public static Icon circleSlash2() {
-        return circleSlash2(IconOptions.DEFAULT);
+    public static Icon lucideCircleSlash2() {
+        return lucideCircleSlash2(IconOptions.DEFAULT);
     }
 
-    public static Icon circleSlash2(IconOptions options) {
-        return new Icon(INSTANCE::circleSlash2, options);
+    public static Icon lucideCircleSlash2(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleSlash2, options);
     }
 
-    public static Icon circleSmall() {
-        return circleSmall(IconOptions.DEFAULT);
+    public static Icon lucideCircleSmall() {
+        return lucideCircleSmall(IconOptions.DEFAULT);
     }
 
-    public static Icon circleSmall(IconOptions options) {
-        return new Icon(INSTANCE::circleSmall, options);
+    public static Icon lucideCircleSmall(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleSmall, options);
     }
 
-    public static Icon circleStar() {
-        return circleStar(IconOptions.DEFAULT);
+    public static Icon lucideCircleStar() {
+        return lucideCircleStar(IconOptions.DEFAULT);
     }
 
-    public static Icon circleStar(IconOptions options) {
-        return new Icon(INSTANCE::circleStar, options);
+    public static Icon lucideCircleStar(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleStar, options);
     }
 
-    public static Icon circleStop() {
-        return circleStop(IconOptions.DEFAULT);
+    public static Icon lucideCircleStop() {
+        return lucideCircleStop(IconOptions.DEFAULT);
     }
 
-    public static Icon circleStop(IconOptions options) {
-        return new Icon(INSTANCE::circleStop, options);
+    public static Icon lucideCircleStop(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleStop, options);
     }
 
-    public static Icon circleUser() {
-        return circleUser(IconOptions.DEFAULT);
+    public static Icon lucideCircleUser() {
+        return lucideCircleUser(IconOptions.DEFAULT);
     }
 
-    public static Icon circleUser(IconOptions options) {
-        return new Icon(INSTANCE::circleUser, options);
+    public static Icon lucideCircleUser(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleUser, options);
     }
 
-    public static Icon circleUserRound() {
-        return circleUserRound(IconOptions.DEFAULT);
+    public static Icon lucideCircleUserRound() {
+        return lucideCircleUserRound(IconOptions.DEFAULT);
     }
 
-    public static Icon circleUserRound(IconOptions options) {
-        return new Icon(INSTANCE::circleUserRound, options);
+    public static Icon lucideCircleUserRound(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleUserRound, options);
     }
 
-    public static Icon circleX() {
-        return circleX(IconOptions.DEFAULT);
+    public static Icon lucideCircleX() {
+        return lucideCircleX(IconOptions.DEFAULT);
     }
 
-    public static Icon circleX(IconOptions options) {
-        return new Icon(INSTANCE::circleX, options);
+    public static Icon lucideCircleX(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleX, options);
     }
 
-    public static Icon circuitBoard() {
-        return circuitBoard(IconOptions.DEFAULT);
+    public static Icon lucideCircuitBoard() {
+        return lucideCircuitBoard(IconOptions.DEFAULT);
     }
 
-    public static Icon circuitBoard(IconOptions options) {
-        return new Icon(INSTANCE::circuitBoard, options);
+    public static Icon lucideCircuitBoard(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircuitBoard, options);
     }
 
-    public static Icon citrus() {
-        return citrus(IconOptions.DEFAULT);
+    public static Icon lucideCitrus() {
+        return lucideCitrus(IconOptions.DEFAULT);
     }
 
-    public static Icon citrus(IconOptions options) {
-        return new Icon(INSTANCE::citrus, options);
+    public static Icon lucideCitrus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCitrus, options);
     }
 
-    public static Icon clapperboard() {
-        return clapperboard(IconOptions.DEFAULT);
+    public static Icon lucideClapperboard() {
+        return lucideClapperboard(IconOptions.DEFAULT);
     }
 
-    public static Icon clapperboard(IconOptions options) {
-        return new Icon(INSTANCE::clapperboard, options);
+    public static Icon lucideClapperboard(IconOptions options) {
+        return new Icon(INSTANCE::lucideClapperboard, options);
     }
 
-    public static Icon clefAlto() {
-        return clefAlto(IconOptions.DEFAULT);
+    public static Icon lucideClefAlto() {
+        return lucideClefAlto(IconOptions.DEFAULT);
     }
 
-    public static Icon clefAlto(IconOptions options) {
-        return new Icon(INSTANCE::clefAlto, options);
+    public static Icon lucideClefAlto(IconOptions options) {
+        return new Icon(INSTANCE::lucideClefAlto, options);
     }
 
-    public static Icon clefBass() {
-        return clefBass(IconOptions.DEFAULT);
+    public static Icon lucideClefBass() {
+        return lucideClefBass(IconOptions.DEFAULT);
     }
 
-    public static Icon clefBass(IconOptions options) {
-        return new Icon(INSTANCE::clefBass, options);
+    public static Icon lucideClefBass(IconOptions options) {
+        return new Icon(INSTANCE::lucideClefBass, options);
     }
 
-    public static Icon clefTreble() {
-        return clefTreble(IconOptions.DEFAULT);
+    public static Icon lucideClefTreble() {
+        return lucideClefTreble(IconOptions.DEFAULT);
     }
 
-    public static Icon clefTreble(IconOptions options) {
-        return new Icon(INSTANCE::clefTreble, options);
+    public static Icon lucideClefTreble(IconOptions options) {
+        return new Icon(INSTANCE::lucideClefTreble, options);
     }
 
-    public static Icon clipboard() {
-        return clipboard(IconOptions.DEFAULT);
+    public static Icon lucideClipboard() {
+        return lucideClipboard(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboard(IconOptions options) {
-        return new Icon(INSTANCE::clipboard, options);
+    public static Icon lucideClipboard(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboard, options);
     }
 
-    public static Icon clipboardCheck() {
-        return clipboardCheck(IconOptions.DEFAULT);
+    public static Icon lucideClipboardCheck() {
+        return lucideClipboardCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardCheck(IconOptions options) {
-        return new Icon(INSTANCE::clipboardCheck, options);
+    public static Icon lucideClipboardCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardCheck, options);
     }
 
-    public static Icon clipboardClock() {
-        return clipboardClock(IconOptions.DEFAULT);
+    public static Icon lucideClipboardClock() {
+        return lucideClipboardClock(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardClock(IconOptions options) {
-        return new Icon(INSTANCE::clipboardClock, options);
+    public static Icon lucideClipboardClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardClock, options);
     }
 
-    public static Icon clipboardCopy() {
-        return clipboardCopy(IconOptions.DEFAULT);
+    public static Icon lucideClipboardCopy() {
+        return lucideClipboardCopy(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardCopy(IconOptions options) {
-        return new Icon(INSTANCE::clipboardCopy, options);
+    public static Icon lucideClipboardCopy(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardCopy, options);
     }
 
-    public static Icon clipboardList() {
-        return clipboardList(IconOptions.DEFAULT);
+    public static Icon lucideClipboardList() {
+        return lucideClipboardList(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardList(IconOptions options) {
-        return new Icon(INSTANCE::clipboardList, options);
+    public static Icon lucideClipboardList(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardList, options);
     }
 
-    public static Icon clipboardMinus() {
-        return clipboardMinus(IconOptions.DEFAULT);
+    public static Icon lucideClipboardMinus() {
+        return lucideClipboardMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardMinus(IconOptions options) {
-        return new Icon(INSTANCE::clipboardMinus, options);
+    public static Icon lucideClipboardMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardMinus, options);
     }
 
-    public static Icon clipboardPaste() {
-        return clipboardPaste(IconOptions.DEFAULT);
+    public static Icon lucideClipboardPaste() {
+        return lucideClipboardPaste(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardPaste(IconOptions options) {
-        return new Icon(INSTANCE::clipboardPaste, options);
+    public static Icon lucideClipboardPaste(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardPaste, options);
     }
 
-    public static Icon clipboardPen() {
-        return clipboardPen(IconOptions.DEFAULT);
+    public static Icon lucideClipboardPen() {
+        return lucideClipboardPen(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardPen(IconOptions options) {
-        return new Icon(INSTANCE::clipboardPen, options);
+    public static Icon lucideClipboardPen(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardPen, options);
     }
 
-    public static Icon clipboardPenLine() {
-        return clipboardPenLine(IconOptions.DEFAULT);
+    public static Icon lucideClipboardPenLine() {
+        return lucideClipboardPenLine(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardPenLine(IconOptions options) {
-        return new Icon(INSTANCE::clipboardPenLine, options);
+    public static Icon lucideClipboardPenLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardPenLine, options);
     }
 
-    public static Icon clipboardPlus() {
-        return clipboardPlus(IconOptions.DEFAULT);
+    public static Icon lucideClipboardPlus() {
+        return lucideClipboardPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardPlus(IconOptions options) {
-        return new Icon(INSTANCE::clipboardPlus, options);
+    public static Icon lucideClipboardPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardPlus, options);
     }
 
-    public static Icon clipboardType() {
-        return clipboardType(IconOptions.DEFAULT);
+    public static Icon lucideClipboardType() {
+        return lucideClipboardType(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardType(IconOptions options) {
-        return new Icon(INSTANCE::clipboardType, options);
+    public static Icon lucideClipboardType(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardType, options);
     }
 
-    public static Icon clipboardX() {
-        return clipboardX(IconOptions.DEFAULT);
+    public static Icon lucideClipboardX() {
+        return lucideClipboardX(IconOptions.DEFAULT);
     }
 
-    public static Icon clipboardX(IconOptions options) {
-        return new Icon(INSTANCE::clipboardX, options);
+    public static Icon lucideClipboardX(IconOptions options) {
+        return new Icon(INSTANCE::lucideClipboardX, options);
     }
 
-    public static Icon clock() {
-        return clock(IconOptions.DEFAULT);
+    public static Icon lucideClock() {
+        return lucideClock(IconOptions.DEFAULT);
     }
 
-    public static Icon clock(IconOptions options) {
-        return new Icon(INSTANCE::clock, options);
+    public static Icon lucideClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock, options);
     }
 
-    public static Icon clock1() {
-        return clock1(IconOptions.DEFAULT);
+    public static Icon lucideClock1() {
+        return lucideClock1(IconOptions.DEFAULT);
     }
 
-    public static Icon clock1(IconOptions options) {
-        return new Icon(INSTANCE::clock1, options);
+    public static Icon lucideClock1(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock1, options);
     }
 
-    public static Icon clock10() {
-        return clock10(IconOptions.DEFAULT);
+    public static Icon lucideClock10() {
+        return lucideClock10(IconOptions.DEFAULT);
     }
 
-    public static Icon clock10(IconOptions options) {
-        return new Icon(INSTANCE::clock10, options);
+    public static Icon lucideClock10(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock10, options);
     }
 
-    public static Icon clock11() {
-        return clock11(IconOptions.DEFAULT);
+    public static Icon lucideClock11() {
+        return lucideClock11(IconOptions.DEFAULT);
     }
 
-    public static Icon clock11(IconOptions options) {
-        return new Icon(INSTANCE::clock11, options);
+    public static Icon lucideClock11(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock11, options);
     }
 
-    public static Icon clock12() {
-        return clock12(IconOptions.DEFAULT);
+    public static Icon lucideClock12() {
+        return lucideClock12(IconOptions.DEFAULT);
     }
 
-    public static Icon clock12(IconOptions options) {
-        return new Icon(INSTANCE::clock12, options);
+    public static Icon lucideClock12(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock12, options);
     }
 
-    public static Icon clock2() {
-        return clock2(IconOptions.DEFAULT);
+    public static Icon lucideClock2() {
+        return lucideClock2(IconOptions.DEFAULT);
     }
 
-    public static Icon clock2(IconOptions options) {
-        return new Icon(INSTANCE::clock2, options);
+    public static Icon lucideClock2(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock2, options);
     }
 
-    public static Icon clock3() {
-        return clock3(IconOptions.DEFAULT);
+    public static Icon lucideClock3() {
+        return lucideClock3(IconOptions.DEFAULT);
     }
 
-    public static Icon clock3(IconOptions options) {
-        return new Icon(INSTANCE::clock3, options);
+    public static Icon lucideClock3(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock3, options);
     }
 
-    public static Icon clock4() {
-        return clock4(IconOptions.DEFAULT);
+    public static Icon lucideClock4() {
+        return lucideClock4(IconOptions.DEFAULT);
     }
 
-    public static Icon clock4(IconOptions options) {
-        return new Icon(INSTANCE::clock4, options);
+    public static Icon lucideClock4(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock4, options);
     }
 
-    public static Icon clock5() {
-        return clock5(IconOptions.DEFAULT);
+    public static Icon lucideClock5() {
+        return lucideClock5(IconOptions.DEFAULT);
     }
 
-    public static Icon clock5(IconOptions options) {
-        return new Icon(INSTANCE::clock5, options);
+    public static Icon lucideClock5(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock5, options);
     }
 
-    public static Icon clock6() {
-        return clock6(IconOptions.DEFAULT);
+    public static Icon lucideClock6() {
+        return lucideClock6(IconOptions.DEFAULT);
     }
 
-    public static Icon clock6(IconOptions options) {
-        return new Icon(INSTANCE::clock6, options);
+    public static Icon lucideClock6(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock6, options);
     }
 
-    public static Icon clock7() {
-        return clock7(IconOptions.DEFAULT);
+    public static Icon lucideClock7() {
+        return lucideClock7(IconOptions.DEFAULT);
     }
 
-    public static Icon clock7(IconOptions options) {
-        return new Icon(INSTANCE::clock7, options);
+    public static Icon lucideClock7(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock7, options);
     }
 
-    public static Icon clock8() {
-        return clock8(IconOptions.DEFAULT);
+    public static Icon lucideClock8() {
+        return lucideClock8(IconOptions.DEFAULT);
     }
 
-    public static Icon clock8(IconOptions options) {
-        return new Icon(INSTANCE::clock8, options);
+    public static Icon lucideClock8(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock8, options);
     }
 
-    public static Icon clock9() {
-        return clock9(IconOptions.DEFAULT);
+    public static Icon lucideClock9() {
+        return lucideClock9(IconOptions.DEFAULT);
     }
 
-    public static Icon clock9(IconOptions options) {
-        return new Icon(INSTANCE::clock9, options);
+    public static Icon lucideClock9(IconOptions options) {
+        return new Icon(INSTANCE::lucideClock9, options);
     }
 
-    public static Icon clockAlert() {
-        return clockAlert(IconOptions.DEFAULT);
+    public static Icon lucideClockAlert() {
+        return lucideClockAlert(IconOptions.DEFAULT);
     }
 
-    public static Icon clockAlert(IconOptions options) {
-        return new Icon(INSTANCE::clockAlert, options);
+    public static Icon lucideClockAlert(IconOptions options) {
+        return new Icon(INSTANCE::lucideClockAlert, options);
     }
 
-    public static Icon clockArrowDown() {
-        return clockArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideClockArrowDown() {
+        return lucideClockArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon clockArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::clockArrowDown, options);
+    public static Icon lucideClockArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideClockArrowDown, options);
     }
 
-    public static Icon clockArrowLeft() {
-        return clockArrowLeft(IconOptions.DEFAULT);
+    public static Icon lucideClockArrowLeft() {
+        return lucideClockArrowLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon clockArrowLeft(IconOptions options) {
-        return new Icon(INSTANCE::clockArrowLeft, options);
+    public static Icon lucideClockArrowLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideClockArrowLeft, options);
     }
 
-    public static Icon clockArrowRight() {
-        return clockArrowRight(IconOptions.DEFAULT);
+    public static Icon lucideClockArrowRight() {
+        return lucideClockArrowRight(IconOptions.DEFAULT);
     }
 
-    public static Icon clockArrowRight(IconOptions options) {
-        return new Icon(INSTANCE::clockArrowRight, options);
+    public static Icon lucideClockArrowRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideClockArrowRight, options);
     }
 
-    public static Icon clockArrowUp() {
-        return clockArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideClockArrowUp() {
+        return lucideClockArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon clockArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::clockArrowUp, options);
+    public static Icon lucideClockArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideClockArrowUp, options);
     }
 
-    public static Icon clockCheck() {
-        return clockCheck(IconOptions.DEFAULT);
+    public static Icon lucideClockCheck() {
+        return lucideClockCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon clockCheck(IconOptions options) {
-        return new Icon(INSTANCE::clockCheck, options);
+    public static Icon lucideClockCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideClockCheck, options);
     }
 
-    public static Icon clockFading() {
-        return clockFading(IconOptions.DEFAULT);
+    public static Icon lucideClockFading() {
+        return lucideClockFading(IconOptions.DEFAULT);
     }
 
-    public static Icon clockFading(IconOptions options) {
-        return new Icon(INSTANCE::clockFading, options);
+    public static Icon lucideClockFading(IconOptions options) {
+        return new Icon(INSTANCE::lucideClockFading, options);
     }
 
-    public static Icon clockPlus() {
-        return clockPlus(IconOptions.DEFAULT);
+    public static Icon lucideClockPlus() {
+        return lucideClockPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon clockPlus(IconOptions options) {
-        return new Icon(INSTANCE::clockPlus, options);
+    public static Icon lucideClockPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideClockPlus, options);
     }
 
-    public static Icon closedCaption() {
-        return closedCaption(IconOptions.DEFAULT);
+    public static Icon lucideClosedCaption() {
+        return lucideClosedCaption(IconOptions.DEFAULT);
     }
 
-    public static Icon closedCaption(IconOptions options) {
-        return new Icon(INSTANCE::closedCaption, options);
+    public static Icon lucideClosedCaption(IconOptions options) {
+        return new Icon(INSTANCE::lucideClosedCaption, options);
     }
 
-    public static Icon cloud() {
-        return cloud(IconOptions.DEFAULT);
+    public static Icon lucideCloud() {
+        return lucideCloud(IconOptions.DEFAULT);
     }
 
-    public static Icon cloud(IconOptions options) {
-        return new Icon(INSTANCE::cloud, options);
+    public static Icon lucideCloud(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloud, options);
     }
 
-    public static Icon cloudAlert() {
-        return cloudAlert(IconOptions.DEFAULT);
+    public static Icon lucideCloudAlert() {
+        return lucideCloudAlert(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudAlert(IconOptions options) {
-        return new Icon(INSTANCE::cloudAlert, options);
+    public static Icon lucideCloudAlert(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudAlert, options);
     }
 
-    public static Icon cloudBackup() {
-        return cloudBackup(IconOptions.DEFAULT);
+    public static Icon lucideCloudBackup() {
+        return lucideCloudBackup(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudBackup(IconOptions options) {
-        return new Icon(INSTANCE::cloudBackup, options);
+    public static Icon lucideCloudBackup(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudBackup, options);
     }
 
-    public static Icon cloudCheck() {
-        return cloudCheck(IconOptions.DEFAULT);
+    public static Icon lucideCloudCheck() {
+        return lucideCloudCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudCheck(IconOptions options) {
-        return new Icon(INSTANCE::cloudCheck, options);
+    public static Icon lucideCloudCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudCheck, options);
     }
 
-    public static Icon cloudCog() {
-        return cloudCog(IconOptions.DEFAULT);
+    public static Icon lucideCloudCog() {
+        return lucideCloudCog(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudCog(IconOptions options) {
-        return new Icon(INSTANCE::cloudCog, options);
+    public static Icon lucideCloudCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudCog, options);
     }
 
-    public static Icon cloudDownload() {
-        return cloudDownload(IconOptions.DEFAULT);
+    public static Icon lucideCloudDownload() {
+        return lucideCloudDownload(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudDownload(IconOptions options) {
-        return new Icon(INSTANCE::cloudDownload, options);
+    public static Icon lucideCloudDownload(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudDownload, options);
     }
 
-    public static Icon cloudDrizzle() {
-        return cloudDrizzle(IconOptions.DEFAULT);
+    public static Icon lucideCloudDrizzle() {
+        return lucideCloudDrizzle(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudDrizzle(IconOptions options) {
-        return new Icon(INSTANCE::cloudDrizzle, options);
+    public static Icon lucideCloudDrizzle(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudDrizzle, options);
     }
 
-    public static Icon cloudFog() {
-        return cloudFog(IconOptions.DEFAULT);
+    public static Icon lucideCloudFog() {
+        return lucideCloudFog(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudFog(IconOptions options) {
-        return new Icon(INSTANCE::cloudFog, options);
+    public static Icon lucideCloudFog(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudFog, options);
     }
 
-    public static Icon cloudHail() {
-        return cloudHail(IconOptions.DEFAULT);
+    public static Icon lucideCloudHail() {
+        return lucideCloudHail(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudHail(IconOptions options) {
-        return new Icon(INSTANCE::cloudHail, options);
+    public static Icon lucideCloudHail(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudHail, options);
     }
 
-    public static Icon cloudLightning() {
-        return cloudLightning(IconOptions.DEFAULT);
+    public static Icon lucideCloudLightning() {
+        return lucideCloudLightning(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudLightning(IconOptions options) {
-        return new Icon(INSTANCE::cloudLightning, options);
+    public static Icon lucideCloudLightning(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudLightning, options);
     }
 
-    public static Icon cloudMoon() {
-        return cloudMoon(IconOptions.DEFAULT);
+    public static Icon lucideCloudMoon() {
+        return lucideCloudMoon(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudMoon(IconOptions options) {
-        return new Icon(INSTANCE::cloudMoon, options);
+    public static Icon lucideCloudMoon(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudMoon, options);
     }
 
-    public static Icon cloudMoonRain() {
-        return cloudMoonRain(IconOptions.DEFAULT);
+    public static Icon lucideCloudMoonRain() {
+        return lucideCloudMoonRain(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudMoonRain(IconOptions options) {
-        return new Icon(INSTANCE::cloudMoonRain, options);
+    public static Icon lucideCloudMoonRain(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudMoonRain, options);
     }
 
-    public static Icon cloudOff() {
-        return cloudOff(IconOptions.DEFAULT);
+    public static Icon lucideCloudOff() {
+        return lucideCloudOff(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudOff(IconOptions options) {
-        return new Icon(INSTANCE::cloudOff, options);
+    public static Icon lucideCloudOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudOff, options);
     }
 
-    public static Icon cloudRain() {
-        return cloudRain(IconOptions.DEFAULT);
+    public static Icon lucideCloudRain() {
+        return lucideCloudRain(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudRain(IconOptions options) {
-        return new Icon(INSTANCE::cloudRain, options);
+    public static Icon lucideCloudRain(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudRain, options);
     }
 
-    public static Icon cloudRainWind() {
-        return cloudRainWind(IconOptions.DEFAULT);
+    public static Icon lucideCloudRainWind() {
+        return lucideCloudRainWind(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudRainWind(IconOptions options) {
-        return new Icon(INSTANCE::cloudRainWind, options);
+    public static Icon lucideCloudRainWind(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudRainWind, options);
     }
 
-    public static Icon cloudSnow() {
-        return cloudSnow(IconOptions.DEFAULT);
+    public static Icon lucideCloudSnow() {
+        return lucideCloudSnow(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudSnow(IconOptions options) {
-        return new Icon(INSTANCE::cloudSnow, options);
+    public static Icon lucideCloudSnow(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudSnow, options);
     }
 
-    public static Icon cloudSun() {
-        return cloudSun(IconOptions.DEFAULT);
+    public static Icon lucideCloudSun() {
+        return lucideCloudSun(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudSun(IconOptions options) {
-        return new Icon(INSTANCE::cloudSun, options);
+    public static Icon lucideCloudSun(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudSun, options);
     }
 
-    public static Icon cloudSunRain() {
-        return cloudSunRain(IconOptions.DEFAULT);
+    public static Icon lucideCloudSunRain() {
+        return lucideCloudSunRain(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudSunRain(IconOptions options) {
-        return new Icon(INSTANCE::cloudSunRain, options);
+    public static Icon lucideCloudSunRain(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudSunRain, options);
     }
 
-    public static Icon cloudSync() {
-        return cloudSync(IconOptions.DEFAULT);
+    public static Icon lucideCloudSync() {
+        return lucideCloudSync(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudSync(IconOptions options) {
-        return new Icon(INSTANCE::cloudSync, options);
+    public static Icon lucideCloudSync(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudSync, options);
     }
 
-    public static Icon cloudUpload() {
-        return cloudUpload(IconOptions.DEFAULT);
+    public static Icon lucideCloudUpload() {
+        return lucideCloudUpload(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudUpload(IconOptions options) {
-        return new Icon(INSTANCE::cloudUpload, options);
+    public static Icon lucideCloudUpload(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudUpload, options);
     }
 
-    public static Icon cloudy() {
-        return cloudy(IconOptions.DEFAULT);
+    public static Icon lucideCloudy() {
+        return lucideCloudy(IconOptions.DEFAULT);
     }
 
-    public static Icon cloudy(IconOptions options) {
-        return new Icon(INSTANCE::cloudy, options);
+    public static Icon lucideCloudy(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudy, options);
     }
 
-    public static Icon clover() {
-        return clover(IconOptions.DEFAULT);
+    public static Icon lucideClover() {
+        return lucideClover(IconOptions.DEFAULT);
     }
 
-    public static Icon clover(IconOptions options) {
-        return new Icon(INSTANCE::clover, options);
+    public static Icon lucideClover(IconOptions options) {
+        return new Icon(INSTANCE::lucideClover, options);
     }
 
-    public static Icon club() {
-        return club(IconOptions.DEFAULT);
+    public static Icon lucideClub() {
+        return lucideClub(IconOptions.DEFAULT);
     }
 
-    public static Icon club(IconOptions options) {
-        return new Icon(INSTANCE::club, options);
+    public static Icon lucideClub(IconOptions options) {
+        return new Icon(INSTANCE::lucideClub, options);
     }
 
-    public static Icon code() {
-        return code(IconOptions.DEFAULT);
+    public static Icon lucideCode() {
+        return lucideCode(IconOptions.DEFAULT);
     }
 
-    public static Icon code(IconOptions options) {
-        return new Icon(INSTANCE::code, options);
+    public static Icon lucideCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideCode, options);
     }
 
-    public static Icon codeXml() {
-        return codeXml(IconOptions.DEFAULT);
+    public static Icon lucideCodeXml() {
+        return lucideCodeXml(IconOptions.DEFAULT);
     }
 
-    public static Icon codeXml(IconOptions options) {
-        return new Icon(INSTANCE::codeXml, options);
+    public static Icon lucideCodeXml(IconOptions options) {
+        return new Icon(INSTANCE::lucideCodeXml, options);
     }
 
-    public static Icon coffee() {
-        return coffee(IconOptions.DEFAULT);
+    public static Icon lucideCoffee() {
+        return lucideCoffee(IconOptions.DEFAULT);
     }
 
-    public static Icon coffee(IconOptions options) {
-        return new Icon(INSTANCE::coffee, options);
+    public static Icon lucideCoffee(IconOptions options) {
+        return new Icon(INSTANCE::lucideCoffee, options);
     }
 
-    public static Icon cog() {
-        return cog(IconOptions.DEFAULT);
+    public static Icon lucideCog() {
+        return lucideCog(IconOptions.DEFAULT);
     }
 
-    public static Icon cog(IconOptions options) {
-        return new Icon(INSTANCE::cog, options);
+    public static Icon lucideCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideCog, options);
     }
 
-    public static Icon coins() {
-        return coins(IconOptions.DEFAULT);
+    public static Icon lucideCoins() {
+        return lucideCoins(IconOptions.DEFAULT);
     }
 
-    public static Icon coins(IconOptions options) {
-        return new Icon(INSTANCE::coins, options);
+    public static Icon lucideCoins(IconOptions options) {
+        return new Icon(INSTANCE::lucideCoins, options);
     }
 
-    public static Icon columns2() {
-        return columns2(IconOptions.DEFAULT);
+    public static Icon lucideColumns2() {
+        return lucideColumns2(IconOptions.DEFAULT);
     }
 
-    public static Icon columns2(IconOptions options) {
-        return new Icon(INSTANCE::columns2, options);
+    public static Icon lucideColumns2(IconOptions options) {
+        return new Icon(INSTANCE::lucideColumns2, options);
     }
 
-    public static Icon columns3() {
-        return columns3(IconOptions.DEFAULT);
+    public static Icon lucideColumns3() {
+        return lucideColumns3(IconOptions.DEFAULT);
     }
 
-    public static Icon columns3(IconOptions options) {
-        return new Icon(INSTANCE::columns3, options);
+    public static Icon lucideColumns3(IconOptions options) {
+        return new Icon(INSTANCE::lucideColumns3, options);
     }
 
-    public static Icon columns3Cog() {
-        return columns3Cog(IconOptions.DEFAULT);
+    public static Icon lucideColumns3Cog() {
+        return lucideColumns3Cog(IconOptions.DEFAULT);
     }
 
-    public static Icon columns3Cog(IconOptions options) {
-        return new Icon(INSTANCE::columns3Cog, options);
+    public static Icon lucideColumns3Cog(IconOptions options) {
+        return new Icon(INSTANCE::lucideColumns3Cog, options);
     }
 
-    public static Icon columns4() {
-        return columns4(IconOptions.DEFAULT);
+    public static Icon lucideColumns4() {
+        return lucideColumns4(IconOptions.DEFAULT);
     }
 
-    public static Icon columns4(IconOptions options) {
-        return new Icon(INSTANCE::columns4, options);
+    public static Icon lucideColumns4(IconOptions options) {
+        return new Icon(INSTANCE::lucideColumns4, options);
     }
 
-    public static Icon combine() {
-        return combine(IconOptions.DEFAULT);
+    public static Icon lucideCombine() {
+        return lucideCombine(IconOptions.DEFAULT);
     }
 
-    public static Icon combine(IconOptions options) {
-        return new Icon(INSTANCE::combine, options);
+    public static Icon lucideCombine(IconOptions options) {
+        return new Icon(INSTANCE::lucideCombine, options);
     }
 
-    public static Icon command() {
-        return command(IconOptions.DEFAULT);
+    public static Icon lucideCommand() {
+        return lucideCommand(IconOptions.DEFAULT);
     }
 
-    public static Icon command(IconOptions options) {
-        return new Icon(INSTANCE::command, options);
+    public static Icon lucideCommand(IconOptions options) {
+        return new Icon(INSTANCE::lucideCommand, options);
     }
 
-    public static Icon compass() {
-        return compass(IconOptions.DEFAULT);
+    public static Icon lucideCompass() {
+        return lucideCompass(IconOptions.DEFAULT);
     }
 
-    public static Icon compass(IconOptions options) {
-        return new Icon(INSTANCE::compass, options);
+    public static Icon lucideCompass(IconOptions options) {
+        return new Icon(INSTANCE::lucideCompass, options);
     }
 
-    public static Icon component() {
-        return component(IconOptions.DEFAULT);
+    public static Icon lucideComponent() {
+        return lucideComponent(IconOptions.DEFAULT);
     }
 
-    public static Icon component(IconOptions options) {
-        return new Icon(INSTANCE::component, options);
+    public static Icon lucideComponent(IconOptions options) {
+        return new Icon(INSTANCE::lucideComponent, options);
     }
 
-    public static Icon computer() {
-        return computer(IconOptions.DEFAULT);
+    public static Icon lucideComputer() {
+        return lucideComputer(IconOptions.DEFAULT);
     }
 
-    public static Icon computer(IconOptions options) {
-        return new Icon(INSTANCE::computer, options);
+    public static Icon lucideComputer(IconOptions options) {
+        return new Icon(INSTANCE::lucideComputer, options);
     }
 
-    public static Icon conciergeBell() {
-        return conciergeBell(IconOptions.DEFAULT);
+    public static Icon lucideConciergeBell() {
+        return lucideConciergeBell(IconOptions.DEFAULT);
     }
 
-    public static Icon conciergeBell(IconOptions options) {
-        return new Icon(INSTANCE::conciergeBell, options);
+    public static Icon lucideConciergeBell(IconOptions options) {
+        return new Icon(INSTANCE::lucideConciergeBell, options);
     }
 
-    public static Icon cone() {
-        return cone(IconOptions.DEFAULT);
+    public static Icon lucideCone() {
+        return lucideCone(IconOptions.DEFAULT);
     }
 
-    public static Icon cone(IconOptions options) {
-        return new Icon(INSTANCE::cone, options);
+    public static Icon lucideCone(IconOptions options) {
+        return new Icon(INSTANCE::lucideCone, options);
     }
 
-    public static Icon construction() {
-        return construction(IconOptions.DEFAULT);
+    public static Icon lucideConstruction() {
+        return lucideConstruction(IconOptions.DEFAULT);
     }
 
-    public static Icon construction(IconOptions options) {
-        return new Icon(INSTANCE::construction, options);
+    public static Icon lucideConstruction(IconOptions options) {
+        return new Icon(INSTANCE::lucideConstruction, options);
     }
 
-    public static Icon contact() {
-        return contact(IconOptions.DEFAULT);
+    public static Icon lucideContact() {
+        return lucideContact(IconOptions.DEFAULT);
     }
 
-    public static Icon contact(IconOptions options) {
-        return new Icon(INSTANCE::contact, options);
+    public static Icon lucideContact(IconOptions options) {
+        return new Icon(INSTANCE::lucideContact, options);
     }
 
-    public static Icon contactRound() {
-        return contactRound(IconOptions.DEFAULT);
+    public static Icon lucideContactRound() {
+        return lucideContactRound(IconOptions.DEFAULT);
     }
 
-    public static Icon contactRound(IconOptions options) {
-        return new Icon(INSTANCE::contactRound, options);
+    public static Icon lucideContactRound(IconOptions options) {
+        return new Icon(INSTANCE::lucideContactRound, options);
     }
 
-    public static Icon container() {
-        return container(IconOptions.DEFAULT);
+    public static Icon lucideContainer() {
+        return lucideContainer(IconOptions.DEFAULT);
     }
 
-    public static Icon container(IconOptions options) {
-        return new Icon(INSTANCE::container, options);
+    public static Icon lucideContainer(IconOptions options) {
+        return new Icon(INSTANCE::lucideContainer, options);
     }
 
-    public static Icon contrast() {
-        return contrast(IconOptions.DEFAULT);
+    public static Icon lucideContrast() {
+        return lucideContrast(IconOptions.DEFAULT);
     }
 
-    public static Icon contrast(IconOptions options) {
-        return new Icon(INSTANCE::contrast, options);
+    public static Icon lucideContrast(IconOptions options) {
+        return new Icon(INSTANCE::lucideContrast, options);
     }
 
-    public static Icon cookie() {
-        return cookie(IconOptions.DEFAULT);
+    public static Icon lucideCookie() {
+        return lucideCookie(IconOptions.DEFAULT);
     }
 
-    public static Icon cookie(IconOptions options) {
-        return new Icon(INSTANCE::cookie, options);
+    public static Icon lucideCookie(IconOptions options) {
+        return new Icon(INSTANCE::lucideCookie, options);
     }
 
-    public static Icon cookingPot() {
-        return cookingPot(IconOptions.DEFAULT);
+    public static Icon lucideCookingPot() {
+        return lucideCookingPot(IconOptions.DEFAULT);
     }
 
-    public static Icon cookingPot(IconOptions options) {
-        return new Icon(INSTANCE::cookingPot, options);
+    public static Icon lucideCookingPot(IconOptions options) {
+        return new Icon(INSTANCE::lucideCookingPot, options);
     }
 
-    public static Icon copy() {
-        return copy(IconOptions.DEFAULT);
+    public static Icon lucideCopy() {
+        return lucideCopy(IconOptions.DEFAULT);
     }
 
-    public static Icon copy(IconOptions options) {
-        return new Icon(INSTANCE::copy, options);
+    public static Icon lucideCopy(IconOptions options) {
+        return new Icon(INSTANCE::lucideCopy, options);
     }
 
-    public static Icon copyCheck() {
-        return copyCheck(IconOptions.DEFAULT);
+    public static Icon lucideCopyCheck() {
+        return lucideCopyCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon copyCheck(IconOptions options) {
-        return new Icon(INSTANCE::copyCheck, options);
+    public static Icon lucideCopyCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideCopyCheck, options);
     }
 
-    public static Icon copyMinus() {
-        return copyMinus(IconOptions.DEFAULT);
+    public static Icon lucideCopyMinus() {
+        return lucideCopyMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon copyMinus(IconOptions options) {
-        return new Icon(INSTANCE::copyMinus, options);
+    public static Icon lucideCopyMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCopyMinus, options);
     }
 
-    public static Icon copyPlus() {
-        return copyPlus(IconOptions.DEFAULT);
+    public static Icon lucideCopyPlus() {
+        return lucideCopyPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon copyPlus(IconOptions options) {
-        return new Icon(INSTANCE::copyPlus, options);
+    public static Icon lucideCopyPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCopyPlus, options);
     }
 
-    public static Icon copySlash() {
-        return copySlash(IconOptions.DEFAULT);
+    public static Icon lucideCopySlash() {
+        return lucideCopySlash(IconOptions.DEFAULT);
     }
 
-    public static Icon copySlash(IconOptions options) {
-        return new Icon(INSTANCE::copySlash, options);
+    public static Icon lucideCopySlash(IconOptions options) {
+        return new Icon(INSTANCE::lucideCopySlash, options);
     }
 
-    public static Icon copyX() {
-        return copyX(IconOptions.DEFAULT);
+    public static Icon lucideCopyX() {
+        return lucideCopyX(IconOptions.DEFAULT);
     }
 
-    public static Icon copyX(IconOptions options) {
-        return new Icon(INSTANCE::copyX, options);
+    public static Icon lucideCopyX(IconOptions options) {
+        return new Icon(INSTANCE::lucideCopyX, options);
     }
 
-    public static Icon copyleft() {
-        return copyleft(IconOptions.DEFAULT);
+    public static Icon lucideCopyleft() {
+        return lucideCopyleft(IconOptions.DEFAULT);
     }
 
-    public static Icon copyleft(IconOptions options) {
-        return new Icon(INSTANCE::copyleft, options);
+    public static Icon lucideCopyleft(IconOptions options) {
+        return new Icon(INSTANCE::lucideCopyleft, options);
     }
 
-    public static Icon copyright() {
-        return copyright(IconOptions.DEFAULT);
+    public static Icon lucideCopyright() {
+        return lucideCopyright(IconOptions.DEFAULT);
     }
 
-    public static Icon copyright(IconOptions options) {
-        return new Icon(INSTANCE::copyright, options);
+    public static Icon lucideCopyright(IconOptions options) {
+        return new Icon(INSTANCE::lucideCopyright, options);
     }
 
-    public static Icon cornerDownLeft() {
-        return cornerDownLeft(IconOptions.DEFAULT);
+    public static Icon lucideCornerDownLeft() {
+        return lucideCornerDownLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon cornerDownLeft(IconOptions options) {
-        return new Icon(INSTANCE::cornerDownLeft, options);
+    public static Icon lucideCornerDownLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideCornerDownLeft, options);
     }
 
-    public static Icon cornerDownRight() {
-        return cornerDownRight(IconOptions.DEFAULT);
+    public static Icon lucideCornerDownRight() {
+        return lucideCornerDownRight(IconOptions.DEFAULT);
     }
 
-    public static Icon cornerDownRight(IconOptions options) {
-        return new Icon(INSTANCE::cornerDownRight, options);
+    public static Icon lucideCornerDownRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideCornerDownRight, options);
     }
 
-    public static Icon cornerLeftDown() {
-        return cornerLeftDown(IconOptions.DEFAULT);
+    public static Icon lucideCornerLeftDown() {
+        return lucideCornerLeftDown(IconOptions.DEFAULT);
     }
 
-    public static Icon cornerLeftDown(IconOptions options) {
-        return new Icon(INSTANCE::cornerLeftDown, options);
+    public static Icon lucideCornerLeftDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideCornerLeftDown, options);
     }
 
-    public static Icon cornerLeftUp() {
-        return cornerLeftUp(IconOptions.DEFAULT);
+    public static Icon lucideCornerLeftUp() {
+        return lucideCornerLeftUp(IconOptions.DEFAULT);
     }
 
-    public static Icon cornerLeftUp(IconOptions options) {
-        return new Icon(INSTANCE::cornerLeftUp, options);
+    public static Icon lucideCornerLeftUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideCornerLeftUp, options);
     }
 
-    public static Icon cornerRightDown() {
-        return cornerRightDown(IconOptions.DEFAULT);
+    public static Icon lucideCornerRightDown() {
+        return lucideCornerRightDown(IconOptions.DEFAULT);
     }
 
-    public static Icon cornerRightDown(IconOptions options) {
-        return new Icon(INSTANCE::cornerRightDown, options);
+    public static Icon lucideCornerRightDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideCornerRightDown, options);
     }
 
-    public static Icon cornerRightUp() {
-        return cornerRightUp(IconOptions.DEFAULT);
+    public static Icon lucideCornerRightUp() {
+        return lucideCornerRightUp(IconOptions.DEFAULT);
     }
 
-    public static Icon cornerRightUp(IconOptions options) {
-        return new Icon(INSTANCE::cornerRightUp, options);
+    public static Icon lucideCornerRightUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideCornerRightUp, options);
     }
 
-    public static Icon cornerUpLeft() {
-        return cornerUpLeft(IconOptions.DEFAULT);
+    public static Icon lucideCornerUpLeft() {
+        return lucideCornerUpLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon cornerUpLeft(IconOptions options) {
-        return new Icon(INSTANCE::cornerUpLeft, options);
+    public static Icon lucideCornerUpLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideCornerUpLeft, options);
     }
 
-    public static Icon cornerUpRight() {
-        return cornerUpRight(IconOptions.DEFAULT);
+    public static Icon lucideCornerUpRight() {
+        return lucideCornerUpRight(IconOptions.DEFAULT);
     }
 
-    public static Icon cornerUpRight(IconOptions options) {
-        return new Icon(INSTANCE::cornerUpRight, options);
+    public static Icon lucideCornerUpRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideCornerUpRight, options);
     }
 
-    public static Icon cpu() {
-        return cpu(IconOptions.DEFAULT);
+    public static Icon lucideCpu() {
+        return lucideCpu(IconOptions.DEFAULT);
     }
 
-    public static Icon cpu(IconOptions options) {
-        return new Icon(INSTANCE::cpu, options);
+    public static Icon lucideCpu(IconOptions options) {
+        return new Icon(INSTANCE::lucideCpu, options);
     }
 
-    public static Icon creativeCommons() {
-        return creativeCommons(IconOptions.DEFAULT);
+    public static Icon lucideCreativeCommons() {
+        return lucideCreativeCommons(IconOptions.DEFAULT);
     }
 
-    public static Icon creativeCommons(IconOptions options) {
-        return new Icon(INSTANCE::creativeCommons, options);
+    public static Icon lucideCreativeCommons(IconOptions options) {
+        return new Icon(INSTANCE::lucideCreativeCommons, options);
     }
 
-    public static Icon creditCard() {
-        return creditCard(IconOptions.DEFAULT);
+    public static Icon lucideCreditCard() {
+        return lucideCreditCard(IconOptions.DEFAULT);
     }
 
-    public static Icon creditCard(IconOptions options) {
-        return new Icon(INSTANCE::creditCard, options);
+    public static Icon lucideCreditCard(IconOptions options) {
+        return new Icon(INSTANCE::lucideCreditCard, options);
     }
 
-    public static Icon creditCardCheck() {
-        return creditCardCheck(IconOptions.DEFAULT);
+    public static Icon lucideCreditCardCheck() {
+        return lucideCreditCardCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon creditCardCheck(IconOptions options) {
-        return new Icon(INSTANCE::creditCardCheck, options);
+    public static Icon lucideCreditCardCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideCreditCardCheck, options);
     }
 
-    public static Icon creditCardMinus() {
-        return creditCardMinus(IconOptions.DEFAULT);
+    public static Icon lucideCreditCardMinus() {
+        return lucideCreditCardMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon creditCardMinus(IconOptions options) {
-        return new Icon(INSTANCE::creditCardMinus, options);
+    public static Icon lucideCreditCardMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCreditCardMinus, options);
     }
 
-    public static Icon creditCardPlus() {
-        return creditCardPlus(IconOptions.DEFAULT);
+    public static Icon lucideCreditCardPlus() {
+        return lucideCreditCardPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon creditCardPlus(IconOptions options) {
-        return new Icon(INSTANCE::creditCardPlus, options);
+    public static Icon lucideCreditCardPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideCreditCardPlus, options);
     }
 
-    public static Icon creditCardReader() {
-        return creditCardReader(IconOptions.DEFAULT);
+    public static Icon lucideCreditCardReader() {
+        return lucideCreditCardReader(IconOptions.DEFAULT);
     }
 
-    public static Icon creditCardReader(IconOptions options) {
-        return new Icon(INSTANCE::creditCardReader, options);
+    public static Icon lucideCreditCardReader(IconOptions options) {
+        return new Icon(INSTANCE::lucideCreditCardReader, options);
     }
 
-    public static Icon creditCardX() {
-        return creditCardX(IconOptions.DEFAULT);
+    public static Icon lucideCreditCardX() {
+        return lucideCreditCardX(IconOptions.DEFAULT);
     }
 
-    public static Icon creditCardX(IconOptions options) {
-        return new Icon(INSTANCE::creditCardX, options);
+    public static Icon lucideCreditCardX(IconOptions options) {
+        return new Icon(INSTANCE::lucideCreditCardX, options);
     }
 
-    public static Icon croissant() {
-        return croissant(IconOptions.DEFAULT);
+    public static Icon lucideCroissant() {
+        return lucideCroissant(IconOptions.DEFAULT);
     }
 
-    public static Icon croissant(IconOptions options) {
-        return new Icon(INSTANCE::croissant, options);
+    public static Icon lucideCroissant(IconOptions options) {
+        return new Icon(INSTANCE::lucideCroissant, options);
     }
 
-    public static Icon crop() {
-        return crop(IconOptions.DEFAULT);
+    public static Icon lucideCrop() {
+        return lucideCrop(IconOptions.DEFAULT);
     }
 
-    public static Icon crop(IconOptions options) {
-        return new Icon(INSTANCE::crop, options);
+    public static Icon lucideCrop(IconOptions options) {
+        return new Icon(INSTANCE::lucideCrop, options);
     }
 
-    public static Icon cross() {
-        return cross(IconOptions.DEFAULT);
+    public static Icon lucideCross() {
+        return lucideCross(IconOptions.DEFAULT);
     }
 
-    public static Icon cross(IconOptions options) {
-        return new Icon(INSTANCE::cross, options);
+    public static Icon lucideCross(IconOptions options) {
+        return new Icon(INSTANCE::lucideCross, options);
     }
 
-    public static Icon crosshair() {
-        return crosshair(IconOptions.DEFAULT);
+    public static Icon lucideCrosshair() {
+        return lucideCrosshair(IconOptions.DEFAULT);
     }
 
-    public static Icon crosshair(IconOptions options) {
-        return new Icon(INSTANCE::crosshair, options);
+    public static Icon lucideCrosshair(IconOptions options) {
+        return new Icon(INSTANCE::lucideCrosshair, options);
     }
 
-    public static Icon crown() {
-        return crown(IconOptions.DEFAULT);
+    public static Icon lucideCrown() {
+        return lucideCrown(IconOptions.DEFAULT);
     }
 
-    public static Icon crown(IconOptions options) {
-        return new Icon(INSTANCE::crown, options);
+    public static Icon lucideCrown(IconOptions options) {
+        return new Icon(INSTANCE::lucideCrown, options);
     }
 
-    public static Icon cuboid() {
-        return cuboid(IconOptions.DEFAULT);
+    public static Icon lucideCuboid() {
+        return lucideCuboid(IconOptions.DEFAULT);
     }
 
-    public static Icon cuboid(IconOptions options) {
-        return new Icon(INSTANCE::cuboid, options);
+    public static Icon lucideCuboid(IconOptions options) {
+        return new Icon(INSTANCE::lucideCuboid, options);
     }
 
-    public static Icon cupSoda() {
-        return cupSoda(IconOptions.DEFAULT);
+    public static Icon lucideCupSoda() {
+        return lucideCupSoda(IconOptions.DEFAULT);
     }
 
-    public static Icon cupSoda(IconOptions options) {
-        return new Icon(INSTANCE::cupSoda, options);
+    public static Icon lucideCupSoda(IconOptions options) {
+        return new Icon(INSTANCE::lucideCupSoda, options);
     }
 
-    public static Icon cupcake() {
-        return cupcake(IconOptions.DEFAULT);
+    public static Icon lucideCupcake() {
+        return lucideCupcake(IconOptions.DEFAULT);
     }
 
-    public static Icon cupcake(IconOptions options) {
-        return new Icon(INSTANCE::cupcake, options);
+    public static Icon lucideCupcake(IconOptions options) {
+        return new Icon(INSTANCE::lucideCupcake, options);
     }
 
-    public static Icon currency() {
-        return currency(IconOptions.DEFAULT);
+    public static Icon lucideCurrency() {
+        return lucideCurrency(IconOptions.DEFAULT);
     }
 
-    public static Icon currency(IconOptions options) {
-        return new Icon(INSTANCE::currency, options);
+    public static Icon lucideCurrency(IconOptions options) {
+        return new Icon(INSTANCE::lucideCurrency, options);
     }
 
-    public static Icon cylinder() {
-        return cylinder(IconOptions.DEFAULT);
+    public static Icon lucideCylinder() {
+        return lucideCylinder(IconOptions.DEFAULT);
     }
 
-    public static Icon cylinder(IconOptions options) {
-        return new Icon(INSTANCE::cylinder, options);
+    public static Icon lucideCylinder(IconOptions options) {
+        return new Icon(INSTANCE::lucideCylinder, options);
     }
 
-    public static Icon dam() {
-        return dam(IconOptions.DEFAULT);
+    public static Icon lucideDam() {
+        return lucideDam(IconOptions.DEFAULT);
     }
 
-    public static Icon dam(IconOptions options) {
-        return new Icon(INSTANCE::dam, options);
+    public static Icon lucideDam(IconOptions options) {
+        return new Icon(INSTANCE::lucideDam, options);
     }
 
-    public static Icon database() {
-        return database(IconOptions.DEFAULT);
+    public static Icon lucideDatabase() {
+        return lucideDatabase(IconOptions.DEFAULT);
     }
 
-    public static Icon database(IconOptions options) {
-        return new Icon(INSTANCE::database, options);
+    public static Icon lucideDatabase(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabase, options);
     }
 
-    public static Icon databaseArrowDown() {
-        return databaseArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideDatabaseArrowDown() {
+        return lucideDatabaseArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon databaseArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::databaseArrowDown, options);
+    public static Icon lucideDatabaseArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabaseArrowDown, options);
     }
 
-    public static Icon databaseArrowUp() {
-        return databaseArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideDatabaseArrowUp() {
+        return lucideDatabaseArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon databaseArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::databaseArrowUp, options);
+    public static Icon lucideDatabaseArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabaseArrowUp, options);
     }
 
-    public static Icon databaseBackup() {
-        return databaseBackup(IconOptions.DEFAULT);
+    public static Icon lucideDatabaseBackup() {
+        return lucideDatabaseBackup(IconOptions.DEFAULT);
     }
 
-    public static Icon databaseBackup(IconOptions options) {
-        return new Icon(INSTANCE::databaseBackup, options);
+    public static Icon lucideDatabaseBackup(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabaseBackup, options);
     }
 
-    public static Icon databaseCheck() {
-        return databaseCheck(IconOptions.DEFAULT);
+    public static Icon lucideDatabaseCheck() {
+        return lucideDatabaseCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon databaseCheck(IconOptions options) {
-        return new Icon(INSTANCE::databaseCheck, options);
+    public static Icon lucideDatabaseCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabaseCheck, options);
     }
 
-    public static Icon databaseMinus() {
-        return databaseMinus(IconOptions.DEFAULT);
+    public static Icon lucideDatabaseMinus() {
+        return lucideDatabaseMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon databaseMinus(IconOptions options) {
-        return new Icon(INSTANCE::databaseMinus, options);
+    public static Icon lucideDatabaseMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabaseMinus, options);
     }
 
-    public static Icon databasePlus() {
-        return databasePlus(IconOptions.DEFAULT);
+    public static Icon lucideDatabasePlus() {
+        return lucideDatabasePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon databasePlus(IconOptions options) {
-        return new Icon(INSTANCE::databasePlus, options);
+    public static Icon lucideDatabasePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabasePlus, options);
     }
 
-    public static Icon databaseSearch() {
-        return databaseSearch(IconOptions.DEFAULT);
+    public static Icon lucideDatabaseSearch() {
+        return lucideDatabaseSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon databaseSearch(IconOptions options) {
-        return new Icon(INSTANCE::databaseSearch, options);
+    public static Icon lucideDatabaseSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabaseSearch, options);
     }
 
-    public static Icon databaseX() {
-        return databaseX(IconOptions.DEFAULT);
+    public static Icon lucideDatabaseX() {
+        return lucideDatabaseX(IconOptions.DEFAULT);
     }
 
-    public static Icon databaseX(IconOptions options) {
-        return new Icon(INSTANCE::databaseX, options);
+    public static Icon lucideDatabaseX(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabaseX, options);
     }
 
-    public static Icon databaseZap() {
-        return databaseZap(IconOptions.DEFAULT);
+    public static Icon lucideDatabaseZap() {
+        return lucideDatabaseZap(IconOptions.DEFAULT);
     }
 
-    public static Icon databaseZap(IconOptions options) {
-        return new Icon(INSTANCE::databaseZap, options);
+    public static Icon lucideDatabaseZap(IconOptions options) {
+        return new Icon(INSTANCE::lucideDatabaseZap, options);
     }
 
-    public static Icon decimalsArrowLeft() {
-        return decimalsArrowLeft(IconOptions.DEFAULT);
+    public static Icon lucideDecimalsArrowLeft() {
+        return lucideDecimalsArrowLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon decimalsArrowLeft(IconOptions options) {
-        return new Icon(INSTANCE::decimalsArrowLeft, options);
+    public static Icon lucideDecimalsArrowLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideDecimalsArrowLeft, options);
     }
 
-    public static Icon decimalsArrowRight() {
-        return decimalsArrowRight(IconOptions.DEFAULT);
+    public static Icon lucideDecimalsArrowRight() {
+        return lucideDecimalsArrowRight(IconOptions.DEFAULT);
     }
 
-    public static Icon decimalsArrowRight(IconOptions options) {
-        return new Icon(INSTANCE::decimalsArrowRight, options);
+    public static Icon lucideDecimalsArrowRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideDecimalsArrowRight, options);
     }
 
-    public static Icon delete() {
-        return delete(IconOptions.DEFAULT);
+    public static Icon lucideDelete() {
+        return lucideDelete(IconOptions.DEFAULT);
     }
 
-    public static Icon delete(IconOptions options) {
-        return new Icon(INSTANCE::delete, options);
+    public static Icon lucideDelete(IconOptions options) {
+        return new Icon(INSTANCE::lucideDelete, options);
     }
 
-    public static Icon dessert() {
-        return dessert(IconOptions.DEFAULT);
+    public static Icon lucideDessert() {
+        return lucideDessert(IconOptions.DEFAULT);
     }
 
-    public static Icon dessert(IconOptions options) {
-        return new Icon(INSTANCE::dessert, options);
+    public static Icon lucideDessert(IconOptions options) {
+        return new Icon(INSTANCE::lucideDessert, options);
     }
 
-    public static Icon diameter() {
-        return diameter(IconOptions.DEFAULT);
+    public static Icon lucideDiameter() {
+        return lucideDiameter(IconOptions.DEFAULT);
     }
 
-    public static Icon diameter(IconOptions options) {
-        return new Icon(INSTANCE::diameter, options);
+    public static Icon lucideDiameter(IconOptions options) {
+        return new Icon(INSTANCE::lucideDiameter, options);
     }
 
-    public static Icon diamond() {
-        return diamond(IconOptions.DEFAULT);
+    public static Icon lucideDiamond() {
+        return lucideDiamond(IconOptions.DEFAULT);
     }
 
-    public static Icon diamond(IconOptions options) {
-        return new Icon(INSTANCE::diamond, options);
+    public static Icon lucideDiamond(IconOptions options) {
+        return new Icon(INSTANCE::lucideDiamond, options);
     }
 
-    public static Icon diamondMinus() {
-        return diamondMinus(IconOptions.DEFAULT);
+    public static Icon lucideDiamondMinus() {
+        return lucideDiamondMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon diamondMinus(IconOptions options) {
-        return new Icon(INSTANCE::diamondMinus, options);
+    public static Icon lucideDiamondMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideDiamondMinus, options);
     }
 
-    public static Icon diamondPercent() {
-        return diamondPercent(IconOptions.DEFAULT);
+    public static Icon lucideDiamondPercent() {
+        return lucideDiamondPercent(IconOptions.DEFAULT);
     }
 
-    public static Icon diamondPercent(IconOptions options) {
-        return new Icon(INSTANCE::diamondPercent, options);
+    public static Icon lucideDiamondPercent(IconOptions options) {
+        return new Icon(INSTANCE::lucideDiamondPercent, options);
     }
 
-    public static Icon diamondPlus() {
-        return diamondPlus(IconOptions.DEFAULT);
+    public static Icon lucideDiamondPlus() {
+        return lucideDiamondPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon diamondPlus(IconOptions options) {
-        return new Icon(INSTANCE::diamondPlus, options);
+    public static Icon lucideDiamondPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideDiamondPlus, options);
     }
 
-    public static Icon dice1() {
-        return dice1(IconOptions.DEFAULT);
+    public static Icon lucideDice1() {
+        return lucideDice1(IconOptions.DEFAULT);
     }
 
-    public static Icon dice1(IconOptions options) {
-        return new Icon(INSTANCE::dice1, options);
+    public static Icon lucideDice1(IconOptions options) {
+        return new Icon(INSTANCE::lucideDice1, options);
     }
 
-    public static Icon dice2() {
-        return dice2(IconOptions.DEFAULT);
+    public static Icon lucideDice2() {
+        return lucideDice2(IconOptions.DEFAULT);
     }
 
-    public static Icon dice2(IconOptions options) {
-        return new Icon(INSTANCE::dice2, options);
+    public static Icon lucideDice2(IconOptions options) {
+        return new Icon(INSTANCE::lucideDice2, options);
     }
 
-    public static Icon dice3() {
-        return dice3(IconOptions.DEFAULT);
+    public static Icon lucideDice3() {
+        return lucideDice3(IconOptions.DEFAULT);
     }
 
-    public static Icon dice3(IconOptions options) {
-        return new Icon(INSTANCE::dice3, options);
+    public static Icon lucideDice3(IconOptions options) {
+        return new Icon(INSTANCE::lucideDice3, options);
     }
 
-    public static Icon dice4() {
-        return dice4(IconOptions.DEFAULT);
+    public static Icon lucideDice4() {
+        return lucideDice4(IconOptions.DEFAULT);
     }
 
-    public static Icon dice4(IconOptions options) {
-        return new Icon(INSTANCE::dice4, options);
+    public static Icon lucideDice4(IconOptions options) {
+        return new Icon(INSTANCE::lucideDice4, options);
     }
 
-    public static Icon dice5() {
-        return dice5(IconOptions.DEFAULT);
+    public static Icon lucideDice5() {
+        return lucideDice5(IconOptions.DEFAULT);
     }
 
-    public static Icon dice5(IconOptions options) {
-        return new Icon(INSTANCE::dice5, options);
+    public static Icon lucideDice5(IconOptions options) {
+        return new Icon(INSTANCE::lucideDice5, options);
     }
 
-    public static Icon dice6() {
-        return dice6(IconOptions.DEFAULT);
+    public static Icon lucideDice6() {
+        return lucideDice6(IconOptions.DEFAULT);
     }
 
-    public static Icon dice6(IconOptions options) {
-        return new Icon(INSTANCE::dice6, options);
+    public static Icon lucideDice6(IconOptions options) {
+        return new Icon(INSTANCE::lucideDice6, options);
     }
 
-    public static Icon dices() {
-        return dices(IconOptions.DEFAULT);
+    public static Icon lucideDices() {
+        return lucideDices(IconOptions.DEFAULT);
     }
 
-    public static Icon dices(IconOptions options) {
-        return new Icon(INSTANCE::dices, options);
+    public static Icon lucideDices(IconOptions options) {
+        return new Icon(INSTANCE::lucideDices, options);
     }
 
-    public static Icon diff() {
-        return diff(IconOptions.DEFAULT);
+    public static Icon lucideDiff() {
+        return lucideDiff(IconOptions.DEFAULT);
     }
 
-    public static Icon diff(IconOptions options) {
-        return new Icon(INSTANCE::diff, options);
+    public static Icon lucideDiff(IconOptions options) {
+        return new Icon(INSTANCE::lucideDiff, options);
     }
 
-    public static Icon disc() {
-        return disc(IconOptions.DEFAULT);
+    public static Icon lucideDisc() {
+        return lucideDisc(IconOptions.DEFAULT);
     }
 
-    public static Icon disc(IconOptions options) {
-        return new Icon(INSTANCE::disc, options);
+    public static Icon lucideDisc(IconOptions options) {
+        return new Icon(INSTANCE::lucideDisc, options);
     }
 
-    public static Icon disc2() {
-        return disc2(IconOptions.DEFAULT);
+    public static Icon lucideDisc2() {
+        return lucideDisc2(IconOptions.DEFAULT);
     }
 
-    public static Icon disc2(IconOptions options) {
-        return new Icon(INSTANCE::disc2, options);
+    public static Icon lucideDisc2(IconOptions options) {
+        return new Icon(INSTANCE::lucideDisc2, options);
     }
 
-    public static Icon disc3() {
-        return disc3(IconOptions.DEFAULT);
+    public static Icon lucideDisc3() {
+        return lucideDisc3(IconOptions.DEFAULT);
     }
 
-    public static Icon disc3(IconOptions options) {
-        return new Icon(INSTANCE::disc3, options);
+    public static Icon lucideDisc3(IconOptions options) {
+        return new Icon(INSTANCE::lucideDisc3, options);
     }
 
-    public static Icon discAlbum() {
-        return discAlbum(IconOptions.DEFAULT);
+    public static Icon lucideDiscAlbum() {
+        return lucideDiscAlbum(IconOptions.DEFAULT);
     }
 
-    public static Icon discAlbum(IconOptions options) {
-        return new Icon(INSTANCE::discAlbum, options);
+    public static Icon lucideDiscAlbum(IconOptions options) {
+        return new Icon(INSTANCE::lucideDiscAlbum, options);
     }
 
-    public static Icon divide() {
-        return divide(IconOptions.DEFAULT);
+    public static Icon lucideDivide() {
+        return lucideDivide(IconOptions.DEFAULT);
     }
 
-    public static Icon divide(IconOptions options) {
-        return new Icon(INSTANCE::divide, options);
+    public static Icon lucideDivide(IconOptions options) {
+        return new Icon(INSTANCE::lucideDivide, options);
     }
 
-    public static Icon dna() {
-        return dna(IconOptions.DEFAULT);
+    public static Icon lucideDna() {
+        return lucideDna(IconOptions.DEFAULT);
     }
 
-    public static Icon dna(IconOptions options) {
-        return new Icon(INSTANCE::dna, options);
+    public static Icon lucideDna(IconOptions options) {
+        return new Icon(INSTANCE::lucideDna, options);
     }
 
-    public static Icon dnaOff() {
-        return dnaOff(IconOptions.DEFAULT);
+    public static Icon lucideDnaOff() {
+        return lucideDnaOff(IconOptions.DEFAULT);
     }
 
-    public static Icon dnaOff(IconOptions options) {
-        return new Icon(INSTANCE::dnaOff, options);
+    public static Icon lucideDnaOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideDnaOff, options);
     }
 
-    public static Icon dock() {
-        return dock(IconOptions.DEFAULT);
+    public static Icon lucideDock() {
+        return lucideDock(IconOptions.DEFAULT);
     }
 
-    public static Icon dock(IconOptions options) {
-        return new Icon(INSTANCE::dock, options);
+    public static Icon lucideDock(IconOptions options) {
+        return new Icon(INSTANCE::lucideDock, options);
     }
 
-    public static Icon dog() {
-        return dog(IconOptions.DEFAULT);
+    public static Icon lucideDog() {
+        return lucideDog(IconOptions.DEFAULT);
     }
 
-    public static Icon dog(IconOptions options) {
-        return new Icon(INSTANCE::dog, options);
+    public static Icon lucideDog(IconOptions options) {
+        return new Icon(INSTANCE::lucideDog, options);
     }
 
-    public static Icon dollarSign() {
-        return dollarSign(IconOptions.DEFAULT);
+    public static Icon lucideDollarSign() {
+        return lucideDollarSign(IconOptions.DEFAULT);
     }
 
-    public static Icon dollarSign(IconOptions options) {
-        return new Icon(INSTANCE::dollarSign, options);
+    public static Icon lucideDollarSign(IconOptions options) {
+        return new Icon(INSTANCE::lucideDollarSign, options);
     }
 
-    public static Icon dome() {
-        return dome(IconOptions.DEFAULT);
+    public static Icon lucideDome() {
+        return lucideDome(IconOptions.DEFAULT);
     }
 
-    public static Icon dome(IconOptions options) {
-        return new Icon(INSTANCE::dome, options);
+    public static Icon lucideDome(IconOptions options) {
+        return new Icon(INSTANCE::lucideDome, options);
     }
 
-    public static Icon donut() {
-        return donut(IconOptions.DEFAULT);
+    public static Icon lucideDonut() {
+        return lucideDonut(IconOptions.DEFAULT);
     }
 
-    public static Icon donut(IconOptions options) {
-        return new Icon(INSTANCE::donut, options);
+    public static Icon lucideDonut(IconOptions options) {
+        return new Icon(INSTANCE::lucideDonut, options);
     }
 
-    public static Icon doorClosed() {
-        return doorClosed(IconOptions.DEFAULT);
+    public static Icon lucideDoorClosed() {
+        return lucideDoorClosed(IconOptions.DEFAULT);
     }
 
-    public static Icon doorClosed(IconOptions options) {
-        return new Icon(INSTANCE::doorClosed, options);
+    public static Icon lucideDoorClosed(IconOptions options) {
+        return new Icon(INSTANCE::lucideDoorClosed, options);
     }
 
-    public static Icon doorClosedCog() {
-        return doorClosedCog(IconOptions.DEFAULT);
+    public static Icon lucideDoorClosedCog() {
+        return lucideDoorClosedCog(IconOptions.DEFAULT);
     }
 
-    public static Icon doorClosedCog(IconOptions options) {
-        return new Icon(INSTANCE::doorClosedCog, options);
+    public static Icon lucideDoorClosedCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideDoorClosedCog, options);
     }
 
-    public static Icon doorClosedLocked() {
-        return doorClosedLocked(IconOptions.DEFAULT);
+    public static Icon lucideDoorClosedLocked() {
+        return lucideDoorClosedLocked(IconOptions.DEFAULT);
     }
 
-    public static Icon doorClosedLocked(IconOptions options) {
-        return new Icon(INSTANCE::doorClosedLocked, options);
+    public static Icon lucideDoorClosedLocked(IconOptions options) {
+        return new Icon(INSTANCE::lucideDoorClosedLocked, options);
     }
 
-    public static Icon doorClosedPackage() {
-        return doorClosedPackage(IconOptions.DEFAULT);
+    public static Icon lucideDoorClosedPackage() {
+        return lucideDoorClosedPackage(IconOptions.DEFAULT);
     }
 
-    public static Icon doorClosedPackage(IconOptions options) {
-        return new Icon(INSTANCE::doorClosedPackage, options);
+    public static Icon lucideDoorClosedPackage(IconOptions options) {
+        return new Icon(INSTANCE::lucideDoorClosedPackage, options);
     }
 
-    public static Icon doorOpen() {
-        return doorOpen(IconOptions.DEFAULT);
+    public static Icon lucideDoorOpen() {
+        return lucideDoorOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon doorOpen(IconOptions options) {
-        return new Icon(INSTANCE::doorOpen, options);
+    public static Icon lucideDoorOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucideDoorOpen, options);
     }
 
-    public static Icon doorStairwell() {
-        return doorStairwell(IconOptions.DEFAULT);
+    public static Icon lucideDoorStairwell() {
+        return lucideDoorStairwell(IconOptions.DEFAULT);
     }
 
-    public static Icon doorStairwell(IconOptions options) {
-        return new Icon(INSTANCE::doorStairwell, options);
+    public static Icon lucideDoorStairwell(IconOptions options) {
+        return new Icon(INSTANCE::lucideDoorStairwell, options);
     }
 
-    public static Icon dot() {
-        return dot(IconOptions.DEFAULT);
+    public static Icon lucideDot() {
+        return lucideDot(IconOptions.DEFAULT);
     }
 
-    public static Icon dot(IconOptions options) {
-        return new Icon(INSTANCE::dot, options);
+    public static Icon lucideDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideDot, options);
     }
 
-    public static Icon download() {
-        return download(IconOptions.DEFAULT);
+    public static Icon lucideDownload() {
+        return lucideDownload(IconOptions.DEFAULT);
     }
 
-    public static Icon download(IconOptions options) {
-        return new Icon(INSTANCE::download, options);
+    public static Icon lucideDownload(IconOptions options) {
+        return new Icon(INSTANCE::lucideDownload, options);
     }
 
-    public static Icon draftingCompass() {
-        return draftingCompass(IconOptions.DEFAULT);
+    public static Icon lucideDraftingCompass() {
+        return lucideDraftingCompass(IconOptions.DEFAULT);
     }
 
-    public static Icon draftingCompass(IconOptions options) {
-        return new Icon(INSTANCE::draftingCompass, options);
+    public static Icon lucideDraftingCompass(IconOptions options) {
+        return new Icon(INSTANCE::lucideDraftingCompass, options);
     }
 
-    public static Icon drama() {
-        return drama(IconOptions.DEFAULT);
+    public static Icon lucideDrama() {
+        return lucideDrama(IconOptions.DEFAULT);
     }
 
-    public static Icon drama(IconOptions options) {
-        return new Icon(INSTANCE::drama, options);
+    public static Icon lucideDrama(IconOptions options) {
+        return new Icon(INSTANCE::lucideDrama, options);
     }
 
-    public static Icon drill() {
-        return drill(IconOptions.DEFAULT);
+    public static Icon lucideDrill() {
+        return lucideDrill(IconOptions.DEFAULT);
     }
 
-    public static Icon drill(IconOptions options) {
-        return new Icon(INSTANCE::drill, options);
+    public static Icon lucideDrill(IconOptions options) {
+        return new Icon(INSTANCE::lucideDrill, options);
     }
 
-    public static Icon drone() {
-        return drone(IconOptions.DEFAULT);
+    public static Icon lucideDrone() {
+        return lucideDrone(IconOptions.DEFAULT);
     }
 
-    public static Icon drone(IconOptions options) {
-        return new Icon(INSTANCE::drone, options);
+    public static Icon lucideDrone(IconOptions options) {
+        return new Icon(INSTANCE::lucideDrone, options);
     }
 
-    public static Icon droplet() {
-        return droplet(IconOptions.DEFAULT);
+    public static Icon lucideDroplet() {
+        return lucideDroplet(IconOptions.DEFAULT);
     }
 
-    public static Icon droplet(IconOptions options) {
-        return new Icon(INSTANCE::droplet, options);
+    public static Icon lucideDroplet(IconOptions options) {
+        return new Icon(INSTANCE::lucideDroplet, options);
     }
 
-    public static Icon dropletOff() {
-        return dropletOff(IconOptions.DEFAULT);
+    public static Icon lucideDropletOff() {
+        return lucideDropletOff(IconOptions.DEFAULT);
     }
 
-    public static Icon dropletOff(IconOptions options) {
-        return new Icon(INSTANCE::dropletOff, options);
+    public static Icon lucideDropletOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideDropletOff, options);
     }
 
-    public static Icon droplets() {
-        return droplets(IconOptions.DEFAULT);
+    public static Icon lucideDroplets() {
+        return lucideDroplets(IconOptions.DEFAULT);
     }
 
-    public static Icon droplets(IconOptions options) {
-        return new Icon(INSTANCE::droplets, options);
+    public static Icon lucideDroplets(IconOptions options) {
+        return new Icon(INSTANCE::lucideDroplets, options);
     }
 
-    public static Icon drum() {
-        return drum(IconOptions.DEFAULT);
+    public static Icon lucideDrum() {
+        return lucideDrum(IconOptions.DEFAULT);
     }
 
-    public static Icon drum(IconOptions options) {
-        return new Icon(INSTANCE::drum, options);
+    public static Icon lucideDrum(IconOptions options) {
+        return new Icon(INSTANCE::lucideDrum, options);
     }
 
-    public static Icon drumstick() {
-        return drumstick(IconOptions.DEFAULT);
+    public static Icon lucideDrumstick() {
+        return lucideDrumstick(IconOptions.DEFAULT);
     }
 
-    public static Icon drumstick(IconOptions options) {
-        return new Icon(INSTANCE::drumstick, options);
+    public static Icon lucideDrumstick(IconOptions options) {
+        return new Icon(INSTANCE::lucideDrumstick, options);
     }
 
-    public static Icon dumbbell() {
-        return dumbbell(IconOptions.DEFAULT);
+    public static Icon lucideDumbbell() {
+        return lucideDumbbell(IconOptions.DEFAULT);
     }
 
-    public static Icon dumbbell(IconOptions options) {
-        return new Icon(INSTANCE::dumbbell, options);
+    public static Icon lucideDumbbell(IconOptions options) {
+        return new Icon(INSTANCE::lucideDumbbell, options);
     }
 
-    public static Icon ear() {
-        return ear(IconOptions.DEFAULT);
+    public static Icon lucideEar() {
+        return lucideEar(IconOptions.DEFAULT);
     }
 
-    public static Icon ear(IconOptions options) {
-        return new Icon(INSTANCE::ear, options);
+    public static Icon lucideEar(IconOptions options) {
+        return new Icon(INSTANCE::lucideEar, options);
     }
 
-    public static Icon earOff() {
-        return earOff(IconOptions.DEFAULT);
+    public static Icon lucideEarOff() {
+        return lucideEarOff(IconOptions.DEFAULT);
     }
 
-    public static Icon earOff(IconOptions options) {
-        return new Icon(INSTANCE::earOff, options);
+    public static Icon lucideEarOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideEarOff, options);
     }
 
-    public static Icon earth() {
-        return earth(IconOptions.DEFAULT);
+    public static Icon lucideEarth() {
+        return lucideEarth(IconOptions.DEFAULT);
     }
 
-    public static Icon earth(IconOptions options) {
-        return new Icon(INSTANCE::earth, options);
+    public static Icon lucideEarth(IconOptions options) {
+        return new Icon(INSTANCE::lucideEarth, options);
     }
 
-    public static Icon earthLock() {
-        return earthLock(IconOptions.DEFAULT);
+    public static Icon lucideEarthLock() {
+        return lucideEarthLock(IconOptions.DEFAULT);
     }
 
-    public static Icon earthLock(IconOptions options) {
-        return new Icon(INSTANCE::earthLock, options);
+    public static Icon lucideEarthLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideEarthLock, options);
     }
 
-    public static Icon eclipse() {
-        return eclipse(IconOptions.DEFAULT);
+    public static Icon lucideEclipse() {
+        return lucideEclipse(IconOptions.DEFAULT);
     }
 
-    public static Icon eclipse(IconOptions options) {
-        return new Icon(INSTANCE::eclipse, options);
+    public static Icon lucideEclipse(IconOptions options) {
+        return new Icon(INSTANCE::lucideEclipse, options);
     }
 
-    public static Icon egg() {
-        return egg(IconOptions.DEFAULT);
+    public static Icon lucideEgg() {
+        return lucideEgg(IconOptions.DEFAULT);
     }
 
-    public static Icon egg(IconOptions options) {
-        return new Icon(INSTANCE::egg, options);
+    public static Icon lucideEgg(IconOptions options) {
+        return new Icon(INSTANCE::lucideEgg, options);
     }
 
-    public static Icon eggFried() {
-        return eggFried(IconOptions.DEFAULT);
+    public static Icon lucideEggFried() {
+        return lucideEggFried(IconOptions.DEFAULT);
     }
 
-    public static Icon eggFried(IconOptions options) {
-        return new Icon(INSTANCE::eggFried, options);
+    public static Icon lucideEggFried(IconOptions options) {
+        return new Icon(INSTANCE::lucideEggFried, options);
     }
 
-    public static Icon eggOff() {
-        return eggOff(IconOptions.DEFAULT);
+    public static Icon lucideEggOff() {
+        return lucideEggOff(IconOptions.DEFAULT);
     }
 
-    public static Icon eggOff(IconOptions options) {
-        return new Icon(INSTANCE::eggOff, options);
+    public static Icon lucideEggOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideEggOff, options);
     }
 
-    public static Icon eject() {
-        return eject(IconOptions.DEFAULT);
+    public static Icon lucideEject() {
+        return lucideEject(IconOptions.DEFAULT);
     }
 
-    public static Icon eject(IconOptions options) {
-        return new Icon(INSTANCE::eject, options);
+    public static Icon lucideEject(IconOptions options) {
+        return new Icon(INSTANCE::lucideEject, options);
     }
 
-    public static Icon ellipse() {
-        return ellipse(IconOptions.DEFAULT);
+    public static Icon lucideEllipse() {
+        return lucideEllipse(IconOptions.DEFAULT);
     }
 
-    public static Icon ellipse(IconOptions options) {
-        return new Icon(INSTANCE::ellipse, options);
+    public static Icon lucideEllipse(IconOptions options) {
+        return new Icon(INSTANCE::lucideEllipse, options);
     }
 
-    public static Icon ellipsis() {
-        return ellipsis(IconOptions.DEFAULT);
+    public static Icon lucideEllipsis() {
+        return lucideEllipsis(IconOptions.DEFAULT);
     }
 
-    public static Icon ellipsis(IconOptions options) {
-        return new Icon(INSTANCE::ellipsis, options);
+    public static Icon lucideEllipsis(IconOptions options) {
+        return new Icon(INSTANCE::lucideEllipsis, options);
     }
 
-    public static Icon ellipsisVertical() {
-        return ellipsisVertical(IconOptions.DEFAULT);
+    public static Icon lucideEllipsisVertical() {
+        return lucideEllipsisVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon ellipsisVertical(IconOptions options) {
-        return new Icon(INSTANCE::ellipsisVertical, options);
+    public static Icon lucideEllipsisVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideEllipsisVertical, options);
     }
 
-    public static Icon engine() {
-        return engine(IconOptions.DEFAULT);
+    public static Icon lucideEngine() {
+        return lucideEngine(IconOptions.DEFAULT);
     }
 
-    public static Icon engine(IconOptions options) {
-        return new Icon(INSTANCE::engine, options);
+    public static Icon lucideEngine(IconOptions options) {
+        return new Icon(INSTANCE::lucideEngine, options);
     }
 
-    public static Icon equal() {
-        return equal(IconOptions.DEFAULT);
+    public static Icon lucideEqual() {
+        return lucideEqual(IconOptions.DEFAULT);
     }
 
-    public static Icon equal(IconOptions options) {
-        return new Icon(INSTANCE::equal, options);
+    public static Icon lucideEqual(IconOptions options) {
+        return new Icon(INSTANCE::lucideEqual, options);
     }
 
-    public static Icon equalApproximately() {
-        return equalApproximately(IconOptions.DEFAULT);
+    public static Icon lucideEqualApproximately() {
+        return lucideEqualApproximately(IconOptions.DEFAULT);
     }
 
-    public static Icon equalApproximately(IconOptions options) {
-        return new Icon(INSTANCE::equalApproximately, options);
+    public static Icon lucideEqualApproximately(IconOptions options) {
+        return new Icon(INSTANCE::lucideEqualApproximately, options);
     }
 
-    public static Icon equalApproximatelyNot() {
-        return equalApproximatelyNot(IconOptions.DEFAULT);
+    public static Icon lucideEqualApproximatelyNot() {
+        return lucideEqualApproximatelyNot(IconOptions.DEFAULT);
     }
 
-    public static Icon equalApproximatelyNot(IconOptions options) {
-        return new Icon(INSTANCE::equalApproximatelyNot, options);
+    public static Icon lucideEqualApproximatelyNot(IconOptions options) {
+        return new Icon(INSTANCE::lucideEqualApproximatelyNot, options);
     }
 
-    public static Icon equalNot() {
-        return equalNot(IconOptions.DEFAULT);
+    public static Icon lucideEqualNot() {
+        return lucideEqualNot(IconOptions.DEFAULT);
     }
 
-    public static Icon equalNot(IconOptions options) {
-        return new Icon(INSTANCE::equalNot, options);
+    public static Icon lucideEqualNot(IconOptions options) {
+        return new Icon(INSTANCE::lucideEqualNot, options);
     }
 
-    public static Icon eraser() {
-        return eraser(IconOptions.DEFAULT);
+    public static Icon lucideEraser() {
+        return lucideEraser(IconOptions.DEFAULT);
     }
 
-    public static Icon eraser(IconOptions options) {
-        return new Icon(INSTANCE::eraser, options);
+    public static Icon lucideEraser(IconOptions options) {
+        return new Icon(INSTANCE::lucideEraser, options);
     }
 
-    public static Icon ethernetPort() {
-        return ethernetPort(IconOptions.DEFAULT);
+    public static Icon lucideEthernetPort() {
+        return lucideEthernetPort(IconOptions.DEFAULT);
     }
 
-    public static Icon ethernetPort(IconOptions options) {
-        return new Icon(INSTANCE::ethernetPort, options);
+    public static Icon lucideEthernetPort(IconOptions options) {
+        return new Icon(INSTANCE::lucideEthernetPort, options);
     }
 
-    public static Icon euro() {
-        return euro(IconOptions.DEFAULT);
+    public static Icon lucideEuro() {
+        return lucideEuro(IconOptions.DEFAULT);
     }
 
-    public static Icon euro(IconOptions options) {
-        return new Icon(INSTANCE::euro, options);
+    public static Icon lucideEuro(IconOptions options) {
+        return new Icon(INSTANCE::lucideEuro, options);
     }
 
-    public static Icon evCharger() {
-        return evCharger(IconOptions.DEFAULT);
+    public static Icon lucideEvCharger() {
+        return lucideEvCharger(IconOptions.DEFAULT);
     }
 
-    public static Icon evCharger(IconOptions options) {
-        return new Icon(INSTANCE::evCharger, options);
+    public static Icon lucideEvCharger(IconOptions options) {
+        return new Icon(INSTANCE::lucideEvCharger, options);
     }
 
-    public static Icon expand() {
-        return expand(IconOptions.DEFAULT);
+    public static Icon lucideExpand() {
+        return lucideExpand(IconOptions.DEFAULT);
     }
 
-    public static Icon expand(IconOptions options) {
-        return new Icon(INSTANCE::expand, options);
+    public static Icon lucideExpand(IconOptions options) {
+        return new Icon(INSTANCE::lucideExpand, options);
     }
 
-    public static Icon externalLink() {
-        return externalLink(IconOptions.DEFAULT);
+    public static Icon lucideExternalLink() {
+        return lucideExternalLink(IconOptions.DEFAULT);
     }
 
-    public static Icon externalLink(IconOptions options) {
-        return new Icon(INSTANCE::externalLink, options);
+    public static Icon lucideExternalLink(IconOptions options) {
+        return new Icon(INSTANCE::lucideExternalLink, options);
     }
 
-    public static Icon eye() {
-        return eye(IconOptions.DEFAULT);
+    public static Icon lucideEye() {
+        return lucideEye(IconOptions.DEFAULT);
     }
 
-    public static Icon eye(IconOptions options) {
-        return new Icon(INSTANCE::eye, options);
+    public static Icon lucideEye(IconOptions options) {
+        return new Icon(INSTANCE::lucideEye, options);
     }
 
-    public static Icon eyeClosed() {
-        return eyeClosed(IconOptions.DEFAULT);
+    public static Icon lucideEyeClosed() {
+        return lucideEyeClosed(IconOptions.DEFAULT);
     }
 
-    public static Icon eyeClosed(IconOptions options) {
-        return new Icon(INSTANCE::eyeClosed, options);
+    public static Icon lucideEyeClosed(IconOptions options) {
+        return new Icon(INSTANCE::lucideEyeClosed, options);
     }
 
-    public static Icon eyeDashed() {
-        return eyeDashed(IconOptions.DEFAULT);
+    public static Icon lucideEyeDashed() {
+        return lucideEyeDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon eyeDashed(IconOptions options) {
-        return new Icon(INSTANCE::eyeDashed, options);
+    public static Icon lucideEyeDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideEyeDashed, options);
     }
 
-    public static Icon eyeOff() {
-        return eyeOff(IconOptions.DEFAULT);
+    public static Icon lucideEyeOff() {
+        return lucideEyeOff(IconOptions.DEFAULT);
     }
 
-    public static Icon eyeOff(IconOptions options) {
-        return new Icon(INSTANCE::eyeOff, options);
+    public static Icon lucideEyeOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideEyeOff, options);
     }
 
-    public static Icon faceAngry() {
-        return faceAngry(IconOptions.DEFAULT);
+    public static Icon lucideFaceAngry() {
+        return lucideFaceAngry(IconOptions.DEFAULT);
     }
 
-    public static Icon faceAngry(IconOptions options) {
-        return new Icon(INSTANCE::faceAngry, options);
+    public static Icon lucideFaceAngry(IconOptions options) {
+        return new Icon(INSTANCE::lucideFaceAngry, options);
     }
 
-    public static Icon faceExpressionless() {
-        return faceExpressionless(IconOptions.DEFAULT);
+    public static Icon lucideFaceExpressionless() {
+        return lucideFaceExpressionless(IconOptions.DEFAULT);
     }
 
-    public static Icon faceExpressionless(IconOptions options) {
-        return new Icon(INSTANCE::faceExpressionless, options);
+    public static Icon lucideFaceExpressionless(IconOptions options) {
+        return new Icon(INSTANCE::lucideFaceExpressionless, options);
     }
 
-    public static Icon faceGrinning() {
-        return faceGrinning(IconOptions.DEFAULT);
+    public static Icon lucideFaceGrinning() {
+        return lucideFaceGrinning(IconOptions.DEFAULT);
     }
 
-    public static Icon faceGrinning(IconOptions options) {
-        return new Icon(INSTANCE::faceGrinning, options);
+    public static Icon lucideFaceGrinning(IconOptions options) {
+        return new Icon(INSTANCE::lucideFaceGrinning, options);
     }
 
-    public static Icon faceNeutral() {
-        return faceNeutral(IconOptions.DEFAULT);
+    public static Icon lucideFaceNeutral() {
+        return lucideFaceNeutral(IconOptions.DEFAULT);
     }
 
-    public static Icon faceNeutral(IconOptions options) {
-        return new Icon(INSTANCE::faceNeutral, options);
+    public static Icon lucideFaceNeutral(IconOptions options) {
+        return new Icon(INSTANCE::lucideFaceNeutral, options);
     }
 
-    public static Icon faceSlightlyFrowning() {
-        return faceSlightlyFrowning(IconOptions.DEFAULT);
+    public static Icon lucideFaceSlightlyFrowning() {
+        return lucideFaceSlightlyFrowning(IconOptions.DEFAULT);
     }
 
-    public static Icon faceSlightlyFrowning(IconOptions options) {
-        return new Icon(INSTANCE::faceSlightlyFrowning, options);
+    public static Icon lucideFaceSlightlyFrowning(IconOptions options) {
+        return new Icon(INSTANCE::lucideFaceSlightlyFrowning, options);
     }
 
-    public static Icon faceSlightlySmiling() {
-        return faceSlightlySmiling(IconOptions.DEFAULT);
+    public static Icon lucideFaceSlightlySmiling() {
+        return lucideFaceSlightlySmiling(IconOptions.DEFAULT);
     }
 
-    public static Icon faceSlightlySmiling(IconOptions options) {
-        return new Icon(INSTANCE::faceSlightlySmiling, options);
+    public static Icon lucideFaceSlightlySmiling(IconOptions options) {
+        return new Icon(INSTANCE::lucideFaceSlightlySmiling, options);
     }
 
-    public static Icon faceSlightlySmilingPlus() {
-        return faceSlightlySmilingPlus(IconOptions.DEFAULT);
+    public static Icon lucideFaceSlightlySmilingPlus() {
+        return lucideFaceSlightlySmilingPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon faceSlightlySmilingPlus(IconOptions options) {
-        return new Icon(INSTANCE::faceSlightlySmilingPlus, options);
+    public static Icon lucideFaceSlightlySmilingPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideFaceSlightlySmilingPlus, options);
     }
 
-    public static Icon factory() {
-        return factory(IconOptions.DEFAULT);
+    public static Icon lucideFactory() {
+        return lucideFactory(IconOptions.DEFAULT);
     }
 
-    public static Icon factory(IconOptions options) {
-        return new Icon(INSTANCE::factory, options);
+    public static Icon lucideFactory(IconOptions options) {
+        return new Icon(INSTANCE::lucideFactory, options);
     }
 
-    public static Icon fan() {
-        return fan(IconOptions.DEFAULT);
+    public static Icon lucideFan() {
+        return lucideFan(IconOptions.DEFAULT);
     }
 
-    public static Icon fan(IconOptions options) {
-        return new Icon(INSTANCE::fan, options);
+    public static Icon lucideFan(IconOptions options) {
+        return new Icon(INSTANCE::lucideFan, options);
     }
 
-    public static Icon fastForward() {
-        return fastForward(IconOptions.DEFAULT);
+    public static Icon lucideFastForward() {
+        return lucideFastForward(IconOptions.DEFAULT);
     }
 
-    public static Icon fastForward(IconOptions options) {
-        return new Icon(INSTANCE::fastForward, options);
+    public static Icon lucideFastForward(IconOptions options) {
+        return new Icon(INSTANCE::lucideFastForward, options);
     }
 
-    public static Icon faucet() {
-        return faucet(IconOptions.DEFAULT);
+    public static Icon lucideFaucet() {
+        return lucideFaucet(IconOptions.DEFAULT);
     }
 
-    public static Icon faucet(IconOptions options) {
-        return new Icon(INSTANCE::faucet, options);
+    public static Icon lucideFaucet(IconOptions options) {
+        return new Icon(INSTANCE::lucideFaucet, options);
     }
 
-    public static Icon feather() {
-        return feather(IconOptions.DEFAULT);
+    public static Icon lucideFeather() {
+        return lucideFeather(IconOptions.DEFAULT);
     }
 
-    public static Icon feather(IconOptions options) {
-        return new Icon(INSTANCE::feather, options);
+    public static Icon lucideFeather(IconOptions options) {
+        return new Icon(INSTANCE::lucideFeather, options);
     }
 
-    public static Icon fence() {
-        return fence(IconOptions.DEFAULT);
+    public static Icon lucideFence() {
+        return lucideFence(IconOptions.DEFAULT);
     }
 
-    public static Icon fence(IconOptions options) {
-        return new Icon(INSTANCE::fence, options);
+    public static Icon lucideFence(IconOptions options) {
+        return new Icon(INSTANCE::lucideFence, options);
     }
 
-    public static Icon ferrisWheel() {
-        return ferrisWheel(IconOptions.DEFAULT);
+    public static Icon lucideFerrisWheel() {
+        return lucideFerrisWheel(IconOptions.DEFAULT);
     }
 
-    public static Icon ferrisWheel(IconOptions options) {
-        return new Icon(INSTANCE::ferrisWheel, options);
+    public static Icon lucideFerrisWheel(IconOptions options) {
+        return new Icon(INSTANCE::lucideFerrisWheel, options);
     }
 
-    public static Icon file() {
-        return file(IconOptions.DEFAULT);
+    public static Icon lucideFile() {
+        return lucideFile(IconOptions.DEFAULT);
     }
 
-    public static Icon file(IconOptions options) {
-        return new Icon(INSTANCE::file, options);
+    public static Icon lucideFile(IconOptions options) {
+        return new Icon(INSTANCE::lucideFile, options);
     }
 
-    public static Icon fileArchive() {
-        return fileArchive(IconOptions.DEFAULT);
+    public static Icon lucideFileArchive() {
+        return lucideFileArchive(IconOptions.DEFAULT);
     }
 
-    public static Icon fileArchive(IconOptions options) {
-        return new Icon(INSTANCE::fileArchive, options);
+    public static Icon lucideFileArchive(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileArchive, options);
     }
 
-    public static Icon fileAxis3d() {
-        return fileAxis3d(IconOptions.DEFAULT);
+    public static Icon lucideFileAxis3d() {
+        return lucideFileAxis3d(IconOptions.DEFAULT);
     }
 
-    public static Icon fileAxis3d(IconOptions options) {
-        return new Icon(INSTANCE::fileAxis3d, options);
+    public static Icon lucideFileAxis3d(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileAxis3d, options);
     }
 
-    public static Icon fileBadge() {
-        return fileBadge(IconOptions.DEFAULT);
+    public static Icon lucideFileBadge() {
+        return lucideFileBadge(IconOptions.DEFAULT);
     }
 
-    public static Icon fileBadge(IconOptions options) {
-        return new Icon(INSTANCE::fileBadge, options);
+    public static Icon lucideFileBadge(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileBadge, options);
     }
 
-    public static Icon fileBox() {
-        return fileBox(IconOptions.DEFAULT);
+    public static Icon lucideFileBox() {
+        return lucideFileBox(IconOptions.DEFAULT);
     }
 
-    public static Icon fileBox(IconOptions options) {
-        return new Icon(INSTANCE::fileBox, options);
+    public static Icon lucideFileBox(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileBox, options);
     }
 
-    public static Icon fileBraces() {
-        return fileBraces(IconOptions.DEFAULT);
+    public static Icon lucideFileBraces() {
+        return lucideFileBraces(IconOptions.DEFAULT);
     }
 
-    public static Icon fileBraces(IconOptions options) {
-        return new Icon(INSTANCE::fileBraces, options);
+    public static Icon lucideFileBraces(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileBraces, options);
     }
 
-    public static Icon fileBracesCorner() {
-        return fileBracesCorner(IconOptions.DEFAULT);
+    public static Icon lucideFileBracesCorner() {
+        return lucideFileBracesCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon fileBracesCorner(IconOptions options) {
-        return new Icon(INSTANCE::fileBracesCorner, options);
+    public static Icon lucideFileBracesCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileBracesCorner, options);
     }
 
-    public static Icon fileChartColumn() {
-        return fileChartColumn(IconOptions.DEFAULT);
+    public static Icon lucideFileChartColumn() {
+        return lucideFileChartColumn(IconOptions.DEFAULT);
     }
 
-    public static Icon fileChartColumn(IconOptions options) {
-        return new Icon(INSTANCE::fileChartColumn, options);
+    public static Icon lucideFileChartColumn(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileChartColumn, options);
     }
 
-    public static Icon fileChartColumnIncreasing() {
-        return fileChartColumnIncreasing(IconOptions.DEFAULT);
+    public static Icon lucideFileChartColumnIncreasing() {
+        return lucideFileChartColumnIncreasing(IconOptions.DEFAULT);
     }
 
-    public static Icon fileChartColumnIncreasing(IconOptions options) {
-        return new Icon(INSTANCE::fileChartColumnIncreasing, options);
+    public static Icon lucideFileChartColumnIncreasing(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileChartColumnIncreasing, options);
     }
 
-    public static Icon fileChartLine() {
-        return fileChartLine(IconOptions.DEFAULT);
+    public static Icon lucideFileChartLine() {
+        return lucideFileChartLine(IconOptions.DEFAULT);
     }
 
-    public static Icon fileChartLine(IconOptions options) {
-        return new Icon(INSTANCE::fileChartLine, options);
+    public static Icon lucideFileChartLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileChartLine, options);
     }
 
-    public static Icon fileChartPie() {
-        return fileChartPie(IconOptions.DEFAULT);
+    public static Icon lucideFileChartPie() {
+        return lucideFileChartPie(IconOptions.DEFAULT);
     }
 
-    public static Icon fileChartPie(IconOptions options) {
-        return new Icon(INSTANCE::fileChartPie, options);
+    public static Icon lucideFileChartPie(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileChartPie, options);
     }
 
-    public static Icon fileCheck() {
-        return fileCheck(IconOptions.DEFAULT);
+    public static Icon lucideFileCheck() {
+        return lucideFileCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon fileCheck(IconOptions options) {
-        return new Icon(INSTANCE::fileCheck, options);
+    public static Icon lucideFileCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileCheck, options);
     }
 
-    public static Icon fileCheckCorner() {
-        return fileCheckCorner(IconOptions.DEFAULT);
+    public static Icon lucideFileCheckCorner() {
+        return lucideFileCheckCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon fileCheckCorner(IconOptions options) {
-        return new Icon(INSTANCE::fileCheckCorner, options);
+    public static Icon lucideFileCheckCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileCheckCorner, options);
     }
 
-    public static Icon fileClock() {
-        return fileClock(IconOptions.DEFAULT);
+    public static Icon lucideFileClock() {
+        return lucideFileClock(IconOptions.DEFAULT);
     }
 
-    public static Icon fileClock(IconOptions options) {
-        return new Icon(INSTANCE::fileClock, options);
+    public static Icon lucideFileClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileClock, options);
     }
 
-    public static Icon fileCode() {
-        return fileCode(IconOptions.DEFAULT);
+    public static Icon lucideFileCode() {
+        return lucideFileCode(IconOptions.DEFAULT);
     }
 
-    public static Icon fileCode(IconOptions options) {
-        return new Icon(INSTANCE::fileCode, options);
+    public static Icon lucideFileCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileCode, options);
     }
 
-    public static Icon fileCodeCorner() {
-        return fileCodeCorner(IconOptions.DEFAULT);
+    public static Icon lucideFileCodeCorner() {
+        return lucideFileCodeCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon fileCodeCorner(IconOptions options) {
-        return new Icon(INSTANCE::fileCodeCorner, options);
+    public static Icon lucideFileCodeCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileCodeCorner, options);
     }
 
-    public static Icon fileCog() {
-        return fileCog(IconOptions.DEFAULT);
+    public static Icon lucideFileCog() {
+        return lucideFileCog(IconOptions.DEFAULT);
     }
 
-    public static Icon fileCog(IconOptions options) {
-        return new Icon(INSTANCE::fileCog, options);
+    public static Icon lucideFileCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileCog, options);
     }
 
-    public static Icon fileDiff() {
-        return fileDiff(IconOptions.DEFAULT);
+    public static Icon lucideFileDiff() {
+        return lucideFileDiff(IconOptions.DEFAULT);
     }
 
-    public static Icon fileDiff(IconOptions options) {
-        return new Icon(INSTANCE::fileDiff, options);
+    public static Icon lucideFileDiff(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileDiff, options);
     }
 
-    public static Icon fileDigit() {
-        return fileDigit(IconOptions.DEFAULT);
+    public static Icon lucideFileDigit() {
+        return lucideFileDigit(IconOptions.DEFAULT);
     }
 
-    public static Icon fileDigit(IconOptions options) {
-        return new Icon(INSTANCE::fileDigit, options);
+    public static Icon lucideFileDigit(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileDigit, options);
     }
 
-    public static Icon fileDown() {
-        return fileDown(IconOptions.DEFAULT);
+    public static Icon lucideFileDown() {
+        return lucideFileDown(IconOptions.DEFAULT);
     }
 
-    public static Icon fileDown(IconOptions options) {
-        return new Icon(INSTANCE::fileDown, options);
+    public static Icon lucideFileDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileDown, options);
     }
 
-    public static Icon fileExclamationPoint() {
-        return fileExclamationPoint(IconOptions.DEFAULT);
+    public static Icon lucideFileExclamationPoint() {
+        return lucideFileExclamationPoint(IconOptions.DEFAULT);
     }
 
-    public static Icon fileExclamationPoint(IconOptions options) {
-        return new Icon(INSTANCE::fileExclamationPoint, options);
+    public static Icon lucideFileExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileExclamationPoint, options);
     }
 
-    public static Icon fileHeadphone() {
-        return fileHeadphone(IconOptions.DEFAULT);
+    public static Icon lucideFileHeadphone() {
+        return lucideFileHeadphone(IconOptions.DEFAULT);
     }
 
-    public static Icon fileHeadphone(IconOptions options) {
-        return new Icon(INSTANCE::fileHeadphone, options);
+    public static Icon lucideFileHeadphone(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileHeadphone, options);
     }
 
-    public static Icon fileHeart() {
-        return fileHeart(IconOptions.DEFAULT);
+    public static Icon lucideFileHeart() {
+        return lucideFileHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon fileHeart(IconOptions options) {
-        return new Icon(INSTANCE::fileHeart, options);
+    public static Icon lucideFileHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileHeart, options);
     }
 
-    public static Icon fileImage() {
-        return fileImage(IconOptions.DEFAULT);
+    public static Icon lucideFileImage() {
+        return lucideFileImage(IconOptions.DEFAULT);
     }
 
-    public static Icon fileImage(IconOptions options) {
-        return new Icon(INSTANCE::fileImage, options);
+    public static Icon lucideFileImage(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileImage, options);
     }
 
-    public static Icon fileInput() {
-        return fileInput(IconOptions.DEFAULT);
+    public static Icon lucideFileInput() {
+        return lucideFileInput(IconOptions.DEFAULT);
     }
 
-    public static Icon fileInput(IconOptions options) {
-        return new Icon(INSTANCE::fileInput, options);
+    public static Icon lucideFileInput(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileInput, options);
     }
 
-    public static Icon fileKey() {
-        return fileKey(IconOptions.DEFAULT);
+    public static Icon lucideFileKey() {
+        return lucideFileKey(IconOptions.DEFAULT);
     }
 
-    public static Icon fileKey(IconOptions options) {
-        return new Icon(INSTANCE::fileKey, options);
+    public static Icon lucideFileKey(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileKey, options);
     }
 
-    public static Icon fileLock() {
-        return fileLock(IconOptions.DEFAULT);
+    public static Icon lucideFileLock() {
+        return lucideFileLock(IconOptions.DEFAULT);
     }
 
-    public static Icon fileLock(IconOptions options) {
-        return new Icon(INSTANCE::fileLock, options);
+    public static Icon lucideFileLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileLock, options);
     }
 
-    public static Icon fileMinus() {
-        return fileMinus(IconOptions.DEFAULT);
+    public static Icon lucideFileMinus() {
+        return lucideFileMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon fileMinus(IconOptions options) {
-        return new Icon(INSTANCE::fileMinus, options);
+    public static Icon lucideFileMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileMinus, options);
     }
 
-    public static Icon fileMinusCorner() {
-        return fileMinusCorner(IconOptions.DEFAULT);
+    public static Icon lucideFileMinusCorner() {
+        return lucideFileMinusCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon fileMinusCorner(IconOptions options) {
-        return new Icon(INSTANCE::fileMinusCorner, options);
+    public static Icon lucideFileMinusCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileMinusCorner, options);
     }
 
-    public static Icon fileMusic() {
-        return fileMusic(IconOptions.DEFAULT);
+    public static Icon lucideFileMusic() {
+        return lucideFileMusic(IconOptions.DEFAULT);
     }
 
-    public static Icon fileMusic(IconOptions options) {
-        return new Icon(INSTANCE::fileMusic, options);
+    public static Icon lucideFileMusic(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileMusic, options);
     }
 
-    public static Icon fileOutput() {
-        return fileOutput(IconOptions.DEFAULT);
+    public static Icon lucideFileOutput() {
+        return lucideFileOutput(IconOptions.DEFAULT);
     }
 
-    public static Icon fileOutput(IconOptions options) {
-        return new Icon(INSTANCE::fileOutput, options);
+    public static Icon lucideFileOutput(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileOutput, options);
     }
 
-    public static Icon filePen() {
-        return filePen(IconOptions.DEFAULT);
+    public static Icon lucideFilePen() {
+        return lucideFilePen(IconOptions.DEFAULT);
     }
 
-    public static Icon filePen(IconOptions options) {
-        return new Icon(INSTANCE::filePen, options);
+    public static Icon lucideFilePen(IconOptions options) {
+        return new Icon(INSTANCE::lucideFilePen, options);
     }
 
-    public static Icon filePenLine() {
-        return filePenLine(IconOptions.DEFAULT);
+    public static Icon lucideFilePenLine() {
+        return lucideFilePenLine(IconOptions.DEFAULT);
     }
 
-    public static Icon filePenLine(IconOptions options) {
-        return new Icon(INSTANCE::filePenLine, options);
+    public static Icon lucideFilePenLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideFilePenLine, options);
     }
 
-    public static Icon filePlay() {
-        return filePlay(IconOptions.DEFAULT);
+    public static Icon lucideFilePlay() {
+        return lucideFilePlay(IconOptions.DEFAULT);
     }
 
-    public static Icon filePlay(IconOptions options) {
-        return new Icon(INSTANCE::filePlay, options);
+    public static Icon lucideFilePlay(IconOptions options) {
+        return new Icon(INSTANCE::lucideFilePlay, options);
     }
 
-    public static Icon filePlus() {
-        return filePlus(IconOptions.DEFAULT);
+    public static Icon lucideFilePlus() {
+        return lucideFilePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon filePlus(IconOptions options) {
-        return new Icon(INSTANCE::filePlus, options);
+    public static Icon lucideFilePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideFilePlus, options);
     }
 
-    public static Icon filePlusCorner() {
-        return filePlusCorner(IconOptions.DEFAULT);
+    public static Icon lucideFilePlusCorner() {
+        return lucideFilePlusCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon filePlusCorner(IconOptions options) {
-        return new Icon(INSTANCE::filePlusCorner, options);
+    public static Icon lucideFilePlusCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideFilePlusCorner, options);
     }
 
-    public static Icon fileQuestionMark() {
-        return fileQuestionMark(IconOptions.DEFAULT);
+    public static Icon lucideFileQuestionMark() {
+        return lucideFileQuestionMark(IconOptions.DEFAULT);
     }
 
-    public static Icon fileQuestionMark(IconOptions options) {
-        return new Icon(INSTANCE::fileQuestionMark, options);
+    public static Icon lucideFileQuestionMark(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileQuestionMark, options);
     }
 
-    public static Icon fileScan() {
-        return fileScan(IconOptions.DEFAULT);
+    public static Icon lucideFileScan() {
+        return lucideFileScan(IconOptions.DEFAULT);
     }
 
-    public static Icon fileScan(IconOptions options) {
-        return new Icon(INSTANCE::fileScan, options);
+    public static Icon lucideFileScan(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileScan, options);
     }
 
-    public static Icon fileSearch() {
-        return fileSearch(IconOptions.DEFAULT);
+    public static Icon lucideFileSearch() {
+        return lucideFileSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon fileSearch(IconOptions options) {
-        return new Icon(INSTANCE::fileSearch, options);
+    public static Icon lucideFileSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileSearch, options);
     }
 
-    public static Icon fileSearchCorner() {
-        return fileSearchCorner(IconOptions.DEFAULT);
+    public static Icon lucideFileSearchCorner() {
+        return lucideFileSearchCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon fileSearchCorner(IconOptions options) {
-        return new Icon(INSTANCE::fileSearchCorner, options);
+    public static Icon lucideFileSearchCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileSearchCorner, options);
     }
 
-    public static Icon fileSignal() {
-        return fileSignal(IconOptions.DEFAULT);
+    public static Icon lucideFileSignal() {
+        return lucideFileSignal(IconOptions.DEFAULT);
     }
 
-    public static Icon fileSignal(IconOptions options) {
-        return new Icon(INSTANCE::fileSignal, options);
+    public static Icon lucideFileSignal(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileSignal, options);
     }
 
-    public static Icon fileSliders() {
-        return fileSliders(IconOptions.DEFAULT);
+    public static Icon lucideFileSliders() {
+        return lucideFileSliders(IconOptions.DEFAULT);
     }
 
-    public static Icon fileSliders(IconOptions options) {
-        return new Icon(INSTANCE::fileSliders, options);
+    public static Icon lucideFileSliders(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileSliders, options);
     }
 
-    public static Icon fileSpreadsheet() {
-        return fileSpreadsheet(IconOptions.DEFAULT);
+    public static Icon lucideFileSpreadsheet() {
+        return lucideFileSpreadsheet(IconOptions.DEFAULT);
     }
 
-    public static Icon fileSpreadsheet(IconOptions options) {
-        return new Icon(INSTANCE::fileSpreadsheet, options);
+    public static Icon lucideFileSpreadsheet(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileSpreadsheet, options);
     }
 
-    public static Icon fileStack() {
-        return fileStack(IconOptions.DEFAULT);
+    public static Icon lucideFileStack() {
+        return lucideFileStack(IconOptions.DEFAULT);
     }
 
-    public static Icon fileStack(IconOptions options) {
-        return new Icon(INSTANCE::fileStack, options);
+    public static Icon lucideFileStack(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileStack, options);
     }
 
-    public static Icon fileSymlink() {
-        return fileSymlink(IconOptions.DEFAULT);
+    public static Icon lucideFileSymlink() {
+        return lucideFileSymlink(IconOptions.DEFAULT);
     }
 
-    public static Icon fileSymlink(IconOptions options) {
-        return new Icon(INSTANCE::fileSymlink, options);
+    public static Icon lucideFileSymlink(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileSymlink, options);
     }
 
-    public static Icon fileTerminal() {
-        return fileTerminal(IconOptions.DEFAULT);
+    public static Icon lucideFileTerminal() {
+        return lucideFileTerminal(IconOptions.DEFAULT);
     }
 
-    public static Icon fileTerminal(IconOptions options) {
-        return new Icon(INSTANCE::fileTerminal, options);
+    public static Icon lucideFileTerminal(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileTerminal, options);
     }
 
-    public static Icon fileText() {
-        return fileText(IconOptions.DEFAULT);
+    public static Icon lucideFileText() {
+        return lucideFileText(IconOptions.DEFAULT);
     }
 
-    public static Icon fileText(IconOptions options) {
-        return new Icon(INSTANCE::fileText, options);
+    public static Icon lucideFileText(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileText, options);
     }
 
-    public static Icon fileType() {
-        return fileType(IconOptions.DEFAULT);
+    public static Icon lucideFileType() {
+        return lucideFileType(IconOptions.DEFAULT);
     }
 
-    public static Icon fileType(IconOptions options) {
-        return new Icon(INSTANCE::fileType, options);
+    public static Icon lucideFileType(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileType, options);
     }
 
-    public static Icon fileTypeCorner() {
-        return fileTypeCorner(IconOptions.DEFAULT);
+    public static Icon lucideFileTypeCorner() {
+        return lucideFileTypeCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon fileTypeCorner(IconOptions options) {
-        return new Icon(INSTANCE::fileTypeCorner, options);
+    public static Icon lucideFileTypeCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileTypeCorner, options);
     }
 
-    public static Icon fileUp() {
-        return fileUp(IconOptions.DEFAULT);
+    public static Icon lucideFileUp() {
+        return lucideFileUp(IconOptions.DEFAULT);
     }
 
-    public static Icon fileUp(IconOptions options) {
-        return new Icon(INSTANCE::fileUp, options);
+    public static Icon lucideFileUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileUp, options);
     }
 
-    public static Icon fileUser() {
-        return fileUser(IconOptions.DEFAULT);
+    public static Icon lucideFileUser() {
+        return lucideFileUser(IconOptions.DEFAULT);
     }
 
-    public static Icon fileUser(IconOptions options) {
-        return new Icon(INSTANCE::fileUser, options);
+    public static Icon lucideFileUser(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileUser, options);
     }
 
-    public static Icon fileVideoCamera() {
-        return fileVideoCamera(IconOptions.DEFAULT);
+    public static Icon lucideFileVideoCamera() {
+        return lucideFileVideoCamera(IconOptions.DEFAULT);
     }
 
-    public static Icon fileVideoCamera(IconOptions options) {
-        return new Icon(INSTANCE::fileVideoCamera, options);
+    public static Icon lucideFileVideoCamera(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileVideoCamera, options);
     }
 
-    public static Icon fileVolume() {
-        return fileVolume(IconOptions.DEFAULT);
+    public static Icon lucideFileVolume() {
+        return lucideFileVolume(IconOptions.DEFAULT);
     }
 
-    public static Icon fileVolume(IconOptions options) {
-        return new Icon(INSTANCE::fileVolume, options);
+    public static Icon lucideFileVolume(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileVolume, options);
     }
 
-    public static Icon fileX() {
-        return fileX(IconOptions.DEFAULT);
+    public static Icon lucideFileX() {
+        return lucideFileX(IconOptions.DEFAULT);
     }
 
-    public static Icon fileX(IconOptions options) {
-        return new Icon(INSTANCE::fileX, options);
+    public static Icon lucideFileX(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileX, options);
     }
 
-    public static Icon fileXCorner() {
-        return fileXCorner(IconOptions.DEFAULT);
+    public static Icon lucideFileXCorner() {
+        return lucideFileXCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon fileXCorner(IconOptions options) {
-        return new Icon(INSTANCE::fileXCorner, options);
+    public static Icon lucideFileXCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideFileXCorner, options);
     }
 
-    public static Icon files() {
-        return files(IconOptions.DEFAULT);
+    public static Icon lucideFiles() {
+        return lucideFiles(IconOptions.DEFAULT);
     }
 
-    public static Icon files(IconOptions options) {
-        return new Icon(INSTANCE::files, options);
+    public static Icon lucideFiles(IconOptions options) {
+        return new Icon(INSTANCE::lucideFiles, options);
     }
 
-    public static Icon film() {
-        return film(IconOptions.DEFAULT);
+    public static Icon lucideFilm() {
+        return lucideFilm(IconOptions.DEFAULT);
     }
 
-    public static Icon film(IconOptions options) {
-        return new Icon(INSTANCE::film, options);
+    public static Icon lucideFilm(IconOptions options) {
+        return new Icon(INSTANCE::lucideFilm, options);
     }
 
-    public static Icon fingerprintPattern() {
-        return fingerprintPattern(IconOptions.DEFAULT);
+    public static Icon lucideFingerprintPattern() {
+        return lucideFingerprintPattern(IconOptions.DEFAULT);
     }
 
-    public static Icon fingerprintPattern(IconOptions options) {
-        return new Icon(INSTANCE::fingerprintPattern, options);
+    public static Icon lucideFingerprintPattern(IconOptions options) {
+        return new Icon(INSTANCE::lucideFingerprintPattern, options);
     }
 
-    public static Icon fireExtinguisher() {
-        return fireExtinguisher(IconOptions.DEFAULT);
+    public static Icon lucideFireExtinguisher() {
+        return lucideFireExtinguisher(IconOptions.DEFAULT);
     }
 
-    public static Icon fireExtinguisher(IconOptions options) {
-        return new Icon(INSTANCE::fireExtinguisher, options);
+    public static Icon lucideFireExtinguisher(IconOptions options) {
+        return new Icon(INSTANCE::lucideFireExtinguisher, options);
     }
 
-    public static Icon fish() {
-        return fish(IconOptions.DEFAULT);
+    public static Icon lucideFish() {
+        return lucideFish(IconOptions.DEFAULT);
     }
 
-    public static Icon fish(IconOptions options) {
-        return new Icon(INSTANCE::fish, options);
+    public static Icon lucideFish(IconOptions options) {
+        return new Icon(INSTANCE::lucideFish, options);
     }
 
-    public static Icon fishOff() {
-        return fishOff(IconOptions.DEFAULT);
+    public static Icon lucideFishOff() {
+        return lucideFishOff(IconOptions.DEFAULT);
     }
 
-    public static Icon fishOff(IconOptions options) {
-        return new Icon(INSTANCE::fishOff, options);
+    public static Icon lucideFishOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideFishOff, options);
     }
 
-    public static Icon fishSymbol() {
-        return fishSymbol(IconOptions.DEFAULT);
+    public static Icon lucideFishSymbol() {
+        return lucideFishSymbol(IconOptions.DEFAULT);
     }
 
-    public static Icon fishSymbol(IconOptions options) {
-        return new Icon(INSTANCE::fishSymbol, options);
+    public static Icon lucideFishSymbol(IconOptions options) {
+        return new Icon(INSTANCE::lucideFishSymbol, options);
     }
 
-    public static Icon fishingHook() {
-        return fishingHook(IconOptions.DEFAULT);
+    public static Icon lucideFishingHook() {
+        return lucideFishingHook(IconOptions.DEFAULT);
     }
 
-    public static Icon fishingHook(IconOptions options) {
-        return new Icon(INSTANCE::fishingHook, options);
+    public static Icon lucideFishingHook(IconOptions options) {
+        return new Icon(INSTANCE::lucideFishingHook, options);
     }
 
-    public static Icon fishingRod() {
-        return fishingRod(IconOptions.DEFAULT);
+    public static Icon lucideFishingRod() {
+        return lucideFishingRod(IconOptions.DEFAULT);
     }
 
-    public static Icon fishingRod(IconOptions options) {
-        return new Icon(INSTANCE::fishingRod, options);
+    public static Icon lucideFishingRod(IconOptions options) {
+        return new Icon(INSTANCE::lucideFishingRod, options);
     }
 
-    public static Icon flag() {
-        return flag(IconOptions.DEFAULT);
+    public static Icon lucideFlag() {
+        return lucideFlag(IconOptions.DEFAULT);
     }
 
-    public static Icon flag(IconOptions options) {
-        return new Icon(INSTANCE::flag, options);
+    public static Icon lucideFlag(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlag, options);
     }
 
-    public static Icon flagOff() {
-        return flagOff(IconOptions.DEFAULT);
+    public static Icon lucideFlagOff() {
+        return lucideFlagOff(IconOptions.DEFAULT);
     }
 
-    public static Icon flagOff(IconOptions options) {
-        return new Icon(INSTANCE::flagOff, options);
+    public static Icon lucideFlagOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlagOff, options);
     }
 
-    public static Icon flagTriangleLeft() {
-        return flagTriangleLeft(IconOptions.DEFAULT);
+    public static Icon lucideFlagTriangleLeft() {
+        return lucideFlagTriangleLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon flagTriangleLeft(IconOptions options) {
-        return new Icon(INSTANCE::flagTriangleLeft, options);
+    public static Icon lucideFlagTriangleLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlagTriangleLeft, options);
     }
 
-    public static Icon flagTriangleRight() {
-        return flagTriangleRight(IconOptions.DEFAULT);
+    public static Icon lucideFlagTriangleRight() {
+        return lucideFlagTriangleRight(IconOptions.DEFAULT);
     }
 
-    public static Icon flagTriangleRight(IconOptions options) {
-        return new Icon(INSTANCE::flagTriangleRight, options);
+    public static Icon lucideFlagTriangleRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlagTriangleRight, options);
     }
 
-    public static Icon flame() {
-        return flame(IconOptions.DEFAULT);
+    public static Icon lucideFlame() {
+        return lucideFlame(IconOptions.DEFAULT);
     }
 
-    public static Icon flame(IconOptions options) {
-        return new Icon(INSTANCE::flame, options);
+    public static Icon lucideFlame(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlame, options);
     }
 
-    public static Icon flameKindling() {
-        return flameKindling(IconOptions.DEFAULT);
+    public static Icon lucideFlameKindling() {
+        return lucideFlameKindling(IconOptions.DEFAULT);
     }
 
-    public static Icon flameKindling(IconOptions options) {
-        return new Icon(INSTANCE::flameKindling, options);
+    public static Icon lucideFlameKindling(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlameKindling, options);
     }
 
-    public static Icon flashlight() {
-        return flashlight(IconOptions.DEFAULT);
+    public static Icon lucideFlashlight() {
+        return lucideFlashlight(IconOptions.DEFAULT);
     }
 
-    public static Icon flashlight(IconOptions options) {
-        return new Icon(INSTANCE::flashlight, options);
+    public static Icon lucideFlashlight(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlashlight, options);
     }
 
-    public static Icon flashlightOff() {
-        return flashlightOff(IconOptions.DEFAULT);
+    public static Icon lucideFlashlightOff() {
+        return lucideFlashlightOff(IconOptions.DEFAULT);
     }
 
-    public static Icon flashlightOff(IconOptions options) {
-        return new Icon(INSTANCE::flashlightOff, options);
+    public static Icon lucideFlashlightOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlashlightOff, options);
     }
 
-    public static Icon flaskConical() {
-        return flaskConical(IconOptions.DEFAULT);
+    public static Icon lucideFlaskConical() {
+        return lucideFlaskConical(IconOptions.DEFAULT);
     }
 
-    public static Icon flaskConical(IconOptions options) {
-        return new Icon(INSTANCE::flaskConical, options);
+    public static Icon lucideFlaskConical(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlaskConical, options);
     }
 
-    public static Icon flaskConicalOff() {
-        return flaskConicalOff(IconOptions.DEFAULT);
+    public static Icon lucideFlaskConicalOff() {
+        return lucideFlaskConicalOff(IconOptions.DEFAULT);
     }
 
-    public static Icon flaskConicalOff(IconOptions options) {
-        return new Icon(INSTANCE::flaskConicalOff, options);
+    public static Icon lucideFlaskConicalOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlaskConicalOff, options);
     }
 
-    public static Icon flaskRound() {
-        return flaskRound(IconOptions.DEFAULT);
+    public static Icon lucideFlaskRound() {
+        return lucideFlaskRound(IconOptions.DEFAULT);
     }
 
-    public static Icon flaskRound(IconOptions options) {
-        return new Icon(INSTANCE::flaskRound, options);
+    public static Icon lucideFlaskRound(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlaskRound, options);
     }
 
-    public static Icon flower() {
-        return flower(IconOptions.DEFAULT);
+    public static Icon lucideFlower() {
+        return lucideFlower(IconOptions.DEFAULT);
     }
 
-    public static Icon flower(IconOptions options) {
-        return new Icon(INSTANCE::flower, options);
+    public static Icon lucideFlower(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlower, options);
     }
 
-    public static Icon flower2() {
-        return flower2(IconOptions.DEFAULT);
+    public static Icon lucideFlower2() {
+        return lucideFlower2(IconOptions.DEFAULT);
     }
 
-    public static Icon flower2(IconOptions options) {
-        return new Icon(INSTANCE::flower2, options);
+    public static Icon lucideFlower2(IconOptions options) {
+        return new Icon(INSTANCE::lucideFlower2, options);
     }
 
-    public static Icon focus() {
-        return focus(IconOptions.DEFAULT);
+    public static Icon lucideFocus() {
+        return lucideFocus(IconOptions.DEFAULT);
     }
 
-    public static Icon focus(IconOptions options) {
-        return new Icon(INSTANCE::focus, options);
+    public static Icon lucideFocus(IconOptions options) {
+        return new Icon(INSTANCE::lucideFocus, options);
     }
 
-    public static Icon foldHorizontal() {
-        return foldHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideFoldHorizontal() {
+        return lucideFoldHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon foldHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::foldHorizontal, options);
+    public static Icon lucideFoldHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideFoldHorizontal, options);
     }
 
-    public static Icon foldVertical() {
-        return foldVertical(IconOptions.DEFAULT);
+    public static Icon lucideFoldVertical() {
+        return lucideFoldVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon foldVertical(IconOptions options) {
-        return new Icon(INSTANCE::foldVertical, options);
+    public static Icon lucideFoldVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideFoldVertical, options);
     }
 
-    public static Icon folder() {
-        return folder(IconOptions.DEFAULT);
+    public static Icon lucideFolder() {
+        return lucideFolder(IconOptions.DEFAULT);
     }
 
-    public static Icon folder(IconOptions options) {
-        return new Icon(INSTANCE::folder, options);
+    public static Icon lucideFolder(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolder, options);
     }
 
-    public static Icon folderArchive() {
-        return folderArchive(IconOptions.DEFAULT);
+    public static Icon lucideFolderArchive() {
+        return lucideFolderArchive(IconOptions.DEFAULT);
     }
 
-    public static Icon folderArchive(IconOptions options) {
-        return new Icon(INSTANCE::folderArchive, options);
+    public static Icon lucideFolderArchive(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderArchive, options);
     }
 
-    public static Icon folderBookmark() {
-        return folderBookmark(IconOptions.DEFAULT);
+    public static Icon lucideFolderBookmark() {
+        return lucideFolderBookmark(IconOptions.DEFAULT);
     }
 
-    public static Icon folderBookmark(IconOptions options) {
-        return new Icon(INSTANCE::folderBookmark, options);
+    public static Icon lucideFolderBookmark(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderBookmark, options);
     }
 
-    public static Icon folderCheck() {
-        return folderCheck(IconOptions.DEFAULT);
+    public static Icon lucideFolderCheck() {
+        return lucideFolderCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon folderCheck(IconOptions options) {
-        return new Icon(INSTANCE::folderCheck, options);
+    public static Icon lucideFolderCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderCheck, options);
     }
 
-    public static Icon folderClock() {
-        return folderClock(IconOptions.DEFAULT);
+    public static Icon lucideFolderClock() {
+        return lucideFolderClock(IconOptions.DEFAULT);
     }
 
-    public static Icon folderClock(IconOptions options) {
-        return new Icon(INSTANCE::folderClock, options);
+    public static Icon lucideFolderClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderClock, options);
     }
 
-    public static Icon folderClosed() {
-        return folderClosed(IconOptions.DEFAULT);
+    public static Icon lucideFolderClosed() {
+        return lucideFolderClosed(IconOptions.DEFAULT);
     }
 
-    public static Icon folderClosed(IconOptions options) {
-        return new Icon(INSTANCE::folderClosed, options);
+    public static Icon lucideFolderClosed(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderClosed, options);
     }
 
-    public static Icon folderCode() {
-        return folderCode(IconOptions.DEFAULT);
+    public static Icon lucideFolderCode() {
+        return lucideFolderCode(IconOptions.DEFAULT);
     }
 
-    public static Icon folderCode(IconOptions options) {
-        return new Icon(INSTANCE::folderCode, options);
+    public static Icon lucideFolderCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderCode, options);
     }
 
-    public static Icon folderCog() {
-        return folderCog(IconOptions.DEFAULT);
+    public static Icon lucideFolderCog() {
+        return lucideFolderCog(IconOptions.DEFAULT);
     }
 
-    public static Icon folderCog(IconOptions options) {
-        return new Icon(INSTANCE::folderCog, options);
+    public static Icon lucideFolderCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderCog, options);
     }
 
-    public static Icon folderDot() {
-        return folderDot(IconOptions.DEFAULT);
+    public static Icon lucideFolderDot() {
+        return lucideFolderDot(IconOptions.DEFAULT);
     }
 
-    public static Icon folderDot(IconOptions options) {
-        return new Icon(INSTANCE::folderDot, options);
+    public static Icon lucideFolderDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderDot, options);
     }
 
-    public static Icon folderDown() {
-        return folderDown(IconOptions.DEFAULT);
+    public static Icon lucideFolderDown() {
+        return lucideFolderDown(IconOptions.DEFAULT);
     }
 
-    public static Icon folderDown(IconOptions options) {
-        return new Icon(INSTANCE::folderDown, options);
+    public static Icon lucideFolderDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderDown, options);
     }
 
-    public static Icon folderGit() {
-        return folderGit(IconOptions.DEFAULT);
+    public static Icon lucideFolderGit() {
+        return lucideFolderGit(IconOptions.DEFAULT);
     }
 
-    public static Icon folderGit(IconOptions options) {
-        return new Icon(INSTANCE::folderGit, options);
+    public static Icon lucideFolderGit(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderGit, options);
     }
 
-    public static Icon folderGit2() {
-        return folderGit2(IconOptions.DEFAULT);
+    public static Icon lucideFolderGit2() {
+        return lucideFolderGit2(IconOptions.DEFAULT);
     }
 
-    public static Icon folderGit2(IconOptions options) {
-        return new Icon(INSTANCE::folderGit2, options);
+    public static Icon lucideFolderGit2(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderGit2, options);
     }
 
-    public static Icon folderHeart() {
-        return folderHeart(IconOptions.DEFAULT);
+    public static Icon lucideFolderHeart() {
+        return lucideFolderHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon folderHeart(IconOptions options) {
-        return new Icon(INSTANCE::folderHeart, options);
+    public static Icon lucideFolderHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderHeart, options);
     }
 
-    public static Icon folderInput() {
-        return folderInput(IconOptions.DEFAULT);
+    public static Icon lucideFolderInput() {
+        return lucideFolderInput(IconOptions.DEFAULT);
     }
 
-    public static Icon folderInput(IconOptions options) {
-        return new Icon(INSTANCE::folderInput, options);
+    public static Icon lucideFolderInput(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderInput, options);
     }
 
-    public static Icon folderKanban() {
-        return folderKanban(IconOptions.DEFAULT);
+    public static Icon lucideFolderKanban() {
+        return lucideFolderKanban(IconOptions.DEFAULT);
     }
 
-    public static Icon folderKanban(IconOptions options) {
-        return new Icon(INSTANCE::folderKanban, options);
+    public static Icon lucideFolderKanban(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderKanban, options);
     }
 
-    public static Icon folderKey() {
-        return folderKey(IconOptions.DEFAULT);
+    public static Icon lucideFolderKey() {
+        return lucideFolderKey(IconOptions.DEFAULT);
     }
 
-    public static Icon folderKey(IconOptions options) {
-        return new Icon(INSTANCE::folderKey, options);
+    public static Icon lucideFolderKey(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderKey, options);
     }
 
-    public static Icon folderLock() {
-        return folderLock(IconOptions.DEFAULT);
+    public static Icon lucideFolderLock() {
+        return lucideFolderLock(IconOptions.DEFAULT);
     }
 
-    public static Icon folderLock(IconOptions options) {
-        return new Icon(INSTANCE::folderLock, options);
+    public static Icon lucideFolderLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderLock, options);
     }
 
-    public static Icon folderMinus() {
-        return folderMinus(IconOptions.DEFAULT);
+    public static Icon lucideFolderMinus() {
+        return lucideFolderMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon folderMinus(IconOptions options) {
-        return new Icon(INSTANCE::folderMinus, options);
+    public static Icon lucideFolderMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderMinus, options);
     }
 
-    public static Icon folderOpen() {
-        return folderOpen(IconOptions.DEFAULT);
+    public static Icon lucideFolderOpen() {
+        return lucideFolderOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon folderOpen(IconOptions options) {
-        return new Icon(INSTANCE::folderOpen, options);
+    public static Icon lucideFolderOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderOpen, options);
     }
 
-    public static Icon folderOpenDot() {
-        return folderOpenDot(IconOptions.DEFAULT);
+    public static Icon lucideFolderOpenDot() {
+        return lucideFolderOpenDot(IconOptions.DEFAULT);
     }
 
-    public static Icon folderOpenDot(IconOptions options) {
-        return new Icon(INSTANCE::folderOpenDot, options);
+    public static Icon lucideFolderOpenDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderOpenDot, options);
     }
 
-    public static Icon folderOutput() {
-        return folderOutput(IconOptions.DEFAULT);
+    public static Icon lucideFolderOutput() {
+        return lucideFolderOutput(IconOptions.DEFAULT);
     }
 
-    public static Icon folderOutput(IconOptions options) {
-        return new Icon(INSTANCE::folderOutput, options);
+    public static Icon lucideFolderOutput(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderOutput, options);
     }
 
-    public static Icon folderPen() {
-        return folderPen(IconOptions.DEFAULT);
+    public static Icon lucideFolderPen() {
+        return lucideFolderPen(IconOptions.DEFAULT);
     }
 
-    public static Icon folderPen(IconOptions options) {
-        return new Icon(INSTANCE::folderPen, options);
+    public static Icon lucideFolderPen(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderPen, options);
     }
 
-    public static Icon folderPlus() {
-        return folderPlus(IconOptions.DEFAULT);
+    public static Icon lucideFolderPlus() {
+        return lucideFolderPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon folderPlus(IconOptions options) {
-        return new Icon(INSTANCE::folderPlus, options);
+    public static Icon lucideFolderPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderPlus, options);
     }
 
-    public static Icon folderRoot() {
-        return folderRoot(IconOptions.DEFAULT);
+    public static Icon lucideFolderRoot() {
+        return lucideFolderRoot(IconOptions.DEFAULT);
     }
 
-    public static Icon folderRoot(IconOptions options) {
-        return new Icon(INSTANCE::folderRoot, options);
+    public static Icon lucideFolderRoot(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderRoot, options);
     }
 
-    public static Icon folderSearch() {
-        return folderSearch(IconOptions.DEFAULT);
+    public static Icon lucideFolderSearch() {
+        return lucideFolderSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon folderSearch(IconOptions options) {
-        return new Icon(INSTANCE::folderSearch, options);
+    public static Icon lucideFolderSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderSearch, options);
     }
 
-    public static Icon folderSearch2() {
-        return folderSearch2(IconOptions.DEFAULT);
+    public static Icon lucideFolderSearch2() {
+        return lucideFolderSearch2(IconOptions.DEFAULT);
     }
 
-    public static Icon folderSearch2(IconOptions options) {
-        return new Icon(INSTANCE::folderSearch2, options);
+    public static Icon lucideFolderSearch2(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderSearch2, options);
     }
 
-    public static Icon folderSymlink() {
-        return folderSymlink(IconOptions.DEFAULT);
+    public static Icon lucideFolderSymlink() {
+        return lucideFolderSymlink(IconOptions.DEFAULT);
     }
 
-    public static Icon folderSymlink(IconOptions options) {
-        return new Icon(INSTANCE::folderSymlink, options);
+    public static Icon lucideFolderSymlink(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderSymlink, options);
     }
 
-    public static Icon folderSync() {
-        return folderSync(IconOptions.DEFAULT);
+    public static Icon lucideFolderSync() {
+        return lucideFolderSync(IconOptions.DEFAULT);
     }
 
-    public static Icon folderSync(IconOptions options) {
-        return new Icon(INSTANCE::folderSync, options);
+    public static Icon lucideFolderSync(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderSync, options);
     }
 
-    public static Icon folderTree() {
-        return folderTree(IconOptions.DEFAULT);
+    public static Icon lucideFolderTree() {
+        return lucideFolderTree(IconOptions.DEFAULT);
     }
 
-    public static Icon folderTree(IconOptions options) {
-        return new Icon(INSTANCE::folderTree, options);
+    public static Icon lucideFolderTree(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderTree, options);
     }
 
-    public static Icon folderUp() {
-        return folderUp(IconOptions.DEFAULT);
+    public static Icon lucideFolderUp() {
+        return lucideFolderUp(IconOptions.DEFAULT);
     }
 
-    public static Icon folderUp(IconOptions options) {
-        return new Icon(INSTANCE::folderUp, options);
+    public static Icon lucideFolderUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderUp, options);
     }
 
-    public static Icon folderX() {
-        return folderX(IconOptions.DEFAULT);
+    public static Icon lucideFolderX() {
+        return lucideFolderX(IconOptions.DEFAULT);
     }
 
-    public static Icon folderX(IconOptions options) {
-        return new Icon(INSTANCE::folderX, options);
+    public static Icon lucideFolderX(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderX, options);
     }
 
-    public static Icon folders() {
-        return folders(IconOptions.DEFAULT);
+    public static Icon lucideFolders() {
+        return lucideFolders(IconOptions.DEFAULT);
     }
 
-    public static Icon folders(IconOptions options) {
-        return new Icon(INSTANCE::folders, options);
+    public static Icon lucideFolders(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolders, options);
     }
 
-    public static Icon footprints() {
-        return footprints(IconOptions.DEFAULT);
+    public static Icon lucideFootprints() {
+        return lucideFootprints(IconOptions.DEFAULT);
     }
 
-    public static Icon footprints(IconOptions options) {
-        return new Icon(INSTANCE::footprints, options);
+    public static Icon lucideFootprints(IconOptions options) {
+        return new Icon(INSTANCE::lucideFootprints, options);
     }
 
-    public static Icon forklift() {
-        return forklift(IconOptions.DEFAULT);
+    public static Icon lucideForklift() {
+        return lucideForklift(IconOptions.DEFAULT);
     }
 
-    public static Icon forklift(IconOptions options) {
-        return new Icon(INSTANCE::forklift, options);
+    public static Icon lucideForklift(IconOptions options) {
+        return new Icon(INSTANCE::lucideForklift, options);
     }
 
-    public static Icon form() {
-        return form(IconOptions.DEFAULT);
+    public static Icon lucideForm() {
+        return lucideForm(IconOptions.DEFAULT);
     }
 
-    public static Icon form(IconOptions options) {
-        return new Icon(INSTANCE::form, options);
+    public static Icon lucideForm(IconOptions options) {
+        return new Icon(INSTANCE::lucideForm, options);
     }
 
-    public static Icon forward() {
-        return forward(IconOptions.DEFAULT);
+    public static Icon lucideForward() {
+        return lucideForward(IconOptions.DEFAULT);
     }
 
-    public static Icon forward(IconOptions options) {
-        return new Icon(INSTANCE::forward, options);
+    public static Icon lucideForward(IconOptions options) {
+        return new Icon(INSTANCE::lucideForward, options);
     }
 
-    public static Icon frame() {
-        return frame(IconOptions.DEFAULT);
+    public static Icon lucideFrame() {
+        return lucideFrame(IconOptions.DEFAULT);
     }
 
-    public static Icon frame(IconOptions options) {
-        return new Icon(INSTANCE::frame, options);
+    public static Icon lucideFrame(IconOptions options) {
+        return new Icon(INSTANCE::lucideFrame, options);
     }
 
-    public static Icon fuel() {
-        return fuel(IconOptions.DEFAULT);
+    public static Icon lucideFuel() {
+        return lucideFuel(IconOptions.DEFAULT);
     }
 
-    public static Icon fuel(IconOptions options) {
-        return new Icon(INSTANCE::fuel, options);
+    public static Icon lucideFuel(IconOptions options) {
+        return new Icon(INSTANCE::lucideFuel, options);
     }
 
-    public static Icon fullscreen() {
-        return fullscreen(IconOptions.DEFAULT);
+    public static Icon lucideFullscreen() {
+        return lucideFullscreen(IconOptions.DEFAULT);
     }
 
-    public static Icon fullscreen(IconOptions options) {
-        return new Icon(INSTANCE::fullscreen, options);
+    public static Icon lucideFullscreen(IconOptions options) {
+        return new Icon(INSTANCE::lucideFullscreen, options);
     }
 
-    public static Icon funnel() {
-        return funnel(IconOptions.DEFAULT);
+    public static Icon lucideFunnel() {
+        return lucideFunnel(IconOptions.DEFAULT);
     }
 
-    public static Icon funnel(IconOptions options) {
-        return new Icon(INSTANCE::funnel, options);
+    public static Icon lucideFunnel(IconOptions options) {
+        return new Icon(INSTANCE::lucideFunnel, options);
     }
 
-    public static Icon funnelPlus() {
-        return funnelPlus(IconOptions.DEFAULT);
+    public static Icon lucideFunnelPlus() {
+        return lucideFunnelPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon funnelPlus(IconOptions options) {
-        return new Icon(INSTANCE::funnelPlus, options);
+    public static Icon lucideFunnelPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideFunnelPlus, options);
     }
 
-    public static Icon funnelX() {
-        return funnelX(IconOptions.DEFAULT);
+    public static Icon lucideFunnelX() {
+        return lucideFunnelX(IconOptions.DEFAULT);
     }
 
-    public static Icon funnelX(IconOptions options) {
-        return new Icon(INSTANCE::funnelX, options);
+    public static Icon lucideFunnelX(IconOptions options) {
+        return new Icon(INSTANCE::lucideFunnelX, options);
     }
 
-    public static Icon galaxy() {
-        return galaxy(IconOptions.DEFAULT);
+    public static Icon lucideGalaxy() {
+        return lucideGalaxy(IconOptions.DEFAULT);
     }
 
-    public static Icon galaxy(IconOptions options) {
-        return new Icon(INSTANCE::galaxy, options);
+    public static Icon lucideGalaxy(IconOptions options) {
+        return new Icon(INSTANCE::lucideGalaxy, options);
     }
 
-    public static Icon galleryHorizontal() {
-        return galleryHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideGalleryHorizontal() {
+        return lucideGalleryHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon galleryHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::galleryHorizontal, options);
+    public static Icon lucideGalleryHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideGalleryHorizontal, options);
     }
 
-    public static Icon galleryHorizontalEnd() {
-        return galleryHorizontalEnd(IconOptions.DEFAULT);
+    public static Icon lucideGalleryHorizontalEnd() {
+        return lucideGalleryHorizontalEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon galleryHorizontalEnd(IconOptions options) {
-        return new Icon(INSTANCE::galleryHorizontalEnd, options);
+    public static Icon lucideGalleryHorizontalEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideGalleryHorizontalEnd, options);
     }
 
-    public static Icon galleryThumbnails() {
-        return galleryThumbnails(IconOptions.DEFAULT);
+    public static Icon lucideGalleryThumbnails() {
+        return lucideGalleryThumbnails(IconOptions.DEFAULT);
     }
 
-    public static Icon galleryThumbnails(IconOptions options) {
-        return new Icon(INSTANCE::galleryThumbnails, options);
+    public static Icon lucideGalleryThumbnails(IconOptions options) {
+        return new Icon(INSTANCE::lucideGalleryThumbnails, options);
     }
 
-    public static Icon galleryVertical() {
-        return galleryVertical(IconOptions.DEFAULT);
+    public static Icon lucideGalleryVertical() {
+        return lucideGalleryVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon galleryVertical(IconOptions options) {
-        return new Icon(INSTANCE::galleryVertical, options);
+    public static Icon lucideGalleryVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideGalleryVertical, options);
     }
 
-    public static Icon galleryVerticalEnd() {
-        return galleryVerticalEnd(IconOptions.DEFAULT);
+    public static Icon lucideGalleryVerticalEnd() {
+        return lucideGalleryVerticalEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon galleryVerticalEnd(IconOptions options) {
-        return new Icon(INSTANCE::galleryVerticalEnd, options);
+    public static Icon lucideGalleryVerticalEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideGalleryVerticalEnd, options);
     }
 
-    public static Icon gamepad() {
-        return gamepad(IconOptions.DEFAULT);
+    public static Icon lucideGamepad() {
+        return lucideGamepad(IconOptions.DEFAULT);
     }
 
-    public static Icon gamepad(IconOptions options) {
-        return new Icon(INSTANCE::gamepad, options);
+    public static Icon lucideGamepad(IconOptions options) {
+        return new Icon(INSTANCE::lucideGamepad, options);
     }
 
-    public static Icon gamepad2() {
-        return gamepad2(IconOptions.DEFAULT);
+    public static Icon lucideGamepad2() {
+        return lucideGamepad2(IconOptions.DEFAULT);
     }
 
-    public static Icon gamepad2(IconOptions options) {
-        return new Icon(INSTANCE::gamepad2, options);
+    public static Icon lucideGamepad2(IconOptions options) {
+        return new Icon(INSTANCE::lucideGamepad2, options);
     }
 
-    public static Icon gamepadDirectional() {
-        return gamepadDirectional(IconOptions.DEFAULT);
+    public static Icon lucideGamepadDirectional() {
+        return lucideGamepadDirectional(IconOptions.DEFAULT);
     }
 
-    public static Icon gamepadDirectional(IconOptions options) {
-        return new Icon(INSTANCE::gamepadDirectional, options);
+    public static Icon lucideGamepadDirectional(IconOptions options) {
+        return new Icon(INSTANCE::lucideGamepadDirectional, options);
     }
 
-    public static Icon gapHorizontal() {
-        return gapHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideGapHorizontal() {
+        return lucideGapHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon gapHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::gapHorizontal, options);
+    public static Icon lucideGapHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideGapHorizontal, options);
     }
 
-    public static Icon gapVertical() {
-        return gapVertical(IconOptions.DEFAULT);
+    public static Icon lucideGapVertical() {
+        return lucideGapVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon gapVertical(IconOptions options) {
-        return new Icon(INSTANCE::gapVertical, options);
+    public static Icon lucideGapVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideGapVertical, options);
     }
 
-    public static Icon gauge() {
-        return gauge(IconOptions.DEFAULT);
+    public static Icon lucideGauge() {
+        return lucideGauge(IconOptions.DEFAULT);
     }
 
-    public static Icon gauge(IconOptions options) {
-        return new Icon(INSTANCE::gauge, options);
+    public static Icon lucideGauge(IconOptions options) {
+        return new Icon(INSTANCE::lucideGauge, options);
     }
 
-    public static Icon gavel() {
-        return gavel(IconOptions.DEFAULT);
+    public static Icon lucideGavel() {
+        return lucideGavel(IconOptions.DEFAULT);
     }
 
-    public static Icon gavel(IconOptions options) {
-        return new Icon(INSTANCE::gavel, options);
+    public static Icon lucideGavel(IconOptions options) {
+        return new Icon(INSTANCE::lucideGavel, options);
     }
 
-    public static Icon gem() {
-        return gem(IconOptions.DEFAULT);
+    public static Icon lucideGem() {
+        return lucideGem(IconOptions.DEFAULT);
     }
 
-    public static Icon gem(IconOptions options) {
-        return new Icon(INSTANCE::gem, options);
+    public static Icon lucideGem(IconOptions options) {
+        return new Icon(INSTANCE::lucideGem, options);
     }
 
-    public static Icon georgianLari() {
-        return georgianLari(IconOptions.DEFAULT);
+    public static Icon lucideGeorgianLari() {
+        return lucideGeorgianLari(IconOptions.DEFAULT);
     }
 
-    public static Icon georgianLari(IconOptions options) {
-        return new Icon(INSTANCE::georgianLari, options);
+    public static Icon lucideGeorgianLari(IconOptions options) {
+        return new Icon(INSTANCE::lucideGeorgianLari, options);
     }
 
-    public static Icon germ() {
-        return germ(IconOptions.DEFAULT);
+    public static Icon lucideGerm() {
+        return lucideGerm(IconOptions.DEFAULT);
     }
 
-    public static Icon germ(IconOptions options) {
-        return new Icon(INSTANCE::germ, options);
+    public static Icon lucideGerm(IconOptions options) {
+        return new Icon(INSTANCE::lucideGerm, options);
     }
 
-    public static Icon germOff() {
-        return germOff(IconOptions.DEFAULT);
+    public static Icon lucideGermOff() {
+        return lucideGermOff(IconOptions.DEFAULT);
     }
 
-    public static Icon germOff(IconOptions options) {
-        return new Icon(INSTANCE::germOff, options);
+    public static Icon lucideGermOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideGermOff, options);
     }
 
-    public static Icon ghost() {
-        return ghost(IconOptions.DEFAULT);
+    public static Icon lucideGhost() {
+        return lucideGhost(IconOptions.DEFAULT);
     }
 
-    public static Icon ghost(IconOptions options) {
-        return new Icon(INSTANCE::ghost, options);
+    public static Icon lucideGhost(IconOptions options) {
+        return new Icon(INSTANCE::lucideGhost, options);
     }
 
-    public static Icon gift() {
-        return gift(IconOptions.DEFAULT);
+    public static Icon lucideGift() {
+        return lucideGift(IconOptions.DEFAULT);
     }
 
-    public static Icon gift(IconOptions options) {
-        return new Icon(INSTANCE::gift, options);
+    public static Icon lucideGift(IconOptions options) {
+        return new Icon(INSTANCE::lucideGift, options);
     }
 
-    public static Icon gitBranch() {
-        return gitBranch(IconOptions.DEFAULT);
+    public static Icon lucideGitBranch() {
+        return lucideGitBranch(IconOptions.DEFAULT);
     }
 
-    public static Icon gitBranch(IconOptions options) {
-        return new Icon(INSTANCE::gitBranch, options);
+    public static Icon lucideGitBranch(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitBranch, options);
     }
 
-    public static Icon gitBranchMinus() {
-        return gitBranchMinus(IconOptions.DEFAULT);
+    public static Icon lucideGitBranchMinus() {
+        return lucideGitBranchMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon gitBranchMinus(IconOptions options) {
-        return new Icon(INSTANCE::gitBranchMinus, options);
+    public static Icon lucideGitBranchMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitBranchMinus, options);
     }
 
-    public static Icon gitBranchPlus() {
-        return gitBranchPlus(IconOptions.DEFAULT);
+    public static Icon lucideGitBranchPlus() {
+        return lucideGitBranchPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon gitBranchPlus(IconOptions options) {
-        return new Icon(INSTANCE::gitBranchPlus, options);
+    public static Icon lucideGitBranchPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitBranchPlus, options);
     }
 
-    public static Icon gitCommitHorizontal() {
-        return gitCommitHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideGitCommitHorizontal() {
+        return lucideGitCommitHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon gitCommitHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::gitCommitHorizontal, options);
+    public static Icon lucideGitCommitHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitCommitHorizontal, options);
     }
 
-    public static Icon gitCommitVertical() {
-        return gitCommitVertical(IconOptions.DEFAULT);
+    public static Icon lucideGitCommitVertical() {
+        return lucideGitCommitVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon gitCommitVertical(IconOptions options) {
-        return new Icon(INSTANCE::gitCommitVertical, options);
+    public static Icon lucideGitCommitVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitCommitVertical, options);
     }
 
-    public static Icon gitCompare() {
-        return gitCompare(IconOptions.DEFAULT);
+    public static Icon lucideGitCompare() {
+        return lucideGitCompare(IconOptions.DEFAULT);
     }
 
-    public static Icon gitCompare(IconOptions options) {
-        return new Icon(INSTANCE::gitCompare, options);
+    public static Icon lucideGitCompare(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitCompare, options);
     }
 
-    public static Icon gitCompareArrows() {
-        return gitCompareArrows(IconOptions.DEFAULT);
+    public static Icon lucideGitCompareArrows() {
+        return lucideGitCompareArrows(IconOptions.DEFAULT);
     }
 
-    public static Icon gitCompareArrows(IconOptions options) {
-        return new Icon(INSTANCE::gitCompareArrows, options);
+    public static Icon lucideGitCompareArrows(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitCompareArrows, options);
     }
 
-    public static Icon gitFork() {
-        return gitFork(IconOptions.DEFAULT);
+    public static Icon lucideGitFork() {
+        return lucideGitFork(IconOptions.DEFAULT);
     }
 
-    public static Icon gitFork(IconOptions options) {
-        return new Icon(INSTANCE::gitFork, options);
+    public static Icon lucideGitFork(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitFork, options);
     }
 
-    public static Icon gitGraph() {
-        return gitGraph(IconOptions.DEFAULT);
+    public static Icon lucideGitGraph() {
+        return lucideGitGraph(IconOptions.DEFAULT);
     }
 
-    public static Icon gitGraph(IconOptions options) {
-        return new Icon(INSTANCE::gitGraph, options);
+    public static Icon lucideGitGraph(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitGraph, options);
     }
 
-    public static Icon gitMerge() {
-        return gitMerge(IconOptions.DEFAULT);
+    public static Icon lucideGitMerge() {
+        return lucideGitMerge(IconOptions.DEFAULT);
     }
 
-    public static Icon gitMerge(IconOptions options) {
-        return new Icon(INSTANCE::gitMerge, options);
+    public static Icon lucideGitMerge(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitMerge, options);
     }
 
-    public static Icon gitMergeConflict() {
-        return gitMergeConflict(IconOptions.DEFAULT);
+    public static Icon lucideGitMergeConflict() {
+        return lucideGitMergeConflict(IconOptions.DEFAULT);
     }
 
-    public static Icon gitMergeConflict(IconOptions options) {
-        return new Icon(INSTANCE::gitMergeConflict, options);
+    public static Icon lucideGitMergeConflict(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitMergeConflict, options);
     }
 
-    public static Icon gitPullRequest() {
-        return gitPullRequest(IconOptions.DEFAULT);
+    public static Icon lucideGitPullRequest() {
+        return lucideGitPullRequest(IconOptions.DEFAULT);
     }
 
-    public static Icon gitPullRequest(IconOptions options) {
-        return new Icon(INSTANCE::gitPullRequest, options);
+    public static Icon lucideGitPullRequest(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitPullRequest, options);
     }
 
-    public static Icon gitPullRequestArrow() {
-        return gitPullRequestArrow(IconOptions.DEFAULT);
+    public static Icon lucideGitPullRequestArrow() {
+        return lucideGitPullRequestArrow(IconOptions.DEFAULT);
     }
 
-    public static Icon gitPullRequestArrow(IconOptions options) {
-        return new Icon(INSTANCE::gitPullRequestArrow, options);
+    public static Icon lucideGitPullRequestArrow(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitPullRequestArrow, options);
     }
 
-    public static Icon gitPullRequestClosed() {
-        return gitPullRequestClosed(IconOptions.DEFAULT);
+    public static Icon lucideGitPullRequestClosed() {
+        return lucideGitPullRequestClosed(IconOptions.DEFAULT);
     }
 
-    public static Icon gitPullRequestClosed(IconOptions options) {
-        return new Icon(INSTANCE::gitPullRequestClosed, options);
+    public static Icon lucideGitPullRequestClosed(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitPullRequestClosed, options);
     }
 
-    public static Icon gitPullRequestCreate() {
-        return gitPullRequestCreate(IconOptions.DEFAULT);
+    public static Icon lucideGitPullRequestCreate() {
+        return lucideGitPullRequestCreate(IconOptions.DEFAULT);
     }
 
-    public static Icon gitPullRequestCreate(IconOptions options) {
-        return new Icon(INSTANCE::gitPullRequestCreate, options);
+    public static Icon lucideGitPullRequestCreate(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitPullRequestCreate, options);
     }
 
-    public static Icon gitPullRequestCreateArrow() {
-        return gitPullRequestCreateArrow(IconOptions.DEFAULT);
+    public static Icon lucideGitPullRequestCreateArrow() {
+        return lucideGitPullRequestCreateArrow(IconOptions.DEFAULT);
     }
 
-    public static Icon gitPullRequestCreateArrow(IconOptions options) {
-        return new Icon(INSTANCE::gitPullRequestCreateArrow, options);
+    public static Icon lucideGitPullRequestCreateArrow(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitPullRequestCreateArrow, options);
     }
 
-    public static Icon gitPullRequestDraft() {
-        return gitPullRequestDraft(IconOptions.DEFAULT);
+    public static Icon lucideGitPullRequestDraft() {
+        return lucideGitPullRequestDraft(IconOptions.DEFAULT);
     }
 
-    public static Icon gitPullRequestDraft(IconOptions options) {
-        return new Icon(INSTANCE::gitPullRequestDraft, options);
+    public static Icon lucideGitPullRequestDraft(IconOptions options) {
+        return new Icon(INSTANCE::lucideGitPullRequestDraft, options);
     }
 
-    public static Icon glassWater() {
-        return glassWater(IconOptions.DEFAULT);
+    public static Icon lucideGlassWater() {
+        return lucideGlassWater(IconOptions.DEFAULT);
     }
 
-    public static Icon glassWater(IconOptions options) {
-        return new Icon(INSTANCE::glassWater, options);
+    public static Icon lucideGlassWater(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlassWater, options);
     }
 
-    public static Icon glasses() {
-        return glasses(IconOptions.DEFAULT);
+    public static Icon lucideGlasses() {
+        return lucideGlasses(IconOptions.DEFAULT);
     }
 
-    public static Icon glasses(IconOptions options) {
-        return new Icon(INSTANCE::glasses, options);
+    public static Icon lucideGlasses(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlasses, options);
     }
 
-    public static Icon globe() {
-        return globe(IconOptions.DEFAULT);
+    public static Icon lucideGlobe() {
+        return lucideGlobe(IconOptions.DEFAULT);
     }
 
-    public static Icon globe(IconOptions options) {
-        return new Icon(INSTANCE::globe, options);
+    public static Icon lucideGlobe(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlobe, options);
     }
 
-    public static Icon globeCheck() {
-        return globeCheck(IconOptions.DEFAULT);
+    public static Icon lucideGlobeCheck() {
+        return lucideGlobeCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon globeCheck(IconOptions options) {
-        return new Icon(INSTANCE::globeCheck, options);
+    public static Icon lucideGlobeCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlobeCheck, options);
     }
 
-    public static Icon globeCode() {
-        return globeCode(IconOptions.DEFAULT);
+    public static Icon lucideGlobeCode() {
+        return lucideGlobeCode(IconOptions.DEFAULT);
     }
 
-    public static Icon globeCode(IconOptions options) {
-        return new Icon(INSTANCE::globeCode, options);
+    public static Icon lucideGlobeCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlobeCode, options);
     }
 
-    public static Icon globeLock() {
-        return globeLock(IconOptions.DEFAULT);
+    public static Icon lucideGlobeLock() {
+        return lucideGlobeLock(IconOptions.DEFAULT);
     }
 
-    public static Icon globeLock(IconOptions options) {
-        return new Icon(INSTANCE::globeLock, options);
+    public static Icon lucideGlobeLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlobeLock, options);
     }
 
-    public static Icon globeOff() {
-        return globeOff(IconOptions.DEFAULT);
+    public static Icon lucideGlobeOff() {
+        return lucideGlobeOff(IconOptions.DEFAULT);
     }
 
-    public static Icon globeOff(IconOptions options) {
-        return new Icon(INSTANCE::globeOff, options);
+    public static Icon lucideGlobeOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlobeOff, options);
     }
 
-    public static Icon globeX() {
-        return globeX(IconOptions.DEFAULT);
+    public static Icon lucideGlobeX() {
+        return lucideGlobeX(IconOptions.DEFAULT);
     }
 
-    public static Icon globeX(IconOptions options) {
-        return new Icon(INSTANCE::globeX, options);
+    public static Icon lucideGlobeX(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlobeX, options);
     }
 
-    public static Icon goal() {
-        return goal(IconOptions.DEFAULT);
+    public static Icon lucideGoal() {
+        return lucideGoal(IconOptions.DEFAULT);
     }
 
-    public static Icon goal(IconOptions options) {
-        return new Icon(INSTANCE::goal, options);
+    public static Icon lucideGoal(IconOptions options) {
+        return new Icon(INSTANCE::lucideGoal, options);
     }
 
-    public static Icon gpu() {
-        return gpu(IconOptions.DEFAULT);
+    public static Icon lucideGpu() {
+        return lucideGpu(IconOptions.DEFAULT);
     }
 
-    public static Icon gpu(IconOptions options) {
-        return new Icon(INSTANCE::gpu, options);
+    public static Icon lucideGpu(IconOptions options) {
+        return new Icon(INSTANCE::lucideGpu, options);
     }
 
-    public static Icon graduationCap() {
-        return graduationCap(IconOptions.DEFAULT);
+    public static Icon lucideGraduationCap() {
+        return lucideGraduationCap(IconOptions.DEFAULT);
     }
 
-    public static Icon graduationCap(IconOptions options) {
-        return new Icon(INSTANCE::graduationCap, options);
+    public static Icon lucideGraduationCap(IconOptions options) {
+        return new Icon(INSTANCE::lucideGraduationCap, options);
     }
 
-    public static Icon grape() {
-        return grape(IconOptions.DEFAULT);
+    public static Icon lucideGrape() {
+        return lucideGrape(IconOptions.DEFAULT);
     }
 
-    public static Icon grape(IconOptions options) {
-        return new Icon(INSTANCE::grape, options);
+    public static Icon lucideGrape(IconOptions options) {
+        return new Icon(INSTANCE::lucideGrape, options);
     }
 
-    public static Icon grid2x2() {
-        return grid2x2(IconOptions.DEFAULT);
+    public static Icon lucideGrid2x2() {
+        return lucideGrid2x2(IconOptions.DEFAULT);
     }
 
-    public static Icon grid2x2(IconOptions options) {
-        return new Icon(INSTANCE::grid2x2, options);
+    public static Icon lucideGrid2x2(IconOptions options) {
+        return new Icon(INSTANCE::lucideGrid2x2, options);
     }
 
-    public static Icon grid2x2Check() {
-        return grid2x2Check(IconOptions.DEFAULT);
+    public static Icon lucideGrid2x2Check() {
+        return lucideGrid2x2Check(IconOptions.DEFAULT);
     }
 
-    public static Icon grid2x2Check(IconOptions options) {
-        return new Icon(INSTANCE::grid2x2Check, options);
+    public static Icon lucideGrid2x2Check(IconOptions options) {
+        return new Icon(INSTANCE::lucideGrid2x2Check, options);
     }
 
-    public static Icon grid2x2Plus() {
-        return grid2x2Plus(IconOptions.DEFAULT);
+    public static Icon lucideGrid2x2Plus() {
+        return lucideGrid2x2Plus(IconOptions.DEFAULT);
     }
 
-    public static Icon grid2x2Plus(IconOptions options) {
-        return new Icon(INSTANCE::grid2x2Plus, options);
+    public static Icon lucideGrid2x2Plus(IconOptions options) {
+        return new Icon(INSTANCE::lucideGrid2x2Plus, options);
     }
 
-    public static Icon grid2x2X() {
-        return grid2x2X(IconOptions.DEFAULT);
+    public static Icon lucideGrid2x2X() {
+        return lucideGrid2x2X(IconOptions.DEFAULT);
     }
 
-    public static Icon grid2x2X(IconOptions options) {
-        return new Icon(INSTANCE::grid2x2X, options);
+    public static Icon lucideGrid2x2X(IconOptions options) {
+        return new Icon(INSTANCE::lucideGrid2x2X, options);
     }
 
-    public static Icon grid3x2() {
-        return grid3x2(IconOptions.DEFAULT);
+    public static Icon lucideGrid3x2() {
+        return lucideGrid3x2(IconOptions.DEFAULT);
     }
 
-    public static Icon grid3x2(IconOptions options) {
-        return new Icon(INSTANCE::grid3x2, options);
+    public static Icon lucideGrid3x2(IconOptions options) {
+        return new Icon(INSTANCE::lucideGrid3x2, options);
     }
 
-    public static Icon grid3x3() {
-        return grid3x3(IconOptions.DEFAULT);
+    public static Icon lucideGrid3x3() {
+        return lucideGrid3x3(IconOptions.DEFAULT);
     }
 
-    public static Icon grid3x3(IconOptions options) {
-        return new Icon(INSTANCE::grid3x3, options);
+    public static Icon lucideGrid3x3(IconOptions options) {
+        return new Icon(INSTANCE::lucideGrid3x3, options);
     }
 
-    public static Icon grip() {
-        return grip(IconOptions.DEFAULT);
+    public static Icon lucideGrip() {
+        return lucideGrip(IconOptions.DEFAULT);
     }
 
-    public static Icon grip(IconOptions options) {
-        return new Icon(INSTANCE::grip, options);
+    public static Icon lucideGrip(IconOptions options) {
+        return new Icon(INSTANCE::lucideGrip, options);
     }
 
-    public static Icon gripHorizontal() {
-        return gripHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideGripHorizontal() {
+        return lucideGripHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon gripHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::gripHorizontal, options);
+    public static Icon lucideGripHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideGripHorizontal, options);
     }
 
-    public static Icon gripVertical() {
-        return gripVertical(IconOptions.DEFAULT);
+    public static Icon lucideGripVertical() {
+        return lucideGripVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon gripVertical(IconOptions options) {
-        return new Icon(INSTANCE::gripVertical, options);
+    public static Icon lucideGripVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideGripVertical, options);
     }
 
-    public static Icon groceries() {
-        return groceries(IconOptions.DEFAULT);
+    public static Icon lucideGroceries() {
+        return lucideGroceries(IconOptions.DEFAULT);
     }
 
-    public static Icon groceries(IconOptions options) {
-        return new Icon(INSTANCE::groceries, options);
+    public static Icon lucideGroceries(IconOptions options) {
+        return new Icon(INSTANCE::lucideGroceries, options);
     }
 
-    public static Icon group() {
-        return group(IconOptions.DEFAULT);
+    public static Icon lucideGroup() {
+        return lucideGroup(IconOptions.DEFAULT);
     }
 
-    public static Icon group(IconOptions options) {
-        return new Icon(INSTANCE::group, options);
+    public static Icon lucideGroup(IconOptions options) {
+        return new Icon(INSTANCE::lucideGroup, options);
     }
 
-    public static Icon guitar() {
-        return guitar(IconOptions.DEFAULT);
+    public static Icon lucideGuitar() {
+        return lucideGuitar(IconOptions.DEFAULT);
     }
 
-    public static Icon guitar(IconOptions options) {
-        return new Icon(INSTANCE::guitar, options);
+    public static Icon lucideGuitar(IconOptions options) {
+        return new Icon(INSTANCE::lucideGuitar, options);
     }
 
-    public static Icon ham() {
-        return ham(IconOptions.DEFAULT);
+    public static Icon lucideHam() {
+        return lucideHam(IconOptions.DEFAULT);
     }
 
-    public static Icon ham(IconOptions options) {
-        return new Icon(INSTANCE::ham, options);
+    public static Icon lucideHam(IconOptions options) {
+        return new Icon(INSTANCE::lucideHam, options);
     }
 
-    public static Icon hamburger() {
-        return hamburger(IconOptions.DEFAULT);
+    public static Icon lucideHamburger() {
+        return lucideHamburger(IconOptions.DEFAULT);
     }
 
-    public static Icon hamburger(IconOptions options) {
-        return new Icon(INSTANCE::hamburger, options);
+    public static Icon lucideHamburger(IconOptions options) {
+        return new Icon(INSTANCE::lucideHamburger, options);
     }
 
-    public static Icon hammer() {
-        return hammer(IconOptions.DEFAULT);
+    public static Icon lucideHammer() {
+        return lucideHammer(IconOptions.DEFAULT);
     }
 
-    public static Icon hammer(IconOptions options) {
-        return new Icon(INSTANCE::hammer, options);
+    public static Icon lucideHammer(IconOptions options) {
+        return new Icon(INSTANCE::lucideHammer, options);
     }
 
-    public static Icon hand() {
-        return hand(IconOptions.DEFAULT);
+    public static Icon lucideHand() {
+        return lucideHand(IconOptions.DEFAULT);
     }
 
-    public static Icon hand(IconOptions options) {
-        return new Icon(INSTANCE::hand, options);
+    public static Icon lucideHand(IconOptions options) {
+        return new Icon(INSTANCE::lucideHand, options);
     }
 
-    public static Icon handCoins() {
-        return handCoins(IconOptions.DEFAULT);
+    public static Icon lucideHandCoins() {
+        return lucideHandCoins(IconOptions.DEFAULT);
     }
 
-    public static Icon handCoins(IconOptions options) {
-        return new Icon(INSTANCE::handCoins, options);
+    public static Icon lucideHandCoins(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandCoins, options);
     }
 
-    public static Icon handFist() {
-        return handFist(IconOptions.DEFAULT);
+    public static Icon lucideHandFist() {
+        return lucideHandFist(IconOptions.DEFAULT);
     }
 
-    public static Icon handFist(IconOptions options) {
-        return new Icon(INSTANCE::handFist, options);
+    public static Icon lucideHandFist(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandFist, options);
     }
 
-    public static Icon handGrab() {
-        return handGrab(IconOptions.DEFAULT);
+    public static Icon lucideHandGrab() {
+        return lucideHandGrab(IconOptions.DEFAULT);
     }
 
-    public static Icon handGrab(IconOptions options) {
-        return new Icon(INSTANCE::handGrab, options);
+    public static Icon lucideHandGrab(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandGrab, options);
     }
 
-    public static Icon handHeart() {
-        return handHeart(IconOptions.DEFAULT);
+    public static Icon lucideHandHeart() {
+        return lucideHandHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon handHeart(IconOptions options) {
-        return new Icon(INSTANCE::handHeart, options);
+    public static Icon lucideHandHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandHeart, options);
     }
 
-    public static Icon handHelping() {
-        return handHelping(IconOptions.DEFAULT);
+    public static Icon lucideHandHelping() {
+        return lucideHandHelping(IconOptions.DEFAULT);
     }
 
-    public static Icon handHelping(IconOptions options) {
-        return new Icon(INSTANCE::handHelping, options);
+    public static Icon lucideHandHelping(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandHelping, options);
     }
 
-    public static Icon handMetal() {
-        return handMetal(IconOptions.DEFAULT);
+    public static Icon lucideHandMetal() {
+        return lucideHandMetal(IconOptions.DEFAULT);
     }
 
-    public static Icon handMetal(IconOptions options) {
-        return new Icon(INSTANCE::handMetal, options);
+    public static Icon lucideHandMetal(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandMetal, options);
     }
 
-    public static Icon handPlatter() {
-        return handPlatter(IconOptions.DEFAULT);
+    public static Icon lucideHandPlatter() {
+        return lucideHandPlatter(IconOptions.DEFAULT);
     }
 
-    public static Icon handPlatter(IconOptions options) {
-        return new Icon(INSTANCE::handPlatter, options);
+    public static Icon lucideHandPlatter(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandPlatter, options);
     }
 
-    public static Icon handbag() {
-        return handbag(IconOptions.DEFAULT);
+    public static Icon lucideHandbag() {
+        return lucideHandbag(IconOptions.DEFAULT);
     }
 
-    public static Icon handbag(IconOptions options) {
-        return new Icon(INSTANCE::handbag, options);
+    public static Icon lucideHandbag(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandbag, options);
     }
 
-    public static Icon handshake() {
-        return handshake(IconOptions.DEFAULT);
+    public static Icon lucideHandleBottomRight() {
+        return lucideHandleBottomRight(IconOptions.DEFAULT);
     }
 
-    public static Icon handshake(IconOptions options) {
-        return new Icon(INSTANCE::handshake, options);
+    public static Icon lucideHandleBottomRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandleBottomRight, options);
     }
 
-    public static Icon hardDrive() {
-        return hardDrive(IconOptions.DEFAULT);
+    public static Icon lucideHandshake() {
+        return lucideHandshake(IconOptions.DEFAULT);
     }
 
-    public static Icon hardDrive(IconOptions options) {
-        return new Icon(INSTANCE::hardDrive, options);
+    public static Icon lucideHandshake(IconOptions options) {
+        return new Icon(INSTANCE::lucideHandshake, options);
     }
 
-    public static Icon hardDriveDownload() {
-        return hardDriveDownload(IconOptions.DEFAULT);
+    public static Icon lucideHardDrive() {
+        return lucideHardDrive(IconOptions.DEFAULT);
     }
 
-    public static Icon hardDriveDownload(IconOptions options) {
-        return new Icon(INSTANCE::hardDriveDownload, options);
+    public static Icon lucideHardDrive(IconOptions options) {
+        return new Icon(INSTANCE::lucideHardDrive, options);
     }
 
-    public static Icon hardDriveUpload() {
-        return hardDriveUpload(IconOptions.DEFAULT);
+    public static Icon lucideHardDriveDownload() {
+        return lucideHardDriveDownload(IconOptions.DEFAULT);
     }
 
-    public static Icon hardDriveUpload(IconOptions options) {
-        return new Icon(INSTANCE::hardDriveUpload, options);
+    public static Icon lucideHardDriveDownload(IconOptions options) {
+        return new Icon(INSTANCE::lucideHardDriveDownload, options);
     }
 
-    public static Icon hardHat() {
-        return hardHat(IconOptions.DEFAULT);
+    public static Icon lucideHardDriveUpload() {
+        return lucideHardDriveUpload(IconOptions.DEFAULT);
     }
 
-    public static Icon hardHat(IconOptions options) {
-        return new Icon(INSTANCE::hardHat, options);
+    public static Icon lucideHardDriveUpload(IconOptions options) {
+        return new Icon(INSTANCE::lucideHardDriveUpload, options);
     }
 
-    public static Icon hash() {
-        return hash(IconOptions.DEFAULT);
+    public static Icon lucideHardHat() {
+        return lucideHardHat(IconOptions.DEFAULT);
     }
 
-    public static Icon hash(IconOptions options) {
-        return new Icon(INSTANCE::hash, options);
+    public static Icon lucideHardHat(IconOptions options) {
+        return new Icon(INSTANCE::lucideHardHat, options);
     }
 
-    public static Icon hatGlasses() {
-        return hatGlasses(IconOptions.DEFAULT);
+    public static Icon lucideHash() {
+        return lucideHash(IconOptions.DEFAULT);
     }
 
-    public static Icon hatGlasses(IconOptions options) {
-        return new Icon(INSTANCE::hatGlasses, options);
+    public static Icon lucideHash(IconOptions options) {
+        return new Icon(INSTANCE::lucideHash, options);
     }
 
-    public static Icon haze() {
-        return haze(IconOptions.DEFAULT);
+    public static Icon lucideHatGlasses() {
+        return lucideHatGlasses(IconOptions.DEFAULT);
     }
 
-    public static Icon haze(IconOptions options) {
-        return new Icon(INSTANCE::haze, options);
+    public static Icon lucideHatGlasses(IconOptions options) {
+        return new Icon(INSTANCE::lucideHatGlasses, options);
     }
 
-    public static Icon hd() {
-        return hd(IconOptions.DEFAULT);
+    public static Icon lucideHaze() {
+        return lucideHaze(IconOptions.DEFAULT);
     }
 
-    public static Icon hd(IconOptions options) {
-        return new Icon(INSTANCE::hd, options);
+    public static Icon lucideHaze(IconOptions options) {
+        return new Icon(INSTANCE::lucideHaze, options);
     }
 
-    public static Icon hdmiPort() {
-        return hdmiPort(IconOptions.DEFAULT);
+    public static Icon lucideHd() {
+        return lucideHd(IconOptions.DEFAULT);
     }
 
-    public static Icon hdmiPort(IconOptions options) {
-        return new Icon(INSTANCE::hdmiPort, options);
+    public static Icon lucideHd(IconOptions options) {
+        return new Icon(INSTANCE::lucideHd, options);
     }
 
-    public static Icon heading() {
-        return heading(IconOptions.DEFAULT);
+    public static Icon lucideHdmiPort() {
+        return lucideHdmiPort(IconOptions.DEFAULT);
     }
 
-    public static Icon heading(IconOptions options) {
-        return new Icon(INSTANCE::heading, options);
+    public static Icon lucideHdmiPort(IconOptions options) {
+        return new Icon(INSTANCE::lucideHdmiPort, options);
     }
 
-    public static Icon heading1() {
-        return heading1(IconOptions.DEFAULT);
+    public static Icon lucideHeading() {
+        return lucideHeading(IconOptions.DEFAULT);
     }
 
-    public static Icon heading1(IconOptions options) {
-        return new Icon(INSTANCE::heading1, options);
+    public static Icon lucideHeading(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeading, options);
     }
 
-    public static Icon heading2() {
-        return heading2(IconOptions.DEFAULT);
+    public static Icon lucideHeading1() {
+        return lucideHeading1(IconOptions.DEFAULT);
     }
 
-    public static Icon heading2(IconOptions options) {
-        return new Icon(INSTANCE::heading2, options);
+    public static Icon lucideHeading1(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeading1, options);
     }
 
-    public static Icon heading3() {
-        return heading3(IconOptions.DEFAULT);
+    public static Icon lucideHeading2() {
+        return lucideHeading2(IconOptions.DEFAULT);
     }
 
-    public static Icon heading3(IconOptions options) {
-        return new Icon(INSTANCE::heading3, options);
+    public static Icon lucideHeading2(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeading2, options);
     }
 
-    public static Icon heading4() {
-        return heading4(IconOptions.DEFAULT);
+    public static Icon lucideHeading3() {
+        return lucideHeading3(IconOptions.DEFAULT);
     }
 
-    public static Icon heading4(IconOptions options) {
-        return new Icon(INSTANCE::heading4, options);
+    public static Icon lucideHeading3(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeading3, options);
     }
 
-    public static Icon heading5() {
-        return heading5(IconOptions.DEFAULT);
+    public static Icon lucideHeading4() {
+        return lucideHeading4(IconOptions.DEFAULT);
     }
 
-    public static Icon heading5(IconOptions options) {
-        return new Icon(INSTANCE::heading5, options);
+    public static Icon lucideHeading4(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeading4, options);
     }
 
-    public static Icon heading6() {
-        return heading6(IconOptions.DEFAULT);
+    public static Icon lucideHeading5() {
+        return lucideHeading5(IconOptions.DEFAULT);
     }
 
-    public static Icon heading6(IconOptions options) {
-        return new Icon(INSTANCE::heading6, options);
+    public static Icon lucideHeading5(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeading5, options);
     }
 
-    public static Icon headphoneOff() {
-        return headphoneOff(IconOptions.DEFAULT);
+    public static Icon lucideHeading6() {
+        return lucideHeading6(IconOptions.DEFAULT);
     }
 
-    public static Icon headphoneOff(IconOptions options) {
-        return new Icon(INSTANCE::headphoneOff, options);
+    public static Icon lucideHeading6(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeading6, options);
     }
 
-    public static Icon headphones() {
-        return headphones(IconOptions.DEFAULT);
+    public static Icon lucideHeadphoneOff() {
+        return lucideHeadphoneOff(IconOptions.DEFAULT);
     }
 
-    public static Icon headphones(IconOptions options) {
-        return new Icon(INSTANCE::headphones, options);
+    public static Icon lucideHeadphoneOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeadphoneOff, options);
     }
 
-    public static Icon headset() {
-        return headset(IconOptions.DEFAULT);
+    public static Icon lucideHeadphones() {
+        return lucideHeadphones(IconOptions.DEFAULT);
     }
 
-    public static Icon headset(IconOptions options) {
-        return new Icon(INSTANCE::headset, options);
+    public static Icon lucideHeadphones(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeadphones, options);
     }
 
-    public static Icon heart() {
-        return heart(IconOptions.DEFAULT);
+    public static Icon lucideHeadset() {
+        return lucideHeadset(IconOptions.DEFAULT);
     }
 
-    public static Icon heart(IconOptions options) {
-        return new Icon(INSTANCE::heart, options);
+    public static Icon lucideHeadset(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeadset, options);
     }
 
-    public static Icon heartCrack() {
-        return heartCrack(IconOptions.DEFAULT);
+    public static Icon lucideHeart() {
+        return lucideHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon heartCrack(IconOptions options) {
-        return new Icon(INSTANCE::heartCrack, options);
+    public static Icon lucideHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeart, options);
     }
 
-    public static Icon heartHandshake() {
-        return heartHandshake(IconOptions.DEFAULT);
+    public static Icon lucideHeartCrack() {
+        return lucideHeartCrack(IconOptions.DEFAULT);
     }
 
-    public static Icon heartHandshake(IconOptions options) {
-        return new Icon(INSTANCE::heartHandshake, options);
+    public static Icon lucideHeartCrack(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeartCrack, options);
     }
 
-    public static Icon heartMinus() {
-        return heartMinus(IconOptions.DEFAULT);
+    public static Icon lucideHeartHandshake() {
+        return lucideHeartHandshake(IconOptions.DEFAULT);
     }
 
-    public static Icon heartMinus(IconOptions options) {
-        return new Icon(INSTANCE::heartMinus, options);
+    public static Icon lucideHeartHandshake(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeartHandshake, options);
     }
 
-    public static Icon heartOff() {
-        return heartOff(IconOptions.DEFAULT);
+    public static Icon lucideHeartMinus() {
+        return lucideHeartMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon heartOff(IconOptions options) {
-        return new Icon(INSTANCE::heartOff, options);
+    public static Icon lucideHeartMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeartMinus, options);
     }
 
-    public static Icon heartPlus() {
-        return heartPlus(IconOptions.DEFAULT);
+    public static Icon lucideHeartOff() {
+        return lucideHeartOff(IconOptions.DEFAULT);
     }
 
-    public static Icon heartPlus(IconOptions options) {
-        return new Icon(INSTANCE::heartPlus, options);
+    public static Icon lucideHeartOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeartOff, options);
     }
 
-    public static Icon heartPulse() {
-        return heartPulse(IconOptions.DEFAULT);
+    public static Icon lucideHeartPlus() {
+        return lucideHeartPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon heartPulse(IconOptions options) {
-        return new Icon(INSTANCE::heartPulse, options);
+    public static Icon lucideHeartPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeartPlus, options);
     }
 
-    public static Icon heartX() {
-        return heartX(IconOptions.DEFAULT);
+    public static Icon lucideHeartPulse() {
+        return lucideHeartPulse(IconOptions.DEFAULT);
     }
 
-    public static Icon heartX(IconOptions options) {
-        return new Icon(INSTANCE::heartX, options);
+    public static Icon lucideHeartPulse(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeartPulse, options);
     }
 
-    public static Icon heater() {
-        return heater(IconOptions.DEFAULT);
+    public static Icon lucideHeartX() {
+        return lucideHeartX(IconOptions.DEFAULT);
     }
 
-    public static Icon heater(IconOptions options) {
-        return new Icon(INSTANCE::heater, options);
+    public static Icon lucideHeartX(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeartX, options);
     }
 
-    public static Icon helicopter() {
-        return helicopter(IconOptions.DEFAULT);
+    public static Icon lucideHeater() {
+        return lucideHeater(IconOptions.DEFAULT);
     }
 
-    public static Icon helicopter(IconOptions options) {
-        return new Icon(INSTANCE::helicopter, options);
+    public static Icon lucideHeater(IconOptions options) {
+        return new Icon(INSTANCE::lucideHeater, options);
     }
 
-    public static Icon hexagon() {
-        return hexagon(IconOptions.DEFAULT);
+    public static Icon lucideHelicopter() {
+        return lucideHelicopter(IconOptions.DEFAULT);
     }
 
-    public static Icon hexagon(IconOptions options) {
-        return new Icon(INSTANCE::hexagon, options);
+    public static Icon lucideHelicopter(IconOptions options) {
+        return new Icon(INSTANCE::lucideHelicopter, options);
     }
 
-    public static Icon highlighter() {
-        return highlighter(IconOptions.DEFAULT);
+    public static Icon lucideHexagon() {
+        return lucideHexagon(IconOptions.DEFAULT);
     }
 
-    public static Icon highlighter(IconOptions options) {
-        return new Icon(INSTANCE::highlighter, options);
+    public static Icon lucideHexagon(IconOptions options) {
+        return new Icon(INSTANCE::lucideHexagon, options);
     }
 
-    public static Icon hikingStick() {
-        return hikingStick(IconOptions.DEFAULT);
+    public static Icon lucideHighlighter() {
+        return lucideHighlighter(IconOptions.DEFAULT);
     }
 
-    public static Icon hikingStick(IconOptions options) {
-        return new Icon(INSTANCE::hikingStick, options);
+    public static Icon lucideHighlighter(IconOptions options) {
+        return new Icon(INSTANCE::lucideHighlighter, options);
     }
 
-    public static Icon hop() {
-        return hop(IconOptions.DEFAULT);
+    public static Icon lucideHikingStick() {
+        return lucideHikingStick(IconOptions.DEFAULT);
     }
 
-    public static Icon hop(IconOptions options) {
-        return new Icon(INSTANCE::hop, options);
+    public static Icon lucideHikingStick(IconOptions options) {
+        return new Icon(INSTANCE::lucideHikingStick, options);
     }
 
-    public static Icon hopOff() {
-        return hopOff(IconOptions.DEFAULT);
+    public static Icon lucideHop() {
+        return lucideHop(IconOptions.DEFAULT);
     }
 
-    public static Icon hopOff(IconOptions options) {
-        return new Icon(INSTANCE::hopOff, options);
+    public static Icon lucideHop(IconOptions options) {
+        return new Icon(INSTANCE::lucideHop, options);
     }
 
-    public static Icon hospital() {
-        return hospital(IconOptions.DEFAULT);
+    public static Icon lucideHopOff() {
+        return lucideHopOff(IconOptions.DEFAULT);
     }
 
-    public static Icon hospital(IconOptions options) {
-        return new Icon(INSTANCE::hospital, options);
+    public static Icon lucideHopOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideHopOff, options);
     }
 
-    public static Icon hotel() {
-        return hotel(IconOptions.DEFAULT);
+    public static Icon lucideHospital() {
+        return lucideHospital(IconOptions.DEFAULT);
     }
 
-    public static Icon hotel(IconOptions options) {
-        return new Icon(INSTANCE::hotel, options);
+    public static Icon lucideHospital(IconOptions options) {
+        return new Icon(INSTANCE::lucideHospital, options);
     }
 
-    public static Icon hourglass() {
-        return hourglass(IconOptions.DEFAULT);
+    public static Icon lucideHotel() {
+        return lucideHotel(IconOptions.DEFAULT);
     }
 
-    public static Icon hourglass(IconOptions options) {
-        return new Icon(INSTANCE::hourglass, options);
+    public static Icon lucideHotel(IconOptions options) {
+        return new Icon(INSTANCE::lucideHotel, options);
     }
 
-    public static Icon hourglassCog() {
-        return hourglassCog(IconOptions.DEFAULT);
+    public static Icon lucideHourglass() {
+        return lucideHourglass(IconOptions.DEFAULT);
     }
 
-    public static Icon hourglassCog(IconOptions options) {
-        return new Icon(INSTANCE::hourglassCog, options);
+    public static Icon lucideHourglass(IconOptions options) {
+        return new Icon(INSTANCE::lucideHourglass, options);
     }
 
-    public static Icon house() {
-        return house(IconOptions.DEFAULT);
+    public static Icon lucideHourglassCog() {
+        return lucideHourglassCog(IconOptions.DEFAULT);
     }
 
-    public static Icon house(IconOptions options) {
-        return new Icon(INSTANCE::house, options);
+    public static Icon lucideHourglassCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideHourglassCog, options);
     }
 
-    public static Icon houseCog() {
-        return houseCog(IconOptions.DEFAULT);
+    public static Icon lucideHouse() {
+        return lucideHouse(IconOptions.DEFAULT);
     }
 
-    public static Icon houseCog(IconOptions options) {
-        return new Icon(INSTANCE::houseCog, options);
+    public static Icon lucideHouse(IconOptions options) {
+        return new Icon(INSTANCE::lucideHouse, options);
     }
 
-    public static Icon houseHeart() {
-        return houseHeart(IconOptions.DEFAULT);
+    public static Icon lucideHouseCog() {
+        return lucideHouseCog(IconOptions.DEFAULT);
     }
 
-    public static Icon houseHeart(IconOptions options) {
-        return new Icon(INSTANCE::houseHeart, options);
+    public static Icon lucideHouseCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideHouseCog, options);
     }
 
-    public static Icon housePlug() {
-        return housePlug(IconOptions.DEFAULT);
+    public static Icon lucideHouseHeart() {
+        return lucideHouseHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon housePlug(IconOptions options) {
-        return new Icon(INSTANCE::housePlug, options);
+    public static Icon lucideHouseHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideHouseHeart, options);
     }
 
-    public static Icon housePlus() {
-        return housePlus(IconOptions.DEFAULT);
+    public static Icon lucideHousePlug() {
+        return lucideHousePlug(IconOptions.DEFAULT);
     }
 
-    public static Icon housePlus(IconOptions options) {
-        return new Icon(INSTANCE::housePlus, options);
+    public static Icon lucideHousePlug(IconOptions options) {
+        return new Icon(INSTANCE::lucideHousePlug, options);
     }
 
-    public static Icon houseWifi() {
-        return houseWifi(IconOptions.DEFAULT);
+    public static Icon lucideHousePlus() {
+        return lucideHousePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon houseWifi(IconOptions options) {
-        return new Icon(INSTANCE::houseWifi, options);
+    public static Icon lucideHousePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideHousePlus, options);
     }
 
-    public static Icon houses() {
-        return houses(IconOptions.DEFAULT);
+    public static Icon lucideHouseWifi() {
+        return lucideHouseWifi(IconOptions.DEFAULT);
     }
 
-    public static Icon houses(IconOptions options) {
-        return new Icon(INSTANCE::houses, options);
+    public static Icon lucideHouseWifi(IconOptions options) {
+        return new Icon(INSTANCE::lucideHouseWifi, options);
     }
 
-    public static Icon iceCreamBowl() {
-        return iceCreamBowl(IconOptions.DEFAULT);
+    public static Icon lucideHouses() {
+        return lucideHouses(IconOptions.DEFAULT);
     }
 
-    public static Icon iceCreamBowl(IconOptions options) {
-        return new Icon(INSTANCE::iceCreamBowl, options);
+    public static Icon lucideHouses(IconOptions options) {
+        return new Icon(INSTANCE::lucideHouses, options);
     }
 
-    public static Icon iceCreamCone() {
-        return iceCreamCone(IconOptions.DEFAULT);
+    public static Icon lucideIceCreamBowl() {
+        return lucideIceCreamBowl(IconOptions.DEFAULT);
     }
 
-    public static Icon iceCreamCone(IconOptions options) {
-        return new Icon(INSTANCE::iceCreamCone, options);
+    public static Icon lucideIceCreamBowl(IconOptions options) {
+        return new Icon(INSTANCE::lucideIceCreamBowl, options);
     }
 
-    public static Icon idCard() {
-        return idCard(IconOptions.DEFAULT);
+    public static Icon lucideIceCreamCone() {
+        return lucideIceCreamCone(IconOptions.DEFAULT);
     }
 
-    public static Icon idCard(IconOptions options) {
-        return new Icon(INSTANCE::idCard, options);
+    public static Icon lucideIceCreamCone(IconOptions options) {
+        return new Icon(INSTANCE::lucideIceCreamCone, options);
     }
 
-    public static Icon idCardLanyard() {
-        return idCardLanyard(IconOptions.DEFAULT);
+    public static Icon lucideIdCard() {
+        return lucideIdCard(IconOptions.DEFAULT);
     }
 
-    public static Icon idCardLanyard(IconOptions options) {
-        return new Icon(INSTANCE::idCardLanyard, options);
+    public static Icon lucideIdCard(IconOptions options) {
+        return new Icon(INSTANCE::lucideIdCard, options);
     }
 
-    public static Icon image() {
-        return image(IconOptions.DEFAULT);
+    public static Icon lucideIdCardLanyard() {
+        return lucideIdCardLanyard(IconOptions.DEFAULT);
     }
 
-    public static Icon image(IconOptions options) {
-        return new Icon(INSTANCE::image, options);
+    public static Icon lucideIdCardLanyard(IconOptions options) {
+        return new Icon(INSTANCE::lucideIdCardLanyard, options);
     }
 
-    public static Icon imageDown() {
-        return imageDown(IconOptions.DEFAULT);
+    public static Icon lucideImage() {
+        return lucideImage(IconOptions.DEFAULT);
     }
 
-    public static Icon imageDown(IconOptions options) {
-        return new Icon(INSTANCE::imageDown, options);
+    public static Icon lucideImage(IconOptions options) {
+        return new Icon(INSTANCE::lucideImage, options);
     }
 
-    public static Icon imageMinus() {
-        return imageMinus(IconOptions.DEFAULT);
+    public static Icon lucideImageDown() {
+        return lucideImageDown(IconOptions.DEFAULT);
     }
 
-    public static Icon imageMinus(IconOptions options) {
-        return new Icon(INSTANCE::imageMinus, options);
+    public static Icon lucideImageDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideImageDown, options);
     }
 
-    public static Icon imageOff() {
-        return imageOff(IconOptions.DEFAULT);
+    public static Icon lucideImageMinus() {
+        return lucideImageMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon imageOff(IconOptions options) {
-        return new Icon(INSTANCE::imageOff, options);
+    public static Icon lucideImageMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideImageMinus, options);
     }
 
-    public static Icon imagePlay() {
-        return imagePlay(IconOptions.DEFAULT);
+    public static Icon lucideImageOff() {
+        return lucideImageOff(IconOptions.DEFAULT);
     }
 
-    public static Icon imagePlay(IconOptions options) {
-        return new Icon(INSTANCE::imagePlay, options);
+    public static Icon lucideImageOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideImageOff, options);
     }
 
-    public static Icon imagePlus() {
-        return imagePlus(IconOptions.DEFAULT);
+    public static Icon lucideImagePlay() {
+        return lucideImagePlay(IconOptions.DEFAULT);
     }
 
-    public static Icon imagePlus(IconOptions options) {
-        return new Icon(INSTANCE::imagePlus, options);
+    public static Icon lucideImagePlay(IconOptions options) {
+        return new Icon(INSTANCE::lucideImagePlay, options);
     }
 
-    public static Icon imageUp() {
-        return imageUp(IconOptions.DEFAULT);
+    public static Icon lucideImagePlus() {
+        return lucideImagePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon imageUp(IconOptions options) {
-        return new Icon(INSTANCE::imageUp, options);
+    public static Icon lucideImagePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideImagePlus, options);
     }
 
-    public static Icon imageUpscale() {
-        return imageUpscale(IconOptions.DEFAULT);
+    public static Icon lucideImageUp() {
+        return lucideImageUp(IconOptions.DEFAULT);
     }
 
-    public static Icon imageUpscale(IconOptions options) {
-        return new Icon(INSTANCE::imageUpscale, options);
+    public static Icon lucideImageUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideImageUp, options);
     }
 
-    public static Icon images() {
-        return images(IconOptions.DEFAULT);
+    public static Icon lucideImageUpscale() {
+        return lucideImageUpscale(IconOptions.DEFAULT);
     }
 
-    public static Icon images(IconOptions options) {
-        return new Icon(INSTANCE::images, options);
+    public static Icon lucideImageUpscale(IconOptions options) {
+        return new Icon(INSTANCE::lucideImageUpscale, options);
     }
 
-    public static Icon importIcon() {
-        return importIcon(IconOptions.DEFAULT);
+    public static Icon lucideImages() {
+        return lucideImages(IconOptions.DEFAULT);
     }
 
-    public static Icon importIcon(IconOptions options) {
-        return new Icon(INSTANCE::importIcon, options);
+    public static Icon lucideImages(IconOptions options) {
+        return new Icon(INSTANCE::lucideImages, options);
     }
 
-    public static Icon inbox() {
-        return inbox(IconOptions.DEFAULT);
+    public static Icon lucideImport() {
+        return lucideImport(IconOptions.DEFAULT);
     }
 
-    public static Icon inbox(IconOptions options) {
-        return new Icon(INSTANCE::inbox, options);
+    public static Icon lucideImport(IconOptions options) {
+        return new Icon(INSTANCE::lucideImport, options);
     }
 
-    public static Icon indianRupee() {
-        return indianRupee(IconOptions.DEFAULT);
+    public static Icon lucideInbox() {
+        return lucideInbox(IconOptions.DEFAULT);
     }
 
-    public static Icon indianRupee(IconOptions options) {
-        return new Icon(INSTANCE::indianRupee, options);
+    public static Icon lucideInbox(IconOptions options) {
+        return new Icon(INSTANCE::lucideInbox, options);
     }
 
-    public static Icon infinity() {
-        return infinity(IconOptions.DEFAULT);
+    public static Icon lucideIndianRupee() {
+        return lucideIndianRupee(IconOptions.DEFAULT);
     }
 
-    public static Icon infinity(IconOptions options) {
-        return new Icon(INSTANCE::infinity, options);
+    public static Icon lucideIndianRupee(IconOptions options) {
+        return new Icon(INSTANCE::lucideIndianRupee, options);
     }
 
-    public static Icon info() {
-        return info(IconOptions.DEFAULT);
+    public static Icon lucideInfinity() {
+        return lucideInfinity(IconOptions.DEFAULT);
     }
 
-    public static Icon info(IconOptions options) {
-        return new Icon(INSTANCE::info, options);
+    public static Icon lucideInfinity(IconOptions options) {
+        return new Icon(INSTANCE::lucideInfinity, options);
     }
 
-    public static Icon inspectionPanel() {
-        return inspectionPanel(IconOptions.DEFAULT);
+    public static Icon lucideInfo() {
+        return lucideInfo(IconOptions.DEFAULT);
     }
 
-    public static Icon inspectionPanel(IconOptions options) {
-        return new Icon(INSTANCE::inspectionPanel, options);
+    public static Icon lucideInfo(IconOptions options) {
+        return new Icon(INSTANCE::lucideInfo, options);
     }
 
-    public static Icon italic() {
-        return italic(IconOptions.DEFAULT);
+    public static Icon lucideInspectionPanel() {
+        return lucideInspectionPanel(IconOptions.DEFAULT);
     }
 
-    public static Icon italic(IconOptions options) {
-        return new Icon(INSTANCE::italic, options);
+    public static Icon lucideInspectionPanel(IconOptions options) {
+        return new Icon(INSTANCE::lucideInspectionPanel, options);
     }
 
-    public static Icon iterationCcw() {
-        return iterationCcw(IconOptions.DEFAULT);
+    public static Icon lucideItalic() {
+        return lucideItalic(IconOptions.DEFAULT);
     }
 
-    public static Icon iterationCcw(IconOptions options) {
-        return new Icon(INSTANCE::iterationCcw, options);
+    public static Icon lucideItalic(IconOptions options) {
+        return new Icon(INSTANCE::lucideItalic, options);
     }
 
-    public static Icon iterationCw() {
-        return iterationCw(IconOptions.DEFAULT);
+    public static Icon lucideIterationCcw() {
+        return lucideIterationCcw(IconOptions.DEFAULT);
     }
 
-    public static Icon iterationCw(IconOptions options) {
-        return new Icon(INSTANCE::iterationCw, options);
+    public static Icon lucideIterationCcw(IconOptions options) {
+        return new Icon(INSTANCE::lucideIterationCcw, options);
     }
 
-    public static Icon ivBag() {
-        return ivBag(IconOptions.DEFAULT);
+    public static Icon lucideIterationCw() {
+        return lucideIterationCw(IconOptions.DEFAULT);
     }
 
-    public static Icon ivBag(IconOptions options) {
-        return new Icon(INSTANCE::ivBag, options);
+    public static Icon lucideIterationCw(IconOptions options) {
+        return new Icon(INSTANCE::lucideIterationCw, options);
     }
 
-    public static Icon japaneseYen() {
-        return japaneseYen(IconOptions.DEFAULT);
+    public static Icon lucideIvBag() {
+        return lucideIvBag(IconOptions.DEFAULT);
     }
 
-    public static Icon japaneseYen(IconOptions options) {
-        return new Icon(INSTANCE::japaneseYen, options);
+    public static Icon lucideIvBag(IconOptions options) {
+        return new Icon(INSTANCE::lucideIvBag, options);
     }
 
-    public static Icon joystick() {
-        return joystick(IconOptions.DEFAULT);
+    public static Icon lucideJapaneseYen() {
+        return lucideJapaneseYen(IconOptions.DEFAULT);
     }
 
-    public static Icon joystick(IconOptions options) {
-        return new Icon(INSTANCE::joystick, options);
+    public static Icon lucideJapaneseYen(IconOptions options) {
+        return new Icon(INSTANCE::lucideJapaneseYen, options);
     }
 
-    public static Icon kanban() {
-        return kanban(IconOptions.DEFAULT);
+    public static Icon lucideJoystick() {
+        return lucideJoystick(IconOptions.DEFAULT);
     }
 
-    public static Icon kanban(IconOptions options) {
-        return new Icon(INSTANCE::kanban, options);
+    public static Icon lucideJoystick(IconOptions options) {
+        return new Icon(INSTANCE::lucideJoystick, options);
     }
 
-    public static Icon kayak() {
-        return kayak(IconOptions.DEFAULT);
+    public static Icon lucideKanban() {
+        return lucideKanban(IconOptions.DEFAULT);
     }
 
-    public static Icon kayak(IconOptions options) {
-        return new Icon(INSTANCE::kayak, options);
+    public static Icon lucideKanban(IconOptions options) {
+        return new Icon(INSTANCE::lucideKanban, options);
     }
 
-    public static Icon kazakhTenge() {
-        return kazakhTenge(IconOptions.DEFAULT);
+    public static Icon lucideKayak() {
+        return lucideKayak(IconOptions.DEFAULT);
     }
 
-    public static Icon kazakhTenge(IconOptions options) {
-        return new Icon(INSTANCE::kazakhTenge, options);
+    public static Icon lucideKayak(IconOptions options) {
+        return new Icon(INSTANCE::lucideKayak, options);
     }
 
-    public static Icon key() {
-        return key(IconOptions.DEFAULT);
+    public static Icon lucideKazakhTenge() {
+        return lucideKazakhTenge(IconOptions.DEFAULT);
     }
 
-    public static Icon key(IconOptions options) {
-        return new Icon(INSTANCE::key, options);
+    public static Icon lucideKazakhTenge(IconOptions options) {
+        return new Icon(INSTANCE::lucideKazakhTenge, options);
     }
 
-    public static Icon keyRound() {
-        return keyRound(IconOptions.DEFAULT);
+    public static Icon lucideKey() {
+        return lucideKey(IconOptions.DEFAULT);
     }
 
-    public static Icon keyRound(IconOptions options) {
-        return new Icon(INSTANCE::keyRound, options);
+    public static Icon lucideKey(IconOptions options) {
+        return new Icon(INSTANCE::lucideKey, options);
     }
 
-    public static Icon keySquare() {
-        return keySquare(IconOptions.DEFAULT);
+    public static Icon lucideKeyRound() {
+        return lucideKeyRound(IconOptions.DEFAULT);
     }
 
-    public static Icon keySquare(IconOptions options) {
-        return new Icon(INSTANCE::keySquare, options);
+    public static Icon lucideKeyRound(IconOptions options) {
+        return new Icon(INSTANCE::lucideKeyRound, options);
     }
 
-    public static Icon keyboard() {
-        return keyboard(IconOptions.DEFAULT);
+    public static Icon lucideKeySquare() {
+        return lucideKeySquare(IconOptions.DEFAULT);
     }
 
-    public static Icon keyboard(IconOptions options) {
-        return new Icon(INSTANCE::keyboard, options);
+    public static Icon lucideKeySquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideKeySquare, options);
     }
 
-    public static Icon keyboardMusic() {
-        return keyboardMusic(IconOptions.DEFAULT);
+    public static Icon lucideKeyboard() {
+        return lucideKeyboard(IconOptions.DEFAULT);
     }
 
-    public static Icon keyboardMusic(IconOptions options) {
-        return new Icon(INSTANCE::keyboardMusic, options);
+    public static Icon lucideKeyboard(IconOptions options) {
+        return new Icon(INSTANCE::lucideKeyboard, options);
     }
 
-    public static Icon keyboardOff() {
-        return keyboardOff(IconOptions.DEFAULT);
+    public static Icon lucideKeyboardMusic() {
+        return lucideKeyboardMusic(IconOptions.DEFAULT);
     }
 
-    public static Icon keyboardOff(IconOptions options) {
-        return new Icon(INSTANCE::keyboardOff, options);
+    public static Icon lucideKeyboardMusic(IconOptions options) {
+        return new Icon(INSTANCE::lucideKeyboardMusic, options);
     }
 
-    public static Icon lambda() {
-        return lambda(IconOptions.DEFAULT);
+    public static Icon lucideKeyboardOff() {
+        return lucideKeyboardOff(IconOptions.DEFAULT);
     }
 
-    public static Icon lambda(IconOptions options) {
-        return new Icon(INSTANCE::lambda, options);
+    public static Icon lucideKeyboardOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideKeyboardOff, options);
     }
 
-    public static Icon lamp() {
-        return lamp(IconOptions.DEFAULT);
+    public static Icon lucideLambda() {
+        return lucideLambda(IconOptions.DEFAULT);
     }
 
-    public static Icon lamp(IconOptions options) {
-        return new Icon(INSTANCE::lamp, options);
+    public static Icon lucideLambda(IconOptions options) {
+        return new Icon(INSTANCE::lucideLambda, options);
     }
 
-    public static Icon lampCeiling() {
-        return lampCeiling(IconOptions.DEFAULT);
+    public static Icon lucideLamp() {
+        return lucideLamp(IconOptions.DEFAULT);
     }
 
-    public static Icon lampCeiling(IconOptions options) {
-        return new Icon(INSTANCE::lampCeiling, options);
+    public static Icon lucideLamp(IconOptions options) {
+        return new Icon(INSTANCE::lucideLamp, options);
     }
 
-    public static Icon lampDesk() {
-        return lampDesk(IconOptions.DEFAULT);
+    public static Icon lucideLampCeiling() {
+        return lucideLampCeiling(IconOptions.DEFAULT);
     }
 
-    public static Icon lampDesk(IconOptions options) {
-        return new Icon(INSTANCE::lampDesk, options);
+    public static Icon lucideLampCeiling(IconOptions options) {
+        return new Icon(INSTANCE::lucideLampCeiling, options);
     }
 
-    public static Icon lampFloor() {
-        return lampFloor(IconOptions.DEFAULT);
+    public static Icon lucideLampDesk() {
+        return lucideLampDesk(IconOptions.DEFAULT);
     }
 
-    public static Icon lampFloor(IconOptions options) {
-        return new Icon(INSTANCE::lampFloor, options);
+    public static Icon lucideLampDesk(IconOptions options) {
+        return new Icon(INSTANCE::lucideLampDesk, options);
     }
 
-    public static Icon lampWallDown() {
-        return lampWallDown(IconOptions.DEFAULT);
+    public static Icon lucideLampFloor() {
+        return lucideLampFloor(IconOptions.DEFAULT);
     }
 
-    public static Icon lampWallDown(IconOptions options) {
-        return new Icon(INSTANCE::lampWallDown, options);
+    public static Icon lucideLampFloor(IconOptions options) {
+        return new Icon(INSTANCE::lucideLampFloor, options);
     }
 
-    public static Icon lampWallUp() {
-        return lampWallUp(IconOptions.DEFAULT);
+    public static Icon lucideLampWallDown() {
+        return lucideLampWallDown(IconOptions.DEFAULT);
     }
 
-    public static Icon lampWallUp(IconOptions options) {
-        return new Icon(INSTANCE::lampWallUp, options);
+    public static Icon lucideLampWallDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideLampWallDown, options);
     }
 
-    public static Icon landPlot() {
-        return landPlot(IconOptions.DEFAULT);
+    public static Icon lucideLampWallUp() {
+        return lucideLampWallUp(IconOptions.DEFAULT);
     }
 
-    public static Icon landPlot(IconOptions options) {
-        return new Icon(INSTANCE::landPlot, options);
+    public static Icon lucideLampWallUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideLampWallUp, options);
     }
 
-    public static Icon landmark() {
-        return landmark(IconOptions.DEFAULT);
+    public static Icon lucideLandPlot() {
+        return lucideLandPlot(IconOptions.DEFAULT);
     }
 
-    public static Icon landmark(IconOptions options) {
-        return new Icon(INSTANCE::landmark, options);
+    public static Icon lucideLandPlot(IconOptions options) {
+        return new Icon(INSTANCE::lucideLandPlot, options);
     }
 
-    public static Icon languages() {
-        return languages(IconOptions.DEFAULT);
+    public static Icon lucideLandmark() {
+        return lucideLandmark(IconOptions.DEFAULT);
     }
 
-    public static Icon languages(IconOptions options) {
-        return new Icon(INSTANCE::languages, options);
+    public static Icon lucideLandmark(IconOptions options) {
+        return new Icon(INSTANCE::lucideLandmark, options);
     }
 
-    public static Icon laptop() {
-        return laptop(IconOptions.DEFAULT);
+    public static Icon lucideLanguages() {
+        return lucideLanguages(IconOptions.DEFAULT);
     }
 
-    public static Icon laptop(IconOptions options) {
-        return new Icon(INSTANCE::laptop, options);
+    public static Icon lucideLanguages(IconOptions options) {
+        return new Icon(INSTANCE::lucideLanguages, options);
     }
 
-    public static Icon laptopMinimal() {
-        return laptopMinimal(IconOptions.DEFAULT);
+    public static Icon lucideLaptop() {
+        return lucideLaptop(IconOptions.DEFAULT);
     }
 
-    public static Icon laptopMinimal(IconOptions options) {
-        return new Icon(INSTANCE::laptopMinimal, options);
+    public static Icon lucideLaptop(IconOptions options) {
+        return new Icon(INSTANCE::lucideLaptop, options);
     }
 
-    public static Icon laptopMinimalCheck() {
-        return laptopMinimalCheck(IconOptions.DEFAULT);
+    public static Icon lucideLaptopMinimal() {
+        return lucideLaptopMinimal(IconOptions.DEFAULT);
     }
 
-    public static Icon laptopMinimalCheck(IconOptions options) {
-        return new Icon(INSTANCE::laptopMinimalCheck, options);
+    public static Icon lucideLaptopMinimal(IconOptions options) {
+        return new Icon(INSTANCE::lucideLaptopMinimal, options);
     }
 
-    public static Icon lasso() {
-        return lasso(IconOptions.DEFAULT);
+    public static Icon lucideLaptopMinimalCheck() {
+        return lucideLaptopMinimalCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon lasso(IconOptions options) {
-        return new Icon(INSTANCE::lasso, options);
+    public static Icon lucideLaptopMinimalCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideLaptopMinimalCheck, options);
     }
 
-    public static Icon lassoSelect() {
-        return lassoSelect(IconOptions.DEFAULT);
+    public static Icon lucideLasso() {
+        return lucideLasso(IconOptions.DEFAULT);
     }
 
-    public static Icon lassoSelect(IconOptions options) {
-        return new Icon(INSTANCE::lassoSelect, options);
+    public static Icon lucideLasso(IconOptions options) {
+        return new Icon(INSTANCE::lucideLasso, options);
     }
 
-    public static Icon layerArrowDown() {
-        return layerArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideLassoSelect() {
+        return lucideLassoSelect(IconOptions.DEFAULT);
     }
 
-    public static Icon layerArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::layerArrowDown, options);
+    public static Icon lucideLassoSelect(IconOptions options) {
+        return new Icon(INSTANCE::lucideLassoSelect, options);
     }
 
-    public static Icon layerArrowUp() {
-        return layerArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideLayerArrowDown() {
+        return lucideLayerArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon layerArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::layerArrowUp, options);
+    public static Icon lucideLayerArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayerArrowDown, options);
     }
 
-    public static Icon layers() {
-        return layers(IconOptions.DEFAULT);
+    public static Icon lucideLayerArrowUp() {
+        return lucideLayerArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon layers(IconOptions options) {
-        return new Icon(INSTANCE::layers, options);
+    public static Icon lucideLayerArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayerArrowUp, options);
     }
 
-    public static Icon layers2() {
-        return layers2(IconOptions.DEFAULT);
+    public static Icon lucideLayers() {
+        return lucideLayers(IconOptions.DEFAULT);
     }
 
-    public static Icon layers2(IconOptions options) {
-        return new Icon(INSTANCE::layers2, options);
+    public static Icon lucideLayers(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayers, options);
     }
 
-    public static Icon layersArrowDown() {
-        return layersArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideLayers2() {
+        return lucideLayers2(IconOptions.DEFAULT);
     }
 
-    public static Icon layersArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::layersArrowDown, options);
+    public static Icon lucideLayers2(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayers2, options);
     }
 
-    public static Icon layersArrowUp() {
-        return layersArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideLayersArrowDown() {
+        return lucideLayersArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon layersArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::layersArrowUp, options);
+    public static Icon lucideLayersArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayersArrowDown, options);
     }
 
-    public static Icon layersMinus() {
-        return layersMinus(IconOptions.DEFAULT);
+    public static Icon lucideLayersArrowUp() {
+        return lucideLayersArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon layersMinus(IconOptions options) {
-        return new Icon(INSTANCE::layersMinus, options);
+    public static Icon lucideLayersArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayersArrowUp, options);
     }
 
-    public static Icon layersPlus() {
-        return layersPlus(IconOptions.DEFAULT);
+    public static Icon lucideLayersMinus() {
+        return lucideLayersMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon layersPlus(IconOptions options) {
-        return new Icon(INSTANCE::layersPlus, options);
+    public static Icon lucideLayersMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayersMinus, options);
     }
 
-    public static Icon layoutArrowDown() {
-        return layoutArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideLayersPlus() {
+        return lucideLayersPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::layoutArrowDown, options);
+    public static Icon lucideLayersPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayersPlus, options);
     }
 
-    public static Icon layoutArrowRight() {
-        return layoutArrowRight(IconOptions.DEFAULT);
+    public static Icon lucideLayoutArrowDown() {
+        return lucideLayoutArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutArrowRight(IconOptions options) {
-        return new Icon(INSTANCE::layoutArrowRight, options);
+    public static Icon lucideLayoutArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutArrowDown, options);
     }
 
-    public static Icon layoutDashboard() {
-        return layoutDashboard(IconOptions.DEFAULT);
+    public static Icon lucideLayoutArrowRight() {
+        return lucideLayoutArrowRight(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutDashboard(IconOptions options) {
-        return new Icon(INSTANCE::layoutDashboard, options);
+    public static Icon lucideLayoutArrowRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutArrowRight, options);
     }
 
-    public static Icon layoutFreeform() {
-        return layoutFreeform(IconOptions.DEFAULT);
+    public static Icon lucideLayoutDashboard() {
+        return lucideLayoutDashboard(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutFreeform(IconOptions options) {
-        return new Icon(INSTANCE::layoutFreeform, options);
+    public static Icon lucideLayoutDashboard(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutDashboard, options);
     }
 
-    public static Icon layoutGrid() {
-        return layoutGrid(IconOptions.DEFAULT);
+    public static Icon lucideLayoutFreeform() {
+        return lucideLayoutFreeform(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutGrid(IconOptions options) {
-        return new Icon(INSTANCE::layoutGrid, options);
+    public static Icon lucideLayoutFreeform(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutFreeform, options);
     }
 
-    public static Icon layoutGridCircles() {
-        return layoutGridCircles(IconOptions.DEFAULT);
+    public static Icon lucideLayoutGrid() {
+        return lucideLayoutGrid(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutGridCircles(IconOptions options) {
-        return new Icon(INSTANCE::layoutGridCircles, options);
+    public static Icon lucideLayoutGrid(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutGrid, options);
     }
 
-    public static Icon layoutList() {
-        return layoutList(IconOptions.DEFAULT);
+    public static Icon lucideLayoutGridCircles() {
+        return lucideLayoutGridCircles(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutList(IconOptions options) {
-        return new Icon(INSTANCE::layoutList, options);
+    public static Icon lucideLayoutGridCircles(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutGridCircles, options);
     }
 
-    public static Icon layoutPanelLeft() {
-        return layoutPanelLeft(IconOptions.DEFAULT);
+    public static Icon lucideLayoutList() {
+        return lucideLayoutList(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutPanelLeft(IconOptions options) {
-        return new Icon(INSTANCE::layoutPanelLeft, options);
+    public static Icon lucideLayoutList(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutList, options);
     }
 
-    public static Icon layoutPanelTop() {
-        return layoutPanelTop(IconOptions.DEFAULT);
+    public static Icon lucideLayoutPanelLeft() {
+        return lucideLayoutPanelLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutPanelTop(IconOptions options) {
-        return new Icon(INSTANCE::layoutPanelTop, options);
+    public static Icon lucideLayoutPanelLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutPanelLeft, options);
     }
 
-    public static Icon layoutTemplate() {
-        return layoutTemplate(IconOptions.DEFAULT);
+    public static Icon lucideLayoutPanelTop() {
+        return lucideLayoutPanelTop(IconOptions.DEFAULT);
     }
 
-    public static Icon layoutTemplate(IconOptions options) {
-        return new Icon(INSTANCE::layoutTemplate, options);
+    public static Icon lucideLayoutPanelTop(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutPanelTop, options);
     }
 
-    public static Icon leaf() {
-        return leaf(IconOptions.DEFAULT);
+    public static Icon lucideLayoutTemplate() {
+        return lucideLayoutTemplate(IconOptions.DEFAULT);
     }
 
-    public static Icon leaf(IconOptions options) {
-        return new Icon(INSTANCE::leaf, options);
+    public static Icon lucideLayoutTemplate(IconOptions options) {
+        return new Icon(INSTANCE::lucideLayoutTemplate, options);
     }
 
-    public static Icon leafyGreen() {
-        return leafyGreen(IconOptions.DEFAULT);
+    public static Icon lucideLeaf() {
+        return lucideLeaf(IconOptions.DEFAULT);
     }
 
-    public static Icon leafyGreen(IconOptions options) {
-        return new Icon(INSTANCE::leafyGreen, options);
+    public static Icon lucideLeaf(IconOptions options) {
+        return new Icon(INSTANCE::lucideLeaf, options);
     }
 
-    public static Icon lectern() {
-        return lectern(IconOptions.DEFAULT);
+    public static Icon lucideLeafyGreen() {
+        return lucideLeafyGreen(IconOptions.DEFAULT);
     }
 
-    public static Icon lectern(IconOptions options) {
-        return new Icon(INSTANCE::lectern, options);
+    public static Icon lucideLeafyGreen(IconOptions options) {
+        return new Icon(INSTANCE::lucideLeafyGreen, options);
     }
 
-    public static Icon lens() {
-        return lens(IconOptions.DEFAULT);
+    public static Icon lucideLectern() {
+        return lucideLectern(IconOptions.DEFAULT);
     }
 
-    public static Icon lens(IconOptions options) {
-        return new Icon(INSTANCE::lens, options);
+    public static Icon lucideLectern(IconOptions options) {
+        return new Icon(INSTANCE::lucideLectern, options);
     }
 
-    public static Icon lensConcave() {
-        return lensConcave(IconOptions.DEFAULT);
+    public static Icon lucideLens() {
+        return lucideLens(IconOptions.DEFAULT);
     }
 
-    public static Icon lensConcave(IconOptions options) {
-        return new Icon(INSTANCE::lensConcave, options);
+    public static Icon lucideLens(IconOptions options) {
+        return new Icon(INSTANCE::lucideLens, options);
     }
 
-    public static Icon lensConvex() {
-        return lensConvex(IconOptions.DEFAULT);
+    public static Icon lucideLensConcave() {
+        return lucideLensConcave(IconOptions.DEFAULT);
     }
 
-    public static Icon lensConvex(IconOptions options) {
-        return new Icon(INSTANCE::lensConvex, options);
+    public static Icon lucideLensConcave(IconOptions options) {
+        return new Icon(INSTANCE::lucideLensConcave, options);
     }
 
-    public static Icon letters() {
-        return letters(IconOptions.DEFAULT);
+    public static Icon lucideLensConvex() {
+        return lucideLensConvex(IconOptions.DEFAULT);
     }
 
-    public static Icon letters(IconOptions options) {
-        return new Icon(INSTANCE::letters, options);
+    public static Icon lucideLensConvex(IconOptions options) {
+        return new Icon(INSTANCE::lucideLensConvex, options);
     }
 
-    public static Icon library() {
-        return library(IconOptions.DEFAULT);
+    public static Icon lucideLetters() {
+        return lucideLetters(IconOptions.DEFAULT);
     }
 
-    public static Icon library(IconOptions options) {
-        return new Icon(INSTANCE::library, options);
+    public static Icon lucideLetters(IconOptions options) {
+        return new Icon(INSTANCE::lucideLetters, options);
     }
 
-    public static Icon libraryBig() {
-        return libraryBig(IconOptions.DEFAULT);
+    public static Icon lucideLibrary() {
+        return lucideLibrary(IconOptions.DEFAULT);
     }
 
-    public static Icon libraryBig(IconOptions options) {
-        return new Icon(INSTANCE::libraryBig, options);
+    public static Icon lucideLibrary(IconOptions options) {
+        return new Icon(INSTANCE::lucideLibrary, options);
     }
 
-    public static Icon lifeBuoy() {
-        return lifeBuoy(IconOptions.DEFAULT);
+    public static Icon lucideLibraryBig() {
+        return lucideLibraryBig(IconOptions.DEFAULT);
     }
 
-    public static Icon lifeBuoy(IconOptions options) {
-        return new Icon(INSTANCE::lifeBuoy, options);
+    public static Icon lucideLibraryBig(IconOptions options) {
+        return new Icon(INSTANCE::lucideLibraryBig, options);
     }
 
-    public static Icon ligature() {
-        return ligature(IconOptions.DEFAULT);
+    public static Icon lucideLifeBuoy() {
+        return lucideLifeBuoy(IconOptions.DEFAULT);
     }
 
-    public static Icon ligature(IconOptions options) {
-        return new Icon(INSTANCE::ligature, options);
+    public static Icon lucideLifeBuoy(IconOptions options) {
+        return new Icon(INSTANCE::lucideLifeBuoy, options);
     }
 
-    public static Icon lightbulb() {
-        return lightbulb(IconOptions.DEFAULT);
+    public static Icon lucideLigature() {
+        return lucideLigature(IconOptions.DEFAULT);
     }
 
-    public static Icon lightbulb(IconOptions options) {
-        return new Icon(INSTANCE::lightbulb, options);
+    public static Icon lucideLigature(IconOptions options) {
+        return new Icon(INSTANCE::lucideLigature, options);
     }
 
-    public static Icon lightbulbOff() {
-        return lightbulbOff(IconOptions.DEFAULT);
+    public static Icon lucideLightbulb() {
+        return lucideLightbulb(IconOptions.DEFAULT);
     }
 
-    public static Icon lightbulbOff(IconOptions options) {
-        return new Icon(INSTANCE::lightbulbOff, options);
+    public static Icon lucideLightbulb(IconOptions options) {
+        return new Icon(INSTANCE::lucideLightbulb, options);
     }
 
-    public static Icon lighthouse() {
-        return lighthouse(IconOptions.DEFAULT);
+    public static Icon lucideLightbulbOff() {
+        return lucideLightbulbOff(IconOptions.DEFAULT);
     }
 
-    public static Icon lighthouse(IconOptions options) {
-        return new Icon(INSTANCE::lighthouse, options);
+    public static Icon lucideLightbulbOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideLightbulbOff, options);
     }
 
-    public static Icon lineDotBottomVertical() {
-        return lineDotBottomVertical(IconOptions.DEFAULT);
+    public static Icon lucideLighthouse() {
+        return lucideLighthouse(IconOptions.DEFAULT);
     }
 
-    public static Icon lineDotBottomVertical(IconOptions options) {
-        return new Icon(INSTANCE::lineDotBottomVertical, options);
+    public static Icon lucideLighthouse(IconOptions options) {
+        return new Icon(INSTANCE::lucideLighthouse, options);
     }
 
-    public static Icon lineDotLeftHorizontal() {
-        return lineDotLeftHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideLineDotBottomVertical() {
+        return lucideLineDotBottomVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon lineDotLeftHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::lineDotLeftHorizontal, options);
+    public static Icon lucideLineDotBottomVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideLineDotBottomVertical, options);
     }
 
-    public static Icon lineDotRightHorizontal() {
-        return lineDotRightHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideLineDotLeftHorizontal() {
+        return lucideLineDotLeftHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon lineDotRightHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::lineDotRightHorizontal, options);
+    public static Icon lucideLineDotLeftHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideLineDotLeftHorizontal, options);
     }
 
-    public static Icon lineDotTopVertical() {
-        return lineDotTopVertical(IconOptions.DEFAULT);
+    public static Icon lucideLineDotRightHorizontal() {
+        return lucideLineDotRightHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon lineDotTopVertical(IconOptions options) {
-        return new Icon(INSTANCE::lineDotTopVertical, options);
+    public static Icon lucideLineDotRightHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideLineDotRightHorizontal, options);
     }
 
-    public static Icon lineSquiggle() {
-        return lineSquiggle(IconOptions.DEFAULT);
+    public static Icon lucideLineDotTopVertical() {
+        return lucideLineDotTopVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon lineSquiggle(IconOptions options) {
-        return new Icon(INSTANCE::lineSquiggle, options);
+    public static Icon lucideLineDotTopVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideLineDotTopVertical, options);
     }
 
-    public static Icon lineStyle() {
-        return lineStyle(IconOptions.DEFAULT);
+    public static Icon lucideLineSquiggle() {
+        return lucideLineSquiggle(IconOptions.DEFAULT);
     }
 
-    public static Icon lineStyle(IconOptions options) {
-        return new Icon(INSTANCE::lineStyle, options);
+    public static Icon lucideLineSquiggle(IconOptions options) {
+        return new Icon(INSTANCE::lucideLineSquiggle, options);
     }
 
-    public static Icon link() {
-        return link(IconOptions.DEFAULT);
+    public static Icon lucideLineStyle() {
+        return lucideLineStyle(IconOptions.DEFAULT);
     }
 
-    public static Icon link(IconOptions options) {
-        return new Icon(INSTANCE::link, options);
+    public static Icon lucideLineStyle(IconOptions options) {
+        return new Icon(INSTANCE::lucideLineStyle, options);
     }
 
-    public static Icon link2() {
-        return link2(IconOptions.DEFAULT);
+    public static Icon lucideLink() {
+        return lucideLink(IconOptions.DEFAULT);
     }
 
-    public static Icon link2(IconOptions options) {
-        return new Icon(INSTANCE::link2, options);
+    public static Icon lucideLink(IconOptions options) {
+        return new Icon(INSTANCE::lucideLink, options);
     }
 
-    public static Icon link2Off() {
-        return link2Off(IconOptions.DEFAULT);
+    public static Icon lucideLink2() {
+        return lucideLink2(IconOptions.DEFAULT);
     }
 
-    public static Icon link2Off(IconOptions options) {
-        return new Icon(INSTANCE::link2Off, options);
+    public static Icon lucideLink2(IconOptions options) {
+        return new Icon(INSTANCE::lucideLink2, options);
     }
 
-    public static Icon list() {
-        return list(IconOptions.DEFAULT);
+    public static Icon lucideLink2Off() {
+        return lucideLink2Off(IconOptions.DEFAULT);
     }
 
-    public static Icon list(IconOptions options) {
-        return new Icon(INSTANCE::list, options);
+    public static Icon lucideLink2Off(IconOptions options) {
+        return new Icon(INSTANCE::lucideLink2Off, options);
     }
 
-    public static Icon listCheck() {
-        return listCheck(IconOptions.DEFAULT);
+    public static Icon lucideList() {
+        return lucideList(IconOptions.DEFAULT);
     }
 
-    public static Icon listCheck(IconOptions options) {
-        return new Icon(INSTANCE::listCheck, options);
+    public static Icon lucideList(IconOptions options) {
+        return new Icon(INSTANCE::lucideList, options);
     }
 
-    public static Icon listChecks() {
-        return listChecks(IconOptions.DEFAULT);
+    public static Icon lucideListCheck() {
+        return lucideListCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon listChecks(IconOptions options) {
-        return new Icon(INSTANCE::listChecks, options);
+    public static Icon lucideListCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideListCheck, options);
     }
 
-    public static Icon listChevronsDownUp() {
-        return listChevronsDownUp(IconOptions.DEFAULT);
+    public static Icon lucideListChecks() {
+        return lucideListChecks(IconOptions.DEFAULT);
     }
 
-    public static Icon listChevronsDownUp(IconOptions options) {
-        return new Icon(INSTANCE::listChevronsDownUp, options);
+    public static Icon lucideListChecks(IconOptions options) {
+        return new Icon(INSTANCE::lucideListChecks, options);
     }
 
-    public static Icon listChevronsUpDown() {
-        return listChevronsUpDown(IconOptions.DEFAULT);
+    public static Icon lucideListChevronsDownUp() {
+        return lucideListChevronsDownUp(IconOptions.DEFAULT);
     }
 
-    public static Icon listChevronsUpDown(IconOptions options) {
-        return new Icon(INSTANCE::listChevronsUpDown, options);
+    public static Icon lucideListChevronsDownUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideListChevronsDownUp, options);
     }
 
-    public static Icon listClock() {
-        return listClock(IconOptions.DEFAULT);
+    public static Icon lucideListChevronsUpDown() {
+        return lucideListChevronsUpDown(IconOptions.DEFAULT);
     }
 
-    public static Icon listClock(IconOptions options) {
-        return new Icon(INSTANCE::listClock, options);
+    public static Icon lucideListChevronsUpDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideListChevronsUpDown, options);
     }
 
-    public static Icon listCollapse() {
-        return listCollapse(IconOptions.DEFAULT);
+    public static Icon lucideListClock() {
+        return lucideListClock(IconOptions.DEFAULT);
     }
 
-    public static Icon listCollapse(IconOptions options) {
-        return new Icon(INSTANCE::listCollapse, options);
+    public static Icon lucideListClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideListClock, options);
     }
 
-    public static Icon listEnd() {
-        return listEnd(IconOptions.DEFAULT);
+    public static Icon lucideListCollapse() {
+        return lucideListCollapse(IconOptions.DEFAULT);
     }
 
-    public static Icon listEnd(IconOptions options) {
-        return new Icon(INSTANCE::listEnd, options);
+    public static Icon lucideListCollapse(IconOptions options) {
+        return new Icon(INSTANCE::lucideListCollapse, options);
     }
 
-    public static Icon listFilter() {
-        return listFilter(IconOptions.DEFAULT);
+    public static Icon lucideListEnd() {
+        return lucideListEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon listFilter(IconOptions options) {
-        return new Icon(INSTANCE::listFilter, options);
+    public static Icon lucideListEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideListEnd, options);
     }
 
-    public static Icon listFilterPlus() {
-        return listFilterPlus(IconOptions.DEFAULT);
+    public static Icon lucideListFilter() {
+        return lucideListFilter(IconOptions.DEFAULT);
     }
 
-    public static Icon listFilterPlus(IconOptions options) {
-        return new Icon(INSTANCE::listFilterPlus, options);
+    public static Icon lucideListFilter(IconOptions options) {
+        return new Icon(INSTANCE::lucideListFilter, options);
     }
 
-    public static Icon listIndentDecrease() {
-        return listIndentDecrease(IconOptions.DEFAULT);
+    public static Icon lucideListFilterPlus() {
+        return lucideListFilterPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon listIndentDecrease(IconOptions options) {
-        return new Icon(INSTANCE::listIndentDecrease, options);
+    public static Icon lucideListFilterPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideListFilterPlus, options);
     }
 
-    public static Icon listIndentIncrease() {
-        return listIndentIncrease(IconOptions.DEFAULT);
+    public static Icon lucideListIndentDecrease() {
+        return lucideListIndentDecrease(IconOptions.DEFAULT);
     }
 
-    public static Icon listIndentIncrease(IconOptions options) {
-        return new Icon(INSTANCE::listIndentIncrease, options);
+    public static Icon lucideListIndentDecrease(IconOptions options) {
+        return new Icon(INSTANCE::lucideListIndentDecrease, options);
     }
 
-    public static Icon listMinus() {
-        return listMinus(IconOptions.DEFAULT);
+    public static Icon lucideListIndentIncrease() {
+        return lucideListIndentIncrease(IconOptions.DEFAULT);
     }
 
-    public static Icon listMinus(IconOptions options) {
-        return new Icon(INSTANCE::listMinus, options);
+    public static Icon lucideListIndentIncrease(IconOptions options) {
+        return new Icon(INSTANCE::lucideListIndentIncrease, options);
     }
 
-    public static Icon listMusic() {
-        return listMusic(IconOptions.DEFAULT);
+    public static Icon lucideListMinus() {
+        return lucideListMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon listMusic(IconOptions options) {
-        return new Icon(INSTANCE::listMusic, options);
+    public static Icon lucideListMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideListMinus, options);
     }
 
-    public static Icon listOrdered() {
-        return listOrdered(IconOptions.DEFAULT);
+    public static Icon lucideListMusic() {
+        return lucideListMusic(IconOptions.DEFAULT);
     }
 
-    public static Icon listOrdered(IconOptions options) {
-        return new Icon(INSTANCE::listOrdered, options);
+    public static Icon lucideListMusic(IconOptions options) {
+        return new Icon(INSTANCE::lucideListMusic, options);
     }
 
-    public static Icon listPlus() {
-        return listPlus(IconOptions.DEFAULT);
+    public static Icon lucideListOrdered() {
+        return lucideListOrdered(IconOptions.DEFAULT);
     }
 
-    public static Icon listPlus(IconOptions options) {
-        return new Icon(INSTANCE::listPlus, options);
+    public static Icon lucideListOrdered(IconOptions options) {
+        return new Icon(INSTANCE::lucideListOrdered, options);
     }
 
-    public static Icon listRestart() {
-        return listRestart(IconOptions.DEFAULT);
+    public static Icon lucideListPlus() {
+        return lucideListPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon listRestart(IconOptions options) {
-        return new Icon(INSTANCE::listRestart, options);
+    public static Icon lucideListPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideListPlus, options);
     }
 
-    public static Icon listSortAscending() {
-        return listSortAscending(IconOptions.DEFAULT);
+    public static Icon lucideListRestart() {
+        return lucideListRestart(IconOptions.DEFAULT);
     }
 
-    public static Icon listSortAscending(IconOptions options) {
-        return new Icon(INSTANCE::listSortAscending, options);
+    public static Icon lucideListRestart(IconOptions options) {
+        return new Icon(INSTANCE::lucideListRestart, options);
     }
 
-    public static Icon listSortDescending() {
-        return listSortDescending(IconOptions.DEFAULT);
+    public static Icon lucideListSortAscending() {
+        return lucideListSortAscending(IconOptions.DEFAULT);
     }
 
-    public static Icon listSortDescending(IconOptions options) {
-        return new Icon(INSTANCE::listSortDescending, options);
+    public static Icon lucideListSortAscending(IconOptions options) {
+        return new Icon(INSTANCE::lucideListSortAscending, options);
     }
 
-    public static Icon listStart() {
-        return listStart(IconOptions.DEFAULT);
+    public static Icon lucideListSortDescending() {
+        return lucideListSortDescending(IconOptions.DEFAULT);
     }
 
-    public static Icon listStart(IconOptions options) {
-        return new Icon(INSTANCE::listStart, options);
+    public static Icon lucideListSortDescending(IconOptions options) {
+        return new Icon(INSTANCE::lucideListSortDescending, options);
     }
 
-    public static Icon listTodo() {
-        return listTodo(IconOptions.DEFAULT);
+    public static Icon lucideListStart() {
+        return lucideListStart(IconOptions.DEFAULT);
     }
 
-    public static Icon listTodo(IconOptions options) {
-        return new Icon(INSTANCE::listTodo, options);
+    public static Icon lucideListStart(IconOptions options) {
+        return new Icon(INSTANCE::lucideListStart, options);
     }
 
-    public static Icon listTree() {
-        return listTree(IconOptions.DEFAULT);
+    public static Icon lucideListTodo() {
+        return lucideListTodo(IconOptions.DEFAULT);
     }
 
-    public static Icon listTree(IconOptions options) {
-        return new Icon(INSTANCE::listTree, options);
+    public static Icon lucideListTodo(IconOptions options) {
+        return new Icon(INSTANCE::lucideListTodo, options);
     }
 
-    public static Icon listVideo() {
-        return listVideo(IconOptions.DEFAULT);
+    public static Icon lucideListTree() {
+        return lucideListTree(IconOptions.DEFAULT);
     }
 
-    public static Icon listVideo(IconOptions options) {
-        return new Icon(INSTANCE::listVideo, options);
+    public static Icon lucideListTree(IconOptions options) {
+        return new Icon(INSTANCE::lucideListTree, options);
     }
 
-    public static Icon listX() {
-        return listX(IconOptions.DEFAULT);
+    public static Icon lucideListVideo() {
+        return lucideListVideo(IconOptions.DEFAULT);
     }
 
-    public static Icon listX(IconOptions options) {
-        return new Icon(INSTANCE::listX, options);
+    public static Icon lucideListVideo(IconOptions options) {
+        return new Icon(INSTANCE::lucideListVideo, options);
     }
 
-    public static Icon loader() {
-        return loader(IconOptions.DEFAULT);
+    public static Icon lucideListX() {
+        return lucideListX(IconOptions.DEFAULT);
     }
 
-    public static Icon loader(IconOptions options) {
-        return new Icon(INSTANCE::loader, options);
+    public static Icon lucideListX(IconOptions options) {
+        return new Icon(INSTANCE::lucideListX, options);
     }
 
-    public static Icon loaderCircle() {
-        return loaderCircle(IconOptions.DEFAULT);
+    public static Icon lucideLoader() {
+        return lucideLoader(IconOptions.DEFAULT);
     }
 
-    public static Icon loaderCircle(IconOptions options) {
-        return new Icon(INSTANCE::loaderCircle, options);
+    public static Icon lucideLoader(IconOptions options) {
+        return new Icon(INSTANCE::lucideLoader, options);
     }
 
-    public static Icon loaderPinwheel() {
-        return loaderPinwheel(IconOptions.DEFAULT);
+    public static Icon lucideLoaderCircle() {
+        return lucideLoaderCircle(IconOptions.DEFAULT);
     }
 
-    public static Icon loaderPinwheel(IconOptions options) {
-        return new Icon(INSTANCE::loaderPinwheel, options);
+    public static Icon lucideLoaderCircle(IconOptions options) {
+        return new Icon(INSTANCE::lucideLoaderCircle, options);
     }
 
-    public static Icon locate() {
-        return locate(IconOptions.DEFAULT);
+    public static Icon lucideLoaderPinwheel() {
+        return lucideLoaderPinwheel(IconOptions.DEFAULT);
     }
 
-    public static Icon locate(IconOptions options) {
-        return new Icon(INSTANCE::locate, options);
+    public static Icon lucideLoaderPinwheel(IconOptions options) {
+        return new Icon(INSTANCE::lucideLoaderPinwheel, options);
     }
 
-    public static Icon locateFixed() {
-        return locateFixed(IconOptions.DEFAULT);
+    public static Icon lucideLocate() {
+        return lucideLocate(IconOptions.DEFAULT);
     }
 
-    public static Icon locateFixed(IconOptions options) {
-        return new Icon(INSTANCE::locateFixed, options);
+    public static Icon lucideLocate(IconOptions options) {
+        return new Icon(INSTANCE::lucideLocate, options);
     }
 
-    public static Icon locateOff() {
-        return locateOff(IconOptions.DEFAULT);
+    public static Icon lucideLocateFixed() {
+        return lucideLocateFixed(IconOptions.DEFAULT);
     }
 
-    public static Icon locateOff(IconOptions options) {
-        return new Icon(INSTANCE::locateOff, options);
+    public static Icon lucideLocateFixed(IconOptions options) {
+        return new Icon(INSTANCE::lucideLocateFixed, options);
     }
 
-    public static Icon lock() {
-        return lock(IconOptions.DEFAULT);
+    public static Icon lucideLocateOff() {
+        return lucideLocateOff(IconOptions.DEFAULT);
     }
 
-    public static Icon lock(IconOptions options) {
-        return new Icon(INSTANCE::lock, options);
+    public static Icon lucideLocateOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideLocateOff, options);
     }
 
-    public static Icon lockKeyhole() {
-        return lockKeyhole(IconOptions.DEFAULT);
+    public static Icon lucideLock() {
+        return lucideLock(IconOptions.DEFAULT);
     }
 
-    public static Icon lockKeyhole(IconOptions options) {
-        return new Icon(INSTANCE::lockKeyhole, options);
+    public static Icon lucideLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideLock, options);
     }
 
-    public static Icon lockKeyholeOpen() {
-        return lockKeyholeOpen(IconOptions.DEFAULT);
+    public static Icon lucideLockKeyhole() {
+        return lucideLockKeyhole(IconOptions.DEFAULT);
     }
 
-    public static Icon lockKeyholeOpen(IconOptions options) {
-        return new Icon(INSTANCE::lockKeyholeOpen, options);
+    public static Icon lucideLockKeyhole(IconOptions options) {
+        return new Icon(INSTANCE::lucideLockKeyhole, options);
     }
 
-    public static Icon lockOpen() {
-        return lockOpen(IconOptions.DEFAULT);
+    public static Icon lucideLockKeyholeOpen() {
+        return lucideLockKeyholeOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon lockOpen(IconOptions options) {
-        return new Icon(INSTANCE::lockOpen, options);
+    public static Icon lucideLockKeyholeOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucideLockKeyholeOpen, options);
     }
 
-    public static Icon logIn() {
-        return logIn(IconOptions.DEFAULT);
+    public static Icon lucideLockOpen() {
+        return lucideLockOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon logIn(IconOptions options) {
-        return new Icon(INSTANCE::logIn, options);
+    public static Icon lucideLockOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucideLockOpen, options);
     }
 
-    public static Icon logOut() {
-        return logOut(IconOptions.DEFAULT);
+    public static Icon lucideLogIn() {
+        return lucideLogIn(IconOptions.DEFAULT);
     }
 
-    public static Icon logOut(IconOptions options) {
-        return new Icon(INSTANCE::logOut, options);
+    public static Icon lucideLogIn(IconOptions options) {
+        return new Icon(INSTANCE::lucideLogIn, options);
     }
 
-    public static Icon logs() {
-        return logs(IconOptions.DEFAULT);
+    public static Icon lucideLogOut() {
+        return lucideLogOut(IconOptions.DEFAULT);
     }
 
-    public static Icon logs(IconOptions options) {
-        return new Icon(INSTANCE::logs, options);
+    public static Icon lucideLogOut(IconOptions options) {
+        return new Icon(INSTANCE::lucideLogOut, options);
     }
 
-    public static Icon lollipop() {
-        return lollipop(IconOptions.DEFAULT);
+    public static Icon lucideLogs() {
+        return lucideLogs(IconOptions.DEFAULT);
     }
 
-    public static Icon lollipop(IconOptions options) {
-        return new Icon(INSTANCE::lollipop, options);
+    public static Icon lucideLogs(IconOptions options) {
+        return new Icon(INSTANCE::lucideLogs, options);
     }
 
-    public static Icon luggage() {
-        return luggage(IconOptions.DEFAULT);
+    public static Icon lucideLollipop() {
+        return lucideLollipop(IconOptions.DEFAULT);
     }
 
-    public static Icon luggage(IconOptions options) {
-        return new Icon(INSTANCE::luggage, options);
+    public static Icon lucideLollipop(IconOptions options) {
+        return new Icon(INSTANCE::lucideLollipop, options);
     }
 
-    public static Icon magnet() {
-        return magnet(IconOptions.DEFAULT);
+    public static Icon lucideLuggage() {
+        return lucideLuggage(IconOptions.DEFAULT);
     }
 
-    public static Icon magnet(IconOptions options) {
-        return new Icon(INSTANCE::magnet, options);
+    public static Icon lucideLuggage(IconOptions options) {
+        return new Icon(INSTANCE::lucideLuggage, options);
     }
 
-    public static Icon mail() {
-        return mail(IconOptions.DEFAULT);
+    public static Icon lucideMagnet() {
+        return lucideMagnet(IconOptions.DEFAULT);
     }
 
-    public static Icon mail(IconOptions options) {
-        return new Icon(INSTANCE::mail, options);
+    public static Icon lucideMagnet(IconOptions options) {
+        return new Icon(INSTANCE::lucideMagnet, options);
     }
 
-    public static Icon mailBadge() {
-        return mailBadge(IconOptions.DEFAULT);
+    public static Icon lucideMail() {
+        return lucideMail(IconOptions.DEFAULT);
     }
 
-    public static Icon mailBadge(IconOptions options) {
-        return new Icon(INSTANCE::mailBadge, options);
+    public static Icon lucideMail(IconOptions options) {
+        return new Icon(INSTANCE::lucideMail, options);
     }
 
-    public static Icon mailCheck() {
-        return mailCheck(IconOptions.DEFAULT);
+    public static Icon lucideMailBadge() {
+        return lucideMailBadge(IconOptions.DEFAULT);
     }
 
-    public static Icon mailCheck(IconOptions options) {
-        return new Icon(INSTANCE::mailCheck, options);
+    public static Icon lucideMailBadge(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailBadge, options);
     }
 
-    public static Icon mailClock() {
-        return mailClock(IconOptions.DEFAULT);
+    public static Icon lucideMailCheck() {
+        return lucideMailCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon mailClock(IconOptions options) {
-        return new Icon(INSTANCE::mailClock, options);
+    public static Icon lucideMailCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailCheck, options);
     }
 
-    public static Icon mailMinus() {
-        return mailMinus(IconOptions.DEFAULT);
+    public static Icon lucideMailClock() {
+        return lucideMailClock(IconOptions.DEFAULT);
     }
 
-    public static Icon mailMinus(IconOptions options) {
-        return new Icon(INSTANCE::mailMinus, options);
+    public static Icon lucideMailClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailClock, options);
     }
 
-    public static Icon mailOpen() {
-        return mailOpen(IconOptions.DEFAULT);
+    public static Icon lucideMailDot() {
+        return lucideMailDot(IconOptions.DEFAULT);
     }
 
-    public static Icon mailOpen(IconOptions options) {
-        return new Icon(INSTANCE::mailOpen, options);
+    public static Icon lucideMailDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailDot, options);
     }
 
-    public static Icon mailPen() {
-        return mailPen(IconOptions.DEFAULT);
+    public static Icon lucideMailMinus() {
+        return lucideMailMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon mailPen(IconOptions options) {
-        return new Icon(INSTANCE::mailPen, options);
+    public static Icon lucideMailMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailMinus, options);
     }
 
-    public static Icon mailPlus() {
-        return mailPlus(IconOptions.DEFAULT);
+    public static Icon lucideMailOpen() {
+        return lucideMailOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon mailPlus(IconOptions options) {
-        return new Icon(INSTANCE::mailPlus, options);
+    public static Icon lucideMailOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailOpen, options);
     }
 
-    public static Icon mailQuestionMark() {
-        return mailQuestionMark(IconOptions.DEFAULT);
+    public static Icon lucideMailPen() {
+        return lucideMailPen(IconOptions.DEFAULT);
     }
 
-    public static Icon mailQuestionMark(IconOptions options) {
-        return new Icon(INSTANCE::mailQuestionMark, options);
+    public static Icon lucideMailPen(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailPen, options);
     }
 
-    public static Icon mailSearch() {
-        return mailSearch(IconOptions.DEFAULT);
+    public static Icon lucideMailPlus() {
+        return lucideMailPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon mailSearch(IconOptions options) {
-        return new Icon(INSTANCE::mailSearch, options);
+    public static Icon lucideMailPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailPlus, options);
     }
 
-    public static Icon mailWarning() {
-        return mailWarning(IconOptions.DEFAULT);
+    public static Icon lucideMailQuestionMark() {
+        return lucideMailQuestionMark(IconOptions.DEFAULT);
     }
 
-    public static Icon mailWarning(IconOptions options) {
-        return new Icon(INSTANCE::mailWarning, options);
+    public static Icon lucideMailQuestionMark(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailQuestionMark, options);
     }
 
-    public static Icon mailX() {
-        return mailX(IconOptions.DEFAULT);
+    public static Icon lucideMailSearch() {
+        return lucideMailSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon mailX(IconOptions options) {
-        return new Icon(INSTANCE::mailX, options);
+    public static Icon lucideMailSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailSearch, options);
     }
 
-    public static Icon mailbox() {
-        return mailbox(IconOptions.DEFAULT);
+    public static Icon lucideMailWarning() {
+        return lucideMailWarning(IconOptions.DEFAULT);
     }
 
-    public static Icon mailbox(IconOptions options) {
-        return new Icon(INSTANCE::mailbox, options);
+    public static Icon lucideMailWarning(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailWarning, options);
     }
 
-    public static Icon mails() {
-        return mails(IconOptions.DEFAULT);
+    public static Icon lucideMailX() {
+        return lucideMailX(IconOptions.DEFAULT);
     }
 
-    public static Icon mails(IconOptions options) {
-        return new Icon(INSTANCE::mails, options);
+    public static Icon lucideMailX(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailX, options);
     }
 
-    public static Icon map() {
-        return map(IconOptions.DEFAULT);
+    public static Icon lucideMailbox() {
+        return lucideMailbox(IconOptions.DEFAULT);
     }
 
-    public static Icon map(IconOptions options) {
-        return new Icon(INSTANCE::map, options);
+    public static Icon lucideMailbox(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailbox, options);
     }
 
-    public static Icon mapMinus() {
-        return mapMinus(IconOptions.DEFAULT);
+    public static Icon lucideMails() {
+        return lucideMails(IconOptions.DEFAULT);
     }
 
-    public static Icon mapMinus(IconOptions options) {
-        return new Icon(INSTANCE::mapMinus, options);
+    public static Icon lucideMails(IconOptions options) {
+        return new Icon(INSTANCE::lucideMails, options);
     }
 
-    public static Icon mapPin() {
-        return mapPin(IconOptions.DEFAULT);
+    public static Icon lucideMap() {
+        return lucideMap(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPin(IconOptions options) {
-        return new Icon(INSTANCE::mapPin, options);
+    public static Icon lucideMap(IconOptions options) {
+        return new Icon(INSTANCE::lucideMap, options);
     }
 
-    public static Icon mapPinCheck() {
-        return mapPinCheck(IconOptions.DEFAULT);
+    public static Icon lucideMapMinus() {
+        return lucideMapMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinCheck(IconOptions options) {
-        return new Icon(INSTANCE::mapPinCheck, options);
+    public static Icon lucideMapMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapMinus, options);
     }
 
-    public static Icon mapPinCheckInside() {
-        return mapPinCheckInside(IconOptions.DEFAULT);
+    public static Icon lucideMapPin() {
+        return lucideMapPin(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinCheckInside(IconOptions options) {
-        return new Icon(INSTANCE::mapPinCheckInside, options);
+    public static Icon lucideMapPin(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPin, options);
     }
 
-    public static Icon mapPinHouse() {
-        return mapPinHouse(IconOptions.DEFAULT);
+    public static Icon lucideMapPinCheck() {
+        return lucideMapPinCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinHouse(IconOptions options) {
-        return new Icon(INSTANCE::mapPinHouse, options);
+    public static Icon lucideMapPinCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinCheck, options);
     }
 
-    public static Icon mapPinMinus() {
-        return mapPinMinus(IconOptions.DEFAULT);
+    public static Icon lucideMapPinCheckInside() {
+        return lucideMapPinCheckInside(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinMinus(IconOptions options) {
-        return new Icon(INSTANCE::mapPinMinus, options);
+    public static Icon lucideMapPinCheckInside(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinCheckInside, options);
     }
 
-    public static Icon mapPinMinusInside() {
-        return mapPinMinusInside(IconOptions.DEFAULT);
+    public static Icon lucideMapPinHouse() {
+        return lucideMapPinHouse(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinMinusInside(IconOptions options) {
-        return new Icon(INSTANCE::mapPinMinusInside, options);
+    public static Icon lucideMapPinHouse(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinHouse, options);
     }
 
-    public static Icon mapPinOff() {
-        return mapPinOff(IconOptions.DEFAULT);
+    public static Icon lucideMapPinMinus() {
+        return lucideMapPinMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinOff(IconOptions options) {
-        return new Icon(INSTANCE::mapPinOff, options);
+    public static Icon lucideMapPinMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinMinus, options);
     }
 
-    public static Icon mapPinPen() {
-        return mapPinPen(IconOptions.DEFAULT);
+    public static Icon lucideMapPinMinusInside() {
+        return lucideMapPinMinusInside(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinPen(IconOptions options) {
-        return new Icon(INSTANCE::mapPinPen, options);
+    public static Icon lucideMapPinMinusInside(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinMinusInside, options);
     }
 
-    public static Icon mapPinPlus() {
-        return mapPinPlus(IconOptions.DEFAULT);
+    public static Icon lucideMapPinOff() {
+        return lucideMapPinOff(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinPlus(IconOptions options) {
-        return new Icon(INSTANCE::mapPinPlus, options);
+    public static Icon lucideMapPinOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinOff, options);
     }
 
-    public static Icon mapPinPlusInside() {
-        return mapPinPlusInside(IconOptions.DEFAULT);
+    public static Icon lucideMapPinPen() {
+        return lucideMapPinPen(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinPlusInside(IconOptions options) {
-        return new Icon(INSTANCE::mapPinPlusInside, options);
+    public static Icon lucideMapPinPen(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinPen, options);
     }
 
-    public static Icon mapPinSearch() {
-        return mapPinSearch(IconOptions.DEFAULT);
+    public static Icon lucideMapPinPlus() {
+        return lucideMapPinPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinSearch(IconOptions options) {
-        return new Icon(INSTANCE::mapPinSearch, options);
+    public static Icon lucideMapPinPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinPlus, options);
     }
 
-    public static Icon mapPinX() {
-        return mapPinX(IconOptions.DEFAULT);
+    public static Icon lucideMapPinPlusInside() {
+        return lucideMapPinPlusInside(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinX(IconOptions options) {
-        return new Icon(INSTANCE::mapPinX, options);
+    public static Icon lucideMapPinPlusInside(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinPlusInside, options);
     }
 
-    public static Icon mapPinXInside() {
-        return mapPinXInside(IconOptions.DEFAULT);
+    public static Icon lucideMapPinSearch() {
+        return lucideMapPinSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinXInside(IconOptions options) {
-        return new Icon(INSTANCE::mapPinXInside, options);
+    public static Icon lucideMapPinSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinSearch, options);
     }
 
-    public static Icon mapPinned() {
-        return mapPinned(IconOptions.DEFAULT);
+    public static Icon lucideMapPinX() {
+        return lucideMapPinX(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPinned(IconOptions options) {
-        return new Icon(INSTANCE::mapPinned, options);
+    public static Icon lucideMapPinX(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinX, options);
     }
 
-    public static Icon mapPlus() {
-        return mapPlus(IconOptions.DEFAULT);
+    public static Icon lucideMapPinXInside() {
+        return lucideMapPinXInside(IconOptions.DEFAULT);
     }
 
-    public static Icon mapPlus(IconOptions options) {
-        return new Icon(INSTANCE::mapPlus, options);
+    public static Icon lucideMapPinXInside(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinXInside, options);
     }
 
-    public static Icon mars() {
-        return mars(IconOptions.DEFAULT);
+    public static Icon lucideMapPinned() {
+        return lucideMapPinned(IconOptions.DEFAULT);
     }
 
-    public static Icon mars(IconOptions options) {
-        return new Icon(INSTANCE::mars, options);
+    public static Icon lucideMapPinned(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPinned, options);
     }
 
-    public static Icon marsStroke() {
-        return marsStroke(IconOptions.DEFAULT);
+    public static Icon lucideMapPlus() {
+        return lucideMapPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon marsStroke(IconOptions options) {
-        return new Icon(INSTANCE::marsStroke, options);
+    public static Icon lucideMapPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideMapPlus, options);
     }
 
-    public static Icon martini() {
-        return martini(IconOptions.DEFAULT);
+    public static Icon lucideMars() {
+        return lucideMars(IconOptions.DEFAULT);
     }
 
-    public static Icon martini(IconOptions options) {
-        return new Icon(INSTANCE::martini, options);
+    public static Icon lucideMars(IconOptions options) {
+        return new Icon(INSTANCE::lucideMars, options);
     }
 
-    public static Icon maximize() {
-        return maximize(IconOptions.DEFAULT);
+    public static Icon lucideMarsStroke() {
+        return lucideMarsStroke(IconOptions.DEFAULT);
     }
 
-    public static Icon maximize(IconOptions options) {
-        return new Icon(INSTANCE::maximize, options);
+    public static Icon lucideMarsStroke(IconOptions options) {
+        return new Icon(INSTANCE::lucideMarsStroke, options);
     }
 
-    public static Icon maximize2() {
-        return maximize2(IconOptions.DEFAULT);
+    public static Icon lucideMartini() {
+        return lucideMartini(IconOptions.DEFAULT);
     }
 
-    public static Icon maximize2(IconOptions options) {
-        return new Icon(INSTANCE::maximize2, options);
+    public static Icon lucideMartini(IconOptions options) {
+        return new Icon(INSTANCE::lucideMartini, options);
     }
 
-    public static Icon medal() {
-        return medal(IconOptions.DEFAULT);
+    public static Icon lucideMaximize() {
+        return lucideMaximize(IconOptions.DEFAULT);
     }
 
-    public static Icon medal(IconOptions options) {
-        return new Icon(INSTANCE::medal, options);
+    public static Icon lucideMaximize(IconOptions options) {
+        return new Icon(INSTANCE::lucideMaximize, options);
     }
 
-    public static Icon megaphone() {
-        return megaphone(IconOptions.DEFAULT);
+    public static Icon lucideMaximize2() {
+        return lucideMaximize2(IconOptions.DEFAULT);
     }
 
-    public static Icon megaphone(IconOptions options) {
-        return new Icon(INSTANCE::megaphone, options);
+    public static Icon lucideMaximize2(IconOptions options) {
+        return new Icon(INSTANCE::lucideMaximize2, options);
     }
 
-    public static Icon megaphoneOff() {
-        return megaphoneOff(IconOptions.DEFAULT);
+    public static Icon lucideMedal() {
+        return lucideMedal(IconOptions.DEFAULT);
     }
 
-    public static Icon megaphoneOff(IconOptions options) {
-        return new Icon(INSTANCE::megaphoneOff, options);
+    public static Icon lucideMedal(IconOptions options) {
+        return new Icon(INSTANCE::lucideMedal, options);
     }
 
-    public static Icon memoryStick() {
-        return memoryStick(IconOptions.DEFAULT);
+    public static Icon lucideMegaphone() {
+        return lucideMegaphone(IconOptions.DEFAULT);
     }
 
-    public static Icon memoryStick(IconOptions options) {
-        return new Icon(INSTANCE::memoryStick, options);
+    public static Icon lucideMegaphone(IconOptions options) {
+        return new Icon(INSTANCE::lucideMegaphone, options);
     }
 
-    public static Icon menu() {
-        return menu(IconOptions.DEFAULT);
+    public static Icon lucideMegaphoneOff() {
+        return lucideMegaphoneOff(IconOptions.DEFAULT);
     }
 
-    public static Icon menu(IconOptions options) {
-        return new Icon(INSTANCE::menu, options);
+    public static Icon lucideMegaphoneOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMegaphoneOff, options);
     }
 
-    public static Icon merge() {
-        return merge(IconOptions.DEFAULT);
+    public static Icon lucideMemoryStick() {
+        return lucideMemoryStick(IconOptions.DEFAULT);
     }
 
-    public static Icon merge(IconOptions options) {
-        return new Icon(INSTANCE::merge, options);
+    public static Icon lucideMemoryStick(IconOptions options) {
+        return new Icon(INSTANCE::lucideMemoryStick, options);
     }
 
-    public static Icon messageCircle() {
-        return messageCircle(IconOptions.DEFAULT);
+    public static Icon lucideMenu() {
+        return lucideMenu(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircle(IconOptions options) {
-        return new Icon(INSTANCE::messageCircle, options);
+    public static Icon lucideMenu(IconOptions options) {
+        return new Icon(INSTANCE::lucideMenu, options);
     }
 
-    public static Icon messageCircleCheck() {
-        return messageCircleCheck(IconOptions.DEFAULT);
+    public static Icon lucideMerge() {
+        return lucideMerge(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleCheck(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleCheck, options);
+    public static Icon lucideMerge(IconOptions options) {
+        return new Icon(INSTANCE::lucideMerge, options);
     }
 
-    public static Icon messageCircleCode() {
-        return messageCircleCode(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircle() {
+        return lucideMessageCircle(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleCode(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleCode, options);
+    public static Icon lucideMessageCircle(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircle, options);
     }
 
-    public static Icon messageCircleDashed() {
-        return messageCircleDashed(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleCheck() {
+        return lucideMessageCircleCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleDashed(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleDashed, options);
+    public static Icon lucideMessageCircleCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleCheck, options);
     }
 
-    public static Icon messageCircleDashedCheck() {
-        return messageCircleDashedCheck(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleCode() {
+        return lucideMessageCircleCode(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleDashedCheck(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleDashedCheck, options);
+    public static Icon lucideMessageCircleCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleCode, options);
     }
 
-    public static Icon messageCircleHeart() {
-        return messageCircleHeart(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleDashed() {
+        return lucideMessageCircleDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleHeart(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleHeart, options);
+    public static Icon lucideMessageCircleDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleDashed, options);
     }
 
-    public static Icon messageCircleMore() {
-        return messageCircleMore(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleDashedCheck() {
+        return lucideMessageCircleDashedCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleMore(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleMore, options);
+    public static Icon lucideMessageCircleDashedCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleDashedCheck, options);
     }
 
-    public static Icon messageCircleOff() {
-        return messageCircleOff(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleHeart() {
+        return lucideMessageCircleHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleOff(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleOff, options);
+    public static Icon lucideMessageCircleHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleHeart, options);
     }
 
-    public static Icon messageCirclePlus() {
-        return messageCirclePlus(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleMore() {
+        return lucideMessageCircleMore(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCirclePlus(IconOptions options) {
-        return new Icon(INSTANCE::messageCirclePlus, options);
+    public static Icon lucideMessageCircleMore(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleMore, options);
     }
 
-    public static Icon messageCircleQuestionMark() {
-        return messageCircleQuestionMark(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleOff() {
+        return lucideMessageCircleOff(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleQuestionMark(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleQuestionMark, options);
+    public static Icon lucideMessageCircleOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleOff, options);
     }
 
-    public static Icon messageCircleReply() {
-        return messageCircleReply(IconOptions.DEFAULT);
+    public static Icon lucideMessageCirclePlus() {
+        return lucideMessageCirclePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleReply(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleReply, options);
+    public static Icon lucideMessageCirclePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCirclePlus, options);
     }
 
-    public static Icon messageCircleWarning() {
-        return messageCircleWarning(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleQuestionMark() {
+        return lucideMessageCircleQuestionMark(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleWarning(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleWarning, options);
+    public static Icon lucideMessageCircleQuestionMark(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleQuestionMark, options);
     }
 
-    public static Icon messageCircleX() {
-        return messageCircleX(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleReply() {
+        return lucideMessageCircleReply(IconOptions.DEFAULT);
     }
 
-    public static Icon messageCircleX(IconOptions options) {
-        return new Icon(INSTANCE::messageCircleX, options);
+    public static Icon lucideMessageCircleReply(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleReply, options);
     }
 
-    public static Icon messageSquare() {
-        return messageSquare(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleWarning() {
+        return lucideMessageCircleWarning(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquare(IconOptions options) {
-        return new Icon(INSTANCE::messageSquare, options);
+    public static Icon lucideMessageCircleWarning(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleWarning, options);
     }
 
-    public static Icon messageSquareCheck() {
-        return messageSquareCheck(IconOptions.DEFAULT);
+    public static Icon lucideMessageCircleX() {
+        return lucideMessageCircleX(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareCheck(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareCheck, options);
+    public static Icon lucideMessageCircleX(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleX, options);
     }
 
-    public static Icon messageSquareCode() {
-        return messageSquareCode(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquare() {
+        return lucideMessageSquare(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareCode(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareCode, options);
+    public static Icon lucideMessageSquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquare, options);
     }
 
-    public static Icon messageSquareDashed() {
-        return messageSquareDashed(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareCheck() {
+        return lucideMessageSquareCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareDashed(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareDashed, options);
+    public static Icon lucideMessageSquareCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareCheck, options);
     }
 
-    public static Icon messageSquareDiff() {
-        return messageSquareDiff(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareCode() {
+        return lucideMessageSquareCode(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareDiff(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareDiff, options);
+    public static Icon lucideMessageSquareCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareCode, options);
     }
 
-    public static Icon messageSquareDot() {
-        return messageSquareDot(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareDashed() {
+        return lucideMessageSquareDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareDot(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareDot, options);
+    public static Icon lucideMessageSquareDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareDashed, options);
     }
 
-    public static Icon messageSquareHeart() {
-        return messageSquareHeart(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareDiff() {
+        return lucideMessageSquareDiff(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareHeart(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareHeart, options);
+    public static Icon lucideMessageSquareDiff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareDiff, options);
     }
 
-    public static Icon messageSquareLock() {
-        return messageSquareLock(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareDot() {
+        return lucideMessageSquareDot(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareLock(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareLock, options);
+    public static Icon lucideMessageSquareDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareDot, options);
     }
 
-    public static Icon messageSquareMore() {
-        return messageSquareMore(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareHeart() {
+        return lucideMessageSquareHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareMore(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareMore, options);
+    public static Icon lucideMessageSquareHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareHeart, options);
     }
 
-    public static Icon messageSquareOff() {
-        return messageSquareOff(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareLock() {
+        return lucideMessageSquareLock(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareOff(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareOff, options);
+    public static Icon lucideMessageSquareLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareLock, options);
     }
 
-    public static Icon messageSquarePlus() {
-        return messageSquarePlus(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareMore() {
+        return lucideMessageSquareMore(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquarePlus(IconOptions options) {
-        return new Icon(INSTANCE::messageSquarePlus, options);
+    public static Icon lucideMessageSquareMore(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareMore, options);
     }
 
-    public static Icon messageSquareQuote() {
-        return messageSquareQuote(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareOff() {
+        return lucideMessageSquareOff(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareQuote(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareQuote, options);
+    public static Icon lucideMessageSquareOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareOff, options);
     }
 
-    public static Icon messageSquareReply() {
-        return messageSquareReply(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquarePlus() {
+        return lucideMessageSquarePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareReply(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareReply, options);
+    public static Icon lucideMessageSquarePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquarePlus, options);
     }
 
-    public static Icon messageSquareShare() {
-        return messageSquareShare(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareQuote() {
+        return lucideMessageSquareQuote(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareShare(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareShare, options);
+    public static Icon lucideMessageSquareQuote(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareQuote, options);
     }
 
-    public static Icon messageSquareText() {
-        return messageSquareText(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareReply() {
+        return lucideMessageSquareReply(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareText(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareText, options);
+    public static Icon lucideMessageSquareReply(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareReply, options);
     }
 
-    public static Icon messageSquareWarning() {
-        return messageSquareWarning(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareShare() {
+        return lucideMessageSquareShare(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareWarning(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareWarning, options);
+    public static Icon lucideMessageSquareShare(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareShare, options);
     }
 
-    public static Icon messageSquareX() {
-        return messageSquareX(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareText() {
+        return lucideMessageSquareText(IconOptions.DEFAULT);
     }
 
-    public static Icon messageSquareX(IconOptions options) {
-        return new Icon(INSTANCE::messageSquareX, options);
+    public static Icon lucideMessageSquareText(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareText, options);
     }
 
-    public static Icon messagesCircle() {
-        return messagesCircle(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareWarning() {
+        return lucideMessageSquareWarning(IconOptions.DEFAULT);
     }
 
-    public static Icon messagesCircle(IconOptions options) {
-        return new Icon(INSTANCE::messagesCircle, options);
+    public static Icon lucideMessageSquareWarning(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareWarning, options);
     }
 
-    public static Icon messagesSquare() {
-        return messagesSquare(IconOptions.DEFAULT);
+    public static Icon lucideMessageSquareX() {
+        return lucideMessageSquareX(IconOptions.DEFAULT);
     }
 
-    public static Icon messagesSquare(IconOptions options) {
-        return new Icon(INSTANCE::messagesSquare, options);
+    public static Icon lucideMessageSquareX(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareX, options);
     }
 
-    public static Icon metronome() {
-        return metronome(IconOptions.DEFAULT);
+    public static Icon lucideMessagesCircle() {
+        return lucideMessagesCircle(IconOptions.DEFAULT);
     }
 
-    public static Icon metronome(IconOptions options) {
-        return new Icon(INSTANCE::metronome, options);
+    public static Icon lucideMessagesCircle(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessagesCircle, options);
     }
 
-    public static Icon mic() {
-        return mic(IconOptions.DEFAULT);
+    public static Icon lucideMessagesSquare() {
+        return lucideMessagesSquare(IconOptions.DEFAULT);
     }
 
-    public static Icon mic(IconOptions options) {
-        return new Icon(INSTANCE::mic, options);
+    public static Icon lucideMessagesSquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessagesSquare, options);
     }
 
-    public static Icon micAudioLines() {
-        return micAudioLines(IconOptions.DEFAULT);
+    public static Icon lucideMetronome() {
+        return lucideMetronome(IconOptions.DEFAULT);
     }
 
-    public static Icon micAudioLines(IconOptions options) {
-        return new Icon(INSTANCE::micAudioLines, options);
+    public static Icon lucideMetronome(IconOptions options) {
+        return new Icon(INSTANCE::lucideMetronome, options);
     }
 
-    public static Icon micOff() {
-        return micOff(IconOptions.DEFAULT);
+    public static Icon lucideMic() {
+        return lucideMic(IconOptions.DEFAULT);
     }
 
-    public static Icon micOff(IconOptions options) {
-        return new Icon(INSTANCE::micOff, options);
+    public static Icon lucideMic(IconOptions options) {
+        return new Icon(INSTANCE::lucideMic, options);
     }
 
-    public static Icon micSignal() {
-        return micSignal(IconOptions.DEFAULT);
+    public static Icon lucideMicAudioLines() {
+        return lucideMicAudioLines(IconOptions.DEFAULT);
     }
 
-    public static Icon micSignal(IconOptions options) {
-        return new Icon(INSTANCE::micSignal, options);
+    public static Icon lucideMicAudioLines(IconOptions options) {
+        return new Icon(INSTANCE::lucideMicAudioLines, options);
     }
 
-    public static Icon micVocal() {
-        return micVocal(IconOptions.DEFAULT);
+    public static Icon lucideMicOff() {
+        return lucideMicOff(IconOptions.DEFAULT);
     }
 
-    public static Icon micVocal(IconOptions options) {
-        return new Icon(INSTANCE::micVocal, options);
+    public static Icon lucideMicOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMicOff, options);
     }
 
-    public static Icon microchip() {
-        return microchip(IconOptions.DEFAULT);
+    public static Icon lucideMicSignal() {
+        return lucideMicSignal(IconOptions.DEFAULT);
     }
 
-    public static Icon microchip(IconOptions options) {
-        return new Icon(INSTANCE::microchip, options);
+    public static Icon lucideMicSignal(IconOptions options) {
+        return new Icon(INSTANCE::lucideMicSignal, options);
     }
 
-    public static Icon microscope() {
-        return microscope(IconOptions.DEFAULT);
+    public static Icon lucideMicVocal() {
+        return lucideMicVocal(IconOptions.DEFAULT);
     }
 
-    public static Icon microscope(IconOptions options) {
-        return new Icon(INSTANCE::microscope, options);
+    public static Icon lucideMicVocal(IconOptions options) {
+        return new Icon(INSTANCE::lucideMicVocal, options);
     }
 
-    public static Icon microwave() {
-        return microwave(IconOptions.DEFAULT);
+    public static Icon lucideMicrochip() {
+        return lucideMicrochip(IconOptions.DEFAULT);
     }
 
-    public static Icon microwave(IconOptions options) {
-        return new Icon(INSTANCE::microwave, options);
+    public static Icon lucideMicrochip(IconOptions options) {
+        return new Icon(INSTANCE::lucideMicrochip, options);
     }
 
-    public static Icon midiPort() {
-        return midiPort(IconOptions.DEFAULT);
+    public static Icon lucideMicroscope() {
+        return lucideMicroscope(IconOptions.DEFAULT);
     }
 
-    public static Icon midiPort(IconOptions options) {
-        return new Icon(INSTANCE::midiPort, options);
+    public static Icon lucideMicroscope(IconOptions options) {
+        return new Icon(INSTANCE::lucideMicroscope, options);
     }
 
-    public static Icon milestone() {
-        return milestone(IconOptions.DEFAULT);
+    public static Icon lucideMicrowave() {
+        return lucideMicrowave(IconOptions.DEFAULT);
     }
 
-    public static Icon milestone(IconOptions options) {
-        return new Icon(INSTANCE::milestone, options);
+    public static Icon lucideMicrowave(IconOptions options) {
+        return new Icon(INSTANCE::lucideMicrowave, options);
     }
 
-    public static Icon milk() {
-        return milk(IconOptions.DEFAULT);
+    public static Icon lucideMidiPort() {
+        return lucideMidiPort(IconOptions.DEFAULT);
     }
 
-    public static Icon milk(IconOptions options) {
-        return new Icon(INSTANCE::milk, options);
+    public static Icon lucideMidiPort(IconOptions options) {
+        return new Icon(INSTANCE::lucideMidiPort, options);
     }
 
-    public static Icon milkOff() {
-        return milkOff(IconOptions.DEFAULT);
+    public static Icon lucideMilestone() {
+        return lucideMilestone(IconOptions.DEFAULT);
     }
 
-    public static Icon milkOff(IconOptions options) {
-        return new Icon(INSTANCE::milkOff, options);
+    public static Icon lucideMilestone(IconOptions options) {
+        return new Icon(INSTANCE::lucideMilestone, options);
     }
 
-    public static Icon minimize() {
-        return minimize(IconOptions.DEFAULT);
+    public static Icon lucideMilk() {
+        return lucideMilk(IconOptions.DEFAULT);
     }
 
-    public static Icon minimize(IconOptions options) {
-        return new Icon(INSTANCE::minimize, options);
+    public static Icon lucideMilk(IconOptions options) {
+        return new Icon(INSTANCE::lucideMilk, options);
     }
 
-    public static Icon minimize2() {
-        return minimize2(IconOptions.DEFAULT);
+    public static Icon lucideMilkOff() {
+        return lucideMilkOff(IconOptions.DEFAULT);
     }
 
-    public static Icon minimize2(IconOptions options) {
-        return new Icon(INSTANCE::minimize2, options);
+    public static Icon lucideMilkOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMilkOff, options);
     }
 
-    public static Icon minus() {
-        return minus(IconOptions.DEFAULT);
+    public static Icon lucideMinimize() {
+        return lucideMinimize(IconOptions.DEFAULT);
     }
 
-    public static Icon minus(IconOptions options) {
-        return new Icon(INSTANCE::minus, options);
+    public static Icon lucideMinimize(IconOptions options) {
+        return new Icon(INSTANCE::lucideMinimize, options);
     }
 
-    public static Icon mirrorRectangular() {
-        return mirrorRectangular(IconOptions.DEFAULT);
+    public static Icon lucideMinimize2() {
+        return lucideMinimize2(IconOptions.DEFAULT);
     }
 
-    public static Icon mirrorRectangular(IconOptions options) {
-        return new Icon(INSTANCE::mirrorRectangular, options);
+    public static Icon lucideMinimize2(IconOptions options) {
+        return new Icon(INSTANCE::lucideMinimize2, options);
     }
 
-    public static Icon mirrorRound() {
-        return mirrorRound(IconOptions.DEFAULT);
+    public static Icon lucideMinus() {
+        return lucideMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon mirrorRound(IconOptions options) {
-        return new Icon(INSTANCE::mirrorRound, options);
+    public static Icon lucideMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideMinus, options);
     }
 
-    public static Icon monitor() {
-        return monitor(IconOptions.DEFAULT);
+    public static Icon lucideMirrorRectangular() {
+        return lucideMirrorRectangular(IconOptions.DEFAULT);
     }
 
-    public static Icon monitor(IconOptions options) {
-        return new Icon(INSTANCE::monitor, options);
+    public static Icon lucideMirrorRectangular(IconOptions options) {
+        return new Icon(INSTANCE::lucideMirrorRectangular, options);
     }
 
-    public static Icon monitorCheck() {
-        return monitorCheck(IconOptions.DEFAULT);
+    public static Icon lucideMirrorRound() {
+        return lucideMirrorRound(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorCheck(IconOptions options) {
-        return new Icon(INSTANCE::monitorCheck, options);
+    public static Icon lucideMirrorRound(IconOptions options) {
+        return new Icon(INSTANCE::lucideMirrorRound, options);
     }
 
-    public static Icon monitorCloud() {
-        return monitorCloud(IconOptions.DEFAULT);
+    public static Icon lucideMonitor() {
+        return lucideMonitor(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorCloud(IconOptions options) {
-        return new Icon(INSTANCE::monitorCloud, options);
+    public static Icon lucideMonitor(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitor, options);
     }
 
-    public static Icon monitorCog() {
-        return monitorCog(IconOptions.DEFAULT);
+    public static Icon lucideMonitorCheck() {
+        return lucideMonitorCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorCog(IconOptions options) {
-        return new Icon(INSTANCE::monitorCog, options);
+    public static Icon lucideMonitorCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorCheck, options);
     }
 
-    public static Icon monitorDot() {
-        return monitorDot(IconOptions.DEFAULT);
+    public static Icon lucideMonitorCloud() {
+        return lucideMonitorCloud(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorDot(IconOptions options) {
-        return new Icon(INSTANCE::monitorDot, options);
+    public static Icon lucideMonitorCloud(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorCloud, options);
     }
 
-    public static Icon monitorDown() {
-        return monitorDown(IconOptions.DEFAULT);
+    public static Icon lucideMonitorCog() {
+        return lucideMonitorCog(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorDown(IconOptions options) {
-        return new Icon(INSTANCE::monitorDown, options);
+    public static Icon lucideMonitorCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorCog, options);
     }
 
-    public static Icon monitorOff() {
-        return monitorOff(IconOptions.DEFAULT);
+    public static Icon lucideMonitorDot() {
+        return lucideMonitorDot(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorOff(IconOptions options) {
-        return new Icon(INSTANCE::monitorOff, options);
+    public static Icon lucideMonitorDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorDot, options);
     }
 
-    public static Icon monitorPause() {
-        return monitorPause(IconOptions.DEFAULT);
+    public static Icon lucideMonitorDown() {
+        return lucideMonitorDown(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorPause(IconOptions options) {
-        return new Icon(INSTANCE::monitorPause, options);
+    public static Icon lucideMonitorDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorDown, options);
     }
 
-    public static Icon monitorPc() {
-        return monitorPc(IconOptions.DEFAULT);
+    public static Icon lucideMonitorOff() {
+        return lucideMonitorOff(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorPc(IconOptions options) {
-        return new Icon(INSTANCE::monitorPc, options);
+    public static Icon lucideMonitorOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorOff, options);
     }
 
-    public static Icon monitorPlay() {
-        return monitorPlay(IconOptions.DEFAULT);
+    public static Icon lucideMonitorPause() {
+        return lucideMonitorPause(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorPlay(IconOptions options) {
-        return new Icon(INSTANCE::monitorPlay, options);
+    public static Icon lucideMonitorPause(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorPause, options);
     }
 
-    public static Icon monitorSmartphone() {
-        return monitorSmartphone(IconOptions.DEFAULT);
+    public static Icon lucideMonitorPc() {
+        return lucideMonitorPc(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorSmartphone(IconOptions options) {
-        return new Icon(INSTANCE::monitorSmartphone, options);
+    public static Icon lucideMonitorPc(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorPc, options);
     }
 
-    public static Icon monitorSpeaker() {
-        return monitorSpeaker(IconOptions.DEFAULT);
+    public static Icon lucideMonitorPlay() {
+        return lucideMonitorPlay(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorSpeaker(IconOptions options) {
-        return new Icon(INSTANCE::monitorSpeaker, options);
+    public static Icon lucideMonitorPlay(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorPlay, options);
     }
 
-    public static Icon monitorStop() {
-        return monitorStop(IconOptions.DEFAULT);
+    public static Icon lucideMonitorSmartphone() {
+        return lucideMonitorSmartphone(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorStop(IconOptions options) {
-        return new Icon(INSTANCE::monitorStop, options);
+    public static Icon lucideMonitorSmartphone(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorSmartphone, options);
     }
 
-    public static Icon monitorUp() {
-        return monitorUp(IconOptions.DEFAULT);
+    public static Icon lucideMonitorSpeaker() {
+        return lucideMonitorSpeaker(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorUp(IconOptions options) {
-        return new Icon(INSTANCE::monitorUp, options);
+    public static Icon lucideMonitorSpeaker(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorSpeaker, options);
     }
 
-    public static Icon monitorX() {
-        return monitorX(IconOptions.DEFAULT);
+    public static Icon lucideMonitorStop() {
+        return lucideMonitorStop(IconOptions.DEFAULT);
     }
 
-    public static Icon monitorX(IconOptions options) {
-        return new Icon(INSTANCE::monitorX, options);
+    public static Icon lucideMonitorStop(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorStop, options);
     }
 
-    public static Icon moon() {
-        return moon(IconOptions.DEFAULT);
+    public static Icon lucideMonitorUp() {
+        return lucideMonitorUp(IconOptions.DEFAULT);
     }
 
-    public static Icon moon(IconOptions options) {
-        return new Icon(INSTANCE::moon, options);
+    public static Icon lucideMonitorUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorUp, options);
     }
 
-    public static Icon moonStar() {
-        return moonStar(IconOptions.DEFAULT);
+    public static Icon lucideMonitorX() {
+        return lucideMonitorX(IconOptions.DEFAULT);
     }
 
-    public static Icon moonStar(IconOptions options) {
-        return new Icon(INSTANCE::moonStar, options);
+    public static Icon lucideMonitorX(IconOptions options) {
+        return new Icon(INSTANCE::lucideMonitorX, options);
     }
 
-    public static Icon mop() {
-        return mop(IconOptions.DEFAULT);
+    public static Icon lucideMoon() {
+        return lucideMoon(IconOptions.DEFAULT);
     }
 
-    public static Icon mop(IconOptions options) {
-        return new Icon(INSTANCE::mop, options);
+    public static Icon lucideMoon(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoon, options);
     }
 
-    public static Icon mopSparkles() {
-        return mopSparkles(IconOptions.DEFAULT);
+    public static Icon lucideMoonStar() {
+        return lucideMoonStar(IconOptions.DEFAULT);
     }
 
-    public static Icon mopSparkles(IconOptions options) {
-        return new Icon(INSTANCE::mopSparkles, options);
+    public static Icon lucideMoonStar(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoonStar, options);
     }
 
-    public static Icon mosque() {
-        return mosque(IconOptions.DEFAULT);
+    public static Icon lucideMop() {
+        return lucideMop(IconOptions.DEFAULT);
     }
 
-    public static Icon mosque(IconOptions options) {
-        return new Icon(INSTANCE::mosque, options);
+    public static Icon lucideMop(IconOptions options) {
+        return new Icon(INSTANCE::lucideMop, options);
     }
 
-    public static Icon motorbike() {
-        return motorbike(IconOptions.DEFAULT);
+    public static Icon lucideMopSparkles() {
+        return lucideMopSparkles(IconOptions.DEFAULT);
     }
 
-    public static Icon motorbike(IconOptions options) {
-        return new Icon(INSTANCE::motorbike, options);
+    public static Icon lucideMopSparkles(IconOptions options) {
+        return new Icon(INSTANCE::lucideMopSparkles, options);
     }
 
-    public static Icon mountain() {
-        return mountain(IconOptions.DEFAULT);
+    public static Icon lucideMosque() {
+        return lucideMosque(IconOptions.DEFAULT);
     }
 
-    public static Icon mountain(IconOptions options) {
-        return new Icon(INSTANCE::mountain, options);
+    public static Icon lucideMosque(IconOptions options) {
+        return new Icon(INSTANCE::lucideMosque, options);
     }
 
-    public static Icon mountainSnow() {
-        return mountainSnow(IconOptions.DEFAULT);
+    public static Icon lucideMotorbike() {
+        return lucideMotorbike(IconOptions.DEFAULT);
     }
 
-    public static Icon mountainSnow(IconOptions options) {
-        return new Icon(INSTANCE::mountainSnow, options);
+    public static Icon lucideMotorbike(IconOptions options) {
+        return new Icon(INSTANCE::lucideMotorbike, options);
     }
 
-    public static Icon mouse() {
-        return mouse(IconOptions.DEFAULT);
+    public static Icon lucideMountain() {
+        return lucideMountain(IconOptions.DEFAULT);
     }
 
-    public static Icon mouse(IconOptions options) {
-        return new Icon(INSTANCE::mouse, options);
+    public static Icon lucideMountain(IconOptions options) {
+        return new Icon(INSTANCE::lucideMountain, options);
     }
 
-    public static Icon mouseLeft() {
-        return mouseLeft(IconOptions.DEFAULT);
+    public static Icon lucideMountainSnow() {
+        return lucideMountainSnow(IconOptions.DEFAULT);
     }
 
-    public static Icon mouseLeft(IconOptions options) {
-        return new Icon(INSTANCE::mouseLeft, options);
+    public static Icon lucideMountainSnow(IconOptions options) {
+        return new Icon(INSTANCE::lucideMountainSnow, options);
     }
 
-    public static Icon mouseOff() {
-        return mouseOff(IconOptions.DEFAULT);
+    public static Icon lucideMouse() {
+        return lucideMouse(IconOptions.DEFAULT);
     }
 
-    public static Icon mouseOff(IconOptions options) {
-        return new Icon(INSTANCE::mouseOff, options);
+    public static Icon lucideMouse(IconOptions options) {
+        return new Icon(INSTANCE::lucideMouse, options);
     }
 
-    public static Icon mousePointer() {
-        return mousePointer(IconOptions.DEFAULT);
+    public static Icon lucideMouseLeft() {
+        return lucideMouseLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon mousePointer(IconOptions options) {
-        return new Icon(INSTANCE::mousePointer, options);
+    public static Icon lucideMouseLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideMouseLeft, options);
     }
 
-    public static Icon mousePointer2() {
-        return mousePointer2(IconOptions.DEFAULT);
+    public static Icon lucideMouseOff() {
+        return lucideMouseOff(IconOptions.DEFAULT);
     }
 
-    public static Icon mousePointer2(IconOptions options) {
-        return new Icon(INSTANCE::mousePointer2, options);
+    public static Icon lucideMouseOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMouseOff, options);
     }
 
-    public static Icon mousePointer2Off() {
-        return mousePointer2Off(IconOptions.DEFAULT);
+    public static Icon lucideMousePointer() {
+        return lucideMousePointer(IconOptions.DEFAULT);
     }
 
-    public static Icon mousePointer2Off(IconOptions options) {
-        return new Icon(INSTANCE::mousePointer2Off, options);
+    public static Icon lucideMousePointer(IconOptions options) {
+        return new Icon(INSTANCE::lucideMousePointer, options);
     }
 
-    public static Icon mousePointerBan() {
-        return mousePointerBan(IconOptions.DEFAULT);
+    public static Icon lucideMousePointer2() {
+        return lucideMousePointer2(IconOptions.DEFAULT);
     }
 
-    public static Icon mousePointerBan(IconOptions options) {
-        return new Icon(INSTANCE::mousePointerBan, options);
+    public static Icon lucideMousePointer2(IconOptions options) {
+        return new Icon(INSTANCE::lucideMousePointer2, options);
     }
 
-    public static Icon mousePointerClick() {
-        return mousePointerClick(IconOptions.DEFAULT);
+    public static Icon lucideMousePointer2Off() {
+        return lucideMousePointer2Off(IconOptions.DEFAULT);
     }
 
-    public static Icon mousePointerClick(IconOptions options) {
-        return new Icon(INSTANCE::mousePointerClick, options);
+    public static Icon lucideMousePointer2Off(IconOptions options) {
+        return new Icon(INSTANCE::lucideMousePointer2Off, options);
     }
 
-    public static Icon mouseRight() {
-        return mouseRight(IconOptions.DEFAULT);
+    public static Icon lucideMousePointerBan() {
+        return lucideMousePointerBan(IconOptions.DEFAULT);
     }
 
-    public static Icon mouseRight(IconOptions options) {
-        return new Icon(INSTANCE::mouseRight, options);
+    public static Icon lucideMousePointerBan(IconOptions options) {
+        return new Icon(INSTANCE::lucideMousePointerBan, options);
     }
 
-    public static Icon mouth() {
-        return mouth(IconOptions.DEFAULT);
+    public static Icon lucideMousePointerClick() {
+        return lucideMousePointerClick(IconOptions.DEFAULT);
     }
 
-    public static Icon mouth(IconOptions options) {
-        return new Icon(INSTANCE::mouth, options);
+    public static Icon lucideMousePointerClick(IconOptions options) {
+        return new Icon(INSTANCE::lucideMousePointerClick, options);
     }
 
-    public static Icon mouthOff() {
-        return mouthOff(IconOptions.DEFAULT);
+    public static Icon lucideMouseRight() {
+        return lucideMouseRight(IconOptions.DEFAULT);
     }
 
-    public static Icon mouthOff(IconOptions options) {
-        return new Icon(INSTANCE::mouthOff, options);
+    public static Icon lucideMouseRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideMouseRight, options);
     }
 
-    public static Icon move() {
-        return move(IconOptions.DEFAULT);
+    public static Icon lucideMouth() {
+        return lucideMouth(IconOptions.DEFAULT);
     }
 
-    public static Icon move(IconOptions options) {
-        return new Icon(INSTANCE::move, options);
+    public static Icon lucideMouth(IconOptions options) {
+        return new Icon(INSTANCE::lucideMouth, options);
     }
 
-    public static Icon move3d() {
-        return move3d(IconOptions.DEFAULT);
+    public static Icon lucideMouthOff() {
+        return lucideMouthOff(IconOptions.DEFAULT);
     }
 
-    public static Icon move3d(IconOptions options) {
-        return new Icon(INSTANCE::move3d, options);
+    public static Icon lucideMouthOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideMouthOff, options);
     }
 
-    public static Icon moveDiagonal() {
-        return moveDiagonal(IconOptions.DEFAULT);
+    public static Icon lucideMove() {
+        return lucideMove(IconOptions.DEFAULT);
     }
 
-    public static Icon moveDiagonal(IconOptions options) {
-        return new Icon(INSTANCE::moveDiagonal, options);
+    public static Icon lucideMove(IconOptions options) {
+        return new Icon(INSTANCE::lucideMove, options);
     }
 
-    public static Icon moveDiagonal2() {
-        return moveDiagonal2(IconOptions.DEFAULT);
+    public static Icon lucideMove3d() {
+        return lucideMove3d(IconOptions.DEFAULT);
     }
 
-    public static Icon moveDiagonal2(IconOptions options) {
-        return new Icon(INSTANCE::moveDiagonal2, options);
+    public static Icon lucideMove3d(IconOptions options) {
+        return new Icon(INSTANCE::lucideMove3d, options);
     }
 
-    public static Icon moveDown() {
-        return moveDown(IconOptions.DEFAULT);
+    public static Icon lucideMoveDiagonal() {
+        return lucideMoveDiagonal(IconOptions.DEFAULT);
     }
 
-    public static Icon moveDown(IconOptions options) {
-        return new Icon(INSTANCE::moveDown, options);
+    public static Icon lucideMoveDiagonal(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveDiagonal, options);
     }
 
-    public static Icon moveDownLeft() {
-        return moveDownLeft(IconOptions.DEFAULT);
+    public static Icon lucideMoveDiagonal2() {
+        return lucideMoveDiagonal2(IconOptions.DEFAULT);
     }
 
-    public static Icon moveDownLeft(IconOptions options) {
-        return new Icon(INSTANCE::moveDownLeft, options);
+    public static Icon lucideMoveDiagonal2(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveDiagonal2, options);
     }
 
-    public static Icon moveDownRight() {
-        return moveDownRight(IconOptions.DEFAULT);
+    public static Icon lucideMoveDown() {
+        return lucideMoveDown(IconOptions.DEFAULT);
     }
 
-    public static Icon moveDownRight(IconOptions options) {
-        return new Icon(INSTANCE::moveDownRight, options);
+    public static Icon lucideMoveDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveDown, options);
     }
 
-    public static Icon moveHorizontal() {
-        return moveHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideMoveDownLeft() {
+        return lucideMoveDownLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon moveHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::moveHorizontal, options);
+    public static Icon lucideMoveDownLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveDownLeft, options);
     }
 
-    public static Icon moveLeft() {
-        return moveLeft(IconOptions.DEFAULT);
+    public static Icon lucideMoveDownRight() {
+        return lucideMoveDownRight(IconOptions.DEFAULT);
     }
 
-    public static Icon moveLeft(IconOptions options) {
-        return new Icon(INSTANCE::moveLeft, options);
+    public static Icon lucideMoveDownRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveDownRight, options);
     }
 
-    public static Icon moveRight() {
-        return moveRight(IconOptions.DEFAULT);
+    public static Icon lucideMoveHorizontal() {
+        return lucideMoveHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon moveRight(IconOptions options) {
-        return new Icon(INSTANCE::moveRight, options);
+    public static Icon lucideMoveHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveHorizontal, options);
     }
 
-    public static Icon moveUp() {
-        return moveUp(IconOptions.DEFAULT);
+    public static Icon lucideMoveLeft() {
+        return lucideMoveLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon moveUp(IconOptions options) {
-        return new Icon(INSTANCE::moveUp, options);
+    public static Icon lucideMoveLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveLeft, options);
     }
 
-    public static Icon moveUpLeft() {
-        return moveUpLeft(IconOptions.DEFAULT);
+    public static Icon lucideMoveRight() {
+        return lucideMoveRight(IconOptions.DEFAULT);
     }
 
-    public static Icon moveUpLeft(IconOptions options) {
-        return new Icon(INSTANCE::moveUpLeft, options);
+    public static Icon lucideMoveRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveRight, options);
     }
 
-    public static Icon moveUpRight() {
-        return moveUpRight(IconOptions.DEFAULT);
+    public static Icon lucideMoveUp() {
+        return lucideMoveUp(IconOptions.DEFAULT);
     }
 
-    public static Icon moveUpRight(IconOptions options) {
-        return new Icon(INSTANCE::moveUpRight, options);
+    public static Icon lucideMoveUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveUp, options);
     }
 
-    public static Icon moveVertical() {
-        return moveVertical(IconOptions.DEFAULT);
+    public static Icon lucideMoveUpLeft() {
+        return lucideMoveUpLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon moveVertical(IconOptions options) {
-        return new Icon(INSTANCE::moveVertical, options);
+    public static Icon lucideMoveUpLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveUpLeft, options);
     }
 
-    public static Icon music() {
-        return music(IconOptions.DEFAULT);
+    public static Icon lucideMoveUpRight() {
+        return lucideMoveUpRight(IconOptions.DEFAULT);
     }
 
-    public static Icon music(IconOptions options) {
-        return new Icon(INSTANCE::music, options);
+    public static Icon lucideMoveUpRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveUpRight, options);
     }
 
-    public static Icon music2() {
-        return music2(IconOptions.DEFAULT);
+    public static Icon lucideMoveVertical() {
+        return lucideMoveVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon music2(IconOptions options) {
-        return new Icon(INSTANCE::music2, options);
+    public static Icon lucideMoveVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoveVertical, options);
     }
 
-    public static Icon music3() {
-        return music3(IconOptions.DEFAULT);
+    public static Icon lucideMusic() {
+        return lucideMusic(IconOptions.DEFAULT);
     }
 
-    public static Icon music3(IconOptions options) {
-        return new Icon(INSTANCE::music3, options);
+    public static Icon lucideMusic(IconOptions options) {
+        return new Icon(INSTANCE::lucideMusic, options);
     }
 
-    public static Icon music4() {
-        return music4(IconOptions.DEFAULT);
+    public static Icon lucideMusic2() {
+        return lucideMusic2(IconOptions.DEFAULT);
     }
 
-    public static Icon music4(IconOptions options) {
-        return new Icon(INSTANCE::music4, options);
+    public static Icon lucideMusic2(IconOptions options) {
+        return new Icon(INSTANCE::lucideMusic2, options);
     }
 
-    public static Icon navigation() {
-        return navigation(IconOptions.DEFAULT);
+    public static Icon lucideMusic3() {
+        return lucideMusic3(IconOptions.DEFAULT);
     }
 
-    public static Icon navigation(IconOptions options) {
-        return new Icon(INSTANCE::navigation, options);
+    public static Icon lucideMusic3(IconOptions options) {
+        return new Icon(INSTANCE::lucideMusic3, options);
     }
 
-    public static Icon navigation2() {
-        return navigation2(IconOptions.DEFAULT);
+    public static Icon lucideMusic4() {
+        return lucideMusic4(IconOptions.DEFAULT);
     }
 
-    public static Icon navigation2(IconOptions options) {
-        return new Icon(INSTANCE::navigation2, options);
+    public static Icon lucideMusic4(IconOptions options) {
+        return new Icon(INSTANCE::lucideMusic4, options);
     }
 
-    public static Icon navigation2Off() {
-        return navigation2Off(IconOptions.DEFAULT);
+    public static Icon lucideNavigation() {
+        return lucideNavigation(IconOptions.DEFAULT);
     }
 
-    public static Icon navigation2Off(IconOptions options) {
-        return new Icon(INSTANCE::navigation2Off, options);
+    public static Icon lucideNavigation(IconOptions options) {
+        return new Icon(INSTANCE::lucideNavigation, options);
     }
 
-    public static Icon navigationOff() {
-        return navigationOff(IconOptions.DEFAULT);
+    public static Icon lucideNavigation2() {
+        return lucideNavigation2(IconOptions.DEFAULT);
     }
 
-    public static Icon navigationOff(IconOptions options) {
-        return new Icon(INSTANCE::navigationOff, options);
+    public static Icon lucideNavigation2(IconOptions options) {
+        return new Icon(INSTANCE::lucideNavigation2, options);
     }
 
-    public static Icon nepaliRupee() {
-        return nepaliRupee(IconOptions.DEFAULT);
+    public static Icon lucideNavigation2Off() {
+        return lucideNavigation2Off(IconOptions.DEFAULT);
     }
 
-    public static Icon nepaliRupee(IconOptions options) {
-        return new Icon(INSTANCE::nepaliRupee, options);
+    public static Icon lucideNavigation2Off(IconOptions options) {
+        return new Icon(INSTANCE::lucideNavigation2Off, options);
     }
 
-    public static Icon network() {
-        return network(IconOptions.DEFAULT);
+    public static Icon lucideNavigationOff() {
+        return lucideNavigationOff(IconOptions.DEFAULT);
     }
 
-    public static Icon network(IconOptions options) {
-        return new Icon(INSTANCE::network, options);
+    public static Icon lucideNavigationOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideNavigationOff, options);
     }
 
-    public static Icon newspaper() {
-        return newspaper(IconOptions.DEFAULT);
+    public static Icon lucideNepaliRupee() {
+        return lucideNepaliRupee(IconOptions.DEFAULT);
     }
 
-    public static Icon newspaper(IconOptions options) {
-        return new Icon(INSTANCE::newspaper, options);
+    public static Icon lucideNepaliRupee(IconOptions options) {
+        return new Icon(INSTANCE::lucideNepaliRupee, options);
     }
 
-    public static Icon nfc() {
-        return nfc(IconOptions.DEFAULT);
+    public static Icon lucideNetwork() {
+        return lucideNetwork(IconOptions.DEFAULT);
     }
 
-    public static Icon nfc(IconOptions options) {
-        return new Icon(INSTANCE::nfc, options);
+    public static Icon lucideNetwork(IconOptions options) {
+        return new Icon(INSTANCE::lucideNetwork, options);
     }
 
-    public static Icon nonBinary() {
-        return nonBinary(IconOptions.DEFAULT);
+    public static Icon lucideNewspaper() {
+        return lucideNewspaper(IconOptions.DEFAULT);
     }
 
-    public static Icon nonBinary(IconOptions options) {
-        return new Icon(INSTANCE::nonBinary, options);
+    public static Icon lucideNewspaper(IconOptions options) {
+        return new Icon(INSTANCE::lucideNewspaper, options);
     }
 
-    public static Icon notebook() {
-        return notebook(IconOptions.DEFAULT);
+    public static Icon lucideNfc() {
+        return lucideNfc(IconOptions.DEFAULT);
     }
 
-    public static Icon notebook(IconOptions options) {
-        return new Icon(INSTANCE::notebook, options);
+    public static Icon lucideNfc(IconOptions options) {
+        return new Icon(INSTANCE::lucideNfc, options);
     }
 
-    public static Icon notebookDot() {
-        return notebookDot(IconOptions.DEFAULT);
+    public static Icon lucideNonBinary() {
+        return lucideNonBinary(IconOptions.DEFAULT);
     }
 
-    public static Icon notebookDot(IconOptions options) {
-        return new Icon(INSTANCE::notebookDot, options);
+    public static Icon lucideNonBinary(IconOptions options) {
+        return new Icon(INSTANCE::lucideNonBinary, options);
     }
 
-    public static Icon notebookPen() {
-        return notebookPen(IconOptions.DEFAULT);
+    public static Icon lucideNotebook() {
+        return lucideNotebook(IconOptions.DEFAULT);
     }
 
-    public static Icon notebookPen(IconOptions options) {
-        return new Icon(INSTANCE::notebookPen, options);
+    public static Icon lucideNotebook(IconOptions options) {
+        return new Icon(INSTANCE::lucideNotebook, options);
     }
 
-    public static Icon notebookTabs() {
-        return notebookTabs(IconOptions.DEFAULT);
+    public static Icon lucideNotebookDot() {
+        return lucideNotebookDot(IconOptions.DEFAULT);
     }
 
-    public static Icon notebookTabs(IconOptions options) {
-        return new Icon(INSTANCE::notebookTabs, options);
+    public static Icon lucideNotebookDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideNotebookDot, options);
     }
 
-    public static Icon notebookText() {
-        return notebookText(IconOptions.DEFAULT);
+    public static Icon lucideNotebookPen() {
+        return lucideNotebookPen(IconOptions.DEFAULT);
     }
 
-    public static Icon notebookText(IconOptions options) {
-        return new Icon(INSTANCE::notebookText, options);
+    public static Icon lucideNotebookPen(IconOptions options) {
+        return new Icon(INSTANCE::lucideNotebookPen, options);
     }
 
-    public static Icon notepadText() {
-        return notepadText(IconOptions.DEFAULT);
+    public static Icon lucideNotebookTabs() {
+        return lucideNotebookTabs(IconOptions.DEFAULT);
     }
 
-    public static Icon notepadText(IconOptions options) {
-        return new Icon(INSTANCE::notepadText, options);
+    public static Icon lucideNotebookTabs(IconOptions options) {
+        return new Icon(INSTANCE::lucideNotebookTabs, options);
     }
 
-    public static Icon notepadTextDashed() {
-        return notepadTextDashed(IconOptions.DEFAULT);
+    public static Icon lucideNotebookText() {
+        return lucideNotebookText(IconOptions.DEFAULT);
     }
 
-    public static Icon notepadTextDashed(IconOptions options) {
-        return new Icon(INSTANCE::notepadTextDashed, options);
+    public static Icon lucideNotebookText(IconOptions options) {
+        return new Icon(INSTANCE::lucideNotebookText, options);
     }
 
-    public static Icon nut() {
-        return nut(IconOptions.DEFAULT);
+    public static Icon lucideNotepadText() {
+        return lucideNotepadText(IconOptions.DEFAULT);
     }
 
-    public static Icon nut(IconOptions options) {
-        return new Icon(INSTANCE::nut, options);
+    public static Icon lucideNotepadText(IconOptions options) {
+        return new Icon(INSTANCE::lucideNotepadText, options);
     }
 
-    public static Icon nutOff() {
-        return nutOff(IconOptions.DEFAULT);
+    public static Icon lucideNotepadTextDashed() {
+        return lucideNotepadTextDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon nutOff(IconOptions options) {
-        return new Icon(INSTANCE::nutOff, options);
+    public static Icon lucideNotepadTextDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideNotepadTextDashed, options);
     }
 
-    public static Icon octagon() {
-        return octagon(IconOptions.DEFAULT);
+    public static Icon lucideNut() {
+        return lucideNut(IconOptions.DEFAULT);
     }
 
-    public static Icon octagon(IconOptions options) {
-        return new Icon(INSTANCE::octagon, options);
+    public static Icon lucideNut(IconOptions options) {
+        return new Icon(INSTANCE::lucideNut, options);
     }
 
-    public static Icon octagonAlert() {
-        return octagonAlert(IconOptions.DEFAULT);
+    public static Icon lucideNutOff() {
+        return lucideNutOff(IconOptions.DEFAULT);
     }
 
-    public static Icon octagonAlert(IconOptions options) {
-        return new Icon(INSTANCE::octagonAlert, options);
+    public static Icon lucideNutOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideNutOff, options);
     }
 
-    public static Icon octagonMinus() {
-        return octagonMinus(IconOptions.DEFAULT);
+    public static Icon lucideOctagon() {
+        return lucideOctagon(IconOptions.DEFAULT);
     }
 
-    public static Icon octagonMinus(IconOptions options) {
-        return new Icon(INSTANCE::octagonMinus, options);
+    public static Icon lucideOctagon(IconOptions options) {
+        return new Icon(INSTANCE::lucideOctagon, options);
     }
 
-    public static Icon octagonPause() {
-        return octagonPause(IconOptions.DEFAULT);
+    public static Icon lucideOctagonAlert() {
+        return lucideOctagonAlert(IconOptions.DEFAULT);
     }
 
-    public static Icon octagonPause(IconOptions options) {
-        return new Icon(INSTANCE::octagonPause, options);
+    public static Icon lucideOctagonAlert(IconOptions options) {
+        return new Icon(INSTANCE::lucideOctagonAlert, options);
     }
 
-    public static Icon octagonX() {
-        return octagonX(IconOptions.DEFAULT);
+    public static Icon lucideOctagonMinus() {
+        return lucideOctagonMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon octagonX(IconOptions options) {
-        return new Icon(INSTANCE::octagonX, options);
+    public static Icon lucideOctagonMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideOctagonMinus, options);
     }
 
-    public static Icon omega() {
-        return omega(IconOptions.DEFAULT);
+    public static Icon lucideOctagonPause() {
+        return lucideOctagonPause(IconOptions.DEFAULT);
     }
 
-    public static Icon omega(IconOptions options) {
-        return new Icon(INSTANCE::omega, options);
+    public static Icon lucideOctagonPause(IconOptions options) {
+        return new Icon(INSTANCE::lucideOctagonPause, options);
     }
 
-    public static Icon option() {
-        return option(IconOptions.DEFAULT);
+    public static Icon lucideOctagonX() {
+        return lucideOctagonX(IconOptions.DEFAULT);
     }
 
-    public static Icon option(IconOptions options) {
-        return new Icon(INSTANCE::option, options);
+    public static Icon lucideOctagonX(IconOptions options) {
+        return new Icon(INSTANCE::lucideOctagonX, options);
     }
 
-    public static Icon orbit() {
-        return orbit(IconOptions.DEFAULT);
+    public static Icon lucideOmega() {
+        return lucideOmega(IconOptions.DEFAULT);
     }
 
-    public static Icon orbit(IconOptions options) {
-        return new Icon(INSTANCE::orbit, options);
+    public static Icon lucideOmega(IconOptions options) {
+        return new Icon(INSTANCE::lucideOmega, options);
     }
 
-    public static Icon origami() {
-        return origami(IconOptions.DEFAULT);
+    public static Icon lucideOption() {
+        return lucideOption(IconOptions.DEFAULT);
     }
 
-    public static Icon origami(IconOptions options) {
-        return new Icon(INSTANCE::origami, options);
+    public static Icon lucideOption(IconOptions options) {
+        return new Icon(INSTANCE::lucideOption, options);
     }
 
-    public static Icon packageIcon() {
-        return packageIcon(IconOptions.DEFAULT);
+    public static Icon lucideOrbit() {
+        return lucideOrbit(IconOptions.DEFAULT);
     }
 
-    public static Icon packageIcon(IconOptions options) {
-        return new Icon(INSTANCE::packageIcon, options);
+    public static Icon lucideOrbit(IconOptions options) {
+        return new Icon(INSTANCE::lucideOrbit, options);
     }
 
-    public static Icon package2() {
-        return package2(IconOptions.DEFAULT);
+    public static Icon lucideOrigami() {
+        return lucideOrigami(IconOptions.DEFAULT);
     }
 
-    public static Icon package2(IconOptions options) {
-        return new Icon(INSTANCE::package2, options);
+    public static Icon lucideOrigami(IconOptions options) {
+        return new Icon(INSTANCE::lucideOrigami, options);
     }
 
-    public static Icon packageCheck() {
-        return packageCheck(IconOptions.DEFAULT);
+    public static Icon lucidePackage() {
+        return lucidePackage(IconOptions.DEFAULT);
     }
 
-    public static Icon packageCheck(IconOptions options) {
-        return new Icon(INSTANCE::packageCheck, options);
+    public static Icon lucidePackage(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackage, options);
     }
 
-    public static Icon packageMinus() {
-        return packageMinus(IconOptions.DEFAULT);
+    public static Icon lucidePackage2() {
+        return lucidePackage2(IconOptions.DEFAULT);
     }
 
-    public static Icon packageMinus(IconOptions options) {
-        return new Icon(INSTANCE::packageMinus, options);
+    public static Icon lucidePackage2(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackage2, options);
     }
 
-    public static Icon packageOpen() {
-        return packageOpen(IconOptions.DEFAULT);
+    public static Icon lucidePackageCheck() {
+        return lucidePackageCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon packageOpen(IconOptions options) {
-        return new Icon(INSTANCE::packageOpen, options);
+    public static Icon lucidePackageCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackageCheck, options);
     }
 
-    public static Icon packagePlus() {
-        return packagePlus(IconOptions.DEFAULT);
+    public static Icon lucidePackageMinus() {
+        return lucidePackageMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon packagePlus(IconOptions options) {
-        return new Icon(INSTANCE::packagePlus, options);
+    public static Icon lucidePackageMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackageMinus, options);
     }
 
-    public static Icon packageSearch() {
-        return packageSearch(IconOptions.DEFAULT);
+    public static Icon lucidePackageOpen() {
+        return lucidePackageOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon packageSearch(IconOptions options) {
-        return new Icon(INSTANCE::packageSearch, options);
+    public static Icon lucidePackageOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackageOpen, options);
     }
 
-    public static Icon packageX() {
-        return packageX(IconOptions.DEFAULT);
+    public static Icon lucidePackagePlus() {
+        return lucidePackagePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon packageX(IconOptions options) {
-        return new Icon(INSTANCE::packageX, options);
+    public static Icon lucidePackagePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackagePlus, options);
     }
 
-    public static Icon paintBucket() {
-        return paintBucket(IconOptions.DEFAULT);
+    public static Icon lucidePackageSearch() {
+        return lucidePackageSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon paintBucket(IconOptions options) {
-        return new Icon(INSTANCE::paintBucket, options);
+    public static Icon lucidePackageSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackageSearch, options);
     }
 
-    public static Icon paintRoller() {
-        return paintRoller(IconOptions.DEFAULT);
+    public static Icon lucidePackageX() {
+        return lucidePackageX(IconOptions.DEFAULT);
     }
 
-    public static Icon paintRoller(IconOptions options) {
-        return new Icon(INSTANCE::paintRoller, options);
+    public static Icon lucidePackageX(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackageX, options);
     }
 
-    public static Icon paintbrush() {
-        return paintbrush(IconOptions.DEFAULT);
+    public static Icon lucidePaintBucket() {
+        return lucidePaintBucket(IconOptions.DEFAULT);
     }
 
-    public static Icon paintbrush(IconOptions options) {
-        return new Icon(INSTANCE::paintbrush, options);
+    public static Icon lucidePaintBucket(IconOptions options) {
+        return new Icon(INSTANCE::lucidePaintBucket, options);
     }
 
-    public static Icon paintbrushVertical() {
-        return paintbrushVertical(IconOptions.DEFAULT);
+    public static Icon lucidePaintRoller() {
+        return lucidePaintRoller(IconOptions.DEFAULT);
     }
 
-    public static Icon paintbrushVertical(IconOptions options) {
-        return new Icon(INSTANCE::paintbrushVertical, options);
+    public static Icon lucidePaintRoller(IconOptions options) {
+        return new Icon(INSTANCE::lucidePaintRoller, options);
     }
 
-    public static Icon palette() {
-        return palette(IconOptions.DEFAULT);
+    public static Icon lucidePaintbrush() {
+        return lucidePaintbrush(IconOptions.DEFAULT);
     }
 
-    public static Icon palette(IconOptions options) {
-        return new Icon(INSTANCE::palette, options);
+    public static Icon lucidePaintbrush(IconOptions options) {
+        return new Icon(INSTANCE::lucidePaintbrush, options);
     }
 
-    public static Icon panda() {
-        return panda(IconOptions.DEFAULT);
+    public static Icon lucidePaintbrushVertical() {
+        return lucidePaintbrushVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon panda(IconOptions options) {
-        return new Icon(INSTANCE::panda, options);
+    public static Icon lucidePaintbrushVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucidePaintbrushVertical, options);
     }
 
-    public static Icon panelBottom() {
-        return panelBottom(IconOptions.DEFAULT);
+    public static Icon lucidePalette() {
+        return lucidePalette(IconOptions.DEFAULT);
     }
 
-    public static Icon panelBottom(IconOptions options) {
-        return new Icon(INSTANCE::panelBottom, options);
+    public static Icon lucidePalette(IconOptions options) {
+        return new Icon(INSTANCE::lucidePalette, options);
     }
 
-    public static Icon panelBottomClose() {
-        return panelBottomClose(IconOptions.DEFAULT);
+    public static Icon lucidePanda() {
+        return lucidePanda(IconOptions.DEFAULT);
     }
 
-    public static Icon panelBottomClose(IconOptions options) {
-        return new Icon(INSTANCE::panelBottomClose, options);
+    public static Icon lucidePanda(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanda, options);
     }
 
-    public static Icon panelBottomDashed() {
-        return panelBottomDashed(IconOptions.DEFAULT);
+    public static Icon lucidePanelBottom() {
+        return lucidePanelBottom(IconOptions.DEFAULT);
     }
 
-    public static Icon panelBottomDashed(IconOptions options) {
-        return new Icon(INSTANCE::panelBottomDashed, options);
+    public static Icon lucidePanelBottom(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelBottom, options);
     }
 
-    public static Icon panelBottomOpen() {
-        return panelBottomOpen(IconOptions.DEFAULT);
+    public static Icon lucidePanelBottomClose() {
+        return lucidePanelBottomClose(IconOptions.DEFAULT);
     }
 
-    public static Icon panelBottomOpen(IconOptions options) {
-        return new Icon(INSTANCE::panelBottomOpen, options);
+    public static Icon lucidePanelBottomClose(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelBottomClose, options);
     }
 
-    public static Icon panelLeft() {
-        return panelLeft(IconOptions.DEFAULT);
+    public static Icon lucidePanelBottomDashed() {
+        return lucidePanelBottomDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon panelLeft(IconOptions options) {
-        return new Icon(INSTANCE::panelLeft, options);
+    public static Icon lucidePanelBottomDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelBottomDashed, options);
     }
 
-    public static Icon panelLeftClose() {
-        return panelLeftClose(IconOptions.DEFAULT);
+    public static Icon lucidePanelBottomOpen() {
+        return lucidePanelBottomOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon panelLeftClose(IconOptions options) {
-        return new Icon(INSTANCE::panelLeftClose, options);
+    public static Icon lucidePanelBottomOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelBottomOpen, options);
     }
 
-    public static Icon panelLeftDashed() {
-        return panelLeftDashed(IconOptions.DEFAULT);
+    public static Icon lucidePanelLeft() {
+        return lucidePanelLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon panelLeftDashed(IconOptions options) {
-        return new Icon(INSTANCE::panelLeftDashed, options);
+    public static Icon lucidePanelLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelLeft, options);
     }
 
-    public static Icon panelLeftOpen() {
-        return panelLeftOpen(IconOptions.DEFAULT);
+    public static Icon lucidePanelLeftClose() {
+        return lucidePanelLeftClose(IconOptions.DEFAULT);
     }
 
-    public static Icon panelLeftOpen(IconOptions options) {
-        return new Icon(INSTANCE::panelLeftOpen, options);
+    public static Icon lucidePanelLeftClose(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelLeftClose, options);
     }
 
-    public static Icon panelLeftRightDashed() {
-        return panelLeftRightDashed(IconOptions.DEFAULT);
+    public static Icon lucidePanelLeftDashed() {
+        return lucidePanelLeftDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon panelLeftRightDashed(IconOptions options) {
-        return new Icon(INSTANCE::panelLeftRightDashed, options);
+    public static Icon lucidePanelLeftDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelLeftDashed, options);
     }
 
-    public static Icon panelRight() {
-        return panelRight(IconOptions.DEFAULT);
+    public static Icon lucidePanelLeftOpen() {
+        return lucidePanelLeftOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon panelRight(IconOptions options) {
-        return new Icon(INSTANCE::panelRight, options);
+    public static Icon lucidePanelLeftOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelLeftOpen, options);
     }
 
-    public static Icon panelRightClose() {
-        return panelRightClose(IconOptions.DEFAULT);
+    public static Icon lucidePanelLeftRightDashed() {
+        return lucidePanelLeftRightDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon panelRightClose(IconOptions options) {
-        return new Icon(INSTANCE::panelRightClose, options);
+    public static Icon lucidePanelLeftRightDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelLeftRightDashed, options);
     }
 
-    public static Icon panelRightDashed() {
-        return panelRightDashed(IconOptions.DEFAULT);
+    public static Icon lucidePanelRight() {
+        return lucidePanelRight(IconOptions.DEFAULT);
     }
 
-    public static Icon panelRightDashed(IconOptions options) {
-        return new Icon(INSTANCE::panelRightDashed, options);
+    public static Icon lucidePanelRight(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelRight, options);
     }
 
-    public static Icon panelRightOpen() {
-        return panelRightOpen(IconOptions.DEFAULT);
+    public static Icon lucidePanelRightClose() {
+        return lucidePanelRightClose(IconOptions.DEFAULT);
     }
 
-    public static Icon panelRightOpen(IconOptions options) {
-        return new Icon(INSTANCE::panelRightOpen, options);
+    public static Icon lucidePanelRightClose(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelRightClose, options);
     }
 
-    public static Icon panelTop() {
-        return panelTop(IconOptions.DEFAULT);
+    public static Icon lucidePanelRightDashed() {
+        return lucidePanelRightDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon panelTop(IconOptions options) {
-        return new Icon(INSTANCE::panelTop, options);
+    public static Icon lucidePanelRightDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelRightDashed, options);
     }
 
-    public static Icon panelTopBottomDashed() {
-        return panelTopBottomDashed(IconOptions.DEFAULT);
+    public static Icon lucidePanelRightOpen() {
+        return lucidePanelRightOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon panelTopBottomDashed(IconOptions options) {
-        return new Icon(INSTANCE::panelTopBottomDashed, options);
+    public static Icon lucidePanelRightOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelRightOpen, options);
     }
 
-    public static Icon panelTopClose() {
-        return panelTopClose(IconOptions.DEFAULT);
+    public static Icon lucidePanelTop() {
+        return lucidePanelTop(IconOptions.DEFAULT);
     }
 
-    public static Icon panelTopClose(IconOptions options) {
-        return new Icon(INSTANCE::panelTopClose, options);
+    public static Icon lucidePanelTop(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelTop, options);
     }
 
-    public static Icon panelTopDashed() {
-        return panelTopDashed(IconOptions.DEFAULT);
+    public static Icon lucidePanelTopBottomDashed() {
+        return lucidePanelTopBottomDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon panelTopDashed(IconOptions options) {
-        return new Icon(INSTANCE::panelTopDashed, options);
+    public static Icon lucidePanelTopBottomDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelTopBottomDashed, options);
     }
 
-    public static Icon panelTopOpen() {
-        return panelTopOpen(IconOptions.DEFAULT);
+    public static Icon lucidePanelTopClose() {
+        return lucidePanelTopClose(IconOptions.DEFAULT);
     }
 
-    public static Icon panelTopOpen(IconOptions options) {
-        return new Icon(INSTANCE::panelTopOpen, options);
+    public static Icon lucidePanelTopClose(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelTopClose, options);
     }
 
-    public static Icon panelsLeftBottom() {
-        return panelsLeftBottom(IconOptions.DEFAULT);
+    public static Icon lucidePanelTopDashed() {
+        return lucidePanelTopDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon panelsLeftBottom(IconOptions options) {
-        return new Icon(INSTANCE::panelsLeftBottom, options);
+    public static Icon lucidePanelTopDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelTopDashed, options);
     }
 
-    public static Icon panelsRightBottom() {
-        return panelsRightBottom(IconOptions.DEFAULT);
+    public static Icon lucidePanelTopOpen() {
+        return lucidePanelTopOpen(IconOptions.DEFAULT);
     }
 
-    public static Icon panelsRightBottom(IconOptions options) {
-        return new Icon(INSTANCE::panelsRightBottom, options);
+    public static Icon lucidePanelTopOpen(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelTopOpen, options);
     }
 
-    public static Icon panelsTopLeft() {
-        return panelsTopLeft(IconOptions.DEFAULT);
+    public static Icon lucidePanelsLeftBottom() {
+        return lucidePanelsLeftBottom(IconOptions.DEFAULT);
     }
 
-    public static Icon panelsTopLeft(IconOptions options) {
-        return new Icon(INSTANCE::panelsTopLeft, options);
+    public static Icon lucidePanelsLeftBottom(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelsLeftBottom, options);
     }
 
-    public static Icon paperBag() {
-        return paperBag(IconOptions.DEFAULT);
+    public static Icon lucidePanelsRightBottom() {
+        return lucidePanelsRightBottom(IconOptions.DEFAULT);
     }
 
-    public static Icon paperBag(IconOptions options) {
-        return new Icon(INSTANCE::paperBag, options);
+    public static Icon lucidePanelsRightBottom(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelsRightBottom, options);
     }
 
-    public static Icon paperclip() {
-        return paperclip(IconOptions.DEFAULT);
+    public static Icon lucidePanelsTopLeft() {
+        return lucidePanelsTopLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon paperclip(IconOptions options) {
-        return new Icon(INSTANCE::paperclip, options);
+    public static Icon lucidePanelsTopLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucidePanelsTopLeft, options);
     }
 
-    public static Icon parasol() {
-        return parasol(IconOptions.DEFAULT);
+    public static Icon lucidePaperBag() {
+        return lucidePaperBag(IconOptions.DEFAULT);
     }
 
-    public static Icon parasol(IconOptions options) {
-        return new Icon(INSTANCE::parasol, options);
+    public static Icon lucidePaperBag(IconOptions options) {
+        return new Icon(INSTANCE::lucidePaperBag, options);
     }
 
-    public static Icon parentheses() {
-        return parentheses(IconOptions.DEFAULT);
+    public static Icon lucidePaperclip() {
+        return lucidePaperclip(IconOptions.DEFAULT);
     }
 
-    public static Icon parentheses(IconOptions options) {
-        return new Icon(INSTANCE::parentheses, options);
+    public static Icon lucidePaperclip(IconOptions options) {
+        return new Icon(INSTANCE::lucidePaperclip, options);
     }
 
-    public static Icon park() {
-        return park(IconOptions.DEFAULT);
+    public static Icon lucideParasol() {
+        return lucideParasol(IconOptions.DEFAULT);
     }
 
-    public static Icon park(IconOptions options) {
-        return new Icon(INSTANCE::park, options);
+    public static Icon lucideParasol(IconOptions options) {
+        return new Icon(INSTANCE::lucideParasol, options);
     }
 
-    public static Icon parkingMeter() {
-        return parkingMeter(IconOptions.DEFAULT);
+    public static Icon lucideParentheses() {
+        return lucideParentheses(IconOptions.DEFAULT);
     }
 
-    public static Icon parkingMeter(IconOptions options) {
-        return new Icon(INSTANCE::parkingMeter, options);
+    public static Icon lucideParentheses(IconOptions options) {
+        return new Icon(INSTANCE::lucideParentheses, options);
     }
 
-    public static Icon partyPopper() {
-        return partyPopper(IconOptions.DEFAULT);
+    public static Icon lucidePark() {
+        return lucidePark(IconOptions.DEFAULT);
     }
 
-    public static Icon partyPopper(IconOptions options) {
-        return new Icon(INSTANCE::partyPopper, options);
+    public static Icon lucidePark(IconOptions options) {
+        return new Icon(INSTANCE::lucidePark, options);
     }
 
-    public static Icon pause() {
-        return pause(IconOptions.DEFAULT);
+    public static Icon lucideParkingMeter() {
+        return lucideParkingMeter(IconOptions.DEFAULT);
     }
 
-    public static Icon pause(IconOptions options) {
-        return new Icon(INSTANCE::pause, options);
+    public static Icon lucideParkingMeter(IconOptions options) {
+        return new Icon(INSTANCE::lucideParkingMeter, options);
     }
 
-    public static Icon pawPrint() {
-        return pawPrint(IconOptions.DEFAULT);
+    public static Icon lucidePartyPopper() {
+        return lucidePartyPopper(IconOptions.DEFAULT);
     }
 
-    public static Icon pawPrint(IconOptions options) {
-        return new Icon(INSTANCE::pawPrint, options);
+    public static Icon lucidePartyPopper(IconOptions options) {
+        return new Icon(INSTANCE::lucidePartyPopper, options);
     }
 
-    public static Icon pcCase() {
-        return pcCase(IconOptions.DEFAULT);
+    public static Icon lucidePause() {
+        return lucidePause(IconOptions.DEFAULT);
     }
 
-    public static Icon pcCase(IconOptions options) {
-        return new Icon(INSTANCE::pcCase, options);
+    public static Icon lucidePause(IconOptions options) {
+        return new Icon(INSTANCE::lucidePause, options);
     }
 
-    public static Icon pen() {
-        return pen(IconOptions.DEFAULT);
+    public static Icon lucidePawPrint() {
+        return lucidePawPrint(IconOptions.DEFAULT);
     }
 
-    public static Icon pen(IconOptions options) {
-        return new Icon(INSTANCE::pen, options);
+    public static Icon lucidePawPrint(IconOptions options) {
+        return new Icon(INSTANCE::lucidePawPrint, options);
     }
 
-    public static Icon penLine() {
-        return penLine(IconOptions.DEFAULT);
+    public static Icon lucidePcCase() {
+        return lucidePcCase(IconOptions.DEFAULT);
     }
 
-    public static Icon penLine(IconOptions options) {
-        return new Icon(INSTANCE::penLine, options);
+    public static Icon lucidePcCase(IconOptions options) {
+        return new Icon(INSTANCE::lucidePcCase, options);
     }
 
-    public static Icon penOff() {
-        return penOff(IconOptions.DEFAULT);
+    public static Icon lucidePen() {
+        return lucidePen(IconOptions.DEFAULT);
     }
 
-    public static Icon penOff(IconOptions options) {
-        return new Icon(INSTANCE::penOff, options);
+    public static Icon lucidePen(IconOptions options) {
+        return new Icon(INSTANCE::lucidePen, options);
     }
 
-    public static Icon penTool() {
-        return penTool(IconOptions.DEFAULT);
+    public static Icon lucidePenLine() {
+        return lucidePenLine(IconOptions.DEFAULT);
     }
 
-    public static Icon penTool(IconOptions options) {
-        return new Icon(INSTANCE::penTool, options);
+    public static Icon lucidePenLine(IconOptions options) {
+        return new Icon(INSTANCE::lucidePenLine, options);
     }
 
-    public static Icon pencil() {
-        return pencil(IconOptions.DEFAULT);
+    public static Icon lucidePenOff() {
+        return lucidePenOff(IconOptions.DEFAULT);
     }
 
-    public static Icon pencil(IconOptions options) {
-        return new Icon(INSTANCE::pencil, options);
+    public static Icon lucidePenOff(IconOptions options) {
+        return new Icon(INSTANCE::lucidePenOff, options);
     }
 
-    public static Icon pencilLine() {
-        return pencilLine(IconOptions.DEFAULT);
+    public static Icon lucidePenTool() {
+        return lucidePenTool(IconOptions.DEFAULT);
     }
 
-    public static Icon pencilLine(IconOptions options) {
-        return new Icon(INSTANCE::pencilLine, options);
+    public static Icon lucidePenTool(IconOptions options) {
+        return new Icon(INSTANCE::lucidePenTool, options);
     }
 
-    public static Icon pencilOff() {
-        return pencilOff(IconOptions.DEFAULT);
+    public static Icon lucidePencil() {
+        return lucidePencil(IconOptions.DEFAULT);
     }
 
-    public static Icon pencilOff(IconOptions options) {
-        return new Icon(INSTANCE::pencilOff, options);
+    public static Icon lucidePencil(IconOptions options) {
+        return new Icon(INSTANCE::lucidePencil, options);
     }
 
-    public static Icon pencilRuler() {
-        return pencilRuler(IconOptions.DEFAULT);
+    public static Icon lucidePencilLine() {
+        return lucidePencilLine(IconOptions.DEFAULT);
     }
 
-    public static Icon pencilRuler(IconOptions options) {
-        return new Icon(INSTANCE::pencilRuler, options);
+    public static Icon lucidePencilLine(IconOptions options) {
+        return new Icon(INSTANCE::lucidePencilLine, options);
     }
 
-    public static Icon pencilSparkles() {
-        return pencilSparkles(IconOptions.DEFAULT);
+    public static Icon lucidePencilOff() {
+        return lucidePencilOff(IconOptions.DEFAULT);
     }
 
-    public static Icon pencilSparkles(IconOptions options) {
-        return new Icon(INSTANCE::pencilSparkles, options);
+    public static Icon lucidePencilOff(IconOptions options) {
+        return new Icon(INSTANCE::lucidePencilOff, options);
     }
 
-    public static Icon pentagon() {
-        return pentagon(IconOptions.DEFAULT);
+    public static Icon lucidePencilRuler() {
+        return lucidePencilRuler(IconOptions.DEFAULT);
     }
 
-    public static Icon pentagon(IconOptions options) {
-        return new Icon(INSTANCE::pentagon, options);
+    public static Icon lucidePencilRuler(IconOptions options) {
+        return new Icon(INSTANCE::lucidePencilRuler, options);
     }
 
-    public static Icon percent() {
-        return percent(IconOptions.DEFAULT);
+    public static Icon lucidePencilSparkles() {
+        return lucidePencilSparkles(IconOptions.DEFAULT);
     }
 
-    public static Icon percent(IconOptions options) {
-        return new Icon(INSTANCE::percent, options);
+    public static Icon lucidePencilSparkles(IconOptions options) {
+        return new Icon(INSTANCE::lucidePencilSparkles, options);
     }
 
-    public static Icon personStanding() {
-        return personStanding(IconOptions.DEFAULT);
+    public static Icon lucidePentagon() {
+        return lucidePentagon(IconOptions.DEFAULT);
     }
 
-    public static Icon personStanding(IconOptions options) {
-        return new Icon(INSTANCE::personStanding, options);
+    public static Icon lucidePentagon(IconOptions options) {
+        return new Icon(INSTANCE::lucidePentagon, options);
     }
 
-    public static Icon phi() {
-        return phi(IconOptions.DEFAULT);
+    public static Icon lucidePercent() {
+        return lucidePercent(IconOptions.DEFAULT);
     }
 
-    public static Icon phi(IconOptions options) {
-        return new Icon(INSTANCE::phi, options);
+    public static Icon lucidePercent(IconOptions options) {
+        return new Icon(INSTANCE::lucidePercent, options);
     }
 
-    public static Icon philippinePeso() {
-        return philippinePeso(IconOptions.DEFAULT);
+    public static Icon lucidePersonStanding() {
+        return lucidePersonStanding(IconOptions.DEFAULT);
     }
 
-    public static Icon philippinePeso(IconOptions options) {
-        return new Icon(INSTANCE::philippinePeso, options);
+    public static Icon lucidePersonStanding(IconOptions options) {
+        return new Icon(INSTANCE::lucidePersonStanding, options);
     }
 
-    public static Icon phone() {
-        return phone(IconOptions.DEFAULT);
+    public static Icon lucidePhi() {
+        return lucidePhi(IconOptions.DEFAULT);
     }
 
-    public static Icon phone(IconOptions options) {
-        return new Icon(INSTANCE::phone, options);
+    public static Icon lucidePhi(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhi, options);
     }
 
-    public static Icon phoneCall() {
-        return phoneCall(IconOptions.DEFAULT);
+    public static Icon lucidePhilippinePeso() {
+        return lucidePhilippinePeso(IconOptions.DEFAULT);
     }
 
-    public static Icon phoneCall(IconOptions options) {
-        return new Icon(INSTANCE::phoneCall, options);
+    public static Icon lucidePhilippinePeso(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhilippinePeso, options);
     }
 
-    public static Icon phoneForwarded() {
-        return phoneForwarded(IconOptions.DEFAULT);
+    public static Icon lucidePhone() {
+        return lucidePhone(IconOptions.DEFAULT);
     }
 
-    public static Icon phoneForwarded(IconOptions options) {
-        return new Icon(INSTANCE::phoneForwarded, options);
+    public static Icon lucidePhone(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhone, options);
     }
 
-    public static Icon phoneIncoming() {
-        return phoneIncoming(IconOptions.DEFAULT);
+    public static Icon lucidePhoneCall() {
+        return lucidePhoneCall(IconOptions.DEFAULT);
     }
 
-    public static Icon phoneIncoming(IconOptions options) {
-        return new Icon(INSTANCE::phoneIncoming, options);
+    public static Icon lucidePhoneCall(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhoneCall, options);
     }
 
-    public static Icon phoneMissed() {
-        return phoneMissed(IconOptions.DEFAULT);
+    public static Icon lucidePhoneForwarded() {
+        return lucidePhoneForwarded(IconOptions.DEFAULT);
     }
 
-    public static Icon phoneMissed(IconOptions options) {
-        return new Icon(INSTANCE::phoneMissed, options);
+    public static Icon lucidePhoneForwarded(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhoneForwarded, options);
     }
 
-    public static Icon phoneOff() {
-        return phoneOff(IconOptions.DEFAULT);
+    public static Icon lucidePhoneIncoming() {
+        return lucidePhoneIncoming(IconOptions.DEFAULT);
     }
 
-    public static Icon phoneOff(IconOptions options) {
-        return new Icon(INSTANCE::phoneOff, options);
+    public static Icon lucidePhoneIncoming(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhoneIncoming, options);
     }
 
-    public static Icon phoneOutgoing() {
-        return phoneOutgoing(IconOptions.DEFAULT);
+    public static Icon lucidePhoneLog() {
+        return lucidePhoneLog(IconOptions.DEFAULT);
     }
 
-    public static Icon phoneOutgoing(IconOptions options) {
-        return new Icon(INSTANCE::phoneOutgoing, options);
+    public static Icon lucidePhoneLog(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhoneLog, options);
     }
 
-    public static Icon pi() {
-        return pi(IconOptions.DEFAULT);
+    public static Icon lucidePhoneMissed() {
+        return lucidePhoneMissed(IconOptions.DEFAULT);
     }
 
-    public static Icon pi(IconOptions options) {
-        return new Icon(INSTANCE::pi, options);
+    public static Icon lucidePhoneMissed(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhoneMissed, options);
     }
 
-    public static Icon piano() {
-        return piano(IconOptions.DEFAULT);
+    public static Icon lucidePhoneOff() {
+        return lucidePhoneOff(IconOptions.DEFAULT);
     }
 
-    public static Icon piano(IconOptions options) {
-        return new Icon(INSTANCE::piano, options);
+    public static Icon lucidePhoneOff(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhoneOff, options);
     }
 
-    public static Icon pickaxe() {
-        return pickaxe(IconOptions.DEFAULT);
+    public static Icon lucidePhoneOutgoing() {
+        return lucidePhoneOutgoing(IconOptions.DEFAULT);
     }
 
-    public static Icon pickaxe(IconOptions options) {
-        return new Icon(INSTANCE::pickaxe, options);
+    public static Icon lucidePhoneOutgoing(IconOptions options) {
+        return new Icon(INSTANCE::lucidePhoneOutgoing, options);
     }
 
-    public static Icon pictureInPicture() {
-        return pictureInPicture(IconOptions.DEFAULT);
+    public static Icon lucidePi() {
+        return lucidePi(IconOptions.DEFAULT);
     }
 
-    public static Icon pictureInPicture(IconOptions options) {
-        return new Icon(INSTANCE::pictureInPicture, options);
+    public static Icon lucidePi(IconOptions options) {
+        return new Icon(INSTANCE::lucidePi, options);
     }
 
-    public static Icon pictureInPicture2() {
-        return pictureInPicture2(IconOptions.DEFAULT);
+    public static Icon lucidePiano() {
+        return lucidePiano(IconOptions.DEFAULT);
     }
 
-    public static Icon pictureInPicture2(IconOptions options) {
-        return new Icon(INSTANCE::pictureInPicture2, options);
+    public static Icon lucidePiano(IconOptions options) {
+        return new Icon(INSTANCE::lucidePiano, options);
     }
 
-    public static Icon piggyBank() {
-        return piggyBank(IconOptions.DEFAULT);
+    public static Icon lucidePickaxe() {
+        return lucidePickaxe(IconOptions.DEFAULT);
     }
 
-    public static Icon piggyBank(IconOptions options) {
-        return new Icon(INSTANCE::piggyBank, options);
+    public static Icon lucidePickaxe(IconOptions options) {
+        return new Icon(INSTANCE::lucidePickaxe, options);
     }
 
-    public static Icon pilcrow() {
-        return pilcrow(IconOptions.DEFAULT);
+    public static Icon lucidePictureInPicture() {
+        return lucidePictureInPicture(IconOptions.DEFAULT);
     }
 
-    public static Icon pilcrow(IconOptions options) {
-        return new Icon(INSTANCE::pilcrow, options);
+    public static Icon lucidePictureInPicture(IconOptions options) {
+        return new Icon(INSTANCE::lucidePictureInPicture, options);
     }
 
-    public static Icon pilcrowLeft() {
-        return pilcrowLeft(IconOptions.DEFAULT);
+    public static Icon lucidePictureInPicture2() {
+        return lucidePictureInPicture2(IconOptions.DEFAULT);
     }
 
-    public static Icon pilcrowLeft(IconOptions options) {
-        return new Icon(INSTANCE::pilcrowLeft, options);
+    public static Icon lucidePictureInPicture2(IconOptions options) {
+        return new Icon(INSTANCE::lucidePictureInPicture2, options);
     }
 
-    public static Icon pilcrowRight() {
-        return pilcrowRight(IconOptions.DEFAULT);
+    public static Icon lucidePiggyBank() {
+        return lucidePiggyBank(IconOptions.DEFAULT);
     }
 
-    public static Icon pilcrowRight(IconOptions options) {
-        return new Icon(INSTANCE::pilcrowRight, options);
+    public static Icon lucidePiggyBank(IconOptions options) {
+        return new Icon(INSTANCE::lucidePiggyBank, options);
     }
 
-    public static Icon pill() {
-        return pill(IconOptions.DEFAULT);
+    public static Icon lucidePilcrow() {
+        return lucidePilcrow(IconOptions.DEFAULT);
     }
 
-    public static Icon pill(IconOptions options) {
-        return new Icon(INSTANCE::pill, options);
+    public static Icon lucidePilcrow(IconOptions options) {
+        return new Icon(INSTANCE::lucidePilcrow, options);
     }
 
-    public static Icon pillBottle() {
-        return pillBottle(IconOptions.DEFAULT);
+    public static Icon lucidePilcrowLeft() {
+        return lucidePilcrowLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon pillBottle(IconOptions options) {
-        return new Icon(INSTANCE::pillBottle, options);
+    public static Icon lucidePilcrowLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucidePilcrowLeft, options);
     }
 
-    public static Icon pin() {
-        return pin(IconOptions.DEFAULT);
+    public static Icon lucidePilcrowRight() {
+        return lucidePilcrowRight(IconOptions.DEFAULT);
     }
 
-    public static Icon pin(IconOptions options) {
-        return new Icon(INSTANCE::pin, options);
+    public static Icon lucidePilcrowRight(IconOptions options) {
+        return new Icon(INSTANCE::lucidePilcrowRight, options);
     }
 
-    public static Icon pinOff() {
-        return pinOff(IconOptions.DEFAULT);
+    public static Icon lucidePill() {
+        return lucidePill(IconOptions.DEFAULT);
     }
 
-    public static Icon pinOff(IconOptions options) {
-        return new Icon(INSTANCE::pinOff, options);
+    public static Icon lucidePill(IconOptions options) {
+        return new Icon(INSTANCE::lucidePill, options);
     }
 
-    public static Icon pipette() {
-        return pipette(IconOptions.DEFAULT);
+    public static Icon lucidePillBottle() {
+        return lucidePillBottle(IconOptions.DEFAULT);
     }
 
-    public static Icon pipette(IconOptions options) {
-        return new Icon(INSTANCE::pipette, options);
+    public static Icon lucidePillBottle(IconOptions options) {
+        return new Icon(INSTANCE::lucidePillBottle, options);
     }
 
-    public static Icon pizza() {
-        return pizza(IconOptions.DEFAULT);
+    public static Icon lucidePin() {
+        return lucidePin(IconOptions.DEFAULT);
     }
 
-    public static Icon pizza(IconOptions options) {
-        return new Icon(INSTANCE::pizza, options);
+    public static Icon lucidePin(IconOptions options) {
+        return new Icon(INSTANCE::lucidePin, options);
     }
 
-    public static Icon plane() {
-        return plane(IconOptions.DEFAULT);
+    public static Icon lucidePinOff() {
+        return lucidePinOff(IconOptions.DEFAULT);
     }
 
-    public static Icon plane(IconOptions options) {
-        return new Icon(INSTANCE::plane, options);
+    public static Icon lucidePinOff(IconOptions options) {
+        return new Icon(INSTANCE::lucidePinOff, options);
     }
 
-    public static Icon planeLanding() {
-        return planeLanding(IconOptions.DEFAULT);
+    public static Icon lucidePipette() {
+        return lucidePipette(IconOptions.DEFAULT);
     }
 
-    public static Icon planeLanding(IconOptions options) {
-        return new Icon(INSTANCE::planeLanding, options);
+    public static Icon lucidePipette(IconOptions options) {
+        return new Icon(INSTANCE::lucidePipette, options);
     }
 
-    public static Icon planeTakeoff() {
-        return planeTakeoff(IconOptions.DEFAULT);
+    public static Icon lucidePizza() {
+        return lucidePizza(IconOptions.DEFAULT);
     }
 
-    public static Icon planeTakeoff(IconOptions options) {
-        return new Icon(INSTANCE::planeTakeoff, options);
+    public static Icon lucidePizza(IconOptions options) {
+        return new Icon(INSTANCE::lucidePizza, options);
     }
 
-    public static Icon plantPot() {
-        return plantPot(IconOptions.DEFAULT);
+    public static Icon lucidePlane() {
+        return lucidePlane(IconOptions.DEFAULT);
     }
 
-    public static Icon plantPot(IconOptions options) {
-        return new Icon(INSTANCE::plantPot, options);
+    public static Icon lucidePlane(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlane, options);
     }
 
-    public static Icon play() {
-        return play(IconOptions.DEFAULT);
+    public static Icon lucidePlaneLanding() {
+        return lucidePlaneLanding(IconOptions.DEFAULT);
     }
 
-    public static Icon play(IconOptions options) {
-        return new Icon(INSTANCE::play, options);
+    public static Icon lucidePlaneLanding(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlaneLanding, options);
     }
 
-    public static Icon playOff() {
-        return playOff(IconOptions.DEFAULT);
+    public static Icon lucidePlaneTakeoff() {
+        return lucidePlaneTakeoff(IconOptions.DEFAULT);
     }
 
-    public static Icon playOff(IconOptions options) {
-        return new Icon(INSTANCE::playOff, options);
+    public static Icon lucidePlaneTakeoff(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlaneTakeoff, options);
     }
 
-    public static Icon playingCard() {
-        return playingCard(IconOptions.DEFAULT);
+    public static Icon lucidePlantPot() {
+        return lucidePlantPot(IconOptions.DEFAULT);
     }
 
-    public static Icon playingCard(IconOptions options) {
-        return new Icon(INSTANCE::playingCard, options);
+    public static Icon lucidePlantPot(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlantPot, options);
     }
 
-    public static Icon playingCards() {
-        return playingCards(IconOptions.DEFAULT);
+    public static Icon lucidePlay() {
+        return lucidePlay(IconOptions.DEFAULT);
     }
 
-    public static Icon playingCards(IconOptions options) {
-        return new Icon(INSTANCE::playingCards, options);
+    public static Icon lucidePlay(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlay, options);
     }
 
-    public static Icon playingCardsFan() {
-        return playingCardsFan(IconOptions.DEFAULT);
+    public static Icon lucidePlayOff() {
+        return lucidePlayOff(IconOptions.DEFAULT);
     }
 
-    public static Icon playingCardsFan(IconOptions options) {
-        return new Icon(INSTANCE::playingCardsFan, options);
+    public static Icon lucidePlayOff(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlayOff, options);
     }
 
-    public static Icon plug() {
-        return plug(IconOptions.DEFAULT);
+    public static Icon lucidePlayingCard() {
+        return lucidePlayingCard(IconOptions.DEFAULT);
     }
 
-    public static Icon plug(IconOptions options) {
-        return new Icon(INSTANCE::plug, options);
+    public static Icon lucidePlayingCard(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlayingCard, options);
     }
 
-    public static Icon plug2() {
-        return plug2(IconOptions.DEFAULT);
+    public static Icon lucidePlayingCards() {
+        return lucidePlayingCards(IconOptions.DEFAULT);
     }
 
-    public static Icon plug2(IconOptions options) {
-        return new Icon(INSTANCE::plug2, options);
+    public static Icon lucidePlayingCards(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlayingCards, options);
     }
 
-    public static Icon plugZap() {
-        return plugZap(IconOptions.DEFAULT);
+    public static Icon lucidePlayingCardsFan() {
+        return lucidePlayingCardsFan(IconOptions.DEFAULT);
     }
 
-    public static Icon plugZap(IconOptions options) {
-        return new Icon(INSTANCE::plugZap, options);
+    public static Icon lucidePlayingCardsFan(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlayingCardsFan, options);
     }
 
-    public static Icon plus() {
-        return plus(IconOptions.DEFAULT);
+    public static Icon lucidePlug() {
+        return lucidePlug(IconOptions.DEFAULT);
     }
 
-    public static Icon plus(IconOptions options) {
-        return new Icon(INSTANCE::plus, options);
+    public static Icon lucidePlug(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlug, options);
     }
 
-    public static Icon pocketKnife() {
-        return pocketKnife(IconOptions.DEFAULT);
+    public static Icon lucidePlug2() {
+        return lucidePlug2(IconOptions.DEFAULT);
     }
 
-    public static Icon pocketKnife(IconOptions options) {
-        return new Icon(INSTANCE::pocketKnife, options);
+    public static Icon lucidePlug2(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlug2, options);
     }
 
-    public static Icon podium() {
-        return podium(IconOptions.DEFAULT);
+    public static Icon lucidePlugZap() {
+        return lucidePlugZap(IconOptions.DEFAULT);
     }
 
-    public static Icon podium(IconOptions options) {
-        return new Icon(INSTANCE::podium, options);
+    public static Icon lucidePlugZap(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlugZap, options);
     }
 
-    public static Icon pointer() {
-        return pointer(IconOptions.DEFAULT);
+    public static Icon lucidePlus() {
+        return lucidePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon pointer(IconOptions options) {
-        return new Icon(INSTANCE::pointer, options);
+    public static Icon lucidePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucidePlus, options);
     }
 
-    public static Icon pointerOff() {
-        return pointerOff(IconOptions.DEFAULT);
+    public static Icon lucidePocketKnife() {
+        return lucidePocketKnife(IconOptions.DEFAULT);
     }
 
-    public static Icon pointerOff(IconOptions options) {
-        return new Icon(INSTANCE::pointerOff, options);
+    public static Icon lucidePocketKnife(IconOptions options) {
+        return new Icon(INSTANCE::lucidePocketKnife, options);
     }
 
-    public static Icon popcorn() {
-        return popcorn(IconOptions.DEFAULT);
+    public static Icon lucidePodium() {
+        return lucidePodium(IconOptions.DEFAULT);
     }
 
-    public static Icon popcorn(IconOptions options) {
-        return new Icon(INSTANCE::popcorn, options);
+    public static Icon lucidePodium(IconOptions options) {
+        return new Icon(INSTANCE::lucidePodium, options);
     }
 
-    public static Icon popsicle() {
-        return popsicle(IconOptions.DEFAULT);
+    public static Icon lucidePointer() {
+        return lucidePointer(IconOptions.DEFAULT);
     }
 
-    public static Icon popsicle(IconOptions options) {
-        return new Icon(INSTANCE::popsicle, options);
+    public static Icon lucidePointer(IconOptions options) {
+        return new Icon(INSTANCE::lucidePointer, options);
     }
 
-    public static Icon poundSterling() {
-        return poundSterling(IconOptions.DEFAULT);
+    public static Icon lucidePointerOff() {
+        return lucidePointerOff(IconOptions.DEFAULT);
     }
 
-    public static Icon poundSterling(IconOptions options) {
-        return new Icon(INSTANCE::poundSterling, options);
+    public static Icon lucidePointerOff(IconOptions options) {
+        return new Icon(INSTANCE::lucidePointerOff, options);
     }
 
-    public static Icon power() {
-        return power(IconOptions.DEFAULT);
+    public static Icon lucidePopcorn() {
+        return lucidePopcorn(IconOptions.DEFAULT);
     }
 
-    public static Icon power(IconOptions options) {
-        return new Icon(INSTANCE::power, options);
+    public static Icon lucidePopcorn(IconOptions options) {
+        return new Icon(INSTANCE::lucidePopcorn, options);
     }
 
-    public static Icon powerOff() {
-        return powerOff(IconOptions.DEFAULT);
+    public static Icon lucidePopsicle() {
+        return lucidePopsicle(IconOptions.DEFAULT);
     }
 
-    public static Icon powerOff(IconOptions options) {
-        return new Icon(INSTANCE::powerOff, options);
+    public static Icon lucidePopsicle(IconOptions options) {
+        return new Icon(INSTANCE::lucidePopsicle, options);
     }
 
-    public static Icon presentation() {
-        return presentation(IconOptions.DEFAULT);
+    public static Icon lucidePoundSterling() {
+        return lucidePoundSterling(IconOptions.DEFAULT);
     }
 
-    public static Icon presentation(IconOptions options) {
-        return new Icon(INSTANCE::presentation, options);
+    public static Icon lucidePoundSterling(IconOptions options) {
+        return new Icon(INSTANCE::lucidePoundSterling, options);
     }
 
-    public static Icon printer() {
-        return printer(IconOptions.DEFAULT);
+    public static Icon lucidePower() {
+        return lucidePower(IconOptions.DEFAULT);
     }
 
-    public static Icon printer(IconOptions options) {
-        return new Icon(INSTANCE::printer, options);
+    public static Icon lucidePower(IconOptions options) {
+        return new Icon(INSTANCE::lucidePower, options);
     }
 
-    public static Icon printer3d() {
-        return printer3d(IconOptions.DEFAULT);
+    public static Icon lucidePowerOff() {
+        return lucidePowerOff(IconOptions.DEFAULT);
     }
 
-    public static Icon printer3d(IconOptions options) {
-        return new Icon(INSTANCE::printer3d, options);
+    public static Icon lucidePowerOff(IconOptions options) {
+        return new Icon(INSTANCE::lucidePowerOff, options);
     }
 
-    public static Icon printerCheck() {
-        return printerCheck(IconOptions.DEFAULT);
+    public static Icon lucidePresentation() {
+        return lucidePresentation(IconOptions.DEFAULT);
     }
 
-    public static Icon printerCheck(IconOptions options) {
-        return new Icon(INSTANCE::printerCheck, options);
+    public static Icon lucidePresentation(IconOptions options) {
+        return new Icon(INSTANCE::lucidePresentation, options);
     }
 
-    public static Icon printerX() {
-        return printerX(IconOptions.DEFAULT);
+    public static Icon lucidePrinter() {
+        return lucidePrinter(IconOptions.DEFAULT);
     }
 
-    public static Icon printerX(IconOptions options) {
-        return new Icon(INSTANCE::printerX, options);
+    public static Icon lucidePrinter(IconOptions options) {
+        return new Icon(INSTANCE::lucidePrinter, options);
     }
 
-    public static Icon projector() {
-        return projector(IconOptions.DEFAULT);
+    public static Icon lucidePrinter3d() {
+        return lucidePrinter3d(IconOptions.DEFAULT);
     }
 
-    public static Icon projector(IconOptions options) {
-        return new Icon(INSTANCE::projector, options);
+    public static Icon lucidePrinter3d(IconOptions options) {
+        return new Icon(INSTANCE::lucidePrinter3d, options);
     }
 
-    public static Icon proportions() {
-        return proportions(IconOptions.DEFAULT);
+    public static Icon lucidePrinterCheck() {
+        return lucidePrinterCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon proportions(IconOptions options) {
-        return new Icon(INSTANCE::proportions, options);
+    public static Icon lucidePrinterCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucidePrinterCheck, options);
     }
 
-    public static Icon puzzle() {
-        return puzzle(IconOptions.DEFAULT);
+    public static Icon lucidePrinterX() {
+        return lucidePrinterX(IconOptions.DEFAULT);
     }
 
-    public static Icon puzzle(IconOptions options) {
-        return new Icon(INSTANCE::puzzle, options);
+    public static Icon lucidePrinterX(IconOptions options) {
+        return new Icon(INSTANCE::lucidePrinterX, options);
     }
 
-    public static Icon pyramid() {
-        return pyramid(IconOptions.DEFAULT);
+    public static Icon lucideProjector() {
+        return lucideProjector(IconOptions.DEFAULT);
     }
 
-    public static Icon pyramid(IconOptions options) {
-        return new Icon(INSTANCE::pyramid, options);
+    public static Icon lucideProjector(IconOptions options) {
+        return new Icon(INSTANCE::lucideProjector, options);
     }
 
-    public static Icon qrCode() {
-        return qrCode(IconOptions.DEFAULT);
+    public static Icon lucideProportions() {
+        return lucideProportions(IconOptions.DEFAULT);
     }
 
-    public static Icon qrCode(IconOptions options) {
-        return new Icon(INSTANCE::qrCode, options);
+    public static Icon lucideProportions(IconOptions options) {
+        return new Icon(INSTANCE::lucideProportions, options);
     }
 
-    public static Icon quote() {
-        return quote(IconOptions.DEFAULT);
+    public static Icon lucidePuzzle() {
+        return lucidePuzzle(IconOptions.DEFAULT);
     }
 
-    public static Icon quote(IconOptions options) {
-        return new Icon(INSTANCE::quote, options);
+    public static Icon lucidePuzzle(IconOptions options) {
+        return new Icon(INSTANCE::lucidePuzzle, options);
     }
 
-    public static Icon rabbit() {
-        return rabbit(IconOptions.DEFAULT);
+    public static Icon lucidePyramid() {
+        return lucidePyramid(IconOptions.DEFAULT);
     }
 
-    public static Icon rabbit(IconOptions options) {
-        return new Icon(INSTANCE::rabbit, options);
+    public static Icon lucidePyramid(IconOptions options) {
+        return new Icon(INSTANCE::lucidePyramid, options);
     }
 
-    public static Icon radar() {
-        return radar(IconOptions.DEFAULT);
+    public static Icon lucideQrCode() {
+        return lucideQrCode(IconOptions.DEFAULT);
     }
 
-    public static Icon radar(IconOptions options) {
-        return new Icon(INSTANCE::radar, options);
+    public static Icon lucideQrCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideQrCode, options);
     }
 
-    public static Icon radiation() {
-        return radiation(IconOptions.DEFAULT);
+    public static Icon lucideQuote() {
+        return lucideQuote(IconOptions.DEFAULT);
     }
 
-    public static Icon radiation(IconOptions options) {
-        return new Icon(INSTANCE::radiation, options);
+    public static Icon lucideQuote(IconOptions options) {
+        return new Icon(INSTANCE::lucideQuote, options);
     }
 
-    public static Icon radical() {
-        return radical(IconOptions.DEFAULT);
+    public static Icon lucideRabbit() {
+        return lucideRabbit(IconOptions.DEFAULT);
     }
 
-    public static Icon radical(IconOptions options) {
-        return new Icon(INSTANCE::radical, options);
+    public static Icon lucideRabbit(IconOptions options) {
+        return new Icon(INSTANCE::lucideRabbit, options);
     }
 
-    public static Icon radio() {
-        return radio(IconOptions.DEFAULT);
+    public static Icon lucideRadar() {
+        return lucideRadar(IconOptions.DEFAULT);
     }
 
-    public static Icon radio(IconOptions options) {
-        return new Icon(INSTANCE::radio, options);
+    public static Icon lucideRadar(IconOptions options) {
+        return new Icon(INSTANCE::lucideRadar, options);
     }
 
-    public static Icon radioOff() {
-        return radioOff(IconOptions.DEFAULT);
+    public static Icon lucideRadiation() {
+        return lucideRadiation(IconOptions.DEFAULT);
     }
 
-    public static Icon radioOff(IconOptions options) {
-        return new Icon(INSTANCE::radioOff, options);
+    public static Icon lucideRadiation(IconOptions options) {
+        return new Icon(INSTANCE::lucideRadiation, options);
     }
 
-    public static Icon radioReceiver() {
-        return radioReceiver(IconOptions.DEFAULT);
+    public static Icon lucideRadical() {
+        return lucideRadical(IconOptions.DEFAULT);
     }
 
-    public static Icon radioReceiver(IconOptions options) {
-        return new Icon(INSTANCE::radioReceiver, options);
+    public static Icon lucideRadical(IconOptions options) {
+        return new Icon(INSTANCE::lucideRadical, options);
     }
 
-    public static Icon radioTower() {
-        return radioTower(IconOptions.DEFAULT);
+    public static Icon lucideRadio() {
+        return lucideRadio(IconOptions.DEFAULT);
     }
 
-    public static Icon radioTower(IconOptions options) {
-        return new Icon(INSTANCE::radioTower, options);
+    public static Icon lucideRadio(IconOptions options) {
+        return new Icon(INSTANCE::lucideRadio, options);
     }
 
-    public static Icon radius() {
-        return radius(IconOptions.DEFAULT);
+    public static Icon lucideRadioOff() {
+        return lucideRadioOff(IconOptions.DEFAULT);
     }
 
-    public static Icon radius(IconOptions options) {
-        return new Icon(INSTANCE::radius, options);
+    public static Icon lucideRadioOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideRadioOff, options);
     }
 
-    public static Icon rainbow() {
-        return rainbow(IconOptions.DEFAULT);
+    public static Icon lucideRadioReceiver() {
+        return lucideRadioReceiver(IconOptions.DEFAULT);
     }
 
-    public static Icon rainbow(IconOptions options) {
-        return new Icon(INSTANCE::rainbow, options);
+    public static Icon lucideRadioReceiver(IconOptions options) {
+        return new Icon(INSTANCE::lucideRadioReceiver, options);
     }
 
-    public static Icon rat() {
-        return rat(IconOptions.DEFAULT);
+    public static Icon lucideRadioTower() {
+        return lucideRadioTower(IconOptions.DEFAULT);
     }
 
-    public static Icon rat(IconOptions options) {
-        return new Icon(INSTANCE::rat, options);
+    public static Icon lucideRadioTower(IconOptions options) {
+        return new Icon(INSTANCE::lucideRadioTower, options);
     }
 
-    public static Icon ratio() {
-        return ratio(IconOptions.DEFAULT);
+    public static Icon lucideRadius() {
+        return lucideRadius(IconOptions.DEFAULT);
     }
 
-    public static Icon ratio(IconOptions options) {
-        return new Icon(INSTANCE::ratio, options);
+    public static Icon lucideRadius(IconOptions options) {
+        return new Icon(INSTANCE::lucideRadius, options);
     }
 
-    public static Icon receipt() {
-        return receipt(IconOptions.DEFAULT);
+    public static Icon lucideRainbow() {
+        return lucideRainbow(IconOptions.DEFAULT);
     }
 
-    public static Icon receipt(IconOptions options) {
-        return new Icon(INSTANCE::receipt, options);
+    public static Icon lucideRainbow(IconOptions options) {
+        return new Icon(INSTANCE::lucideRainbow, options);
     }
 
-    public static Icon receiptCent() {
-        return receiptCent(IconOptions.DEFAULT);
+    public static Icon lucideRat() {
+        return lucideRat(IconOptions.DEFAULT);
     }
 
-    public static Icon receiptCent(IconOptions options) {
-        return new Icon(INSTANCE::receiptCent, options);
+    public static Icon lucideRat(IconOptions options) {
+        return new Icon(INSTANCE::lucideRat, options);
     }
 
-    public static Icon receiptEuro() {
-        return receiptEuro(IconOptions.DEFAULT);
+    public static Icon lucideRatio() {
+        return lucideRatio(IconOptions.DEFAULT);
     }
 
-    public static Icon receiptEuro(IconOptions options) {
-        return new Icon(INSTANCE::receiptEuro, options);
+    public static Icon lucideRatio(IconOptions options) {
+        return new Icon(INSTANCE::lucideRatio, options);
     }
 
-    public static Icon receiptIndianRupee() {
-        return receiptIndianRupee(IconOptions.DEFAULT);
+    public static Icon lucideReceipt() {
+        return lucideReceipt(IconOptions.DEFAULT);
     }
 
-    public static Icon receiptIndianRupee(IconOptions options) {
-        return new Icon(INSTANCE::receiptIndianRupee, options);
+    public static Icon lucideReceipt(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceipt, options);
     }
 
-    public static Icon receiptJapaneseYen() {
-        return receiptJapaneseYen(IconOptions.DEFAULT);
+    public static Icon lucideReceiptCent() {
+        return lucideReceiptCent(IconOptions.DEFAULT);
     }
 
-    public static Icon receiptJapaneseYen(IconOptions options) {
-        return new Icon(INSTANCE::receiptJapaneseYen, options);
+    public static Icon lucideReceiptCent(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceiptCent, options);
     }
 
-    public static Icon receiptPoundSterling() {
-        return receiptPoundSterling(IconOptions.DEFAULT);
+    public static Icon lucideReceiptEuro() {
+        return lucideReceiptEuro(IconOptions.DEFAULT);
     }
 
-    public static Icon receiptPoundSterling(IconOptions options) {
-        return new Icon(INSTANCE::receiptPoundSterling, options);
+    public static Icon lucideReceiptEuro(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceiptEuro, options);
     }
 
-    public static Icon receiptRussianRuble() {
-        return receiptRussianRuble(IconOptions.DEFAULT);
+    public static Icon lucideReceiptIndianRupee() {
+        return lucideReceiptIndianRupee(IconOptions.DEFAULT);
     }
 
-    public static Icon receiptRussianRuble(IconOptions options) {
-        return new Icon(INSTANCE::receiptRussianRuble, options);
+    public static Icon lucideReceiptIndianRupee(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceiptIndianRupee, options);
     }
 
-    public static Icon receiptSwissFranc() {
-        return receiptSwissFranc(IconOptions.DEFAULT);
+    public static Icon lucideReceiptJapaneseYen() {
+        return lucideReceiptJapaneseYen(IconOptions.DEFAULT);
     }
 
-    public static Icon receiptSwissFranc(IconOptions options) {
-        return new Icon(INSTANCE::receiptSwissFranc, options);
+    public static Icon lucideReceiptJapaneseYen(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceiptJapaneseYen, options);
     }
 
-    public static Icon receiptText() {
-        return receiptText(IconOptions.DEFAULT);
+    public static Icon lucideReceiptPoundSterling() {
+        return lucideReceiptPoundSterling(IconOptions.DEFAULT);
     }
 
-    public static Icon receiptText(IconOptions options) {
-        return new Icon(INSTANCE::receiptText, options);
+    public static Icon lucideReceiptPoundSterling(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceiptPoundSterling, options);
     }
 
-    public static Icon receiptTurkishLira() {
-        return receiptTurkishLira(IconOptions.DEFAULT);
+    public static Icon lucideReceiptRussianRuble() {
+        return lucideReceiptRussianRuble(IconOptions.DEFAULT);
     }
 
-    public static Icon receiptTurkishLira(IconOptions options) {
-        return new Icon(INSTANCE::receiptTurkishLira, options);
+    public static Icon lucideReceiptRussianRuble(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceiptRussianRuble, options);
     }
 
-    public static Icon rectangleCircle() {
-        return rectangleCircle(IconOptions.DEFAULT);
+    public static Icon lucideReceiptSwissFranc() {
+        return lucideReceiptSwissFranc(IconOptions.DEFAULT);
     }
 
-    public static Icon rectangleCircle(IconOptions options) {
-        return new Icon(INSTANCE::rectangleCircle, options);
+    public static Icon lucideReceiptSwissFranc(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceiptSwissFranc, options);
     }
 
-    public static Icon rectangleEllipsis() {
-        return rectangleEllipsis(IconOptions.DEFAULT);
+    public static Icon lucideReceiptText() {
+        return lucideReceiptText(IconOptions.DEFAULT);
     }
 
-    public static Icon rectangleEllipsis(IconOptions options) {
-        return new Icon(INSTANCE::rectangleEllipsis, options);
+    public static Icon lucideReceiptText(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceiptText, options);
     }
 
-    public static Icon rectangleGoggles() {
-        return rectangleGoggles(IconOptions.DEFAULT);
+    public static Icon lucideReceiptTurkishLira() {
+        return lucideReceiptTurkishLira(IconOptions.DEFAULT);
     }
 
-    public static Icon rectangleGoggles(IconOptions options) {
-        return new Icon(INSTANCE::rectangleGoggles, options);
+    public static Icon lucideReceiptTurkishLira(IconOptions options) {
+        return new Icon(INSTANCE::lucideReceiptTurkishLira, options);
     }
 
-    public static Icon rectangleHorizontal() {
-        return rectangleHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideRectangleCircle() {
+        return lucideRectangleCircle(IconOptions.DEFAULT);
     }
 
-    public static Icon rectangleHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::rectangleHorizontal, options);
+    public static Icon lucideRectangleCircle(IconOptions options) {
+        return new Icon(INSTANCE::lucideRectangleCircle, options);
     }
 
-    public static Icon rectangleVertical() {
-        return rectangleVertical(IconOptions.DEFAULT);
+    public static Icon lucideRectangleEllipsis() {
+        return lucideRectangleEllipsis(IconOptions.DEFAULT);
     }
 
-    public static Icon rectangleVertical(IconOptions options) {
-        return new Icon(INSTANCE::rectangleVertical, options);
+    public static Icon lucideRectangleEllipsis(IconOptions options) {
+        return new Icon(INSTANCE::lucideRectangleEllipsis, options);
     }
 
-    public static Icon recycle() {
-        return recycle(IconOptions.DEFAULT);
+    public static Icon lucideRectangleGoggles() {
+        return lucideRectangleGoggles(IconOptions.DEFAULT);
     }
 
-    public static Icon recycle(IconOptions options) {
-        return new Icon(INSTANCE::recycle, options);
+    public static Icon lucideRectangleGoggles(IconOptions options) {
+        return new Icon(INSTANCE::lucideRectangleGoggles, options);
     }
 
-    public static Icon redo() {
-        return redo(IconOptions.DEFAULT);
+    public static Icon lucideRectangleHorizontal() {
+        return lucideRectangleHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon redo(IconOptions options) {
-        return new Icon(INSTANCE::redo, options);
+    public static Icon lucideRectangleHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideRectangleHorizontal, options);
     }
 
-    public static Icon redo2() {
-        return redo2(IconOptions.DEFAULT);
+    public static Icon lucideRectangleVertical() {
+        return lucideRectangleVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon redo2(IconOptions options) {
-        return new Icon(INSTANCE::redo2, options);
+    public static Icon lucideRectangleVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideRectangleVertical, options);
     }
 
-    public static Icon redoDot() {
-        return redoDot(IconOptions.DEFAULT);
+    public static Icon lucideRecycle() {
+        return lucideRecycle(IconOptions.DEFAULT);
     }
 
-    public static Icon redoDot(IconOptions options) {
-        return new Icon(INSTANCE::redoDot, options);
+    public static Icon lucideRecycle(IconOptions options) {
+        return new Icon(INSTANCE::lucideRecycle, options);
     }
 
-    public static Icon refreshCcw() {
-        return refreshCcw(IconOptions.DEFAULT);
+    public static Icon lucideRedo() {
+        return lucideRedo(IconOptions.DEFAULT);
     }
 
-    public static Icon refreshCcw(IconOptions options) {
-        return new Icon(INSTANCE::refreshCcw, options);
+    public static Icon lucideRedo(IconOptions options) {
+        return new Icon(INSTANCE::lucideRedo, options);
     }
 
-    public static Icon refreshCcwDot() {
-        return refreshCcwDot(IconOptions.DEFAULT);
+    public static Icon lucideRedo2() {
+        return lucideRedo2(IconOptions.DEFAULT);
     }
 
-    public static Icon refreshCcwDot(IconOptions options) {
-        return new Icon(INSTANCE::refreshCcwDot, options);
+    public static Icon lucideRedo2(IconOptions options) {
+        return new Icon(INSTANCE::lucideRedo2, options);
     }
 
-    public static Icon refreshCw() {
-        return refreshCw(IconOptions.DEFAULT);
+    public static Icon lucideRedoDot() {
+        return lucideRedoDot(IconOptions.DEFAULT);
     }
 
-    public static Icon refreshCw(IconOptions options) {
-        return new Icon(INSTANCE::refreshCw, options);
+    public static Icon lucideRedoDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideRedoDot, options);
     }
 
-    public static Icon refreshCwOff() {
-        return refreshCwOff(IconOptions.DEFAULT);
+    public static Icon lucideRefreshCcw() {
+        return lucideRefreshCcw(IconOptions.DEFAULT);
     }
 
-    public static Icon refreshCwOff(IconOptions options) {
-        return new Icon(INSTANCE::refreshCwOff, options);
+    public static Icon lucideRefreshCcw(IconOptions options) {
+        return new Icon(INSTANCE::lucideRefreshCcw, options);
     }
 
-    public static Icon refrigerator() {
-        return refrigerator(IconOptions.DEFAULT);
+    public static Icon lucideRefreshCcwDot() {
+        return lucideRefreshCcwDot(IconOptions.DEFAULT);
     }
 
-    public static Icon refrigerator(IconOptions options) {
-        return new Icon(INSTANCE::refrigerator, options);
+    public static Icon lucideRefreshCcwDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideRefreshCcwDot, options);
     }
 
-    public static Icon regex() {
-        return regex(IconOptions.DEFAULT);
+    public static Icon lucideRefreshCw() {
+        return lucideRefreshCw(IconOptions.DEFAULT);
     }
 
-    public static Icon regex(IconOptions options) {
-        return new Icon(INSTANCE::regex, options);
+    public static Icon lucideRefreshCw(IconOptions options) {
+        return new Icon(INSTANCE::lucideRefreshCw, options);
     }
 
-    public static Icon removeFormatting() {
-        return removeFormatting(IconOptions.DEFAULT);
+    public static Icon lucideRefreshCwOff() {
+        return lucideRefreshCwOff(IconOptions.DEFAULT);
     }
 
-    public static Icon removeFormatting(IconOptions options) {
-        return new Icon(INSTANCE::removeFormatting, options);
+    public static Icon lucideRefreshCwOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideRefreshCwOff, options);
     }
 
-    public static Icon repeat() {
-        return repeat(IconOptions.DEFAULT);
+    public static Icon lucideRefrigerator() {
+        return lucideRefrigerator(IconOptions.DEFAULT);
     }
 
-    public static Icon repeat(IconOptions options) {
-        return new Icon(INSTANCE::repeat, options);
+    public static Icon lucideRefrigerator(IconOptions options) {
+        return new Icon(INSTANCE::lucideRefrigerator, options);
     }
 
-    public static Icon repeat1() {
-        return repeat1(IconOptions.DEFAULT);
+    public static Icon lucideRegex() {
+        return lucideRegex(IconOptions.DEFAULT);
     }
 
-    public static Icon repeat1(IconOptions options) {
-        return new Icon(INSTANCE::repeat1, options);
+    public static Icon lucideRegex(IconOptions options) {
+        return new Icon(INSTANCE::lucideRegex, options);
     }
 
-    public static Icon repeat2() {
-        return repeat2(IconOptions.DEFAULT);
+    public static Icon lucideRemoveFormatting() {
+        return lucideRemoveFormatting(IconOptions.DEFAULT);
     }
 
-    public static Icon repeat2(IconOptions options) {
-        return new Icon(INSTANCE::repeat2, options);
+    public static Icon lucideRemoveFormatting(IconOptions options) {
+        return new Icon(INSTANCE::lucideRemoveFormatting, options);
     }
 
-    public static Icon repeatOff() {
-        return repeatOff(IconOptions.DEFAULT);
+    public static Icon lucideRepeat() {
+        return lucideRepeat(IconOptions.DEFAULT);
     }
 
-    public static Icon repeatOff(IconOptions options) {
-        return new Icon(INSTANCE::repeatOff, options);
+    public static Icon lucideRepeat(IconOptions options) {
+        return new Icon(INSTANCE::lucideRepeat, options);
     }
 
-    public static Icon replace() {
-        return replace(IconOptions.DEFAULT);
+    public static Icon lucideRepeat1() {
+        return lucideRepeat1(IconOptions.DEFAULT);
     }
 
-    public static Icon replace(IconOptions options) {
-        return new Icon(INSTANCE::replace, options);
+    public static Icon lucideRepeat1(IconOptions options) {
+        return new Icon(INSTANCE::lucideRepeat1, options);
     }
 
-    public static Icon replaceAll() {
-        return replaceAll(IconOptions.DEFAULT);
+    public static Icon lucideRepeat2() {
+        return lucideRepeat2(IconOptions.DEFAULT);
     }
 
-    public static Icon replaceAll(IconOptions options) {
-        return new Icon(INSTANCE::replaceAll, options);
+    public static Icon lucideRepeat2(IconOptions options) {
+        return new Icon(INSTANCE::lucideRepeat2, options);
     }
 
-    public static Icon reply() {
-        return reply(IconOptions.DEFAULT);
+    public static Icon lucideRepeatOff() {
+        return lucideRepeatOff(IconOptions.DEFAULT);
     }
 
-    public static Icon reply(IconOptions options) {
-        return new Icon(INSTANCE::reply, options);
+    public static Icon lucideRepeatOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideRepeatOff, options);
     }
 
-    public static Icon replyAll() {
-        return replyAll(IconOptions.DEFAULT);
+    public static Icon lucideReplace() {
+        return lucideReplace(IconOptions.DEFAULT);
     }
 
-    public static Icon replyAll(IconOptions options) {
-        return new Icon(INSTANCE::replyAll, options);
+    public static Icon lucideReplace(IconOptions options) {
+        return new Icon(INSTANCE::lucideReplace, options);
     }
 
-    public static Icon rewind() {
-        return rewind(IconOptions.DEFAULT);
+    public static Icon lucideReplaceAll() {
+        return lucideReplaceAll(IconOptions.DEFAULT);
     }
 
-    public static Icon rewind(IconOptions options) {
-        return new Icon(INSTANCE::rewind, options);
+    public static Icon lucideReplaceAll(IconOptions options) {
+        return new Icon(INSTANCE::lucideReplaceAll, options);
     }
 
-    public static Icon ribbon() {
-        return ribbon(IconOptions.DEFAULT);
+    public static Icon lucideReply() {
+        return lucideReply(IconOptions.DEFAULT);
     }
 
-    public static Icon ribbon(IconOptions options) {
-        return new Icon(INSTANCE::ribbon, options);
+    public static Icon lucideReply(IconOptions options) {
+        return new Icon(INSTANCE::lucideReply, options);
     }
 
-    public static Icon road() {
-        return road(IconOptions.DEFAULT);
+    public static Icon lucideReplyAll() {
+        return lucideReplyAll(IconOptions.DEFAULT);
     }
 
-    public static Icon road(IconOptions options) {
-        return new Icon(INSTANCE::road, options);
+    public static Icon lucideReplyAll(IconOptions options) {
+        return new Icon(INSTANCE::lucideReplyAll, options);
     }
 
-    public static Icon robotArm() {
-        return robotArm(IconOptions.DEFAULT);
+    public static Icon lucideRewind() {
+        return lucideRewind(IconOptions.DEFAULT);
     }
 
-    public static Icon robotArm(IconOptions options) {
-        return new Icon(INSTANCE::robotArm, options);
+    public static Icon lucideRewind(IconOptions options) {
+        return new Icon(INSTANCE::lucideRewind, options);
     }
 
-    public static Icon robotVacuum() {
-        return robotVacuum(IconOptions.DEFAULT);
+    public static Icon lucideRibbon() {
+        return lucideRibbon(IconOptions.DEFAULT);
     }
 
-    public static Icon robotVacuum(IconOptions options) {
-        return new Icon(INSTANCE::robotVacuum, options);
+    public static Icon lucideRibbon(IconOptions options) {
+        return new Icon(INSTANCE::lucideRibbon, options);
     }
 
-    public static Icon rocket() {
-        return rocket(IconOptions.DEFAULT);
+    public static Icon lucideRoad() {
+        return lucideRoad(IconOptions.DEFAULT);
     }
 
-    public static Icon rocket(IconOptions options) {
-        return new Icon(INSTANCE::rocket, options);
+    public static Icon lucideRoad(IconOptions options) {
+        return new Icon(INSTANCE::lucideRoad, options);
     }
 
-    public static Icon rockingChair() {
-        return rockingChair(IconOptions.DEFAULT);
+    public static Icon lucideRobotArm() {
+        return lucideRobotArm(IconOptions.DEFAULT);
     }
 
-    public static Icon rockingChair(IconOptions options) {
-        return new Icon(INSTANCE::rockingChair, options);
+    public static Icon lucideRobotArm(IconOptions options) {
+        return new Icon(INSTANCE::lucideRobotArm, options);
     }
 
-    public static Icon rollerCoaster() {
-        return rollerCoaster(IconOptions.DEFAULT);
+    public static Icon lucideRobotVacuum() {
+        return lucideRobotVacuum(IconOptions.DEFAULT);
     }
 
-    public static Icon rollerCoaster(IconOptions options) {
-        return new Icon(INSTANCE::rollerCoaster, options);
+    public static Icon lucideRobotVacuum(IconOptions options) {
+        return new Icon(INSTANCE::lucideRobotVacuum, options);
     }
 
-    public static Icon rose() {
-        return rose(IconOptions.DEFAULT);
+    public static Icon lucideRocket() {
+        return lucideRocket(IconOptions.DEFAULT);
     }
 
-    public static Icon rose(IconOptions options) {
-        return new Icon(INSTANCE::rose, options);
+    public static Icon lucideRocket(IconOptions options) {
+        return new Icon(INSTANCE::lucideRocket, options);
     }
 
-    public static Icon rotate3d() {
-        return rotate3d(IconOptions.DEFAULT);
+    public static Icon lucideRockingChair() {
+        return lucideRockingChair(IconOptions.DEFAULT);
     }
 
-    public static Icon rotate3d(IconOptions options) {
-        return new Icon(INSTANCE::rotate3d, options);
+    public static Icon lucideRockingChair(IconOptions options) {
+        return new Icon(INSTANCE::lucideRockingChair, options);
     }
 
-    public static Icon rotateCcw() {
-        return rotateCcw(IconOptions.DEFAULT);
+    public static Icon lucideRollerCoaster() {
+        return lucideRollerCoaster(IconOptions.DEFAULT);
     }
 
-    public static Icon rotateCcw(IconOptions options) {
-        return new Icon(INSTANCE::rotateCcw, options);
+    public static Icon lucideRollerCoaster(IconOptions options) {
+        return new Icon(INSTANCE::lucideRollerCoaster, options);
     }
 
-    public static Icon rotateCcwClock() {
-        return rotateCcwClock(IconOptions.DEFAULT);
+    public static Icon lucideRose() {
+        return lucideRose(IconOptions.DEFAULT);
     }
 
-    public static Icon rotateCcwClock(IconOptions options) {
-        return new Icon(INSTANCE::rotateCcwClock, options);
+    public static Icon lucideRose(IconOptions options) {
+        return new Icon(INSTANCE::lucideRose, options);
     }
 
-    public static Icon rotateCcwKey() {
-        return rotateCcwKey(IconOptions.DEFAULT);
+    public static Icon lucideRotate3d() {
+        return lucideRotate3d(IconOptions.DEFAULT);
     }
 
-    public static Icon rotateCcwKey(IconOptions options) {
-        return new Icon(INSTANCE::rotateCcwKey, options);
+    public static Icon lucideRotate3d(IconOptions options) {
+        return new Icon(INSTANCE::lucideRotate3d, options);
     }
 
-    public static Icon rotateCcwSquare() {
-        return rotateCcwSquare(IconOptions.DEFAULT);
+    public static Icon lucideRotateCcw() {
+        return lucideRotateCcw(IconOptions.DEFAULT);
     }
 
-    public static Icon rotateCcwSquare(IconOptions options) {
-        return new Icon(INSTANCE::rotateCcwSquare, options);
+    public static Icon lucideRotateCcw(IconOptions options) {
+        return new Icon(INSTANCE::lucideRotateCcw, options);
     }
 
-    public static Icon rotateCw() {
-        return rotateCw(IconOptions.DEFAULT);
+    public static Icon lucideRotateCcwClock() {
+        return lucideRotateCcwClock(IconOptions.DEFAULT);
     }
 
-    public static Icon rotateCw(IconOptions options) {
-        return new Icon(INSTANCE::rotateCw, options);
+    public static Icon lucideRotateCcwClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideRotateCcwClock, options);
     }
 
-    public static Icon rotateCwClock() {
-        return rotateCwClock(IconOptions.DEFAULT);
+    public static Icon lucideRotateCcwKey() {
+        return lucideRotateCcwKey(IconOptions.DEFAULT);
     }
 
-    public static Icon rotateCwClock(IconOptions options) {
-        return new Icon(INSTANCE::rotateCwClock, options);
+    public static Icon lucideRotateCcwKey(IconOptions options) {
+        return new Icon(INSTANCE::lucideRotateCcwKey, options);
     }
 
-    public static Icon rotateCwFadingClock() {
-        return rotateCwFadingClock(IconOptions.DEFAULT);
+    public static Icon lucideRotateCcwSquare() {
+        return lucideRotateCcwSquare(IconOptions.DEFAULT);
     }
 
-    public static Icon rotateCwFadingClock(IconOptions options) {
-        return new Icon(INSTANCE::rotateCwFadingClock, options);
+    public static Icon lucideRotateCcwSquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideRotateCcwSquare, options);
     }
 
-    public static Icon rotateCwSquare() {
-        return rotateCwSquare(IconOptions.DEFAULT);
+    public static Icon lucideRotateCw() {
+        return lucideRotateCw(IconOptions.DEFAULT);
     }
 
-    public static Icon rotateCwSquare(IconOptions options) {
-        return new Icon(INSTANCE::rotateCwSquare, options);
+    public static Icon lucideRotateCw(IconOptions options) {
+        return new Icon(INSTANCE::lucideRotateCw, options);
     }
 
-    public static Icon route() {
-        return route(IconOptions.DEFAULT);
+    public static Icon lucideRotateCwClock() {
+        return lucideRotateCwClock(IconOptions.DEFAULT);
     }
 
-    public static Icon route(IconOptions options) {
-        return new Icon(INSTANCE::route, options);
+    public static Icon lucideRotateCwClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideRotateCwClock, options);
     }
 
-    public static Icon routeOff() {
-        return routeOff(IconOptions.DEFAULT);
+    public static Icon lucideRotateCwFadingClock() {
+        return lucideRotateCwFadingClock(IconOptions.DEFAULT);
     }
 
-    public static Icon routeOff(IconOptions options) {
-        return new Icon(INSTANCE::routeOff, options);
+    public static Icon lucideRotateCwFadingClock(IconOptions options) {
+        return new Icon(INSTANCE::lucideRotateCwFadingClock, options);
     }
 
-    public static Icon router() {
-        return router(IconOptions.DEFAULT);
+    public static Icon lucideRotateCwSquare() {
+        return lucideRotateCwSquare(IconOptions.DEFAULT);
     }
 
-    public static Icon router(IconOptions options) {
-        return new Icon(INSTANCE::router, options);
+    public static Icon lucideRotateCwSquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideRotateCwSquare, options);
     }
 
-    public static Icon rows2() {
-        return rows2(IconOptions.DEFAULT);
+    public static Icon lucideRoute() {
+        return lucideRoute(IconOptions.DEFAULT);
     }
 
-    public static Icon rows2(IconOptions options) {
-        return new Icon(INSTANCE::rows2, options);
+    public static Icon lucideRoute(IconOptions options) {
+        return new Icon(INSTANCE::lucideRoute, options);
     }
 
-    public static Icon rows3() {
-        return rows3(IconOptions.DEFAULT);
+    public static Icon lucideRouteOff() {
+        return lucideRouteOff(IconOptions.DEFAULT);
     }
 
-    public static Icon rows3(IconOptions options) {
-        return new Icon(INSTANCE::rows3, options);
+    public static Icon lucideRouteOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideRouteOff, options);
     }
 
-    public static Icon rows4() {
-        return rows4(IconOptions.DEFAULT);
+    public static Icon lucideRouter() {
+        return lucideRouter(IconOptions.DEFAULT);
     }
 
-    public static Icon rows4(IconOptions options) {
-        return new Icon(INSTANCE::rows4, options);
+    public static Icon lucideRouter(IconOptions options) {
+        return new Icon(INSTANCE::lucideRouter, options);
     }
 
-    public static Icon rss() {
-        return rss(IconOptions.DEFAULT);
+    public static Icon lucideRows2() {
+        return lucideRows2(IconOptions.DEFAULT);
     }
 
-    public static Icon rss(IconOptions options) {
-        return new Icon(INSTANCE::rss, options);
+    public static Icon lucideRows2(IconOptions options) {
+        return new Icon(INSTANCE::lucideRows2, options);
     }
 
-    public static Icon rugbyBall() {
-        return rugbyBall(IconOptions.DEFAULT);
+    public static Icon lucideRows3() {
+        return lucideRows3(IconOptions.DEFAULT);
     }
 
-    public static Icon rugbyBall(IconOptions options) {
-        return new Icon(INSTANCE::rugbyBall, options);
+    public static Icon lucideRows3(IconOptions options) {
+        return new Icon(INSTANCE::lucideRows3, options);
     }
 
-    public static Icon ruler() {
-        return ruler(IconOptions.DEFAULT);
+    public static Icon lucideRows4() {
+        return lucideRows4(IconOptions.DEFAULT);
     }
 
-    public static Icon ruler(IconOptions options) {
-        return new Icon(INSTANCE::ruler, options);
+    public static Icon lucideRows4(IconOptions options) {
+        return new Icon(INSTANCE::lucideRows4, options);
     }
 
-    public static Icon rulerDimensionLine() {
-        return rulerDimensionLine(IconOptions.DEFAULT);
+    public static Icon lucideRss() {
+        return lucideRss(IconOptions.DEFAULT);
     }
 
-    public static Icon rulerDimensionLine(IconOptions options) {
-        return new Icon(INSTANCE::rulerDimensionLine, options);
+    public static Icon lucideRss(IconOptions options) {
+        return new Icon(INSTANCE::lucideRss, options);
     }
 
-    public static Icon russianRuble() {
-        return russianRuble(IconOptions.DEFAULT);
+    public static Icon lucideRugbyBall() {
+        return lucideRugbyBall(IconOptions.DEFAULT);
     }
 
-    public static Icon russianRuble(IconOptions options) {
-        return new Icon(INSTANCE::russianRuble, options);
+    public static Icon lucideRugbyBall(IconOptions options) {
+        return new Icon(INSTANCE::lucideRugbyBall, options);
     }
 
-    public static Icon sailboat() {
-        return sailboat(IconOptions.DEFAULT);
+    public static Icon lucideRuler() {
+        return lucideRuler(IconOptions.DEFAULT);
     }
 
-    public static Icon sailboat(IconOptions options) {
-        return new Icon(INSTANCE::sailboat, options);
+    public static Icon lucideRuler(IconOptions options) {
+        return new Icon(INSTANCE::lucideRuler, options);
     }
 
-    public static Icon salad() {
-        return salad(IconOptions.DEFAULT);
+    public static Icon lucideRulerDimensionLine() {
+        return lucideRulerDimensionLine(IconOptions.DEFAULT);
     }
 
-    public static Icon salad(IconOptions options) {
-        return new Icon(INSTANCE::salad, options);
+    public static Icon lucideRulerDimensionLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideRulerDimensionLine, options);
     }
 
-    public static Icon sandwich() {
-        return sandwich(IconOptions.DEFAULT);
+    public static Icon lucideRussianRuble() {
+        return lucideRussianRuble(IconOptions.DEFAULT);
     }
 
-    public static Icon sandwich(IconOptions options) {
-        return new Icon(INSTANCE::sandwich, options);
+    public static Icon lucideRussianRuble(IconOptions options) {
+        return new Icon(INSTANCE::lucideRussianRuble, options);
     }
 
-    public static Icon satellite() {
-        return satellite(IconOptions.DEFAULT);
+    public static Icon lucideSailboat() {
+        return lucideSailboat(IconOptions.DEFAULT);
     }
 
-    public static Icon satellite(IconOptions options) {
-        return new Icon(INSTANCE::satellite, options);
+    public static Icon lucideSailboat(IconOptions options) {
+        return new Icon(INSTANCE::lucideSailboat, options);
     }
 
-    public static Icon satelliteDish() {
-        return satelliteDish(IconOptions.DEFAULT);
+    public static Icon lucideSalad() {
+        return lucideSalad(IconOptions.DEFAULT);
     }
 
-    public static Icon satelliteDish(IconOptions options) {
-        return new Icon(INSTANCE::satelliteDish, options);
+    public static Icon lucideSalad(IconOptions options) {
+        return new Icon(INSTANCE::lucideSalad, options);
     }
 
-    public static Icon saudiRiyal() {
-        return saudiRiyal(IconOptions.DEFAULT);
+    public static Icon lucideSandwich() {
+        return lucideSandwich(IconOptions.DEFAULT);
     }
 
-    public static Icon saudiRiyal(IconOptions options) {
-        return new Icon(INSTANCE::saudiRiyal, options);
+    public static Icon lucideSandwich(IconOptions options) {
+        return new Icon(INSTANCE::lucideSandwich, options);
     }
 
-    public static Icon save() {
-        return save(IconOptions.DEFAULT);
+    public static Icon lucideSatellite() {
+        return lucideSatellite(IconOptions.DEFAULT);
     }
 
-    public static Icon save(IconOptions options) {
-        return new Icon(INSTANCE::save, options);
+    public static Icon lucideSatellite(IconOptions options) {
+        return new Icon(INSTANCE::lucideSatellite, options);
     }
 
-    public static Icon saveAll() {
-        return saveAll(IconOptions.DEFAULT);
+    public static Icon lucideSatelliteDish() {
+        return lucideSatelliteDish(IconOptions.DEFAULT);
     }
 
-    public static Icon saveAll(IconOptions options) {
-        return new Icon(INSTANCE::saveAll, options);
+    public static Icon lucideSatelliteDish(IconOptions options) {
+        return new Icon(INSTANCE::lucideSatelliteDish, options);
     }
 
-    public static Icon saveCheck() {
-        return saveCheck(IconOptions.DEFAULT);
+    public static Icon lucideSaudiRiyal() {
+        return lucideSaudiRiyal(IconOptions.DEFAULT);
     }
 
-    public static Icon saveCheck(IconOptions options) {
-        return new Icon(INSTANCE::saveCheck, options);
+    public static Icon lucideSaudiRiyal(IconOptions options) {
+        return new Icon(INSTANCE::lucideSaudiRiyal, options);
     }
 
-    public static Icon saveOff() {
-        return saveOff(IconOptions.DEFAULT);
+    public static Icon lucideSave() {
+        return lucideSave(IconOptions.DEFAULT);
     }
 
-    public static Icon saveOff(IconOptions options) {
-        return new Icon(INSTANCE::saveOff, options);
+    public static Icon lucideSave(IconOptions options) {
+        return new Icon(INSTANCE::lucideSave, options);
     }
 
-    public static Icon savePen() {
-        return savePen(IconOptions.DEFAULT);
+    public static Icon lucideSaveAll() {
+        return lucideSaveAll(IconOptions.DEFAULT);
     }
 
-    public static Icon savePen(IconOptions options) {
-        return new Icon(INSTANCE::savePen, options);
+    public static Icon lucideSaveAll(IconOptions options) {
+        return new Icon(INSTANCE::lucideSaveAll, options);
     }
 
-    public static Icon savePlus() {
-        return savePlus(IconOptions.DEFAULT);
+    public static Icon lucideSaveCheck() {
+        return lucideSaveCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon savePlus(IconOptions options) {
-        return new Icon(INSTANCE::savePlus, options);
+    public static Icon lucideSaveCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideSaveCheck, options);
     }
 
-    public static Icon scale() {
-        return scale(IconOptions.DEFAULT);
+    public static Icon lucideSaveOff() {
+        return lucideSaveOff(IconOptions.DEFAULT);
     }
 
-    public static Icon scale(IconOptions options) {
-        return new Icon(INSTANCE::scale, options);
+    public static Icon lucideSaveOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideSaveOff, options);
     }
 
-    public static Icon scale3d() {
-        return scale3d(IconOptions.DEFAULT);
+    public static Icon lucideSavePen() {
+        return lucideSavePen(IconOptions.DEFAULT);
     }
 
-    public static Icon scale3d(IconOptions options) {
-        return new Icon(INSTANCE::scale3d, options);
+    public static Icon lucideSavePen(IconOptions options) {
+        return new Icon(INSTANCE::lucideSavePen, options);
     }
 
-    public static Icon scaling() {
-        return scaling(IconOptions.DEFAULT);
+    public static Icon lucideSavePlus() {
+        return lucideSavePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon scaling(IconOptions options) {
-        return new Icon(INSTANCE::scaling, options);
+    public static Icon lucideSavePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideSavePlus, options);
     }
 
-    public static Icon scan() {
-        return scan(IconOptions.DEFAULT);
+    public static Icon lucideScale() {
+        return lucideScale(IconOptions.DEFAULT);
     }
 
-    public static Icon scan(IconOptions options) {
-        return new Icon(INSTANCE::scan, options);
+    public static Icon lucideScale(IconOptions options) {
+        return new Icon(INSTANCE::lucideScale, options);
     }
 
-    public static Icon scanBarcode() {
-        return scanBarcode(IconOptions.DEFAULT);
+    public static Icon lucideScale3d() {
+        return lucideScale3d(IconOptions.DEFAULT);
     }
 
-    public static Icon scanBarcode(IconOptions options) {
-        return new Icon(INSTANCE::scanBarcode, options);
+    public static Icon lucideScale3d(IconOptions options) {
+        return new Icon(INSTANCE::lucideScale3d, options);
     }
 
-    public static Icon scanBox() {
-        return scanBox(IconOptions.DEFAULT);
+    public static Icon lucideScaling() {
+        return lucideScaling(IconOptions.DEFAULT);
     }
 
-    public static Icon scanBox(IconOptions options) {
-        return new Icon(INSTANCE::scanBox, options);
+    public static Icon lucideScaling(IconOptions options) {
+        return new Icon(INSTANCE::lucideScaling, options);
     }
 
-    public static Icon scanEye() {
-        return scanEye(IconOptions.DEFAULT);
+    public static Icon lucideScan() {
+        return lucideScan(IconOptions.DEFAULT);
     }
 
-    public static Icon scanEye(IconOptions options) {
-        return new Icon(INSTANCE::scanEye, options);
+    public static Icon lucideScan(IconOptions options) {
+        return new Icon(INSTANCE::lucideScan, options);
     }
 
-    public static Icon scanFace() {
-        return scanFace(IconOptions.DEFAULT);
+    public static Icon lucideScanBarcode() {
+        return lucideScanBarcode(IconOptions.DEFAULT);
     }
 
-    public static Icon scanFace(IconOptions options) {
-        return new Icon(INSTANCE::scanFace, options);
+    public static Icon lucideScanBarcode(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanBarcode, options);
     }
 
-    public static Icon scanHeart() {
-        return scanHeart(IconOptions.DEFAULT);
+    public static Icon lucideScanBox() {
+        return lucideScanBox(IconOptions.DEFAULT);
     }
 
-    public static Icon scanHeart(IconOptions options) {
-        return new Icon(INSTANCE::scanHeart, options);
+    public static Icon lucideScanBox(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanBox, options);
     }
 
-    public static Icon scanLine() {
-        return scanLine(IconOptions.DEFAULT);
+    public static Icon lucideScanEye() {
+        return lucideScanEye(IconOptions.DEFAULT);
     }
 
-    public static Icon scanLine(IconOptions options) {
-        return new Icon(INSTANCE::scanLine, options);
+    public static Icon lucideScanEye(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanEye, options);
     }
 
-    public static Icon scanQrCode() {
-        return scanQrCode(IconOptions.DEFAULT);
+    public static Icon lucideScanFace() {
+        return lucideScanFace(IconOptions.DEFAULT);
     }
 
-    public static Icon scanQrCode(IconOptions options) {
-        return new Icon(INSTANCE::scanQrCode, options);
+    public static Icon lucideScanFace(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanFace, options);
     }
 
-    public static Icon scanSearch() {
-        return scanSearch(IconOptions.DEFAULT);
+    public static Icon lucideScanHeart() {
+        return lucideScanHeart(IconOptions.DEFAULT);
     }
 
-    public static Icon scanSearch(IconOptions options) {
-        return new Icon(INSTANCE::scanSearch, options);
+    public static Icon lucideScanHeart(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanHeart, options);
     }
 
-    public static Icon scanSquare() {
-        return scanSquare(IconOptions.DEFAULT);
+    public static Icon lucideScanLine() {
+        return lucideScanLine(IconOptions.DEFAULT);
     }
 
-    public static Icon scanSquare(IconOptions options) {
-        return new Icon(INSTANCE::scanSquare, options);
+    public static Icon lucideScanLine(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanLine, options);
     }
 
-    public static Icon scanText() {
-        return scanText(IconOptions.DEFAULT);
+    public static Icon lucideScanQrCode() {
+        return lucideScanQrCode(IconOptions.DEFAULT);
     }
 
-    public static Icon scanText(IconOptions options) {
-        return new Icon(INSTANCE::scanText, options);
+    public static Icon lucideScanQrCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanQrCode, options);
     }
 
-    public static Icon school() {
-        return school(IconOptions.DEFAULT);
+    public static Icon lucideScanSearch() {
+        return lucideScanSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon school(IconOptions options) {
-        return new Icon(INSTANCE::school, options);
+    public static Icon lucideScanSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanSearch, options);
     }
 
-    public static Icon scissors() {
-        return scissors(IconOptions.DEFAULT);
+    public static Icon lucideScanSquare() {
+        return lucideScanSquare(IconOptions.DEFAULT);
     }
 
-    public static Icon scissors(IconOptions options) {
-        return new Icon(INSTANCE::scissors, options);
+    public static Icon lucideScanSquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanSquare, options);
     }
 
-    public static Icon scissorsLineDashed() {
-        return scissorsLineDashed(IconOptions.DEFAULT);
+    public static Icon lucideScanText() {
+        return lucideScanText(IconOptions.DEFAULT);
     }
 
-    public static Icon scissorsLineDashed(IconOptions options) {
-        return new Icon(INSTANCE::scissorsLineDashed, options);
+    public static Icon lucideScanText(IconOptions options) {
+        return new Icon(INSTANCE::lucideScanText, options);
     }
 
-    public static Icon scooter() {
-        return scooter(IconOptions.DEFAULT);
+    public static Icon lucideSchool() {
+        return lucideSchool(IconOptions.DEFAULT);
     }
 
-    public static Icon scooter(IconOptions options) {
-        return new Icon(INSTANCE::scooter, options);
+    public static Icon lucideSchool(IconOptions options) {
+        return new Icon(INSTANCE::lucideSchool, options);
     }
 
-    public static Icon scratchBlocks() {
-        return scratchBlocks(IconOptions.DEFAULT);
+    public static Icon lucideScissors() {
+        return lucideScissors(IconOptions.DEFAULT);
     }
 
-    public static Icon scratchBlocks(IconOptions options) {
-        return new Icon(INSTANCE::scratchBlocks, options);
+    public static Icon lucideScissors(IconOptions options) {
+        return new Icon(INSTANCE::lucideScissors, options);
     }
 
-    public static Icon screenShare() {
-        return screenShare(IconOptions.DEFAULT);
+    public static Icon lucideScissorsLineDashed() {
+        return lucideScissorsLineDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon screenShare(IconOptions options) {
-        return new Icon(INSTANCE::screenShare, options);
+    public static Icon lucideScissorsLineDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideScissorsLineDashed, options);
     }
 
-    public static Icon screenShareOff() {
-        return screenShareOff(IconOptions.DEFAULT);
+    public static Icon lucideScooter() {
+        return lucideScooter(IconOptions.DEFAULT);
     }
 
-    public static Icon screenShareOff(IconOptions options) {
-        return new Icon(INSTANCE::screenShareOff, options);
+    public static Icon lucideScooter(IconOptions options) {
+        return new Icon(INSTANCE::lucideScooter, options);
     }
 
-    public static Icon scroll() {
-        return scroll(IconOptions.DEFAULT);
+    public static Icon lucideScratchBlocks() {
+        return lucideScratchBlocks(IconOptions.DEFAULT);
     }
 
-    public static Icon scroll(IconOptions options) {
-        return new Icon(INSTANCE::scroll, options);
+    public static Icon lucideScratchBlocks(IconOptions options) {
+        return new Icon(INSTANCE::lucideScratchBlocks, options);
     }
 
-    public static Icon scrollText() {
-        return scrollText(IconOptions.DEFAULT);
+    public static Icon lucideScreenShare() {
+        return lucideScreenShare(IconOptions.DEFAULT);
     }
 
-    public static Icon scrollText(IconOptions options) {
-        return new Icon(INSTANCE::scrollText, options);
+    public static Icon lucideScreenShare(IconOptions options) {
+        return new Icon(INSTANCE::lucideScreenShare, options);
     }
 
-    public static Icon search() {
-        return search(IconOptions.DEFAULT);
+    public static Icon lucideScreenShareOff() {
+        return lucideScreenShareOff(IconOptions.DEFAULT);
     }
 
-    public static Icon search(IconOptions options) {
-        return new Icon(INSTANCE::search, options);
+    public static Icon lucideScreenShareOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideScreenShareOff, options);
     }
 
-    public static Icon searchAlert() {
-        return searchAlert(IconOptions.DEFAULT);
+    public static Icon lucideScrew() {
+        return lucideScrew(IconOptions.DEFAULT);
     }
 
-    public static Icon searchAlert(IconOptions options) {
-        return new Icon(INSTANCE::searchAlert, options);
+    public static Icon lucideScrew(IconOptions options) {
+        return new Icon(INSTANCE::lucideScrew, options);
     }
 
-    public static Icon searchCheck() {
-        return searchCheck(IconOptions.DEFAULT);
+    public static Icon lucideScroll() {
+        return lucideScroll(IconOptions.DEFAULT);
     }
 
-    public static Icon searchCheck(IconOptions options) {
-        return new Icon(INSTANCE::searchCheck, options);
+    public static Icon lucideScroll(IconOptions options) {
+        return new Icon(INSTANCE::lucideScroll, options);
     }
 
-    public static Icon searchCode() {
-        return searchCode(IconOptions.DEFAULT);
+    public static Icon lucideScrollText() {
+        return lucideScrollText(IconOptions.DEFAULT);
     }
 
-    public static Icon searchCode(IconOptions options) {
-        return new Icon(INSTANCE::searchCode, options);
+    public static Icon lucideScrollText(IconOptions options) {
+        return new Icon(INSTANCE::lucideScrollText, options);
     }
 
-    public static Icon searchSlash() {
-        return searchSlash(IconOptions.DEFAULT);
+    public static Icon lucideSearch() {
+        return lucideSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon searchSlash(IconOptions options) {
-        return new Icon(INSTANCE::searchSlash, options);
+    public static Icon lucideSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideSearch, options);
     }
 
-    public static Icon searchX() {
-        return searchX(IconOptions.DEFAULT);
+    public static Icon lucideSearchAlert() {
+        return lucideSearchAlert(IconOptions.DEFAULT);
     }
 
-    public static Icon searchX(IconOptions options) {
-        return new Icon(INSTANCE::searchX, options);
+    public static Icon lucideSearchAlert(IconOptions options) {
+        return new Icon(INSTANCE::lucideSearchAlert, options);
     }
 
-    public static Icon section() {
-        return section(IconOptions.DEFAULT);
+    public static Icon lucideSearchCheck() {
+        return lucideSearchCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon section(IconOptions options) {
-        return new Icon(INSTANCE::section, options);
+    public static Icon lucideSearchCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideSearchCheck, options);
     }
 
-    public static Icon send() {
-        return send(IconOptions.DEFAULT);
+    public static Icon lucideSearchCode() {
+        return lucideSearchCode(IconOptions.DEFAULT);
     }
 
-    public static Icon send(IconOptions options) {
-        return new Icon(INSTANCE::send, options);
+    public static Icon lucideSearchCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideSearchCode, options);
     }
 
-    public static Icon sendHorizontal() {
-        return sendHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideSearchSlash() {
+        return lucideSearchSlash(IconOptions.DEFAULT);
     }
 
-    public static Icon sendHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::sendHorizontal, options);
+    public static Icon lucideSearchSlash(IconOptions options) {
+        return new Icon(INSTANCE::lucideSearchSlash, options);
     }
 
-    public static Icon sendToBack() {
-        return sendToBack(IconOptions.DEFAULT);
+    public static Icon lucideSearchX() {
+        return lucideSearchX(IconOptions.DEFAULT);
     }
 
-    public static Icon sendToBack(IconOptions options) {
-        return new Icon(INSTANCE::sendToBack, options);
+    public static Icon lucideSearchX(IconOptions options) {
+        return new Icon(INSTANCE::lucideSearchX, options);
     }
 
-    public static Icon separatorHorizontal() {
-        return separatorHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideSection() {
+        return lucideSection(IconOptions.DEFAULT);
     }
 
-    public static Icon separatorHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::separatorHorizontal, options);
+    public static Icon lucideSection(IconOptions options) {
+        return new Icon(INSTANCE::lucideSection, options);
     }
 
-    public static Icon separatorVertical() {
-        return separatorVertical(IconOptions.DEFAULT);
+    public static Icon lucideSend() {
+        return lucideSend(IconOptions.DEFAULT);
     }
 
-    public static Icon separatorVertical(IconOptions options) {
-        return new Icon(INSTANCE::separatorVertical, options);
+    public static Icon lucideSend(IconOptions options) {
+        return new Icon(INSTANCE::lucideSend, options);
     }
 
-    public static Icon server() {
-        return server(IconOptions.DEFAULT);
+    public static Icon lucideSendHorizontal() {
+        return lucideSendHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon server(IconOptions options) {
-        return new Icon(INSTANCE::server, options);
+    public static Icon lucideSendHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideSendHorizontal, options);
     }
 
-    public static Icon serverCog() {
-        return serverCog(IconOptions.DEFAULT);
+    public static Icon lucideSendToBack() {
+        return lucideSendToBack(IconOptions.DEFAULT);
     }
 
-    public static Icon serverCog(IconOptions options) {
-        return new Icon(INSTANCE::serverCog, options);
+    public static Icon lucideSendToBack(IconOptions options) {
+        return new Icon(INSTANCE::lucideSendToBack, options);
     }
 
-    public static Icon serverCrash() {
-        return serverCrash(IconOptions.DEFAULT);
+    public static Icon lucideSeparatorHorizontal() {
+        return lucideSeparatorHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon serverCrash(IconOptions options) {
-        return new Icon(INSTANCE::serverCrash, options);
+    public static Icon lucideSeparatorHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideSeparatorHorizontal, options);
     }
 
-    public static Icon serverOff() {
-        return serverOff(IconOptions.DEFAULT);
+    public static Icon lucideSeparatorVertical() {
+        return lucideSeparatorVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon serverOff(IconOptions options) {
-        return new Icon(INSTANCE::serverOff, options);
+    public static Icon lucideSeparatorVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideSeparatorVertical, options);
     }
 
-    public static Icon serverPlus() {
-        return serverPlus(IconOptions.DEFAULT);
+    public static Icon lucideServer() {
+        return lucideServer(IconOptions.DEFAULT);
     }
 
-    public static Icon serverPlus(IconOptions options) {
-        return new Icon(INSTANCE::serverPlus, options);
+    public static Icon lucideServer(IconOptions options) {
+        return new Icon(INSTANCE::lucideServer, options);
     }
 
-    public static Icon settings() {
-        return settings(IconOptions.DEFAULT);
+    public static Icon lucideServerCog() {
+        return lucideServerCog(IconOptions.DEFAULT);
     }
 
-    public static Icon settings(IconOptions options) {
-        return new Icon(INSTANCE::settings, options);
+    public static Icon lucideServerCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideServerCog, options);
     }
 
-    public static Icon settings2() {
-        return settings2(IconOptions.DEFAULT);
+    public static Icon lucideServerCrash() {
+        return lucideServerCrash(IconOptions.DEFAULT);
     }
 
-    public static Icon settings2(IconOptions options) {
-        return new Icon(INSTANCE::settings2, options);
+    public static Icon lucideServerCrash(IconOptions options) {
+        return new Icon(INSTANCE::lucideServerCrash, options);
     }
 
-    public static Icon shapes() {
-        return shapes(IconOptions.DEFAULT);
+    public static Icon lucideServerOff() {
+        return lucideServerOff(IconOptions.DEFAULT);
     }
 
-    public static Icon shapes(IconOptions options) {
-        return new Icon(INSTANCE::shapes, options);
+    public static Icon lucideServerOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideServerOff, options);
     }
 
-    public static Icon share() {
-        return share(IconOptions.DEFAULT);
+    public static Icon lucideServerPlus() {
+        return lucideServerPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon share(IconOptions options) {
-        return new Icon(INSTANCE::share, options);
+    public static Icon lucideServerPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideServerPlus, options);
     }
 
-    public static Icon share2() {
-        return share2(IconOptions.DEFAULT);
+    public static Icon lucideSettings() {
+        return lucideSettings(IconOptions.DEFAULT);
     }
 
-    public static Icon share2(IconOptions options) {
-        return new Icon(INSTANCE::share2, options);
+    public static Icon lucideSettings(IconOptions options) {
+        return new Icon(INSTANCE::lucideSettings, options);
     }
 
-    public static Icon sheet() {
-        return sheet(IconOptions.DEFAULT);
+    public static Icon lucideSettings2() {
+        return lucideSettings2(IconOptions.DEFAULT);
     }
 
-    public static Icon sheet(IconOptions options) {
-        return new Icon(INSTANCE::sheet, options);
+    public static Icon lucideSettings2(IconOptions options) {
+        return new Icon(INSTANCE::lucideSettings2, options);
     }
 
-    public static Icon shell() {
-        return shell(IconOptions.DEFAULT);
+    public static Icon lucideShapes() {
+        return lucideShapes(IconOptions.DEFAULT);
     }
 
-    public static Icon shell(IconOptions options) {
-        return new Icon(INSTANCE::shell, options);
+    public static Icon lucideShapes(IconOptions options) {
+        return new Icon(INSTANCE::lucideShapes, options);
     }
 
-    public static Icon shelvingUnit() {
-        return shelvingUnit(IconOptions.DEFAULT);
+    public static Icon lucideShare() {
+        return lucideShare(IconOptions.DEFAULT);
     }
 
-    public static Icon shelvingUnit(IconOptions options) {
-        return new Icon(INSTANCE::shelvingUnit, options);
+    public static Icon lucideShare(IconOptions options) {
+        return new Icon(INSTANCE::lucideShare, options);
     }
 
-    public static Icon shield() {
-        return shield(IconOptions.DEFAULT);
+    public static Icon lucideShare2() {
+        return lucideShare2(IconOptions.DEFAULT);
     }
 
-    public static Icon shield(IconOptions options) {
-        return new Icon(INSTANCE::shield, options);
+    public static Icon lucideShare2(IconOptions options) {
+        return new Icon(INSTANCE::lucideShare2, options);
     }
 
-    public static Icon shieldAlert() {
-        return shieldAlert(IconOptions.DEFAULT);
+    public static Icon lucideSheet() {
+        return lucideSheet(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldAlert(IconOptions options) {
-        return new Icon(INSTANCE::shieldAlert, options);
+    public static Icon lucideSheet(IconOptions options) {
+        return new Icon(INSTANCE::lucideSheet, options);
     }
 
-    public static Icon shieldBan() {
-        return shieldBan(IconOptions.DEFAULT);
+    public static Icon lucideShell() {
+        return lucideShell(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldBan(IconOptions options) {
-        return new Icon(INSTANCE::shieldBan, options);
+    public static Icon lucideShell(IconOptions options) {
+        return new Icon(INSTANCE::lucideShell, options);
     }
 
-    public static Icon shieldCheck() {
-        return shieldCheck(IconOptions.DEFAULT);
+    public static Icon lucideShelvingUnit() {
+        return lucideShelvingUnit(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldCheck(IconOptions options) {
-        return new Icon(INSTANCE::shieldCheck, options);
+    public static Icon lucideShelvingUnit(IconOptions options) {
+        return new Icon(INSTANCE::lucideShelvingUnit, options);
     }
 
-    public static Icon shieldCog() {
-        return shieldCog(IconOptions.DEFAULT);
+    public static Icon lucideShield() {
+        return lucideShield(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldCog(IconOptions options) {
-        return new Icon(INSTANCE::shieldCog, options);
+    public static Icon lucideShield(IconOptions options) {
+        return new Icon(INSTANCE::lucideShield, options);
     }
 
-    public static Icon shieldCogCorner() {
-        return shieldCogCorner(IconOptions.DEFAULT);
+    public static Icon lucideShieldAlert() {
+        return lucideShieldAlert(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldCogCorner(IconOptions options) {
-        return new Icon(INSTANCE::shieldCogCorner, options);
+    public static Icon lucideShieldAlert(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldAlert, options);
     }
 
-    public static Icon shieldEllipsis() {
-        return shieldEllipsis(IconOptions.DEFAULT);
+    public static Icon lucideShieldBan() {
+        return lucideShieldBan(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldEllipsis(IconOptions options) {
-        return new Icon(INSTANCE::shieldEllipsis, options);
+    public static Icon lucideShieldBan(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldBan, options);
     }
 
-    public static Icon shieldHalf() {
-        return shieldHalf(IconOptions.DEFAULT);
+    public static Icon lucideShieldCheck() {
+        return lucideShieldCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldHalf(IconOptions options) {
-        return new Icon(INSTANCE::shieldHalf, options);
+    public static Icon lucideShieldCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldCheck, options);
     }
 
-    public static Icon shieldKeyhole() {
-        return shieldKeyhole(IconOptions.DEFAULT);
+    public static Icon lucideShieldCog() {
+        return lucideShieldCog(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldKeyhole(IconOptions options) {
-        return new Icon(INSTANCE::shieldKeyhole, options);
+    public static Icon lucideShieldCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldCog, options);
     }
 
-    public static Icon shieldLock() {
-        return shieldLock(IconOptions.DEFAULT);
+    public static Icon lucideShieldCogCorner() {
+        return lucideShieldCogCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldLock(IconOptions options) {
-        return new Icon(INSTANCE::shieldLock, options);
+    public static Icon lucideShieldCogCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldCogCorner, options);
     }
 
-    public static Icon shieldMinus() {
-        return shieldMinus(IconOptions.DEFAULT);
+    public static Icon lucideShieldEllipsis() {
+        return lucideShieldEllipsis(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldMinus(IconOptions options) {
-        return new Icon(INSTANCE::shieldMinus, options);
+    public static Icon lucideShieldEllipsis(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldEllipsis, options);
     }
 
-    public static Icon shieldOff() {
-        return shieldOff(IconOptions.DEFAULT);
+    public static Icon lucideShieldHalf() {
+        return lucideShieldHalf(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldOff(IconOptions options) {
-        return new Icon(INSTANCE::shieldOff, options);
+    public static Icon lucideShieldHalf(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldHalf, options);
     }
 
-    public static Icon shieldPlus() {
-        return shieldPlus(IconOptions.DEFAULT);
+    public static Icon lucideShieldHouse() {
+        return lucideShieldHouse(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldPlus(IconOptions options) {
-        return new Icon(INSTANCE::shieldPlus, options);
+    public static Icon lucideShieldHouse(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldHouse, options);
     }
 
-    public static Icon shieldQuestionMark() {
-        return shieldQuestionMark(IconOptions.DEFAULT);
+    public static Icon lucideShieldKeyhole() {
+        return lucideShieldKeyhole(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldQuestionMark(IconOptions options) {
-        return new Icon(INSTANCE::shieldQuestionMark, options);
+    public static Icon lucideShieldKeyhole(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldKeyhole, options);
     }
 
-    public static Icon shieldUser() {
-        return shieldUser(IconOptions.DEFAULT);
+    public static Icon lucideShieldLock() {
+        return lucideShieldLock(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldUser(IconOptions options) {
-        return new Icon(INSTANCE::shieldUser, options);
+    public static Icon lucideShieldLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldLock, options);
     }
 
-    public static Icon shieldX() {
-        return shieldX(IconOptions.DEFAULT);
+    public static Icon lucideShieldMinus() {
+        return lucideShieldMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon shieldX(IconOptions options) {
-        return new Icon(INSTANCE::shieldX, options);
+    public static Icon lucideShieldMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldMinus, options);
     }
 
-    public static Icon ship() {
-        return ship(IconOptions.DEFAULT);
+    public static Icon lucideShieldOff() {
+        return lucideShieldOff(IconOptions.DEFAULT);
     }
 
-    public static Icon ship(IconOptions options) {
-        return new Icon(INSTANCE::ship, options);
+    public static Icon lucideShieldOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldOff, options);
     }
 
-    public static Icon shipCargo() {
-        return shipCargo(IconOptions.DEFAULT);
+    public static Icon lucideShieldPlus() {
+        return lucideShieldPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon shipCargo(IconOptions options) {
-        return new Icon(INSTANCE::shipCargo, options);
+    public static Icon lucideShieldPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldPlus, options);
     }
 
-    public static Icon shipWheel() {
-        return shipWheel(IconOptions.DEFAULT);
+    public static Icon lucideShieldQuestionMark() {
+        return lucideShieldQuestionMark(IconOptions.DEFAULT);
     }
 
-    public static Icon shipWheel(IconOptions options) {
-        return new Icon(INSTANCE::shipWheel, options);
+    public static Icon lucideShieldQuestionMark(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldQuestionMark, options);
     }
 
-    public static Icon shirt() {
-        return shirt(IconOptions.DEFAULT);
+    public static Icon lucideShieldUser() {
+        return lucideShieldUser(IconOptions.DEFAULT);
     }
 
-    public static Icon shirt(IconOptions options) {
-        return new Icon(INSTANCE::shirt, options);
+    public static Icon lucideShieldUser(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldUser, options);
     }
 
-    public static Icon shoppingBag() {
-        return shoppingBag(IconOptions.DEFAULT);
+    public static Icon lucideShieldX() {
+        return lucideShieldX(IconOptions.DEFAULT);
     }
 
-    public static Icon shoppingBag(IconOptions options) {
-        return new Icon(INSTANCE::shoppingBag, options);
+    public static Icon lucideShieldX(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldX, options);
     }
 
-    public static Icon shoppingBasket() {
-        return shoppingBasket(IconOptions.DEFAULT);
+    public static Icon lucideShip() {
+        return lucideShip(IconOptions.DEFAULT);
     }
 
-    public static Icon shoppingBasket(IconOptions options) {
-        return new Icon(INSTANCE::shoppingBasket, options);
+    public static Icon lucideShip(IconOptions options) {
+        return new Icon(INSTANCE::lucideShip, options);
     }
 
-    public static Icon shoppingCart() {
-        return shoppingCart(IconOptions.DEFAULT);
+    public static Icon lucideShipCargo() {
+        return lucideShipCargo(IconOptions.DEFAULT);
     }
 
-    public static Icon shoppingCart(IconOptions options) {
-        return new Icon(INSTANCE::shoppingCart, options);
+    public static Icon lucideShipCargo(IconOptions options) {
+        return new Icon(INSTANCE::lucideShipCargo, options);
     }
 
-    public static Icon shoppingCartMinus() {
-        return shoppingCartMinus(IconOptions.DEFAULT);
+    public static Icon lucideShipWheel() {
+        return lucideShipWheel(IconOptions.DEFAULT);
     }
 
-    public static Icon shoppingCartMinus(IconOptions options) {
-        return new Icon(INSTANCE::shoppingCartMinus, options);
+    public static Icon lucideShipWheel(IconOptions options) {
+        return new Icon(INSTANCE::lucideShipWheel, options);
     }
 
-    public static Icon shoppingCartPlus() {
-        return shoppingCartPlus(IconOptions.DEFAULT);
+    public static Icon lucideShirt() {
+        return lucideShirt(IconOptions.DEFAULT);
     }
 
-    public static Icon shoppingCartPlus(IconOptions options) {
-        return new Icon(INSTANCE::shoppingCartPlus, options);
+    public static Icon lucideShirt(IconOptions options) {
+        return new Icon(INSTANCE::lucideShirt, options);
     }
 
-    public static Icon shovel() {
-        return shovel(IconOptions.DEFAULT);
+    public static Icon lucideShoppingBag() {
+        return lucideShoppingBag(IconOptions.DEFAULT);
     }
 
-    public static Icon shovel(IconOptions options) {
-        return new Icon(INSTANCE::shovel, options);
+    public static Icon lucideShoppingBag(IconOptions options) {
+        return new Icon(INSTANCE::lucideShoppingBag, options);
     }
 
-    public static Icon showerHead() {
-        return showerHead(IconOptions.DEFAULT);
+    public static Icon lucideShoppingBasket() {
+        return lucideShoppingBasket(IconOptions.DEFAULT);
     }
 
-    public static Icon showerHead(IconOptions options) {
-        return new Icon(INSTANCE::showerHead, options);
+    public static Icon lucideShoppingBasket(IconOptions options) {
+        return new Icon(INSTANCE::lucideShoppingBasket, options);
     }
 
-    public static Icon shredder() {
-        return shredder(IconOptions.DEFAULT);
+    public static Icon lucideShoppingCart() {
+        return lucideShoppingCart(IconOptions.DEFAULT);
     }
 
-    public static Icon shredder(IconOptions options) {
-        return new Icon(INSTANCE::shredder, options);
+    public static Icon lucideShoppingCart(IconOptions options) {
+        return new Icon(INSTANCE::lucideShoppingCart, options);
     }
 
-    public static Icon shrimp() {
-        return shrimp(IconOptions.DEFAULT);
+    public static Icon lucideShoppingCartMinus() {
+        return lucideShoppingCartMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon shrimp(IconOptions options) {
-        return new Icon(INSTANCE::shrimp, options);
+    public static Icon lucideShoppingCartMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideShoppingCartMinus, options);
     }
 
-    public static Icon shrimpOff() {
-        return shrimpOff(IconOptions.DEFAULT);
+    public static Icon lucideShoppingCartPlus() {
+        return lucideShoppingCartPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon shrimpOff(IconOptions options) {
-        return new Icon(INSTANCE::shrimpOff, options);
+    public static Icon lucideShoppingCartPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideShoppingCartPlus, options);
     }
 
-    public static Icon shrink() {
-        return shrink(IconOptions.DEFAULT);
+    public static Icon lucideShovel() {
+        return lucideShovel(IconOptions.DEFAULT);
     }
 
-    public static Icon shrink(IconOptions options) {
-        return new Icon(INSTANCE::shrink, options);
+    public static Icon lucideShovel(IconOptions options) {
+        return new Icon(INSTANCE::lucideShovel, options);
     }
 
-    public static Icon shrub() {
-        return shrub(IconOptions.DEFAULT);
+    public static Icon lucideShowerHead() {
+        return lucideShowerHead(IconOptions.DEFAULT);
     }
 
-    public static Icon shrub(IconOptions options) {
-        return new Icon(INSTANCE::shrub, options);
+    public static Icon lucideShowerHead(IconOptions options) {
+        return new Icon(INSTANCE::lucideShowerHead, options);
     }
 
-    public static Icon shuffle() {
-        return shuffle(IconOptions.DEFAULT);
+    public static Icon lucideShredder() {
+        return lucideShredder(IconOptions.DEFAULT);
     }
 
-    public static Icon shuffle(IconOptions options) {
-        return new Icon(INSTANCE::shuffle, options);
+    public static Icon lucideShredder(IconOptions options) {
+        return new Icon(INSTANCE::lucideShredder, options);
     }
 
-    public static Icon sigma() {
-        return sigma(IconOptions.DEFAULT);
+    public static Icon lucideShrimp() {
+        return lucideShrimp(IconOptions.DEFAULT);
     }
 
-    public static Icon sigma(IconOptions options) {
-        return new Icon(INSTANCE::sigma, options);
+    public static Icon lucideShrimp(IconOptions options) {
+        return new Icon(INSTANCE::lucideShrimp, options);
     }
 
-    public static Icon signal() {
-        return signal(IconOptions.DEFAULT);
+    public static Icon lucideShrimpOff() {
+        return lucideShrimpOff(IconOptions.DEFAULT);
     }
 
-    public static Icon signal(IconOptions options) {
-        return new Icon(INSTANCE::signal, options);
+    public static Icon lucideShrimpOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideShrimpOff, options);
     }
 
-    public static Icon signalHigh() {
-        return signalHigh(IconOptions.DEFAULT);
+    public static Icon lucideShrink() {
+        return lucideShrink(IconOptions.DEFAULT);
     }
 
-    public static Icon signalHigh(IconOptions options) {
-        return new Icon(INSTANCE::signalHigh, options);
+    public static Icon lucideShrink(IconOptions options) {
+        return new Icon(INSTANCE::lucideShrink, options);
     }
 
-    public static Icon signalLow() {
-        return signalLow(IconOptions.DEFAULT);
+    public static Icon lucideShrub() {
+        return lucideShrub(IconOptions.DEFAULT);
     }
 
-    public static Icon signalLow(IconOptions options) {
-        return new Icon(INSTANCE::signalLow, options);
+    public static Icon lucideShrub(IconOptions options) {
+        return new Icon(INSTANCE::lucideShrub, options);
     }
 
-    public static Icon signalMedium() {
-        return signalMedium(IconOptions.DEFAULT);
+    public static Icon lucideShuffle() {
+        return lucideShuffle(IconOptions.DEFAULT);
     }
 
-    public static Icon signalMedium(IconOptions options) {
-        return new Icon(INSTANCE::signalMedium, options);
+    public static Icon lucideShuffle(IconOptions options) {
+        return new Icon(INSTANCE::lucideShuffle, options);
     }
 
-    public static Icon signalZero() {
-        return signalZero(IconOptions.DEFAULT);
+    public static Icon lucideSigma() {
+        return lucideSigma(IconOptions.DEFAULT);
     }
 
-    public static Icon signalZero(IconOptions options) {
-        return new Icon(INSTANCE::signalZero, options);
+    public static Icon lucideSigma(IconOptions options) {
+        return new Icon(INSTANCE::lucideSigma, options);
     }
 
-    public static Icon signature() {
-        return signature(IconOptions.DEFAULT);
+    public static Icon lucideSignal() {
+        return lucideSignal(IconOptions.DEFAULT);
     }
 
-    public static Icon signature(IconOptions options) {
-        return new Icon(INSTANCE::signature, options);
+    public static Icon lucideSignal(IconOptions options) {
+        return new Icon(INSTANCE::lucideSignal, options);
     }
 
-    public static Icon signpost() {
-        return signpost(IconOptions.DEFAULT);
+    public static Icon lucideSignalHigh() {
+        return lucideSignalHigh(IconOptions.DEFAULT);
     }
 
-    public static Icon signpost(IconOptions options) {
-        return new Icon(INSTANCE::signpost, options);
+    public static Icon lucideSignalHigh(IconOptions options) {
+        return new Icon(INSTANCE::lucideSignalHigh, options);
     }
 
-    public static Icon signpostBig() {
-        return signpostBig(IconOptions.DEFAULT);
+    public static Icon lucideSignalLow() {
+        return lucideSignalLow(IconOptions.DEFAULT);
     }
 
-    public static Icon signpostBig(IconOptions options) {
-        return new Icon(INSTANCE::signpostBig, options);
+    public static Icon lucideSignalLow(IconOptions options) {
+        return new Icon(INSTANCE::lucideSignalLow, options);
     }
 
-    public static Icon siren() {
-        return siren(IconOptions.DEFAULT);
+    public static Icon lucideSignalMedium() {
+        return lucideSignalMedium(IconOptions.DEFAULT);
     }
 
-    public static Icon siren(IconOptions options) {
-        return new Icon(INSTANCE::siren, options);
+    public static Icon lucideSignalMedium(IconOptions options) {
+        return new Icon(INSTANCE::lucideSignalMedium, options);
     }
 
-    public static Icon skipBack() {
-        return skipBack(IconOptions.DEFAULT);
+    public static Icon lucideSignalZero() {
+        return lucideSignalZero(IconOptions.DEFAULT);
     }
 
-    public static Icon skipBack(IconOptions options) {
-        return new Icon(INSTANCE::skipBack, options);
+    public static Icon lucideSignalZero(IconOptions options) {
+        return new Icon(INSTANCE::lucideSignalZero, options);
     }
 
-    public static Icon skipForward() {
-        return skipForward(IconOptions.DEFAULT);
+    public static Icon lucideSignature() {
+        return lucideSignature(IconOptions.DEFAULT);
     }
 
-    public static Icon skipForward(IconOptions options) {
-        return new Icon(INSTANCE::skipForward, options);
+    public static Icon lucideSignature(IconOptions options) {
+        return new Icon(INSTANCE::lucideSignature, options);
     }
 
-    public static Icon skull() {
-        return skull(IconOptions.DEFAULT);
+    public static Icon lucideSignpost() {
+        return lucideSignpost(IconOptions.DEFAULT);
     }
 
-    public static Icon skull(IconOptions options) {
-        return new Icon(INSTANCE::skull, options);
+    public static Icon lucideSignpost(IconOptions options) {
+        return new Icon(INSTANCE::lucideSignpost, options);
     }
 
-    public static Icon slash() {
-        return slash(IconOptions.DEFAULT);
+    public static Icon lucideSignpostBig() {
+        return lucideSignpostBig(IconOptions.DEFAULT);
     }
 
-    public static Icon slash(IconOptions options) {
-        return new Icon(INSTANCE::slash, options);
+    public static Icon lucideSignpostBig(IconOptions options) {
+        return new Icon(INSTANCE::lucideSignpostBig, options);
     }
 
-    public static Icon slice() {
-        return slice(IconOptions.DEFAULT);
+    public static Icon lucideSiren() {
+        return lucideSiren(IconOptions.DEFAULT);
     }
 
-    public static Icon slice(IconOptions options) {
-        return new Icon(INSTANCE::slice, options);
+    public static Icon lucideSiren(IconOptions options) {
+        return new Icon(INSTANCE::lucideSiren, options);
     }
 
-    public static Icon slidersHorizontal() {
-        return slidersHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideSkipBack() {
+        return lucideSkipBack(IconOptions.DEFAULT);
     }
 
-    public static Icon slidersHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::slidersHorizontal, options);
+    public static Icon lucideSkipBack(IconOptions options) {
+        return new Icon(INSTANCE::lucideSkipBack, options);
     }
 
-    public static Icon slidersVertical() {
-        return slidersVertical(IconOptions.DEFAULT);
+    public static Icon lucideSkipForward() {
+        return lucideSkipForward(IconOptions.DEFAULT);
     }
 
-    public static Icon slidersVertical(IconOptions options) {
-        return new Icon(INSTANCE::slidersVertical, options);
+    public static Icon lucideSkipForward(IconOptions options) {
+        return new Icon(INSTANCE::lucideSkipForward, options);
     }
 
-    public static Icon smartphone() {
-        return smartphone(IconOptions.DEFAULT);
+    public static Icon lucideSkull() {
+        return lucideSkull(IconOptions.DEFAULT);
     }
 
-    public static Icon smartphone(IconOptions options) {
-        return new Icon(INSTANCE::smartphone, options);
+    public static Icon lucideSkull(IconOptions options) {
+        return new Icon(INSTANCE::lucideSkull, options);
     }
 
-    public static Icon smartphoneCharging() {
-        return smartphoneCharging(IconOptions.DEFAULT);
+    public static Icon lucideSlash() {
+        return lucideSlash(IconOptions.DEFAULT);
     }
 
-    public static Icon smartphoneCharging(IconOptions options) {
-        return new Icon(INSTANCE::smartphoneCharging, options);
+    public static Icon lucideSlash(IconOptions options) {
+        return new Icon(INSTANCE::lucideSlash, options);
     }
 
-    public static Icon smartphoneNfc() {
-        return smartphoneNfc(IconOptions.DEFAULT);
+    public static Icon lucideSlice() {
+        return lucideSlice(IconOptions.DEFAULT);
     }
 
-    public static Icon smartphoneNfc(IconOptions options) {
-        return new Icon(INSTANCE::smartphoneNfc, options);
+    public static Icon lucideSlice(IconOptions options) {
+        return new Icon(INSTANCE::lucideSlice, options);
     }
 
-    public static Icon snail() {
-        return snail(IconOptions.DEFAULT);
+    public static Icon lucideSlidersHorizontal() {
+        return lucideSlidersHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon snail(IconOptions options) {
-        return new Icon(INSTANCE::snail, options);
+    public static Icon lucideSlidersHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideSlidersHorizontal, options);
     }
 
-    public static Icon snowflake() {
-        return snowflake(IconOptions.DEFAULT);
+    public static Icon lucideSlidersVertical() {
+        return lucideSlidersVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon snowflake(IconOptions options) {
-        return new Icon(INSTANCE::snowflake, options);
+    public static Icon lucideSlidersVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideSlidersVertical, options);
     }
 
-    public static Icon soapDispenserDroplet() {
-        return soapDispenserDroplet(IconOptions.DEFAULT);
+    public static Icon lucideSmartphone() {
+        return lucideSmartphone(IconOptions.DEFAULT);
     }
 
-    public static Icon soapDispenserDroplet(IconOptions options) {
-        return new Icon(INSTANCE::soapDispenserDroplet, options);
+    public static Icon lucideSmartphone(IconOptions options) {
+        return new Icon(INSTANCE::lucideSmartphone, options);
     }
 
-    public static Icon sofa() {
-        return sofa(IconOptions.DEFAULT);
+    public static Icon lucideSmartphoneCharging() {
+        return lucideSmartphoneCharging(IconOptions.DEFAULT);
     }
 
-    public static Icon sofa(IconOptions options) {
-        return new Icon(INSTANCE::sofa, options);
+    public static Icon lucideSmartphoneCharging(IconOptions options) {
+        return new Icon(INSTANCE::lucideSmartphoneCharging, options);
     }
 
-    public static Icon solarPanel() {
-        return solarPanel(IconOptions.DEFAULT);
+    public static Icon lucideSmartphoneNfc() {
+        return lucideSmartphoneNfc(IconOptions.DEFAULT);
     }
 
-    public static Icon solarPanel(IconOptions options) {
-        return new Icon(INSTANCE::solarPanel, options);
+    public static Icon lucideSmartphoneNfc(IconOptions options) {
+        return new Icon(INSTANCE::lucideSmartphoneNfc, options);
     }
 
-    public static Icon soup() {
-        return soup(IconOptions.DEFAULT);
+    public static Icon lucideSnail() {
+        return lucideSnail(IconOptions.DEFAULT);
     }
 
-    public static Icon soup(IconOptions options) {
-        return new Icon(INSTANCE::soup, options);
+    public static Icon lucideSnail(IconOptions options) {
+        return new Icon(INSTANCE::lucideSnail, options);
     }
 
-    public static Icon space() {
-        return space(IconOptions.DEFAULT);
+    public static Icon lucideSnowflake() {
+        return lucideSnowflake(IconOptions.DEFAULT);
     }
 
-    public static Icon space(IconOptions options) {
-        return new Icon(INSTANCE::space, options);
+    public static Icon lucideSnowflake(IconOptions options) {
+        return new Icon(INSTANCE::lucideSnowflake, options);
     }
 
-    public static Icon spade() {
-        return spade(IconOptions.DEFAULT);
+    public static Icon lucideSoapDispenserDroplet() {
+        return lucideSoapDispenserDroplet(IconOptions.DEFAULT);
     }
 
-    public static Icon spade(IconOptions options) {
-        return new Icon(INSTANCE::spade, options);
+    public static Icon lucideSoapDispenserDroplet(IconOptions options) {
+        return new Icon(INSTANCE::lucideSoapDispenserDroplet, options);
     }
 
-    public static Icon sparkle() {
-        return sparkle(IconOptions.DEFAULT);
+    public static Icon lucideSofa() {
+        return lucideSofa(IconOptions.DEFAULT);
     }
 
-    public static Icon sparkle(IconOptions options) {
-        return new Icon(INSTANCE::sparkle, options);
+    public static Icon lucideSofa(IconOptions options) {
+        return new Icon(INSTANCE::lucideSofa, options);
     }
 
-    public static Icon sparkles() {
-        return sparkles(IconOptions.DEFAULT);
+    public static Icon lucideSolarPanel() {
+        return lucideSolarPanel(IconOptions.DEFAULT);
     }
 
-    public static Icon sparkles(IconOptions options) {
-        return new Icon(INSTANCE::sparkles, options);
+    public static Icon lucideSolarPanel(IconOptions options) {
+        return new Icon(INSTANCE::lucideSolarPanel, options);
     }
 
-    public static Icon speaker() {
-        return speaker(IconOptions.DEFAULT);
+    public static Icon lucideSoup() {
+        return lucideSoup(IconOptions.DEFAULT);
     }
 
-    public static Icon speaker(IconOptions options) {
-        return new Icon(INSTANCE::speaker, options);
+    public static Icon lucideSoup(IconOptions options) {
+        return new Icon(INSTANCE::lucideSoup, options);
     }
 
-    public static Icon speech() {
-        return speech(IconOptions.DEFAULT);
+    public static Icon lucideSpace() {
+        return lucideSpace(IconOptions.DEFAULT);
     }
 
-    public static Icon speech(IconOptions options) {
-        return new Icon(INSTANCE::speech, options);
+    public static Icon lucideSpace(IconOptions options) {
+        return new Icon(INSTANCE::lucideSpace, options);
     }
 
-    public static Icon spellCheck() {
-        return spellCheck(IconOptions.DEFAULT);
+    public static Icon lucideSpade() {
+        return lucideSpade(IconOptions.DEFAULT);
     }
 
-    public static Icon spellCheck(IconOptions options) {
-        return new Icon(INSTANCE::spellCheck, options);
+    public static Icon lucideSpade(IconOptions options) {
+        return new Icon(INSTANCE::lucideSpade, options);
     }
 
-    public static Icon spellCheck2() {
-        return spellCheck2(IconOptions.DEFAULT);
+    public static Icon lucideSparkle() {
+        return lucideSparkle(IconOptions.DEFAULT);
     }
 
-    public static Icon spellCheck2(IconOptions options) {
-        return new Icon(INSTANCE::spellCheck2, options);
+    public static Icon lucideSparkle(IconOptions options) {
+        return new Icon(INSTANCE::lucideSparkle, options);
     }
 
-    public static Icon spline() {
-        return spline(IconOptions.DEFAULT);
+    public static Icon lucideSparkles() {
+        return lucideSparkles(IconOptions.DEFAULT);
     }
 
-    public static Icon spline(IconOptions options) {
-        return new Icon(INSTANCE::spline, options);
+    public static Icon lucideSparkles(IconOptions options) {
+        return new Icon(INSTANCE::lucideSparkles, options);
     }
 
-    public static Icon splinePointer() {
-        return splinePointer(IconOptions.DEFAULT);
+    public static Icon lucideSpeaker() {
+        return lucideSpeaker(IconOptions.DEFAULT);
     }
 
-    public static Icon splinePointer(IconOptions options) {
-        return new Icon(INSTANCE::splinePointer, options);
+    public static Icon lucideSpeaker(IconOptions options) {
+        return new Icon(INSTANCE::lucideSpeaker, options);
     }
 
-    public static Icon split() {
-        return split(IconOptions.DEFAULT);
+    public static Icon lucideSpeech() {
+        return lucideSpeech(IconOptions.DEFAULT);
     }
 
-    public static Icon split(IconOptions options) {
-        return new Icon(INSTANCE::split, options);
+    public static Icon lucideSpeech(IconOptions options) {
+        return new Icon(INSTANCE::lucideSpeech, options);
     }
 
-    public static Icon spool() {
-        return spool(IconOptions.DEFAULT);
+    public static Icon lucideSpellCheck() {
+        return lucideSpellCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon spool(IconOptions options) {
-        return new Icon(INSTANCE::spool, options);
+    public static Icon lucideSpellCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideSpellCheck, options);
     }
 
-    public static Icon sportShoe() {
-        return sportShoe(IconOptions.DEFAULT);
+    public static Icon lucideSpellCheck2() {
+        return lucideSpellCheck2(IconOptions.DEFAULT);
     }
 
-    public static Icon sportShoe(IconOptions options) {
-        return new Icon(INSTANCE::sportShoe, options);
+    public static Icon lucideSpellCheck2(IconOptions options) {
+        return new Icon(INSTANCE::lucideSpellCheck2, options);
     }
 
-    public static Icon spotlight() {
-        return spotlight(IconOptions.DEFAULT);
+    public static Icon lucideSpline() {
+        return lucideSpline(IconOptions.DEFAULT);
     }
 
-    public static Icon spotlight(IconOptions options) {
-        return new Icon(INSTANCE::spotlight, options);
+    public static Icon lucideSpline(IconOptions options) {
+        return new Icon(INSTANCE::lucideSpline, options);
     }
 
-    public static Icon sprayCan() {
-        return sprayCan(IconOptions.DEFAULT);
+    public static Icon lucideSplinePointer() {
+        return lucideSplinePointer(IconOptions.DEFAULT);
     }
 
-    public static Icon sprayCan(IconOptions options) {
-        return new Icon(INSTANCE::sprayCan, options);
+    public static Icon lucideSplinePointer(IconOptions options) {
+        return new Icon(INSTANCE::lucideSplinePointer, options);
     }
 
-    public static Icon sprout() {
-        return sprout(IconOptions.DEFAULT);
+    public static Icon lucideSplit() {
+        return lucideSplit(IconOptions.DEFAULT);
     }
 
-    public static Icon sprout(IconOptions options) {
-        return new Icon(INSTANCE::sprout, options);
+    public static Icon lucideSplit(IconOptions options) {
+        return new Icon(INSTANCE::lucideSplit, options);
     }
 
-    public static Icon square() {
-        return square(IconOptions.DEFAULT);
+    public static Icon lucideSpool() {
+        return lucideSpool(IconOptions.DEFAULT);
     }
 
-    public static Icon square(IconOptions options) {
-        return new Icon(INSTANCE::square, options);
+    public static Icon lucideSpool(IconOptions options) {
+        return new Icon(INSTANCE::lucideSpool, options);
     }
 
-    public static Icon squareActivity() {
-        return squareActivity(IconOptions.DEFAULT);
+    public static Icon lucideSportShoe() {
+        return lucideSportShoe(IconOptions.DEFAULT);
     }
 
-    public static Icon squareActivity(IconOptions options) {
-        return new Icon(INSTANCE::squareActivity, options);
+    public static Icon lucideSportShoe(IconOptions options) {
+        return new Icon(INSTANCE::lucideSportShoe, options);
     }
 
-    public static Icon squareArrowDown() {
-        return squareArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideSpotlight() {
+        return lucideSpotlight(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowDown, options);
+    public static Icon lucideSpotlight(IconOptions options) {
+        return new Icon(INSTANCE::lucideSpotlight, options);
     }
 
-    public static Icon squareArrowDownLeft() {
-        return squareArrowDownLeft(IconOptions.DEFAULT);
+    public static Icon lucideSprayCan() {
+        return lucideSprayCan(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowDownLeft(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowDownLeft, options);
+    public static Icon lucideSprayCan(IconOptions options) {
+        return new Icon(INSTANCE::lucideSprayCan, options);
     }
 
-    public static Icon squareArrowDownRight() {
-        return squareArrowDownRight(IconOptions.DEFAULT);
+    public static Icon lucideSprout() {
+        return lucideSprout(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowDownRight(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowDownRight, options);
+    public static Icon lucideSprout(IconOptions options) {
+        return new Icon(INSTANCE::lucideSprout, options);
     }
 
-    public static Icon squareArrowLeft() {
-        return squareArrowLeft(IconOptions.DEFAULT);
+    public static Icon lucideSquare() {
+        return lucideSquare(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowLeft(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowLeft, options);
+    public static Icon lucideSquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquare, options);
     }
 
-    public static Icon squareArrowOutDownLeft() {
-        return squareArrowOutDownLeft(IconOptions.DEFAULT);
+    public static Icon lucideSquareActivity() {
+        return lucideSquareActivity(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowOutDownLeft(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowOutDownLeft, options);
+    public static Icon lucideSquareActivity(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareActivity, options);
     }
 
-    public static Icon squareArrowOutDownRight() {
-        return squareArrowOutDownRight(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowDown() {
+        return lucideSquareArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowOutDownRight(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowOutDownRight, options);
+    public static Icon lucideSquareArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowDown, options);
     }
 
-    public static Icon squareArrowOutUpLeft() {
-        return squareArrowOutUpLeft(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowDownLeft() {
+        return lucideSquareArrowDownLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowOutUpLeft(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowOutUpLeft, options);
+    public static Icon lucideSquareArrowDownLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowDownLeft, options);
     }
 
-    public static Icon squareArrowOutUpRight() {
-        return squareArrowOutUpRight(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowDownRight() {
+        return lucideSquareArrowDownRight(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowOutUpRight(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowOutUpRight, options);
+    public static Icon lucideSquareArrowDownRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowDownRight, options);
     }
 
-    public static Icon squareArrowRight() {
-        return squareArrowRight(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowLeft() {
+        return lucideSquareArrowLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowRight(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowRight, options);
+    public static Icon lucideSquareArrowLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowLeft, options);
     }
 
-    public static Icon squareArrowRightEnter() {
-        return squareArrowRightEnter(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowOutDownLeft() {
+        return lucideSquareArrowOutDownLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowRightEnter(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowRightEnter, options);
+    public static Icon lucideSquareArrowOutDownLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowOutDownLeft, options);
     }
 
-    public static Icon squareArrowRightExit() {
-        return squareArrowRightExit(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowOutDownRight() {
+        return lucideSquareArrowOutDownRight(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowRightExit(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowRightExit, options);
+    public static Icon lucideSquareArrowOutDownRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowOutDownRight, options);
     }
 
-    public static Icon squareArrowUp() {
-        return squareArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowOutUpLeft() {
+        return lucideSquareArrowOutUpLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowUp, options);
+    public static Icon lucideSquareArrowOutUpLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowOutUpLeft, options);
     }
 
-    public static Icon squareArrowUpLeft() {
-        return squareArrowUpLeft(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowOutUpRight() {
+        return lucideSquareArrowOutUpRight(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowUpLeft(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowUpLeft, options);
+    public static Icon lucideSquareArrowOutUpRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowOutUpRight, options);
     }
 
-    public static Icon squareArrowUpRight() {
-        return squareArrowUpRight(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowRight() {
+        return lucideSquareArrowRight(IconOptions.DEFAULT);
     }
 
-    public static Icon squareArrowUpRight(IconOptions options) {
-        return new Icon(INSTANCE::squareArrowUpRight, options);
+    public static Icon lucideSquareArrowRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowRight, options);
     }
 
-    public static Icon squareAsterisk() {
-        return squareAsterisk(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowRightEnter() {
+        return lucideSquareArrowRightEnter(IconOptions.DEFAULT);
     }
 
-    public static Icon squareAsterisk(IconOptions options) {
-        return new Icon(INSTANCE::squareAsterisk, options);
+    public static Icon lucideSquareArrowRightEnter(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowRightEnter, options);
     }
 
-    public static Icon squareBookmark() {
-        return squareBookmark(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowRightExit() {
+        return lucideSquareArrowRightExit(IconOptions.DEFAULT);
     }
 
-    public static Icon squareBookmark(IconOptions options) {
-        return new Icon(INSTANCE::squareBookmark, options);
+    public static Icon lucideSquareArrowRightExit(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowRightExit, options);
     }
 
-    public static Icon squareBottomDashedScissors() {
-        return squareBottomDashedScissors(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowUp() {
+        return lucideSquareArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon squareBottomDashedScissors(IconOptions options) {
-        return new Icon(INSTANCE::squareBottomDashedScissors, options);
+    public static Icon lucideSquareArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowUp, options);
     }
 
-    public static Icon squareCenterlineDashedHorizontal() {
-        return squareCenterlineDashedHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowUpLeft() {
+        return lucideSquareArrowUpLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon squareCenterlineDashedHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::squareCenterlineDashedHorizontal, options);
+    public static Icon lucideSquareArrowUpLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowUpLeft, options);
     }
 
-    public static Icon squareCenterlineDashedVertical() {
-        return squareCenterlineDashedVertical(IconOptions.DEFAULT);
+    public static Icon lucideSquareArrowUpRight() {
+        return lucideSquareArrowUpRight(IconOptions.DEFAULT);
     }
 
-    public static Icon squareCenterlineDashedVertical(IconOptions options) {
-        return new Icon(INSTANCE::squareCenterlineDashedVertical, options);
+    public static Icon lucideSquareArrowUpRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareArrowUpRight, options);
     }
 
-    public static Icon squareChartGantt() {
-        return squareChartGantt(IconOptions.DEFAULT);
+    public static Icon lucideSquareAsterisk() {
+        return lucideSquareAsterisk(IconOptions.DEFAULT);
     }
 
-    public static Icon squareChartGantt(IconOptions options) {
-        return new Icon(INSTANCE::squareChartGantt, options);
+    public static Icon lucideSquareAsterisk(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareAsterisk, options);
     }
 
-    public static Icon squareCheck() {
-        return squareCheck(IconOptions.DEFAULT);
+    public static Icon lucideSquareBookmark() {
+        return lucideSquareBookmark(IconOptions.DEFAULT);
     }
 
-    public static Icon squareCheck(IconOptions options) {
-        return new Icon(INSTANCE::squareCheck, options);
+    public static Icon lucideSquareBookmark(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareBookmark, options);
     }
 
-    public static Icon squareCheckBig() {
-        return squareCheckBig(IconOptions.DEFAULT);
+    public static Icon lucideSquareBottomDashedScissors() {
+        return lucideSquareBottomDashedScissors(IconOptions.DEFAULT);
     }
 
-    public static Icon squareCheckBig(IconOptions options) {
-        return new Icon(INSTANCE::squareCheckBig, options);
+    public static Icon lucideSquareBottomDashedScissors(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareBottomDashedScissors, options);
     }
 
-    public static Icon squareChevronDown() {
-        return squareChevronDown(IconOptions.DEFAULT);
+    public static Icon lucideSquareCenterlineDashedHorizontal() {
+        return lucideSquareCenterlineDashedHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon squareChevronDown(IconOptions options) {
-        return new Icon(INSTANCE::squareChevronDown, options);
+    public static Icon lucideSquareCenterlineDashedHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareCenterlineDashedHorizontal, options);
     }
 
-    public static Icon squareChevronLeft() {
-        return squareChevronLeft(IconOptions.DEFAULT);
+    public static Icon lucideSquareCenterlineDashedVertical() {
+        return lucideSquareCenterlineDashedVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon squareChevronLeft(IconOptions options) {
-        return new Icon(INSTANCE::squareChevronLeft, options);
+    public static Icon lucideSquareCenterlineDashedVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareCenterlineDashedVertical, options);
     }
 
-    public static Icon squareChevronRight() {
-        return squareChevronRight(IconOptions.DEFAULT);
+    public static Icon lucideSquareChartGantt() {
+        return lucideSquareChartGantt(IconOptions.DEFAULT);
     }
 
-    public static Icon squareChevronRight(IconOptions options) {
-        return new Icon(INSTANCE::squareChevronRight, options);
+    public static Icon lucideSquareChartGantt(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareChartGantt, options);
     }
 
-    public static Icon squareChevronUp() {
-        return squareChevronUp(IconOptions.DEFAULT);
+    public static Icon lucideSquareCheck() {
+        return lucideSquareCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon squareChevronUp(IconOptions options) {
-        return new Icon(INSTANCE::squareChevronUp, options);
+    public static Icon lucideSquareCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareCheck, options);
     }
 
-    public static Icon squareCode() {
-        return squareCode(IconOptions.DEFAULT);
+    public static Icon lucideSquareCheckBig() {
+        return lucideSquareCheckBig(IconOptions.DEFAULT);
     }
 
-    public static Icon squareCode(IconOptions options) {
-        return new Icon(INSTANCE::squareCode, options);
+    public static Icon lucideSquareCheckBig(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareCheckBig, options);
     }
 
-    public static Icon squareDashed() {
-        return squareDashed(IconOptions.DEFAULT);
+    public static Icon lucideSquareChevronDown() {
+        return lucideSquareChevronDown(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashed(IconOptions options) {
-        return new Icon(INSTANCE::squareDashed, options);
+    public static Icon lucideSquareChevronDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareChevronDown, options);
     }
 
-    public static Icon squareDashedBottom() {
-        return squareDashedBottom(IconOptions.DEFAULT);
+    public static Icon lucideSquareChevronLeft() {
+        return lucideSquareChevronLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashedBottom(IconOptions options) {
-        return new Icon(INSTANCE::squareDashedBottom, options);
+    public static Icon lucideSquareChevronLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareChevronLeft, options);
     }
 
-    public static Icon squareDashedBottomCode() {
-        return squareDashedBottomCode(IconOptions.DEFAULT);
+    public static Icon lucideSquareChevronRight() {
+        return lucideSquareChevronRight(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashedBottomCode(IconOptions options) {
-        return new Icon(INSTANCE::squareDashedBottomCode, options);
+    public static Icon lucideSquareChevronRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareChevronRight, options);
     }
 
-    public static Icon squareDashedKanban() {
-        return squareDashedKanban(IconOptions.DEFAULT);
+    public static Icon lucideSquareChevronUp() {
+        return lucideSquareChevronUp(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashedKanban(IconOptions options) {
-        return new Icon(INSTANCE::squareDashedKanban, options);
+    public static Icon lucideSquareChevronUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareChevronUp, options);
     }
 
-    public static Icon squareDashedMousePointer() {
-        return squareDashedMousePointer(IconOptions.DEFAULT);
+    public static Icon lucideSquareCode() {
+        return lucideSquareCode(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashedMousePointer(IconOptions options) {
-        return new Icon(INSTANCE::squareDashedMousePointer, options);
+    public static Icon lucideSquareCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareCode, options);
     }
 
-    public static Icon squareDashedPlus() {
-        return squareDashedPlus(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashed() {
+        return lucideSquareDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashedPlus(IconOptions options) {
-        return new Icon(INSTANCE::squareDashedPlus, options);
+    public static Icon lucideSquareDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashed, options);
     }
 
-    public static Icon squareDashedText() {
-        return squareDashedText(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashedBottom() {
+        return lucideSquareDashedBottom(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashedText(IconOptions options) {
-        return new Icon(INSTANCE::squareDashedText, options);
+    public static Icon lucideSquareDashedBottom(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedBottom, options);
     }
 
-    public static Icon squareDashedTopSolid() {
-        return squareDashedTopSolid(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashedBottomCode() {
+        return lucideSquareDashedBottomCode(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashedTopSolid(IconOptions options) {
-        return new Icon(INSTANCE::squareDashedTopSolid, options);
+    public static Icon lucideSquareDashedBottomCode(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedBottomCode, options);
     }
 
-    public static Icon squareDashedX() {
-        return squareDashedX(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashedKanban() {
+        return lucideSquareDashedKanban(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashedX(IconOptions options) {
-        return new Icon(INSTANCE::squareDashedX, options);
+    public static Icon lucideSquareDashedKanban(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedKanban, options);
     }
 
-    public static Icon squareDashedXCorner() {
-        return squareDashedXCorner(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashedMousePointer() {
+        return lucideSquareDashedMousePointer(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDashedXCorner(IconOptions options) {
-        return new Icon(INSTANCE::squareDashedXCorner, options);
+    public static Icon lucideSquareDashedMousePointer(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedMousePointer, options);
     }
 
-    public static Icon squareDimensions() {
-        return squareDimensions(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashedPlus() {
+        return lucideSquareDashedPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDimensions(IconOptions options) {
-        return new Icon(INSTANCE::squareDimensions, options);
+    public static Icon lucideSquareDashedPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedPlus, options);
     }
 
-    public static Icon squareDivide() {
-        return squareDivide(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashedText() {
+        return lucideSquareDashedText(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDivide(IconOptions options) {
-        return new Icon(INSTANCE::squareDivide, options);
+    public static Icon lucideSquareDashedText(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedText, options);
     }
 
-    public static Icon squareDot() {
-        return squareDot(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashedTopSolid() {
+        return lucideSquareDashedTopSolid(IconOptions.DEFAULT);
     }
 
-    public static Icon squareDot(IconOptions options) {
-        return new Icon(INSTANCE::squareDot, options);
+    public static Icon lucideSquareDashedTopSolid(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedTopSolid, options);
     }
 
-    public static Icon squareEqual() {
-        return squareEqual(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashedX() {
+        return lucideSquareDashedX(IconOptions.DEFAULT);
     }
 
-    public static Icon squareEqual(IconOptions options) {
-        return new Icon(INSTANCE::squareEqual, options);
+    public static Icon lucideSquareDashedX(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedX, options);
     }
 
-    public static Icon squareExclamationPoint() {
-        return squareExclamationPoint(IconOptions.DEFAULT);
+    public static Icon lucideSquareDashedXCorner() {
+        return lucideSquareDashedXCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon squareExclamationPoint(IconOptions options) {
-        return new Icon(INSTANCE::squareExclamationPoint, options);
+    public static Icon lucideSquareDashedXCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedXCorner, options);
     }
 
-    public static Icon squareFunction() {
-        return squareFunction(IconOptions.DEFAULT);
+    public static Icon lucideSquareDimensions() {
+        return lucideSquareDimensions(IconOptions.DEFAULT);
     }
 
-    public static Icon squareFunction(IconOptions options) {
-        return new Icon(INSTANCE::squareFunction, options);
+    public static Icon lucideSquareDimensions(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDimensions, options);
     }
 
-    public static Icon squareKanban() {
-        return squareKanban(IconOptions.DEFAULT);
+    public static Icon lucideSquareDivide() {
+        return lucideSquareDivide(IconOptions.DEFAULT);
     }
 
-    public static Icon squareKanban(IconOptions options) {
-        return new Icon(INSTANCE::squareKanban, options);
+    public static Icon lucideSquareDivide(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDivide, options);
     }
 
-    public static Icon squareLibrary() {
-        return squareLibrary(IconOptions.DEFAULT);
+    public static Icon lucideSquareDot() {
+        return lucideSquareDot(IconOptions.DEFAULT);
     }
 
-    public static Icon squareLibrary(IconOptions options) {
-        return new Icon(INSTANCE::squareLibrary, options);
+    public static Icon lucideSquareDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDot, options);
     }
 
-    public static Icon squareM() {
-        return squareM(IconOptions.DEFAULT);
+    public static Icon lucideSquareEqual() {
+        return lucideSquareEqual(IconOptions.DEFAULT);
     }
 
-    public static Icon squareM(IconOptions options) {
-        return new Icon(INSTANCE::squareM, options);
+    public static Icon lucideSquareEqual(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareEqual, options);
     }
 
-    public static Icon squareMenu() {
-        return squareMenu(IconOptions.DEFAULT);
+    public static Icon lucideSquareExclamationPoint() {
+        return lucideSquareExclamationPoint(IconOptions.DEFAULT);
     }
 
-    public static Icon squareMenu(IconOptions options) {
-        return new Icon(INSTANCE::squareMenu, options);
+    public static Icon lucideSquareExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareExclamationPoint, options);
     }
 
-    public static Icon squareMinus() {
-        return squareMinus(IconOptions.DEFAULT);
+    public static Icon lucideSquareFunction() {
+        return lucideSquareFunction(IconOptions.DEFAULT);
     }
 
-    public static Icon squareMinus(IconOptions options) {
-        return new Icon(INSTANCE::squareMinus, options);
+    public static Icon lucideSquareFunction(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareFunction, options);
     }
 
-    public static Icon squareMousePointer() {
-        return squareMousePointer(IconOptions.DEFAULT);
+    public static Icon lucideSquareKanban() {
+        return lucideSquareKanban(IconOptions.DEFAULT);
     }
 
-    public static Icon squareMousePointer(IconOptions options) {
-        return new Icon(INSTANCE::squareMousePointer, options);
+    public static Icon lucideSquareKanban(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareKanban, options);
     }
 
-    public static Icon squareOff() {
-        return squareOff(IconOptions.DEFAULT);
+    public static Icon lucideSquareLibrary() {
+        return lucideSquareLibrary(IconOptions.DEFAULT);
     }
 
-    public static Icon squareOff(IconOptions options) {
-        return new Icon(INSTANCE::squareOff, options);
+    public static Icon lucideSquareLibrary(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareLibrary, options);
     }
 
-    public static Icon squareParking() {
-        return squareParking(IconOptions.DEFAULT);
+    public static Icon lucideSquareM() {
+        return lucideSquareM(IconOptions.DEFAULT);
     }
 
-    public static Icon squareParking(IconOptions options) {
-        return new Icon(INSTANCE::squareParking, options);
+    public static Icon lucideSquareM(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareM, options);
     }
 
-    public static Icon squareParkingOff() {
-        return squareParkingOff(IconOptions.DEFAULT);
+    public static Icon lucideSquareMenu() {
+        return lucideSquareMenu(IconOptions.DEFAULT);
     }
 
-    public static Icon squareParkingOff(IconOptions options) {
-        return new Icon(INSTANCE::squareParkingOff, options);
+    public static Icon lucideSquareMenu(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareMenu, options);
     }
 
-    public static Icon squarePause() {
-        return squarePause(IconOptions.DEFAULT);
+    public static Icon lucideSquareMinus() {
+        return lucideSquareMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon squarePause(IconOptions options) {
-        return new Icon(INSTANCE::squarePause, options);
+    public static Icon lucideSquareMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareMinus, options);
     }
 
-    public static Icon squarePen() {
-        return squarePen(IconOptions.DEFAULT);
+    public static Icon lucideSquareMousePointer() {
+        return lucideSquareMousePointer(IconOptions.DEFAULT);
     }
 
-    public static Icon squarePen(IconOptions options) {
-        return new Icon(INSTANCE::squarePen, options);
+    public static Icon lucideSquareMousePointer(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareMousePointer, options);
     }
 
-    public static Icon squarePercent() {
-        return squarePercent(IconOptions.DEFAULT);
+    public static Icon lucideSquareOff() {
+        return lucideSquareOff(IconOptions.DEFAULT);
     }
 
-    public static Icon squarePercent(IconOptions options) {
-        return new Icon(INSTANCE::squarePercent, options);
+    public static Icon lucideSquareOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareOff, options);
     }
 
-    public static Icon squarePi() {
-        return squarePi(IconOptions.DEFAULT);
+    public static Icon lucideSquareParking() {
+        return lucideSquareParking(IconOptions.DEFAULT);
     }
 
-    public static Icon squarePi(IconOptions options) {
-        return new Icon(INSTANCE::squarePi, options);
+    public static Icon lucideSquareParking(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareParking, options);
     }
 
-    public static Icon squarePilcrow() {
-        return squarePilcrow(IconOptions.DEFAULT);
+    public static Icon lucideSquareParkingOff() {
+        return lucideSquareParkingOff(IconOptions.DEFAULT);
     }
 
-    public static Icon squarePilcrow(IconOptions options) {
-        return new Icon(INSTANCE::squarePilcrow, options);
+    public static Icon lucideSquareParkingOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareParkingOff, options);
     }
 
-    public static Icon squarePlay() {
-        return squarePlay(IconOptions.DEFAULT);
+    public static Icon lucideSquarePause() {
+        return lucideSquarePause(IconOptions.DEFAULT);
     }
 
-    public static Icon squarePlay(IconOptions options) {
-        return new Icon(INSTANCE::squarePlay, options);
+    public static Icon lucideSquarePause(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquarePause, options);
     }
 
-    public static Icon squarePlus() {
-        return squarePlus(IconOptions.DEFAULT);
+    public static Icon lucideSquarePen() {
+        return lucideSquarePen(IconOptions.DEFAULT);
     }
 
-    public static Icon squarePlus(IconOptions options) {
-        return new Icon(INSTANCE::squarePlus, options);
+    public static Icon lucideSquarePen(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquarePen, options);
     }
 
-    public static Icon squarePower() {
-        return squarePower(IconOptions.DEFAULT);
+    public static Icon lucideSquarePercent() {
+        return lucideSquarePercent(IconOptions.DEFAULT);
     }
 
-    public static Icon squarePower(IconOptions options) {
-        return new Icon(INSTANCE::squarePower, options);
+    public static Icon lucideSquarePercent(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquarePercent, options);
     }
 
-    public static Icon squareRadical() {
-        return squareRadical(IconOptions.DEFAULT);
+    public static Icon lucideSquarePi() {
+        return lucideSquarePi(IconOptions.DEFAULT);
     }
 
-    public static Icon squareRadical(IconOptions options) {
-        return new Icon(INSTANCE::squareRadical, options);
+    public static Icon lucideSquarePi(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquarePi, options);
     }
 
-    public static Icon squareRoundCorner() {
-        return squareRoundCorner(IconOptions.DEFAULT);
+    public static Icon lucideSquarePilcrow() {
+        return lucideSquarePilcrow(IconOptions.DEFAULT);
     }
 
-    public static Icon squareRoundCorner(IconOptions options) {
-        return new Icon(INSTANCE::squareRoundCorner, options);
+    public static Icon lucideSquarePilcrow(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquarePilcrow, options);
     }
 
-    public static Icon squareScissors() {
-        return squareScissors(IconOptions.DEFAULT);
+    public static Icon lucideSquarePlay() {
+        return lucideSquarePlay(IconOptions.DEFAULT);
     }
 
-    public static Icon squareScissors(IconOptions options) {
-        return new Icon(INSTANCE::squareScissors, options);
+    public static Icon lucideSquarePlay(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquarePlay, options);
     }
 
-    public static Icon squareSigma() {
-        return squareSigma(IconOptions.DEFAULT);
+    public static Icon lucideSquarePlus() {
+        return lucideSquarePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon squareSigma(IconOptions options) {
-        return new Icon(INSTANCE::squareSigma, options);
+    public static Icon lucideSquarePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquarePlus, options);
     }
 
-    public static Icon squareSlash() {
-        return squareSlash(IconOptions.DEFAULT);
+    public static Icon lucideSquarePower() {
+        return lucideSquarePower(IconOptions.DEFAULT);
     }
 
-    public static Icon squareSlash(IconOptions options) {
-        return new Icon(INSTANCE::squareSlash, options);
+    public static Icon lucideSquarePower(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquarePower, options);
     }
 
-    public static Icon squareSparkles() {
-        return squareSparkles(IconOptions.DEFAULT);
+    public static Icon lucideSquareRadical() {
+        return lucideSquareRadical(IconOptions.DEFAULT);
     }
 
-    public static Icon squareSparkles(IconOptions options) {
-        return new Icon(INSTANCE::squareSparkles, options);
+    public static Icon lucideSquareRadical(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareRadical, options);
     }
 
-    public static Icon squareSplitHorizontal() {
-        return squareSplitHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideSquareRoundCorner() {
+        return lucideSquareRoundCorner(IconOptions.DEFAULT);
     }
 
-    public static Icon squareSplitHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::squareSplitHorizontal, options);
+    public static Icon lucideSquareRoundCorner(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareRoundCorner, options);
     }
 
-    public static Icon squareSplitVertical() {
-        return squareSplitVertical(IconOptions.DEFAULT);
+    public static Icon lucideSquareScissors() {
+        return lucideSquareScissors(IconOptions.DEFAULT);
     }
 
-    public static Icon squareSplitVertical(IconOptions options) {
-        return new Icon(INSTANCE::squareSplitVertical, options);
+    public static Icon lucideSquareScissors(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareScissors, options);
     }
 
-    public static Icon squareSquare() {
-        return squareSquare(IconOptions.DEFAULT);
+    public static Icon lucideSquareSigma() {
+        return lucideSquareSigma(IconOptions.DEFAULT);
     }
 
-    public static Icon squareSquare(IconOptions options) {
-        return new Icon(INSTANCE::squareSquare, options);
+    public static Icon lucideSquareSigma(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareSigma, options);
     }
 
-    public static Icon squareStack() {
-        return squareStack(IconOptions.DEFAULT);
+    public static Icon lucideSquareSlash() {
+        return lucideSquareSlash(IconOptions.DEFAULT);
     }
 
-    public static Icon squareStack(IconOptions options) {
-        return new Icon(INSTANCE::squareStack, options);
+    public static Icon lucideSquareSlash(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareSlash, options);
     }
 
-    public static Icon squareStar() {
-        return squareStar(IconOptions.DEFAULT);
+    public static Icon lucideSquareSparkles() {
+        return lucideSquareSparkles(IconOptions.DEFAULT);
     }
 
-    public static Icon squareStar(IconOptions options) {
-        return new Icon(INSTANCE::squareStar, options);
+    public static Icon lucideSquareSparkles(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareSparkles, options);
     }
 
-    public static Icon squareStop() {
-        return squareStop(IconOptions.DEFAULT);
+    public static Icon lucideSquareSplitHorizontal() {
+        return lucideSquareSplitHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon squareStop(IconOptions options) {
-        return new Icon(INSTANCE::squareStop, options);
+    public static Icon lucideSquareSplitHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareSplitHorizontal, options);
     }
 
-    public static Icon squareTerminal() {
-        return squareTerminal(IconOptions.DEFAULT);
+    public static Icon lucideSquareSplitVertical() {
+        return lucideSquareSplitVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon squareTerminal(IconOptions options) {
-        return new Icon(INSTANCE::squareTerminal, options);
+    public static Icon lucideSquareSplitVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareSplitVertical, options);
     }
 
-    public static Icon squareText() {
-        return squareText(IconOptions.DEFAULT);
+    public static Icon lucideSquareSquare() {
+        return lucideSquareSquare(IconOptions.DEFAULT);
     }
 
-    public static Icon squareText(IconOptions options) {
-        return new Icon(INSTANCE::squareText, options);
+    public static Icon lucideSquareSquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareSquare, options);
     }
 
-    public static Icon squareUser() {
-        return squareUser(IconOptions.DEFAULT);
+    public static Icon lucideSquareStack() {
+        return lucideSquareStack(IconOptions.DEFAULT);
     }
 
-    public static Icon squareUser(IconOptions options) {
-        return new Icon(INSTANCE::squareUser, options);
+    public static Icon lucideSquareStack(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareStack, options);
     }
 
-    public static Icon squareUserRound() {
-        return squareUserRound(IconOptions.DEFAULT);
+    public static Icon lucideSquareStar() {
+        return lucideSquareStar(IconOptions.DEFAULT);
     }
 
-    public static Icon squareUserRound(IconOptions options) {
-        return new Icon(INSTANCE::squareUserRound, options);
+    public static Icon lucideSquareStar(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareStar, options);
     }
 
-    public static Icon squareX() {
-        return squareX(IconOptions.DEFAULT);
+    public static Icon lucideSquareStop() {
+        return lucideSquareStop(IconOptions.DEFAULT);
     }
 
-    public static Icon squareX(IconOptions options) {
-        return new Icon(INSTANCE::squareX, options);
+    public static Icon lucideSquareStop(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareStop, options);
     }
 
-    public static Icon squaresExclude() {
-        return squaresExclude(IconOptions.DEFAULT);
+    public static Icon lucideSquareTerminal() {
+        return lucideSquareTerminal(IconOptions.DEFAULT);
     }
 
-    public static Icon squaresExclude(IconOptions options) {
-        return new Icon(INSTANCE::squaresExclude, options);
+    public static Icon lucideSquareTerminal(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareTerminal, options);
     }
 
-    public static Icon squaresIntersect() {
-        return squaresIntersect(IconOptions.DEFAULT);
+    public static Icon lucideSquareText() {
+        return lucideSquareText(IconOptions.DEFAULT);
     }
 
-    public static Icon squaresIntersect(IconOptions options) {
-        return new Icon(INSTANCE::squaresIntersect, options);
+    public static Icon lucideSquareText(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareText, options);
     }
 
-    public static Icon squaresSubtract() {
-        return squaresSubtract(IconOptions.DEFAULT);
+    public static Icon lucideSquareUser() {
+        return lucideSquareUser(IconOptions.DEFAULT);
     }
 
-    public static Icon squaresSubtract(IconOptions options) {
-        return new Icon(INSTANCE::squaresSubtract, options);
+    public static Icon lucideSquareUser(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareUser, options);
     }
 
-    public static Icon squaresUnite() {
-        return squaresUnite(IconOptions.DEFAULT);
+    public static Icon lucideSquareUserRound() {
+        return lucideSquareUserRound(IconOptions.DEFAULT);
     }
 
-    public static Icon squaresUnite(IconOptions options) {
-        return new Icon(INSTANCE::squaresUnite, options);
+    public static Icon lucideSquareUserRound(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareUserRound, options);
     }
 
-    public static Icon squircle() {
-        return squircle(IconOptions.DEFAULT);
+    public static Icon lucideSquareX() {
+        return lucideSquareX(IconOptions.DEFAULT);
     }
 
-    public static Icon squircle(IconOptions options) {
-        return new Icon(INSTANCE::squircle, options);
+    public static Icon lucideSquareX(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareX, options);
     }
 
-    public static Icon squircleDashed() {
-        return squircleDashed(IconOptions.DEFAULT);
+    public static Icon lucideSquaresExclude() {
+        return lucideSquaresExclude(IconOptions.DEFAULT);
     }
 
-    public static Icon squircleDashed(IconOptions options) {
-        return new Icon(INSTANCE::squircleDashed, options);
+    public static Icon lucideSquaresExclude(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquaresExclude, options);
     }
 
-    public static Icon squirrel() {
-        return squirrel(IconOptions.DEFAULT);
+    public static Icon lucideSquaresIntersect() {
+        return lucideSquaresIntersect(IconOptions.DEFAULT);
     }
 
-    public static Icon squirrel(IconOptions options) {
-        return new Icon(INSTANCE::squirrel, options);
+    public static Icon lucideSquaresIntersect(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquaresIntersect, options);
     }
 
-    public static Icon stamp() {
-        return stamp(IconOptions.DEFAULT);
+    public static Icon lucideSquaresSubtract() {
+        return lucideSquaresSubtract(IconOptions.DEFAULT);
     }
 
-    public static Icon stamp(IconOptions options) {
-        return new Icon(INSTANCE::stamp, options);
+    public static Icon lucideSquaresSubtract(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquaresSubtract, options);
     }
 
-    public static Icon star() {
-        return star(IconOptions.DEFAULT);
+    public static Icon lucideSquaresUnite() {
+        return lucideSquaresUnite(IconOptions.DEFAULT);
     }
 
-    public static Icon star(IconOptions options) {
-        return new Icon(INSTANCE::star, options);
+    public static Icon lucideSquaresUnite(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquaresUnite, options);
     }
 
-    public static Icon starCheck() {
-        return starCheck(IconOptions.DEFAULT);
+    public static Icon lucideSquircle() {
+        return lucideSquircle(IconOptions.DEFAULT);
     }
 
-    public static Icon starCheck(IconOptions options) {
-        return new Icon(INSTANCE::starCheck, options);
+    public static Icon lucideSquircle(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquircle, options);
     }
 
-    public static Icon starHalf() {
-        return starHalf(IconOptions.DEFAULT);
+    public static Icon lucideSquircleDashed() {
+        return lucideSquircleDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon starHalf(IconOptions options) {
-        return new Icon(INSTANCE::starHalf, options);
+    public static Icon lucideSquircleDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquircleDashed, options);
     }
 
-    public static Icon starMinus() {
-        return starMinus(IconOptions.DEFAULT);
+    public static Icon lucideSquirrel() {
+        return lucideSquirrel(IconOptions.DEFAULT);
     }
 
-    public static Icon starMinus(IconOptions options) {
-        return new Icon(INSTANCE::starMinus, options);
+    public static Icon lucideSquirrel(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquirrel, options);
     }
 
-    public static Icon starOff() {
-        return starOff(IconOptions.DEFAULT);
+    public static Icon lucideStamp() {
+        return lucideStamp(IconOptions.DEFAULT);
     }
 
-    public static Icon starOff(IconOptions options) {
-        return new Icon(INSTANCE::starOff, options);
+    public static Icon lucideStamp(IconOptions options) {
+        return new Icon(INSTANCE::lucideStamp, options);
     }
 
-    public static Icon starPlus() {
-        return starPlus(IconOptions.DEFAULT);
+    public static Icon lucideStar() {
+        return lucideStar(IconOptions.DEFAULT);
     }
 
-    public static Icon starPlus(IconOptions options) {
-        return new Icon(INSTANCE::starPlus, options);
+    public static Icon lucideStar(IconOptions options) {
+        return new Icon(INSTANCE::lucideStar, options);
     }
 
-    public static Icon starX() {
-        return starX(IconOptions.DEFAULT);
+    public static Icon lucideStarCheck() {
+        return lucideStarCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon starX(IconOptions options) {
-        return new Icon(INSTANCE::starX, options);
+    public static Icon lucideStarCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideStarCheck, options);
     }
 
-    public static Icon stepBack() {
-        return stepBack(IconOptions.DEFAULT);
+    public static Icon lucideStarHalf() {
+        return lucideStarHalf(IconOptions.DEFAULT);
     }
 
-    public static Icon stepBack(IconOptions options) {
-        return new Icon(INSTANCE::stepBack, options);
+    public static Icon lucideStarHalf(IconOptions options) {
+        return new Icon(INSTANCE::lucideStarHalf, options);
     }
 
-    public static Icon stepForward() {
-        return stepForward(IconOptions.DEFAULT);
+    public static Icon lucideStarMinus() {
+        return lucideStarMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon stepForward(IconOptions options) {
-        return new Icon(INSTANCE::stepForward, options);
+    public static Icon lucideStarMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideStarMinus, options);
     }
 
-    public static Icon stethoscope() {
-        return stethoscope(IconOptions.DEFAULT);
+    public static Icon lucideStarOff() {
+        return lucideStarOff(IconOptions.DEFAULT);
     }
 
-    public static Icon stethoscope(IconOptions options) {
-        return new Icon(INSTANCE::stethoscope, options);
+    public static Icon lucideStarOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideStarOff, options);
     }
 
-    public static Icon sticker() {
-        return sticker(IconOptions.DEFAULT);
+    public static Icon lucideStarPlus() {
+        return lucideStarPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon sticker(IconOptions options) {
-        return new Icon(INSTANCE::sticker, options);
+    public static Icon lucideStarPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideStarPlus, options);
     }
 
-    public static Icon stickyNote() {
-        return stickyNote(IconOptions.DEFAULT);
+    public static Icon lucideStarX() {
+        return lucideStarX(IconOptions.DEFAULT);
     }
 
-    public static Icon stickyNote(IconOptions options) {
-        return new Icon(INSTANCE::stickyNote, options);
+    public static Icon lucideStarX(IconOptions options) {
+        return new Icon(INSTANCE::lucideStarX, options);
     }
 
-    public static Icon stickyNoteCheck() {
-        return stickyNoteCheck(IconOptions.DEFAULT);
+    public static Icon lucideStepBack() {
+        return lucideStepBack(IconOptions.DEFAULT);
     }
 
-    public static Icon stickyNoteCheck(IconOptions options) {
-        return new Icon(INSTANCE::stickyNoteCheck, options);
+    public static Icon lucideStepBack(IconOptions options) {
+        return new Icon(INSTANCE::lucideStepBack, options);
     }
 
-    public static Icon stickyNoteMinus() {
-        return stickyNoteMinus(IconOptions.DEFAULT);
+    public static Icon lucideStepForward() {
+        return lucideStepForward(IconOptions.DEFAULT);
     }
 
-    public static Icon stickyNoteMinus(IconOptions options) {
-        return new Icon(INSTANCE::stickyNoteMinus, options);
+    public static Icon lucideStepForward(IconOptions options) {
+        return new Icon(INSTANCE::lucideStepForward, options);
     }
 
-    public static Icon stickyNoteOff() {
-        return stickyNoteOff(IconOptions.DEFAULT);
+    public static Icon lucideStethoscope() {
+        return lucideStethoscope(IconOptions.DEFAULT);
     }
 
-    public static Icon stickyNoteOff(IconOptions options) {
-        return new Icon(INSTANCE::stickyNoteOff, options);
+    public static Icon lucideStethoscope(IconOptions options) {
+        return new Icon(INSTANCE::lucideStethoscope, options);
     }
 
-    public static Icon stickyNotePlus() {
-        return stickyNotePlus(IconOptions.DEFAULT);
+    public static Icon lucideSticker() {
+        return lucideSticker(IconOptions.DEFAULT);
     }
 
-    public static Icon stickyNotePlus(IconOptions options) {
-        return new Icon(INSTANCE::stickyNotePlus, options);
+    public static Icon lucideSticker(IconOptions options) {
+        return new Icon(INSTANCE::lucideSticker, options);
     }
 
-    public static Icon stickyNoteX() {
-        return stickyNoteX(IconOptions.DEFAULT);
+    public static Icon lucideStickyNote() {
+        return lucideStickyNote(IconOptions.DEFAULT);
     }
 
-    public static Icon stickyNoteX(IconOptions options) {
-        return new Icon(INSTANCE::stickyNoteX, options);
+    public static Icon lucideStickyNote(IconOptions options) {
+        return new Icon(INSTANCE::lucideStickyNote, options);
     }
 
-    public static Icon stickyNotes() {
-        return stickyNotes(IconOptions.DEFAULT);
+    public static Icon lucideStickyNoteCheck() {
+        return lucideStickyNoteCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon stickyNotes(IconOptions options) {
-        return new Icon(INSTANCE::stickyNotes, options);
+    public static Icon lucideStickyNoteCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideStickyNoteCheck, options);
     }
 
-    public static Icon stone() {
-        return stone(IconOptions.DEFAULT);
+    public static Icon lucideStickyNoteMinus() {
+        return lucideStickyNoteMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon stone(IconOptions options) {
-        return new Icon(INSTANCE::stone, options);
+    public static Icon lucideStickyNoteMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideStickyNoteMinus, options);
     }
 
-    public static Icon store() {
-        return store(IconOptions.DEFAULT);
+    public static Icon lucideStickyNoteOff() {
+        return lucideStickyNoteOff(IconOptions.DEFAULT);
     }
 
-    public static Icon store(IconOptions options) {
-        return new Icon(INSTANCE::store, options);
+    public static Icon lucideStickyNoteOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideStickyNoteOff, options);
     }
 
-    public static Icon stretchHorizontal() {
-        return stretchHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideStickyNotePlus() {
+        return lucideStickyNotePlus(IconOptions.DEFAULT);
     }
 
-    public static Icon stretchHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::stretchHorizontal, options);
+    public static Icon lucideStickyNotePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideStickyNotePlus, options);
     }
 
-    public static Icon stretchVertical() {
-        return stretchVertical(IconOptions.DEFAULT);
+    public static Icon lucideStickyNoteX() {
+        return lucideStickyNoteX(IconOptions.DEFAULT);
     }
 
-    public static Icon stretchVertical(IconOptions options) {
-        return new Icon(INSTANCE::stretchVertical, options);
+    public static Icon lucideStickyNoteX(IconOptions options) {
+        return new Icon(INSTANCE::lucideStickyNoteX, options);
     }
 
-    public static Icon strikethrough() {
-        return strikethrough(IconOptions.DEFAULT);
+    public static Icon lucideStickyNotes() {
+        return lucideStickyNotes(IconOptions.DEFAULT);
     }
 
-    public static Icon strikethrough(IconOptions options) {
-        return new Icon(INSTANCE::strikethrough, options);
+    public static Icon lucideStickyNotes(IconOptions options) {
+        return new Icon(INSTANCE::lucideStickyNotes, options);
     }
 
-    public static Icon subscript() {
-        return subscript(IconOptions.DEFAULT);
+    public static Icon lucideStone() {
+        return lucideStone(IconOptions.DEFAULT);
     }
 
-    public static Icon subscript(IconOptions options) {
-        return new Icon(INSTANCE::subscript, options);
+    public static Icon lucideStone(IconOptions options) {
+        return new Icon(INSTANCE::lucideStone, options);
     }
 
-    public static Icon summary() {
-        return summary(IconOptions.DEFAULT);
+    public static Icon lucideStore() {
+        return lucideStore(IconOptions.DEFAULT);
     }
 
-    public static Icon summary(IconOptions options) {
-        return new Icon(INSTANCE::summary, options);
+    public static Icon lucideStore(IconOptions options) {
+        return new Icon(INSTANCE::lucideStore, options);
     }
 
-    public static Icon sun() {
-        return sun(IconOptions.DEFAULT);
+    public static Icon lucideStretchHorizontal() {
+        return lucideStretchHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon sun(IconOptions options) {
-        return new Icon(INSTANCE::sun, options);
+    public static Icon lucideStretchHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideStretchHorizontal, options);
     }
 
-    public static Icon sunDim() {
-        return sunDim(IconOptions.DEFAULT);
+    public static Icon lucideStretchVertical() {
+        return lucideStretchVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon sunDim(IconOptions options) {
-        return new Icon(INSTANCE::sunDim, options);
+    public static Icon lucideStretchVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideStretchVertical, options);
     }
 
-    public static Icon sunMedium() {
-        return sunMedium(IconOptions.DEFAULT);
+    public static Icon lucideStrikethrough() {
+        return lucideStrikethrough(IconOptions.DEFAULT);
     }
 
-    public static Icon sunMedium(IconOptions options) {
-        return new Icon(INSTANCE::sunMedium, options);
+    public static Icon lucideStrikethrough(IconOptions options) {
+        return new Icon(INSTANCE::lucideStrikethrough, options);
     }
 
-    public static Icon sunMoon() {
-        return sunMoon(IconOptions.DEFAULT);
+    public static Icon lucideSubscript() {
+        return lucideSubscript(IconOptions.DEFAULT);
     }
 
-    public static Icon sunMoon(IconOptions options) {
-        return new Icon(INSTANCE::sunMoon, options);
+    public static Icon lucideSubscript(IconOptions options) {
+        return new Icon(INSTANCE::lucideSubscript, options);
     }
 
-    public static Icon sunSnow() {
-        return sunSnow(IconOptions.DEFAULT);
+    public static Icon lucideSummary() {
+        return lucideSummary(IconOptions.DEFAULT);
     }
 
-    public static Icon sunSnow(IconOptions options) {
-        return new Icon(INSTANCE::sunSnow, options);
+    public static Icon lucideSummary(IconOptions options) {
+        return new Icon(INSTANCE::lucideSummary, options);
     }
 
-    public static Icon sunrise() {
-        return sunrise(IconOptions.DEFAULT);
+    public static Icon lucideSun() {
+        return lucideSun(IconOptions.DEFAULT);
     }
 
-    public static Icon sunrise(IconOptions options) {
-        return new Icon(INSTANCE::sunrise, options);
+    public static Icon lucideSun(IconOptions options) {
+        return new Icon(INSTANCE::lucideSun, options);
     }
 
-    public static Icon sunset() {
-        return sunset(IconOptions.DEFAULT);
+    public static Icon lucideSunDim() {
+        return lucideSunDim(IconOptions.DEFAULT);
     }
 
-    public static Icon sunset(IconOptions options) {
-        return new Icon(INSTANCE::sunset, options);
+    public static Icon lucideSunDim(IconOptions options) {
+        return new Icon(INSTANCE::lucideSunDim, options);
     }
 
-    public static Icon superscript() {
-        return superscript(IconOptions.DEFAULT);
+    public static Icon lucideSunMedium() {
+        return lucideSunMedium(IconOptions.DEFAULT);
     }
 
-    public static Icon superscript(IconOptions options) {
-        return new Icon(INSTANCE::superscript, options);
+    public static Icon lucideSunMedium(IconOptions options) {
+        return new Icon(INSTANCE::lucideSunMedium, options);
     }
 
-    public static Icon swatchBook() {
-        return swatchBook(IconOptions.DEFAULT);
+    public static Icon lucideSunMoon() {
+        return lucideSunMoon(IconOptions.DEFAULT);
     }
 
-    public static Icon swatchBook(IconOptions options) {
-        return new Icon(INSTANCE::swatchBook, options);
+    public static Icon lucideSunMoon(IconOptions options) {
+        return new Icon(INSTANCE::lucideSunMoon, options);
     }
 
-    public static Icon swissFranc() {
-        return swissFranc(IconOptions.DEFAULT);
+    public static Icon lucideSunSnow() {
+        return lucideSunSnow(IconOptions.DEFAULT);
     }
 
-    public static Icon swissFranc(IconOptions options) {
-        return new Icon(INSTANCE::swissFranc, options);
+    public static Icon lucideSunSnow(IconOptions options) {
+        return new Icon(INSTANCE::lucideSunSnow, options);
     }
 
-    public static Icon switchCamera() {
-        return switchCamera(IconOptions.DEFAULT);
+    public static Icon lucideSunrise() {
+        return lucideSunrise(IconOptions.DEFAULT);
     }
 
-    public static Icon switchCamera(IconOptions options) {
-        return new Icon(INSTANCE::switchCamera, options);
+    public static Icon lucideSunrise(IconOptions options) {
+        return new Icon(INSTANCE::lucideSunrise, options);
     }
 
-    public static Icon sword() {
-        return sword(IconOptions.DEFAULT);
+    public static Icon lucideSunset() {
+        return lucideSunset(IconOptions.DEFAULT);
     }
 
-    public static Icon sword(IconOptions options) {
-        return new Icon(INSTANCE::sword, options);
+    public static Icon lucideSunset(IconOptions options) {
+        return new Icon(INSTANCE::lucideSunset, options);
     }
 
-    public static Icon swords() {
-        return swords(IconOptions.DEFAULT);
+    public static Icon lucideSuperscript() {
+        return lucideSuperscript(IconOptions.DEFAULT);
     }
 
-    public static Icon swords(IconOptions options) {
-        return new Icon(INSTANCE::swords, options);
+    public static Icon lucideSuperscript(IconOptions options) {
+        return new Icon(INSTANCE::lucideSuperscript, options);
     }
 
-    public static Icon syringe() {
-        return syringe(IconOptions.DEFAULT);
+    public static Icon lucideSwatchBook() {
+        return lucideSwatchBook(IconOptions.DEFAULT);
     }
 
-    public static Icon syringe(IconOptions options) {
-        return new Icon(INSTANCE::syringe, options);
+    public static Icon lucideSwatchBook(IconOptions options) {
+        return new Icon(INSTANCE::lucideSwatchBook, options);
     }
 
-    public static Icon table() {
-        return table(IconOptions.DEFAULT);
+    public static Icon lucideSwissFranc() {
+        return lucideSwissFranc(IconOptions.DEFAULT);
     }
 
-    public static Icon table(IconOptions options) {
-        return new Icon(INSTANCE::table, options);
+    public static Icon lucideSwissFranc(IconOptions options) {
+        return new Icon(INSTANCE::lucideSwissFranc, options);
     }
 
-    public static Icon table2() {
-        return table2(IconOptions.DEFAULT);
+    public static Icon lucideSwitchCamera() {
+        return lucideSwitchCamera(IconOptions.DEFAULT);
     }
 
-    public static Icon table2(IconOptions options) {
-        return new Icon(INSTANCE::table2, options);
+    public static Icon lucideSwitchCamera(IconOptions options) {
+        return new Icon(INSTANCE::lucideSwitchCamera, options);
     }
 
-    public static Icon tableCellsMerge() {
-        return tableCellsMerge(IconOptions.DEFAULT);
+    public static Icon lucideSword() {
+        return lucideSword(IconOptions.DEFAULT);
     }
 
-    public static Icon tableCellsMerge(IconOptions options) {
-        return new Icon(INSTANCE::tableCellsMerge, options);
+    public static Icon lucideSword(IconOptions options) {
+        return new Icon(INSTANCE::lucideSword, options);
     }
 
-    public static Icon tableCellsSplit() {
-        return tableCellsSplit(IconOptions.DEFAULT);
+    public static Icon lucideSwords() {
+        return lucideSwords(IconOptions.DEFAULT);
     }
 
-    public static Icon tableCellsSplit(IconOptions options) {
-        return new Icon(INSTANCE::tableCellsSplit, options);
+    public static Icon lucideSwords(IconOptions options) {
+        return new Icon(INSTANCE::lucideSwords, options);
     }
 
-    public static Icon tableColumnsSplit() {
-        return tableColumnsSplit(IconOptions.DEFAULT);
+    public static Icon lucideSyringe() {
+        return lucideSyringe(IconOptions.DEFAULT);
     }
 
-    public static Icon tableColumnsSplit(IconOptions options) {
-        return new Icon(INSTANCE::tableColumnsSplit, options);
+    public static Icon lucideSyringe(IconOptions options) {
+        return new Icon(INSTANCE::lucideSyringe, options);
     }
 
-    public static Icon tableOfContents() {
-        return tableOfContents(IconOptions.DEFAULT);
+    public static Icon lucideTable() {
+        return lucideTable(IconOptions.DEFAULT);
     }
 
-    public static Icon tableOfContents(IconOptions options) {
-        return new Icon(INSTANCE::tableOfContents, options);
+    public static Icon lucideTable(IconOptions options) {
+        return new Icon(INSTANCE::lucideTable, options);
     }
 
-    public static Icon tableProperties() {
-        return tableProperties(IconOptions.DEFAULT);
+    public static Icon lucideTable2() {
+        return lucideTable2(IconOptions.DEFAULT);
     }
 
-    public static Icon tableProperties(IconOptions options) {
-        return new Icon(INSTANCE::tableProperties, options);
+    public static Icon lucideTable2(IconOptions options) {
+        return new Icon(INSTANCE::lucideTable2, options);
     }
 
-    public static Icon tableRowsSplit() {
-        return tableRowsSplit(IconOptions.DEFAULT);
+    public static Icon lucideTableCellsMerge() {
+        return lucideTableCellsMerge(IconOptions.DEFAULT);
     }
 
-    public static Icon tableRowsSplit(IconOptions options) {
-        return new Icon(INSTANCE::tableRowsSplit, options);
+    public static Icon lucideTableCellsMerge(IconOptions options) {
+        return new Icon(INSTANCE::lucideTableCellsMerge, options);
     }
 
-    public static Icon tablet() {
-        return tablet(IconOptions.DEFAULT);
+    public static Icon lucideTableCellsSplit() {
+        return lucideTableCellsSplit(IconOptions.DEFAULT);
     }
 
-    public static Icon tablet(IconOptions options) {
-        return new Icon(INSTANCE::tablet, options);
+    public static Icon lucideTableCellsSplit(IconOptions options) {
+        return new Icon(INSTANCE::lucideTableCellsSplit, options);
     }
 
-    public static Icon tabletSmartphone() {
-        return tabletSmartphone(IconOptions.DEFAULT);
+    public static Icon lucideTableColumnsSplit() {
+        return lucideTableColumnsSplit(IconOptions.DEFAULT);
     }
 
-    public static Icon tabletSmartphone(IconOptions options) {
-        return new Icon(INSTANCE::tabletSmartphone, options);
+    public static Icon lucideTableColumnsSplit(IconOptions options) {
+        return new Icon(INSTANCE::lucideTableColumnsSplit, options);
     }
 
-    public static Icon tablets() {
-        return tablets(IconOptions.DEFAULT);
+    public static Icon lucideTableOfContents() {
+        return lucideTableOfContents(IconOptions.DEFAULT);
     }
 
-    public static Icon tablets(IconOptions options) {
-        return new Icon(INSTANCE::tablets, options);
+    public static Icon lucideTableOfContents(IconOptions options) {
+        return new Icon(INSTANCE::lucideTableOfContents, options);
     }
 
-    public static Icon tag() {
-        return tag(IconOptions.DEFAULT);
+    public static Icon lucideTableProperties() {
+        return lucideTableProperties(IconOptions.DEFAULT);
     }
 
-    public static Icon tag(IconOptions options) {
-        return new Icon(INSTANCE::tag, options);
+    public static Icon lucideTableProperties(IconOptions options) {
+        return new Icon(INSTANCE::lucideTableProperties, options);
     }
 
-    public static Icon tagPlus() {
-        return tagPlus(IconOptions.DEFAULT);
+    public static Icon lucideTableRowsSplit() {
+        return lucideTableRowsSplit(IconOptions.DEFAULT);
     }
 
-    public static Icon tagPlus(IconOptions options) {
-        return new Icon(INSTANCE::tagPlus, options);
+    public static Icon lucideTableRowsSplit(IconOptions options) {
+        return new Icon(INSTANCE::lucideTableRowsSplit, options);
     }
 
-    public static Icon tagX() {
-        return tagX(IconOptions.DEFAULT);
+    public static Icon lucideTablet() {
+        return lucideTablet(IconOptions.DEFAULT);
     }
 
-    public static Icon tagX(IconOptions options) {
-        return new Icon(INSTANCE::tagX, options);
+    public static Icon lucideTablet(IconOptions options) {
+        return new Icon(INSTANCE::lucideTablet, options);
     }
 
-    public static Icon tags() {
-        return tags(IconOptions.DEFAULT);
+    public static Icon lucideTabletSmartphone() {
+        return lucideTabletSmartphone(IconOptions.DEFAULT);
     }
 
-    public static Icon tags(IconOptions options) {
-        return new Icon(INSTANCE::tags, options);
+    public static Icon lucideTabletSmartphone(IconOptions options) {
+        return new Icon(INSTANCE::lucideTabletSmartphone, options);
     }
 
-    public static Icon tally1() {
-        return tally1(IconOptions.DEFAULT);
+    public static Icon lucideTablets() {
+        return lucideTablets(IconOptions.DEFAULT);
     }
 
-    public static Icon tally1(IconOptions options) {
-        return new Icon(INSTANCE::tally1, options);
+    public static Icon lucideTablets(IconOptions options) {
+        return new Icon(INSTANCE::lucideTablets, options);
     }
 
-    public static Icon tally2() {
-        return tally2(IconOptions.DEFAULT);
+    public static Icon lucideTag() {
+        return lucideTag(IconOptions.DEFAULT);
     }
 
-    public static Icon tally2(IconOptions options) {
-        return new Icon(INSTANCE::tally2, options);
+    public static Icon lucideTag(IconOptions options) {
+        return new Icon(INSTANCE::lucideTag, options);
     }
 
-    public static Icon tally3() {
-        return tally3(IconOptions.DEFAULT);
+    public static Icon lucideTagPlus() {
+        return lucideTagPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon tally3(IconOptions options) {
-        return new Icon(INSTANCE::tally3, options);
+    public static Icon lucideTagPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideTagPlus, options);
     }
 
-    public static Icon tally4() {
-        return tally4(IconOptions.DEFAULT);
+    public static Icon lucideTagX() {
+        return lucideTagX(IconOptions.DEFAULT);
     }
 
-    public static Icon tally4(IconOptions options) {
-        return new Icon(INSTANCE::tally4, options);
+    public static Icon lucideTagX(IconOptions options) {
+        return new Icon(INSTANCE::lucideTagX, options);
     }
 
-    public static Icon tally5() {
-        return tally5(IconOptions.DEFAULT);
+    public static Icon lucideTags() {
+        return lucideTags(IconOptions.DEFAULT);
     }
 
-    public static Icon tally5(IconOptions options) {
-        return new Icon(INSTANCE::tally5, options);
+    public static Icon lucideTags(IconOptions options) {
+        return new Icon(INSTANCE::lucideTags, options);
     }
 
-    public static Icon tangent() {
-        return tangent(IconOptions.DEFAULT);
+    public static Icon lucideTally1() {
+        return lucideTally1(IconOptions.DEFAULT);
     }
 
-    public static Icon tangent(IconOptions options) {
-        return new Icon(INSTANCE::tangent, options);
+    public static Icon lucideTally1(IconOptions options) {
+        return new Icon(INSTANCE::lucideTally1, options);
     }
 
-    public static Icon target() {
-        return target(IconOptions.DEFAULT);
+    public static Icon lucideTally2() {
+        return lucideTally2(IconOptions.DEFAULT);
     }
 
-    public static Icon target(IconOptions options) {
-        return new Icon(INSTANCE::target, options);
+    public static Icon lucideTally2(IconOptions options) {
+        return new Icon(INSTANCE::lucideTally2, options);
     }
 
-    public static Icon telescope() {
-        return telescope(IconOptions.DEFAULT);
+    public static Icon lucideTally3() {
+        return lucideTally3(IconOptions.DEFAULT);
     }
 
-    public static Icon telescope(IconOptions options) {
-        return new Icon(INSTANCE::telescope, options);
+    public static Icon lucideTally3(IconOptions options) {
+        return new Icon(INSTANCE::lucideTally3, options);
     }
 
-    public static Icon tent() {
-        return tent(IconOptions.DEFAULT);
+    public static Icon lucideTally4() {
+        return lucideTally4(IconOptions.DEFAULT);
     }
 
-    public static Icon tent(IconOptions options) {
-        return new Icon(INSTANCE::tent, options);
+    public static Icon lucideTally4(IconOptions options) {
+        return new Icon(INSTANCE::lucideTally4, options);
     }
 
-    public static Icon tentTree() {
-        return tentTree(IconOptions.DEFAULT);
+    public static Icon lucideTally5() {
+        return lucideTally5(IconOptions.DEFAULT);
     }
 
-    public static Icon tentTree(IconOptions options) {
-        return new Icon(INSTANCE::tentTree, options);
+    public static Icon lucideTally5(IconOptions options) {
+        return new Icon(INSTANCE::lucideTally5, options);
     }
 
-    public static Icon terminal() {
-        return terminal(IconOptions.DEFAULT);
+    public static Icon lucideTangent() {
+        return lucideTangent(IconOptions.DEFAULT);
     }
 
-    public static Icon terminal(IconOptions options) {
-        return new Icon(INSTANCE::terminal, options);
+    public static Icon lucideTangent(IconOptions options) {
+        return new Icon(INSTANCE::lucideTangent, options);
     }
 
-    public static Icon testTube() {
-        return testTube(IconOptions.DEFAULT);
+    public static Icon lucideTarget() {
+        return lucideTarget(IconOptions.DEFAULT);
     }
 
-    public static Icon testTube(IconOptions options) {
-        return new Icon(INSTANCE::testTube, options);
+    public static Icon lucideTarget(IconOptions options) {
+        return new Icon(INSTANCE::lucideTarget, options);
     }
 
-    public static Icon testTubeDiagonal() {
-        return testTubeDiagonal(IconOptions.DEFAULT);
+    public static Icon lucideTelescope() {
+        return lucideTelescope(IconOptions.DEFAULT);
     }
 
-    public static Icon testTubeDiagonal(IconOptions options) {
-        return new Icon(INSTANCE::testTubeDiagonal, options);
+    public static Icon lucideTelescope(IconOptions options) {
+        return new Icon(INSTANCE::lucideTelescope, options);
     }
 
-    public static Icon testTubes() {
-        return testTubes(IconOptions.DEFAULT);
+    public static Icon lucideTent() {
+        return lucideTent(IconOptions.DEFAULT);
     }
 
-    public static Icon testTubes(IconOptions options) {
-        return new Icon(INSTANCE::testTubes, options);
+    public static Icon lucideTent(IconOptions options) {
+        return new Icon(INSTANCE::lucideTent, options);
     }
 
-    public static Icon textAlignCenter() {
-        return textAlignCenter(IconOptions.DEFAULT);
+    public static Icon lucideTentTree() {
+        return lucideTentTree(IconOptions.DEFAULT);
     }
 
-    public static Icon textAlignCenter(IconOptions options) {
-        return new Icon(INSTANCE::textAlignCenter, options);
+    public static Icon lucideTentTree(IconOptions options) {
+        return new Icon(INSTANCE::lucideTentTree, options);
     }
 
-    public static Icon textAlignEnd() {
-        return textAlignEnd(IconOptions.DEFAULT);
+    public static Icon lucideTerminal() {
+        return lucideTerminal(IconOptions.DEFAULT);
     }
 
-    public static Icon textAlignEnd(IconOptions options) {
-        return new Icon(INSTANCE::textAlignEnd, options);
+    public static Icon lucideTerminal(IconOptions options) {
+        return new Icon(INSTANCE::lucideTerminal, options);
     }
 
-    public static Icon textAlignJustify() {
-        return textAlignJustify(IconOptions.DEFAULT);
+    public static Icon lucideTestTube() {
+        return lucideTestTube(IconOptions.DEFAULT);
     }
 
-    public static Icon textAlignJustify(IconOptions options) {
-        return new Icon(INSTANCE::textAlignJustify, options);
+    public static Icon lucideTestTube(IconOptions options) {
+        return new Icon(INSTANCE::lucideTestTube, options);
     }
 
-    public static Icon textAlignJustifyCenter() {
-        return textAlignJustifyCenter(IconOptions.DEFAULT);
+    public static Icon lucideTestTubeDiagonal() {
+        return lucideTestTubeDiagonal(IconOptions.DEFAULT);
     }
 
-    public static Icon textAlignJustifyCenter(IconOptions options) {
-        return new Icon(INSTANCE::textAlignJustifyCenter, options);
+    public static Icon lucideTestTubeDiagonal(IconOptions options) {
+        return new Icon(INSTANCE::lucideTestTubeDiagonal, options);
     }
 
-    public static Icon textAlignJustifyEnd() {
-        return textAlignJustifyEnd(IconOptions.DEFAULT);
+    public static Icon lucideTestTubes() {
+        return lucideTestTubes(IconOptions.DEFAULT);
     }
 
-    public static Icon textAlignJustifyEnd(IconOptions options) {
-        return new Icon(INSTANCE::textAlignJustifyEnd, options);
+    public static Icon lucideTestTubes(IconOptions options) {
+        return new Icon(INSTANCE::lucideTestTubes, options);
     }
 
-    public static Icon textAlignJustifyStart() {
-        return textAlignJustifyStart(IconOptions.DEFAULT);
+    public static Icon lucideTextAlignCenter() {
+        return lucideTextAlignCenter(IconOptions.DEFAULT);
     }
 
-    public static Icon textAlignJustifyStart(IconOptions options) {
-        return new Icon(INSTANCE::textAlignJustifyStart, options);
+    public static Icon lucideTextAlignCenter(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextAlignCenter, options);
     }
 
-    public static Icon textAlignStart() {
-        return textAlignStart(IconOptions.DEFAULT);
+    public static Icon lucideTextAlignEnd() {
+        return lucideTextAlignEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon textAlignStart(IconOptions options) {
-        return new Icon(INSTANCE::textAlignStart, options);
+    public static Icon lucideTextAlignEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextAlignEnd, options);
     }
 
-    public static Icon textCursor() {
-        return textCursor(IconOptions.DEFAULT);
+    public static Icon lucideTextAlignJustify() {
+        return lucideTextAlignJustify(IconOptions.DEFAULT);
     }
 
-    public static Icon textCursor(IconOptions options) {
-        return new Icon(INSTANCE::textCursor, options);
+    public static Icon lucideTextAlignJustify(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextAlignJustify, options);
     }
 
-    public static Icon textCursorInput() {
-        return textCursorInput(IconOptions.DEFAULT);
+    public static Icon lucideTextAlignJustifyCenter() {
+        return lucideTextAlignJustifyCenter(IconOptions.DEFAULT);
     }
 
-    public static Icon textCursorInput(IconOptions options) {
-        return new Icon(INSTANCE::textCursorInput, options);
+    public static Icon lucideTextAlignJustifyCenter(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextAlignJustifyCenter, options);
     }
 
-    public static Icon textInitial() {
-        return textInitial(IconOptions.DEFAULT);
+    public static Icon lucideTextAlignJustifyEnd() {
+        return lucideTextAlignJustifyEnd(IconOptions.DEFAULT);
     }
 
-    public static Icon textInitial(IconOptions options) {
-        return new Icon(INSTANCE::textInitial, options);
+    public static Icon lucideTextAlignJustifyEnd(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextAlignJustifyEnd, options);
     }
 
-    public static Icon textQuote() {
-        return textQuote(IconOptions.DEFAULT);
+    public static Icon lucideTextAlignJustifyStart() {
+        return lucideTextAlignJustifyStart(IconOptions.DEFAULT);
     }
 
-    public static Icon textQuote(IconOptions options) {
-        return new Icon(INSTANCE::textQuote, options);
+    public static Icon lucideTextAlignJustifyStart(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextAlignJustifyStart, options);
     }
 
-    public static Icon textSearch() {
-        return textSearch(IconOptions.DEFAULT);
+    public static Icon lucideTextAlignStart() {
+        return lucideTextAlignStart(IconOptions.DEFAULT);
     }
 
-    public static Icon textSearch(IconOptions options) {
-        return new Icon(INSTANCE::textSearch, options);
+    public static Icon lucideTextAlignStart(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextAlignStart, options);
     }
 
-    public static Icon textWrap() {
-        return textWrap(IconOptions.DEFAULT);
+    public static Icon lucideTextCursor() {
+        return lucideTextCursor(IconOptions.DEFAULT);
     }
 
-    public static Icon textWrap(IconOptions options) {
-        return new Icon(INSTANCE::textWrap, options);
+    public static Icon lucideTextCursor(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextCursor, options);
     }
 
-    public static Icon theater() {
-        return theater(IconOptions.DEFAULT);
+    public static Icon lucideTextCursorInput() {
+        return lucideTextCursorInput(IconOptions.DEFAULT);
     }
 
-    public static Icon theater(IconOptions options) {
-        return new Icon(INSTANCE::theater, options);
+    public static Icon lucideTextCursorInput(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextCursorInput, options);
     }
 
-    public static Icon thermometer() {
-        return thermometer(IconOptions.DEFAULT);
+    public static Icon lucideTextInitial() {
+        return lucideTextInitial(IconOptions.DEFAULT);
     }
 
-    public static Icon thermometer(IconOptions options) {
-        return new Icon(INSTANCE::thermometer, options);
+    public static Icon lucideTextInitial(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextInitial, options);
     }
 
-    public static Icon thermometerSnowflake() {
-        return thermometerSnowflake(IconOptions.DEFAULT);
+    public static Icon lucideTextQuote() {
+        return lucideTextQuote(IconOptions.DEFAULT);
     }
 
-    public static Icon thermometerSnowflake(IconOptions options) {
-        return new Icon(INSTANCE::thermometerSnowflake, options);
+    public static Icon lucideTextQuote(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextQuote, options);
     }
 
-    public static Icon thermometerSun() {
-        return thermometerSun(IconOptions.DEFAULT);
+    public static Icon lucideTextSearch() {
+        return lucideTextSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon thermometerSun(IconOptions options) {
-        return new Icon(INSTANCE::thermometerSun, options);
+    public static Icon lucideTextSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextSearch, options);
     }
 
-    public static Icon thumbsDown() {
-        return thumbsDown(IconOptions.DEFAULT);
+    public static Icon lucideTextWrap() {
+        return lucideTextWrap(IconOptions.DEFAULT);
     }
 
-    public static Icon thumbsDown(IconOptions options) {
-        return new Icon(INSTANCE::thumbsDown, options);
+    public static Icon lucideTextWrap(IconOptions options) {
+        return new Icon(INSTANCE::lucideTextWrap, options);
     }
 
-    public static Icon thumbsUp() {
-        return thumbsUp(IconOptions.DEFAULT);
+    public static Icon lucideTheater() {
+        return lucideTheater(IconOptions.DEFAULT);
     }
 
-    public static Icon thumbsUp(IconOptions options) {
-        return new Icon(INSTANCE::thumbsUp, options);
+    public static Icon lucideTheater(IconOptions options) {
+        return new Icon(INSTANCE::lucideTheater, options);
     }
 
-    public static Icon ticTacToe() {
-        return ticTacToe(IconOptions.DEFAULT);
+    public static Icon lucideThermometer() {
+        return lucideThermometer(IconOptions.DEFAULT);
     }
 
-    public static Icon ticTacToe(IconOptions options) {
-        return new Icon(INSTANCE::ticTacToe, options);
+    public static Icon lucideThermometer(IconOptions options) {
+        return new Icon(INSTANCE::lucideThermometer, options);
     }
 
-    public static Icon ticket() {
-        return ticket(IconOptions.DEFAULT);
+    public static Icon lucideThermometerSnowflake() {
+        return lucideThermometerSnowflake(IconOptions.DEFAULT);
     }
 
-    public static Icon ticket(IconOptions options) {
-        return new Icon(INSTANCE::ticket, options);
+    public static Icon lucideThermometerSnowflake(IconOptions options) {
+        return new Icon(INSTANCE::lucideThermometerSnowflake, options);
     }
 
-    public static Icon ticketCheck() {
-        return ticketCheck(IconOptions.DEFAULT);
+    public static Icon lucideThermometerSun() {
+        return lucideThermometerSun(IconOptions.DEFAULT);
     }
 
-    public static Icon ticketCheck(IconOptions options) {
-        return new Icon(INSTANCE::ticketCheck, options);
+    public static Icon lucideThermometerSun(IconOptions options) {
+        return new Icon(INSTANCE::lucideThermometerSun, options);
     }
 
-    public static Icon ticketMinus() {
-        return ticketMinus(IconOptions.DEFAULT);
+    public static Icon lucideThumbsDown() {
+        return lucideThumbsDown(IconOptions.DEFAULT);
     }
 
-    public static Icon ticketMinus(IconOptions options) {
-        return new Icon(INSTANCE::ticketMinus, options);
+    public static Icon lucideThumbsDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideThumbsDown, options);
     }
 
-    public static Icon ticketPercent() {
-        return ticketPercent(IconOptions.DEFAULT);
+    public static Icon lucideThumbsUp() {
+        return lucideThumbsUp(IconOptions.DEFAULT);
     }
 
-    public static Icon ticketPercent(IconOptions options) {
-        return new Icon(INSTANCE::ticketPercent, options);
+    public static Icon lucideThumbsUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideThumbsUp, options);
     }
 
-    public static Icon ticketPlus() {
-        return ticketPlus(IconOptions.DEFAULT);
+    public static Icon lucideTicTacToe() {
+        return lucideTicTacToe(IconOptions.DEFAULT);
     }
 
-    public static Icon ticketPlus(IconOptions options) {
-        return new Icon(INSTANCE::ticketPlus, options);
+    public static Icon lucideTicTacToe(IconOptions options) {
+        return new Icon(INSTANCE::lucideTicTacToe, options);
     }
 
-    public static Icon ticketSlash() {
-        return ticketSlash(IconOptions.DEFAULT);
+    public static Icon lucideTicket() {
+        return lucideTicket(IconOptions.DEFAULT);
     }
 
-    public static Icon ticketSlash(IconOptions options) {
-        return new Icon(INSTANCE::ticketSlash, options);
+    public static Icon lucideTicket(IconOptions options) {
+        return new Icon(INSTANCE::lucideTicket, options);
     }
 
-    public static Icon ticketX() {
-        return ticketX(IconOptions.DEFAULT);
+    public static Icon lucideTicketCheck() {
+        return lucideTicketCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon ticketX(IconOptions options) {
-        return new Icon(INSTANCE::ticketX, options);
+    public static Icon lucideTicketCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideTicketCheck, options);
     }
 
-    public static Icon tickets() {
-        return tickets(IconOptions.DEFAULT);
+    public static Icon lucideTicketMinus() {
+        return lucideTicketMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon tickets(IconOptions options) {
-        return new Icon(INSTANCE::tickets, options);
+    public static Icon lucideTicketMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideTicketMinus, options);
     }
 
-    public static Icon ticketsPlane() {
-        return ticketsPlane(IconOptions.DEFAULT);
+    public static Icon lucideTicketPercent() {
+        return lucideTicketPercent(IconOptions.DEFAULT);
     }
 
-    public static Icon ticketsPlane(IconOptions options) {
-        return new Icon(INSTANCE::ticketsPlane, options);
+    public static Icon lucideTicketPercent(IconOptions options) {
+        return new Icon(INSTANCE::lucideTicketPercent, options);
     }
 
-    public static Icon timeline() {
-        return timeline(IconOptions.DEFAULT);
+    public static Icon lucideTicketPlus() {
+        return lucideTicketPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon timeline(IconOptions options) {
-        return new Icon(INSTANCE::timeline, options);
+    public static Icon lucideTicketPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideTicketPlus, options);
     }
 
-    public static Icon timer() {
-        return timer(IconOptions.DEFAULT);
+    public static Icon lucideTicketSlash() {
+        return lucideTicketSlash(IconOptions.DEFAULT);
     }
 
-    public static Icon timer(IconOptions options) {
-        return new Icon(INSTANCE::timer, options);
+    public static Icon lucideTicketSlash(IconOptions options) {
+        return new Icon(INSTANCE::lucideTicketSlash, options);
     }
 
-    public static Icon timerOff() {
-        return timerOff(IconOptions.DEFAULT);
+    public static Icon lucideTicketX() {
+        return lucideTicketX(IconOptions.DEFAULT);
     }
 
-    public static Icon timerOff(IconOptions options) {
-        return new Icon(INSTANCE::timerOff, options);
+    public static Icon lucideTicketX(IconOptions options) {
+        return new Icon(INSTANCE::lucideTicketX, options);
     }
 
-    public static Icon timerReset() {
-        return timerReset(IconOptions.DEFAULT);
+    public static Icon lucideTickets() {
+        return lucideTickets(IconOptions.DEFAULT);
     }
 
-    public static Icon timerReset(IconOptions options) {
-        return new Icon(INSTANCE::timerReset, options);
+    public static Icon lucideTickets(IconOptions options) {
+        return new Icon(INSTANCE::lucideTickets, options);
     }
 
-    public static Icon toggleLeft() {
-        return toggleLeft(IconOptions.DEFAULT);
+    public static Icon lucideTicketsPlane() {
+        return lucideTicketsPlane(IconOptions.DEFAULT);
     }
 
-    public static Icon toggleLeft(IconOptions options) {
-        return new Icon(INSTANCE::toggleLeft, options);
+    public static Icon lucideTicketsPlane(IconOptions options) {
+        return new Icon(INSTANCE::lucideTicketsPlane, options);
     }
 
-    public static Icon toggleRight() {
-        return toggleRight(IconOptions.DEFAULT);
+    public static Icon lucideTimeline() {
+        return lucideTimeline(IconOptions.DEFAULT);
     }
 
-    public static Icon toggleRight(IconOptions options) {
-        return new Icon(INSTANCE::toggleRight, options);
+    public static Icon lucideTimeline(IconOptions options) {
+        return new Icon(INSTANCE::lucideTimeline, options);
     }
 
-    public static Icon toilet() {
-        return toilet(IconOptions.DEFAULT);
+    public static Icon lucideTimer() {
+        return lucideTimer(IconOptions.DEFAULT);
     }
 
-    public static Icon toilet(IconOptions options) {
-        return new Icon(INSTANCE::toilet, options);
+    public static Icon lucideTimer(IconOptions options) {
+        return new Icon(INSTANCE::lucideTimer, options);
     }
 
-    public static Icon toolCase() {
-        return toolCase(IconOptions.DEFAULT);
+    public static Icon lucideTimerOff() {
+        return lucideTimerOff(IconOptions.DEFAULT);
     }
 
-    public static Icon toolCase(IconOptions options) {
-        return new Icon(INSTANCE::toolCase, options);
+    public static Icon lucideTimerOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideTimerOff, options);
     }
 
-    public static Icon toolbox() {
-        return toolbox(IconOptions.DEFAULT);
+    public static Icon lucideTimerReset() {
+        return lucideTimerReset(IconOptions.DEFAULT);
     }
 
-    public static Icon toolbox(IconOptions options) {
-        return new Icon(INSTANCE::toolbox, options);
+    public static Icon lucideTimerReset(IconOptions options) {
+        return new Icon(INSTANCE::lucideTimerReset, options);
     }
 
-    public static Icon toothbrush() {
-        return toothbrush(IconOptions.DEFAULT);
+    public static Icon lucideToggleLeft() {
+        return lucideToggleLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon toothbrush(IconOptions options) {
-        return new Icon(INSTANCE::toothbrush, options);
+    public static Icon lucideToggleLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideToggleLeft, options);
     }
 
-    public static Icon toothbrushSparkles() {
-        return toothbrushSparkles(IconOptions.DEFAULT);
+    public static Icon lucideToggleRight() {
+        return lucideToggleRight(IconOptions.DEFAULT);
     }
 
-    public static Icon toothbrushSparkles(IconOptions options) {
-        return new Icon(INSTANCE::toothbrushSparkles, options);
+    public static Icon lucideToggleRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideToggleRight, options);
     }
 
-    public static Icon tornado() {
-        return tornado(IconOptions.DEFAULT);
+    public static Icon lucideToilet() {
+        return lucideToilet(IconOptions.DEFAULT);
     }
 
-    public static Icon tornado(IconOptions options) {
-        return new Icon(INSTANCE::tornado, options);
+    public static Icon lucideToilet(IconOptions options) {
+        return new Icon(INSTANCE::lucideToilet, options);
     }
 
-    public static Icon torus() {
-        return torus(IconOptions.DEFAULT);
+    public static Icon lucideToolCase() {
+        return lucideToolCase(IconOptions.DEFAULT);
     }
 
-    public static Icon torus(IconOptions options) {
-        return new Icon(INSTANCE::torus, options);
+    public static Icon lucideToolCase(IconOptions options) {
+        return new Icon(INSTANCE::lucideToolCase, options);
     }
 
-    public static Icon touchpad() {
-        return touchpad(IconOptions.DEFAULT);
+    public static Icon lucideToolbox() {
+        return lucideToolbox(IconOptions.DEFAULT);
     }
 
-    public static Icon touchpad(IconOptions options) {
-        return new Icon(INSTANCE::touchpad, options);
+    public static Icon lucideToolbox(IconOptions options) {
+        return new Icon(INSTANCE::lucideToolbox, options);
     }
 
-    public static Icon touchpadOff() {
-        return touchpadOff(IconOptions.DEFAULT);
+    public static Icon lucideToothbrush() {
+        return lucideToothbrush(IconOptions.DEFAULT);
     }
 
-    public static Icon touchpadOff(IconOptions options) {
-        return new Icon(INSTANCE::touchpadOff, options);
+    public static Icon lucideToothbrush(IconOptions options) {
+        return new Icon(INSTANCE::lucideToothbrush, options);
     }
 
-    public static Icon towelRack() {
-        return towelRack(IconOptions.DEFAULT);
+    public static Icon lucideToothbrushSparkles() {
+        return lucideToothbrushSparkles(IconOptions.DEFAULT);
     }
 
-    public static Icon towelRack(IconOptions options) {
-        return new Icon(INSTANCE::towelRack, options);
+    public static Icon lucideToothbrushSparkles(IconOptions options) {
+        return new Icon(INSTANCE::lucideToothbrushSparkles, options);
     }
 
-    public static Icon towerControl() {
-        return towerControl(IconOptions.DEFAULT);
+    public static Icon lucideTornado() {
+        return lucideTornado(IconOptions.DEFAULT);
     }
 
-    public static Icon towerControl(IconOptions options) {
-        return new Icon(INSTANCE::towerControl, options);
+    public static Icon lucideTornado(IconOptions options) {
+        return new Icon(INSTANCE::lucideTornado, options);
     }
 
-    public static Icon toyBrick() {
-        return toyBrick(IconOptions.DEFAULT);
+    public static Icon lucideTorus() {
+        return lucideTorus(IconOptions.DEFAULT);
     }
 
-    public static Icon toyBrick(IconOptions options) {
-        return new Icon(INSTANCE::toyBrick, options);
+    public static Icon lucideTorus(IconOptions options) {
+        return new Icon(INSTANCE::lucideTorus, options);
     }
 
-    public static Icon tractor() {
-        return tractor(IconOptions.DEFAULT);
+    public static Icon lucideTouchpad() {
+        return lucideTouchpad(IconOptions.DEFAULT);
     }
 
-    public static Icon tractor(IconOptions options) {
-        return new Icon(INSTANCE::tractor, options);
+    public static Icon lucideTouchpad(IconOptions options) {
+        return new Icon(INSTANCE::lucideTouchpad, options);
     }
 
-    public static Icon trafficCone() {
-        return trafficCone(IconOptions.DEFAULT);
+    public static Icon lucideTouchpadOff() {
+        return lucideTouchpadOff(IconOptions.DEFAULT);
     }
 
-    public static Icon trafficCone(IconOptions options) {
-        return new Icon(INSTANCE::trafficCone, options);
+    public static Icon lucideTouchpadOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideTouchpadOff, options);
     }
 
-    public static Icon trailer() {
-        return trailer(IconOptions.DEFAULT);
+    public static Icon lucideTowelRack() {
+        return lucideTowelRack(IconOptions.DEFAULT);
     }
 
-    public static Icon trailer(IconOptions options) {
-        return new Icon(INSTANCE::trailer, options);
+    public static Icon lucideTowelRack(IconOptions options) {
+        return new Icon(INSTANCE::lucideTowelRack, options);
     }
 
-    public static Icon trainFront() {
-        return trainFront(IconOptions.DEFAULT);
+    public static Icon lucideTowerControl() {
+        return lucideTowerControl(IconOptions.DEFAULT);
     }
 
-    public static Icon trainFront(IconOptions options) {
-        return new Icon(INSTANCE::trainFront, options);
+    public static Icon lucideTowerControl(IconOptions options) {
+        return new Icon(INSTANCE::lucideTowerControl, options);
     }
 
-    public static Icon trainFrontTunnel() {
-        return trainFrontTunnel(IconOptions.DEFAULT);
+    public static Icon lucideToyBrick() {
+        return lucideToyBrick(IconOptions.DEFAULT);
     }
 
-    public static Icon trainFrontTunnel(IconOptions options) {
-        return new Icon(INSTANCE::trainFrontTunnel, options);
+    public static Icon lucideToyBrick(IconOptions options) {
+        return new Icon(INSTANCE::lucideToyBrick, options);
     }
 
-    public static Icon trainTrack() {
-        return trainTrack(IconOptions.DEFAULT);
+    public static Icon lucideTractor() {
+        return lucideTractor(IconOptions.DEFAULT);
     }
 
-    public static Icon trainTrack(IconOptions options) {
-        return new Icon(INSTANCE::trainTrack, options);
+    public static Icon lucideTractor(IconOptions options) {
+        return new Icon(INSTANCE::lucideTractor, options);
     }
 
-    public static Icon tramFront() {
-        return tramFront(IconOptions.DEFAULT);
+    public static Icon lucideTrafficCone() {
+        return lucideTrafficCone(IconOptions.DEFAULT);
     }
 
-    public static Icon tramFront(IconOptions options) {
-        return new Icon(INSTANCE::tramFront, options);
+    public static Icon lucideTrafficCone(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrafficCone, options);
     }
 
-    public static Icon transgender() {
-        return transgender(IconOptions.DEFAULT);
+    public static Icon lucideTrailer() {
+        return lucideTrailer(IconOptions.DEFAULT);
     }
 
-    public static Icon transgender(IconOptions options) {
-        return new Icon(INSTANCE::transgender, options);
+    public static Icon lucideTrailer(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrailer, options);
     }
 
-    public static Icon trash() {
-        return trash(IconOptions.DEFAULT);
+    public static Icon lucideTrainFront() {
+        return lucideTrainFront(IconOptions.DEFAULT);
     }
 
-    public static Icon trash(IconOptions options) {
-        return new Icon(INSTANCE::trash, options);
+    public static Icon lucideTrainFront(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrainFront, options);
     }
 
-    public static Icon trashOff() {
-        return trashOff(IconOptions.DEFAULT);
+    public static Icon lucideTrainFrontTunnel() {
+        return lucideTrainFrontTunnel(IconOptions.DEFAULT);
     }
 
-    public static Icon trashOff(IconOptions options) {
-        return new Icon(INSTANCE::trashOff, options);
+    public static Icon lucideTrainFrontTunnel(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrainFrontTunnel, options);
     }
 
-    public static Icon treeDeciduous() {
-        return treeDeciduous(IconOptions.DEFAULT);
+    public static Icon lucideTrainTrack() {
+        return lucideTrainTrack(IconOptions.DEFAULT);
     }
 
-    public static Icon treeDeciduous(IconOptions options) {
-        return new Icon(INSTANCE::treeDeciduous, options);
+    public static Icon lucideTrainTrack(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrainTrack, options);
     }
 
-    public static Icon treePalm() {
-        return treePalm(IconOptions.DEFAULT);
+    public static Icon lucideTramFront() {
+        return lucideTramFront(IconOptions.DEFAULT);
     }
 
-    public static Icon treePalm(IconOptions options) {
-        return new Icon(INSTANCE::treePalm, options);
+    public static Icon lucideTramFront(IconOptions options) {
+        return new Icon(INSTANCE::lucideTramFront, options);
     }
 
-    public static Icon treePine() {
-        return treePine(IconOptions.DEFAULT);
+    public static Icon lucideTransgender() {
+        return lucideTransgender(IconOptions.DEFAULT);
     }
 
-    public static Icon treePine(IconOptions options) {
-        return new Icon(INSTANCE::treePine, options);
+    public static Icon lucideTransgender(IconOptions options) {
+        return new Icon(INSTANCE::lucideTransgender, options);
     }
 
-    public static Icon trees() {
-        return trees(IconOptions.DEFAULT);
+    public static Icon lucideTrash() {
+        return lucideTrash(IconOptions.DEFAULT);
     }
 
-    public static Icon trees(IconOptions options) {
-        return new Icon(INSTANCE::trees, options);
+    public static Icon lucideTrash(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrash, options);
     }
 
-    public static Icon trendingDown() {
-        return trendingDown(IconOptions.DEFAULT);
+    public static Icon lucideTrashOff() {
+        return lucideTrashOff(IconOptions.DEFAULT);
     }
 
-    public static Icon trendingDown(IconOptions options) {
-        return new Icon(INSTANCE::trendingDown, options);
+    public static Icon lucideTrashOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrashOff, options);
     }
 
-    public static Icon trendingUp() {
-        return trendingUp(IconOptions.DEFAULT);
+    public static Icon lucideTreeDeciduous() {
+        return lucideTreeDeciduous(IconOptions.DEFAULT);
     }
 
-    public static Icon trendingUp(IconOptions options) {
-        return new Icon(INSTANCE::trendingUp, options);
+    public static Icon lucideTreeDeciduous(IconOptions options) {
+        return new Icon(INSTANCE::lucideTreeDeciduous, options);
     }
 
-    public static Icon trendingUpDown() {
-        return trendingUpDown(IconOptions.DEFAULT);
+    public static Icon lucideTreePalm() {
+        return lucideTreePalm(IconOptions.DEFAULT);
     }
 
-    public static Icon trendingUpDown(IconOptions options) {
-        return new Icon(INSTANCE::trendingUpDown, options);
+    public static Icon lucideTreePalm(IconOptions options) {
+        return new Icon(INSTANCE::lucideTreePalm, options);
     }
 
-    public static Icon triangle() {
-        return triangle(IconOptions.DEFAULT);
+    public static Icon lucideTreePine() {
+        return lucideTreePine(IconOptions.DEFAULT);
     }
 
-    public static Icon triangle(IconOptions options) {
-        return new Icon(INSTANCE::triangle, options);
+    public static Icon lucideTreePine(IconOptions options) {
+        return new Icon(INSTANCE::lucideTreePine, options);
     }
 
-    public static Icon triangleAlert() {
-        return triangleAlert(IconOptions.DEFAULT);
+    public static Icon lucideTrees() {
+        return lucideTrees(IconOptions.DEFAULT);
     }
 
-    public static Icon triangleAlert(IconOptions options) {
-        return new Icon(INSTANCE::triangleAlert, options);
+    public static Icon lucideTrees(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrees, options);
     }
 
-    public static Icon triangleDashed() {
-        return triangleDashed(IconOptions.DEFAULT);
+    public static Icon lucideTrendingDown() {
+        return lucideTrendingDown(IconOptions.DEFAULT);
     }
 
-    public static Icon triangleDashed(IconOptions options) {
-        return new Icon(INSTANCE::triangleDashed, options);
+    public static Icon lucideTrendingDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrendingDown, options);
     }
 
-    public static Icon triangleRight() {
-        return triangleRight(IconOptions.DEFAULT);
+    public static Icon lucideTrendingUp() {
+        return lucideTrendingUp(IconOptions.DEFAULT);
     }
 
-    public static Icon triangleRight(IconOptions options) {
-        return new Icon(INSTANCE::triangleRight, options);
+    public static Icon lucideTrendingUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrendingUp, options);
     }
 
-    public static Icon trianglesCenterlineDashedHorizontal() {
-        return trianglesCenterlineDashedHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideTrendingUpDown() {
+        return lucideTrendingUpDown(IconOptions.DEFAULT);
     }
 
-    public static Icon trianglesCenterlineDashedHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::trianglesCenterlineDashedHorizontal, options);
+    public static Icon lucideTrendingUpDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrendingUpDown, options);
     }
 
-    public static Icon trianglesCenterlineDashedVertical() {
-        return trianglesCenterlineDashedVertical(IconOptions.DEFAULT);
+    public static Icon lucideTriangle() {
+        return lucideTriangle(IconOptions.DEFAULT);
     }
 
-    public static Icon trianglesCenterlineDashedVertical(IconOptions options) {
-        return new Icon(INSTANCE::trianglesCenterlineDashedVertical, options);
+    public static Icon lucideTriangle(IconOptions options) {
+        return new Icon(INSTANCE::lucideTriangle, options);
     }
 
-    public static Icon trophy() {
-        return trophy(IconOptions.DEFAULT);
+    public static Icon lucideTriangleAlert() {
+        return lucideTriangleAlert(IconOptions.DEFAULT);
     }
 
-    public static Icon trophy(IconOptions options) {
-        return new Icon(INSTANCE::trophy, options);
+    public static Icon lucideTriangleAlert(IconOptions options) {
+        return new Icon(INSTANCE::lucideTriangleAlert, options);
     }
 
-    public static Icon truck() {
-        return truck(IconOptions.DEFAULT);
+    public static Icon lucideTriangleDashed() {
+        return lucideTriangleDashed(IconOptions.DEFAULT);
     }
 
-    public static Icon truck(IconOptions options) {
-        return new Icon(INSTANCE::truck, options);
+    public static Icon lucideTriangleDashed(IconOptions options) {
+        return new Icon(INSTANCE::lucideTriangleDashed, options);
     }
 
-    public static Icon truckElectric() {
-        return truckElectric(IconOptions.DEFAULT);
+    public static Icon lucideTriangleRight() {
+        return lucideTriangleRight(IconOptions.DEFAULT);
     }
 
-    public static Icon truckElectric(IconOptions options) {
-        return new Icon(INSTANCE::truckElectric, options);
+    public static Icon lucideTriangleRight(IconOptions options) {
+        return new Icon(INSTANCE::lucideTriangleRight, options);
     }
 
-    public static Icon tubeLotion() {
-        return tubeLotion(IconOptions.DEFAULT);
+    public static Icon lucideTrianglesCenterlineDashedHorizontal() {
+        return lucideTrianglesCenterlineDashedHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon tubeLotion(IconOptions options) {
-        return new Icon(INSTANCE::tubeLotion, options);
+    public static Icon lucideTrianglesCenterlineDashedHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrianglesCenterlineDashedHorizontal, options);
     }
 
-    public static Icon turkishLira() {
-        return turkishLira(IconOptions.DEFAULT);
+    public static Icon lucideTrianglesCenterlineDashedVertical() {
+        return lucideTrianglesCenterlineDashedVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon turkishLira(IconOptions options) {
-        return new Icon(INSTANCE::turkishLira, options);
+    public static Icon lucideTrianglesCenterlineDashedVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrianglesCenterlineDashedVertical, options);
     }
 
-    public static Icon turntable() {
-        return turntable(IconOptions.DEFAULT);
+    public static Icon lucideTrophy() {
+        return lucideTrophy(IconOptions.DEFAULT);
     }
 
-    public static Icon turntable(IconOptions options) {
-        return new Icon(INSTANCE::turntable, options);
+    public static Icon lucideTrophy(IconOptions options) {
+        return new Icon(INSTANCE::lucideTrophy, options);
     }
 
-    public static Icon turtle() {
-        return turtle(IconOptions.DEFAULT);
+    public static Icon lucideTruck() {
+        return lucideTruck(IconOptions.DEFAULT);
     }
 
-    public static Icon turtle(IconOptions options) {
-        return new Icon(INSTANCE::turtle, options);
+    public static Icon lucideTruck(IconOptions options) {
+        return new Icon(INSTANCE::lucideTruck, options);
     }
 
-    public static Icon tv() {
-        return tv(IconOptions.DEFAULT);
+    public static Icon lucideTruckElectric() {
+        return lucideTruckElectric(IconOptions.DEFAULT);
     }
 
-    public static Icon tv(IconOptions options) {
-        return new Icon(INSTANCE::tv, options);
+    public static Icon lucideTruckElectric(IconOptions options) {
+        return new Icon(INSTANCE::lucideTruckElectric, options);
     }
 
-    public static Icon tvMinimal() {
-        return tvMinimal(IconOptions.DEFAULT);
+    public static Icon lucideTubeLotion() {
+        return lucideTubeLotion(IconOptions.DEFAULT);
     }
 
-    public static Icon tvMinimal(IconOptions options) {
-        return new Icon(INSTANCE::tvMinimal, options);
+    public static Icon lucideTubeLotion(IconOptions options) {
+        return new Icon(INSTANCE::lucideTubeLotion, options);
     }
 
-    public static Icon tvMinimalPlay() {
-        return tvMinimalPlay(IconOptions.DEFAULT);
+    public static Icon lucideTurkishLira() {
+        return lucideTurkishLira(IconOptions.DEFAULT);
     }
 
-    public static Icon tvMinimalPlay(IconOptions options) {
-        return new Icon(INSTANCE::tvMinimalPlay, options);
+    public static Icon lucideTurkishLira(IconOptions options) {
+        return new Icon(INSTANCE::lucideTurkishLira, options);
     }
 
-    public static Icon type() {
-        return type(IconOptions.DEFAULT);
+    public static Icon lucideTurntable() {
+        return lucideTurntable(IconOptions.DEFAULT);
     }
 
-    public static Icon type(IconOptions options) {
-        return new Icon(INSTANCE::type, options);
+    public static Icon lucideTurntable(IconOptions options) {
+        return new Icon(INSTANCE::lucideTurntable, options);
     }
 
-    public static Icon typeOutline() {
-        return typeOutline(IconOptions.DEFAULT);
+    public static Icon lucideTurtle() {
+        return lucideTurtle(IconOptions.DEFAULT);
     }
 
-    public static Icon typeOutline(IconOptions options) {
-        return new Icon(INSTANCE::typeOutline, options);
+    public static Icon lucideTurtle(IconOptions options) {
+        return new Icon(INSTANCE::lucideTurtle, options);
     }
 
-    public static Icon umbrella() {
-        return umbrella(IconOptions.DEFAULT);
+    public static Icon lucideTv() {
+        return lucideTv(IconOptions.DEFAULT);
     }
 
-    public static Icon umbrella(IconOptions options) {
-        return new Icon(INSTANCE::umbrella, options);
+    public static Icon lucideTv(IconOptions options) {
+        return new Icon(INSTANCE::lucideTv, options);
     }
 
-    public static Icon umbrellaOff() {
-        return umbrellaOff(IconOptions.DEFAULT);
+    public static Icon lucideTvMinimal() {
+        return lucideTvMinimal(IconOptions.DEFAULT);
     }
 
-    public static Icon umbrellaOff(IconOptions options) {
-        return new Icon(INSTANCE::umbrellaOff, options);
+    public static Icon lucideTvMinimal(IconOptions options) {
+        return new Icon(INSTANCE::lucideTvMinimal, options);
     }
 
-    public static Icon underline() {
-        return underline(IconOptions.DEFAULT);
+    public static Icon lucideTvMinimalPlay() {
+        return lucideTvMinimalPlay(IconOptions.DEFAULT);
     }
 
-    public static Icon underline(IconOptions options) {
-        return new Icon(INSTANCE::underline, options);
+    public static Icon lucideTvMinimalPlay(IconOptions options) {
+        return new Icon(INSTANCE::lucideTvMinimalPlay, options);
     }
 
-    public static Icon undo() {
-        return undo(IconOptions.DEFAULT);
+    public static Icon lucideType() {
+        return lucideType(IconOptions.DEFAULT);
     }
 
-    public static Icon undo(IconOptions options) {
-        return new Icon(INSTANCE::undo, options);
+    public static Icon lucideType(IconOptions options) {
+        return new Icon(INSTANCE::lucideType, options);
     }
 
-    public static Icon undo2() {
-        return undo2(IconOptions.DEFAULT);
+    public static Icon lucideTypeOutline() {
+        return lucideTypeOutline(IconOptions.DEFAULT);
     }
 
-    public static Icon undo2(IconOptions options) {
-        return new Icon(INSTANCE::undo2, options);
+    public static Icon lucideTypeOutline(IconOptions options) {
+        return new Icon(INSTANCE::lucideTypeOutline, options);
     }
 
-    public static Icon undoDot() {
-        return undoDot(IconOptions.DEFAULT);
+    public static Icon lucideUmbrella() {
+        return lucideUmbrella(IconOptions.DEFAULT);
     }
 
-    public static Icon undoDot(IconOptions options) {
-        return new Icon(INSTANCE::undoDot, options);
+    public static Icon lucideUmbrella(IconOptions options) {
+        return new Icon(INSTANCE::lucideUmbrella, options);
     }
 
-    public static Icon unfoldHorizontal() {
-        return unfoldHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideUmbrellaOff() {
+        return lucideUmbrellaOff(IconOptions.DEFAULT);
     }
 
-    public static Icon unfoldHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::unfoldHorizontal, options);
+    public static Icon lucideUmbrellaOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideUmbrellaOff, options);
     }
 
-    public static Icon unfoldVertical() {
-        return unfoldVertical(IconOptions.DEFAULT);
+    public static Icon lucideUnderline() {
+        return lucideUnderline(IconOptions.DEFAULT);
     }
 
-    public static Icon unfoldVertical(IconOptions options) {
-        return new Icon(INSTANCE::unfoldVertical, options);
+    public static Icon lucideUnderline(IconOptions options) {
+        return new Icon(INSTANCE::lucideUnderline, options);
     }
 
-    public static Icon ungroup() {
-        return ungroup(IconOptions.DEFAULT);
+    public static Icon lucideUndo() {
+        return lucideUndo(IconOptions.DEFAULT);
     }
 
-    public static Icon ungroup(IconOptions options) {
-        return new Icon(INSTANCE::ungroup, options);
+    public static Icon lucideUndo(IconOptions options) {
+        return new Icon(INSTANCE::lucideUndo, options);
     }
 
-    public static Icon university() {
-        return university(IconOptions.DEFAULT);
+    public static Icon lucideUndo2() {
+        return lucideUndo2(IconOptions.DEFAULT);
     }
 
-    public static Icon university(IconOptions options) {
-        return new Icon(INSTANCE::university, options);
+    public static Icon lucideUndo2(IconOptions options) {
+        return new Icon(INSTANCE::lucideUndo2, options);
     }
 
-    public static Icon unlink() {
-        return unlink(IconOptions.DEFAULT);
+    public static Icon lucideUndoDot() {
+        return lucideUndoDot(IconOptions.DEFAULT);
     }
 
-    public static Icon unlink(IconOptions options) {
-        return new Icon(INSTANCE::unlink, options);
+    public static Icon lucideUndoDot(IconOptions options) {
+        return new Icon(INSTANCE::lucideUndoDot, options);
     }
 
-    public static Icon unlink2() {
-        return unlink2(IconOptions.DEFAULT);
+    public static Icon lucideUnfoldHorizontal() {
+        return lucideUnfoldHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon unlink2(IconOptions options) {
-        return new Icon(INSTANCE::unlink2, options);
+    public static Icon lucideUnfoldHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideUnfoldHorizontal, options);
     }
 
-    public static Icon unplug() {
-        return unplug(IconOptions.DEFAULT);
+    public static Icon lucideUnfoldVertical() {
+        return lucideUnfoldVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon unplug(IconOptions options) {
-        return new Icon(INSTANCE::unplug, options);
+    public static Icon lucideUnfoldVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideUnfoldVertical, options);
     }
 
-    public static Icon upload() {
-        return upload(IconOptions.DEFAULT);
+    public static Icon lucideUngroup() {
+        return lucideUngroup(IconOptions.DEFAULT);
     }
 
-    public static Icon upload(IconOptions options) {
-        return new Icon(INSTANCE::upload, options);
+    public static Icon lucideUngroup(IconOptions options) {
+        return new Icon(INSTANCE::lucideUngroup, options);
     }
 
-    public static Icon usb() {
-        return usb(IconOptions.DEFAULT);
+    public static Icon lucideUniversity() {
+        return lucideUniversity(IconOptions.DEFAULT);
     }
 
-    public static Icon usb(IconOptions options) {
-        return new Icon(INSTANCE::usb, options);
+    public static Icon lucideUniversity(IconOptions options) {
+        return new Icon(INSTANCE::lucideUniversity, options);
     }
 
-    public static Icon usbCPort() {
-        return usbCPort(IconOptions.DEFAULT);
+    public static Icon lucideUnlink() {
+        return lucideUnlink(IconOptions.DEFAULT);
     }
 
-    public static Icon usbCPort(IconOptions options) {
-        return new Icon(INSTANCE::usbCPort, options);
+    public static Icon lucideUnlink(IconOptions options) {
+        return new Icon(INSTANCE::lucideUnlink, options);
     }
 
-    public static Icon user() {
-        return user(IconOptions.DEFAULT);
+    public static Icon lucideUnlink2() {
+        return lucideUnlink2(IconOptions.DEFAULT);
     }
 
-    public static Icon user(IconOptions options) {
-        return new Icon(INSTANCE::user, options);
+    public static Icon lucideUnlink2(IconOptions options) {
+        return new Icon(INSTANCE::lucideUnlink2, options);
     }
 
-    public static Icon userCheck() {
-        return userCheck(IconOptions.DEFAULT);
+    public static Icon lucideUnplug() {
+        return lucideUnplug(IconOptions.DEFAULT);
     }
 
-    public static Icon userCheck(IconOptions options) {
-        return new Icon(INSTANCE::userCheck, options);
+    public static Icon lucideUnplug(IconOptions options) {
+        return new Icon(INSTANCE::lucideUnplug, options);
     }
 
-    public static Icon userCog() {
-        return userCog(IconOptions.DEFAULT);
+    public static Icon lucideUpload() {
+        return lucideUpload(IconOptions.DEFAULT);
     }
 
-    public static Icon userCog(IconOptions options) {
-        return new Icon(INSTANCE::userCog, options);
+    public static Icon lucideUpload(IconOptions options) {
+        return new Icon(INSTANCE::lucideUpload, options);
     }
 
-    public static Icon userGroup() {
-        return userGroup(IconOptions.DEFAULT);
+    public static Icon lucideUsb() {
+        return lucideUsb(IconOptions.DEFAULT);
     }
 
-    public static Icon userGroup(IconOptions options) {
-        return new Icon(INSTANCE::userGroup, options);
+    public static Icon lucideUsb(IconOptions options) {
+        return new Icon(INSTANCE::lucideUsb, options);
     }
 
-    public static Icon userKey() {
-        return userKey(IconOptions.DEFAULT);
+    public static Icon lucideUsbCPort() {
+        return lucideUsbCPort(IconOptions.DEFAULT);
     }
 
-    public static Icon userKey(IconOptions options) {
-        return new Icon(INSTANCE::userKey, options);
+    public static Icon lucideUsbCPort(IconOptions options) {
+        return new Icon(INSTANCE::lucideUsbCPort, options);
     }
 
-    public static Icon userLock() {
-        return userLock(IconOptions.DEFAULT);
+    public static Icon lucideUser() {
+        return lucideUser(IconOptions.DEFAULT);
     }
 
-    public static Icon userLock(IconOptions options) {
-        return new Icon(INSTANCE::userLock, options);
+    public static Icon lucideUser(IconOptions options) {
+        return new Icon(INSTANCE::lucideUser, options);
     }
 
-    public static Icon userMinus() {
-        return userMinus(IconOptions.DEFAULT);
+    public static Icon lucideUserCheck() {
+        return lucideUserCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon userMinus(IconOptions options) {
-        return new Icon(INSTANCE::userMinus, options);
+    public static Icon lucideUserCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserCheck, options);
     }
 
-    public static Icon userPen() {
-        return userPen(IconOptions.DEFAULT);
+    public static Icon lucideUserCog() {
+        return lucideUserCog(IconOptions.DEFAULT);
     }
 
-    public static Icon userPen(IconOptions options) {
-        return new Icon(INSTANCE::userPen, options);
+    public static Icon lucideUserCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserCog, options);
     }
 
-    public static Icon userPlus() {
-        return userPlus(IconOptions.DEFAULT);
+    public static Icon lucideUserGroup() {
+        return lucideUserGroup(IconOptions.DEFAULT);
     }
 
-    public static Icon userPlus(IconOptions options) {
-        return new Icon(INSTANCE::userPlus, options);
+    public static Icon lucideUserGroup(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserGroup, options);
     }
 
-    public static Icon userRound() {
-        return userRound(IconOptions.DEFAULT);
+    public static Icon lucideUserKey() {
+        return lucideUserKey(IconOptions.DEFAULT);
     }
 
-    public static Icon userRound(IconOptions options) {
-        return new Icon(INSTANCE::userRound, options);
+    public static Icon lucideUserKey(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserKey, options);
     }
 
-    public static Icon userRoundArrowLeft() {
-        return userRoundArrowLeft(IconOptions.DEFAULT);
+    public static Icon lucideUserLock() {
+        return lucideUserLock(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundArrowLeft(IconOptions options) {
-        return new Icon(INSTANCE::userRoundArrowLeft, options);
+    public static Icon lucideUserLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserLock, options);
     }
 
-    public static Icon userRoundCheck() {
-        return userRoundCheck(IconOptions.DEFAULT);
+    public static Icon lucideUserMinus() {
+        return lucideUserMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundCheck(IconOptions options) {
-        return new Icon(INSTANCE::userRoundCheck, options);
+    public static Icon lucideUserMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserMinus, options);
     }
 
-    public static Icon userRoundCog() {
-        return userRoundCog(IconOptions.DEFAULT);
+    public static Icon lucideUserPen() {
+        return lucideUserPen(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundCog(IconOptions options) {
-        return new Icon(INSTANCE::userRoundCog, options);
+    public static Icon lucideUserPen(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserPen, options);
     }
 
-    public static Icon userRoundGroup() {
-        return userRoundGroup(IconOptions.DEFAULT);
+    public static Icon lucideUserPlus() {
+        return lucideUserPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundGroup(IconOptions options) {
-        return new Icon(INSTANCE::userRoundGroup, options);
+    public static Icon lucideUserPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserPlus, options);
     }
 
-    public static Icon userRoundKey() {
-        return userRoundKey(IconOptions.DEFAULT);
+    public static Icon lucideUserRound() {
+        return lucideUserRound(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundKey(IconOptions options) {
-        return new Icon(INSTANCE::userRoundKey, options);
+    public static Icon lucideUserRound(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRound, options);
     }
 
-    public static Icon userRoundMinus() {
-        return userRoundMinus(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundArrowLeft() {
+        return lucideUserRoundArrowLeft(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundMinus(IconOptions options) {
-        return new Icon(INSTANCE::userRoundMinus, options);
+    public static Icon lucideUserRoundArrowLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundArrowLeft, options);
     }
 
-    public static Icon userRoundPen() {
-        return userRoundPen(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundCheck() {
+        return lucideUserRoundCheck(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundPen(IconOptions options) {
-        return new Icon(INSTANCE::userRoundPen, options);
+    public static Icon lucideUserRoundCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundCheck, options);
     }
 
-    public static Icon userRoundPlus() {
-        return userRoundPlus(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundCog() {
+        return lucideUserRoundCog(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundPlus(IconOptions options) {
-        return new Icon(INSTANCE::userRoundPlus, options);
+    public static Icon lucideUserRoundCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundCog, options);
     }
 
-    public static Icon userRoundSearch() {
-        return userRoundSearch(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundGroup() {
+        return lucideUserRoundGroup(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundSearch(IconOptions options) {
-        return new Icon(INSTANCE::userRoundSearch, options);
+    public static Icon lucideUserRoundGroup(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundGroup, options);
     }
 
-    public static Icon userRoundX() {
-        return userRoundX(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundKey() {
+        return lucideUserRoundKey(IconOptions.DEFAULT);
     }
 
-    public static Icon userRoundX(IconOptions options) {
-        return new Icon(INSTANCE::userRoundX, options);
+    public static Icon lucideUserRoundKey(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundKey, options);
     }
 
-    public static Icon userSearch() {
-        return userSearch(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundMinus() {
+        return lucideUserRoundMinus(IconOptions.DEFAULT);
     }
 
-    public static Icon userSearch(IconOptions options) {
-        return new Icon(INSTANCE::userSearch, options);
+    public static Icon lucideUserRoundMinus(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundMinus, options);
     }
 
-    public static Icon userShield() {
-        return userShield(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundPen() {
+        return lucideUserRoundPen(IconOptions.DEFAULT);
     }
 
-    public static Icon userShield(IconOptions options) {
-        return new Icon(INSTANCE::userShield, options);
+    public static Icon lucideUserRoundPen(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundPen, options);
     }
 
-    public static Icon userStar() {
-        return userStar(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundPlus() {
+        return lucideUserRoundPlus(IconOptions.DEFAULT);
     }
 
-    public static Icon userStar(IconOptions options) {
-        return new Icon(INSTANCE::userStar, options);
+    public static Icon lucideUserRoundPlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundPlus, options);
     }
 
-    public static Icon userX() {
-        return userX(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundSearch() {
+        return lucideUserRoundSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon userX(IconOptions options) {
-        return new Icon(INSTANCE::userX, options);
+    public static Icon lucideUserRoundSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundSearch, options);
     }
 
-    public static Icon users() {
-        return users(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundStar() {
+        return lucideUserRoundStar(IconOptions.DEFAULT);
     }
 
-    public static Icon users(IconOptions options) {
-        return new Icon(INSTANCE::users, options);
+    public static Icon lucideUserRoundStar(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundStar, options);
     }
 
-    public static Icon usersRound() {
-        return usersRound(IconOptions.DEFAULT);
+    public static Icon lucideUserRoundX() {
+        return lucideUserRoundX(IconOptions.DEFAULT);
     }
 
-    public static Icon usersRound(IconOptions options) {
-        return new Icon(INSTANCE::usersRound, options);
+    public static Icon lucideUserRoundX(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundX, options);
     }
 
-    public static Icon utensils() {
-        return utensils(IconOptions.DEFAULT);
+    public static Icon lucideUserSearch() {
+        return lucideUserSearch(IconOptions.DEFAULT);
     }
 
-    public static Icon utensils(IconOptions options) {
-        return new Icon(INSTANCE::utensils, options);
+    public static Icon lucideUserSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserSearch, options);
     }
 
-    public static Icon utensilsCrossed() {
-        return utensilsCrossed(IconOptions.DEFAULT);
+    public static Icon lucideUserShield() {
+        return lucideUserShield(IconOptions.DEFAULT);
     }
 
-    public static Icon utensilsCrossed(IconOptions options) {
-        return new Icon(INSTANCE::utensilsCrossed, options);
+    public static Icon lucideUserShield(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserShield, options);
     }
 
-    public static Icon utilityPole() {
-        return utilityPole(IconOptions.DEFAULT);
+    public static Icon lucideUserStar() {
+        return lucideUserStar(IconOptions.DEFAULT);
     }
 
-    public static Icon utilityPole(IconOptions options) {
-        return new Icon(INSTANCE::utilityPole, options);
+    public static Icon lucideUserStar(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserStar, options);
     }
 
-    public static Icon van() {
-        return van(IconOptions.DEFAULT);
+    public static Icon lucideUserX() {
+        return lucideUserX(IconOptions.DEFAULT);
     }
 
-    public static Icon van(IconOptions options) {
-        return new Icon(INSTANCE::van, options);
+    public static Icon lucideUserX(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserX, options);
     }
 
-    public static Icon variable() {
-        return variable(IconOptions.DEFAULT);
+    public static Icon lucideUsers() {
+        return lucideUsers(IconOptions.DEFAULT);
     }
 
-    public static Icon variable(IconOptions options) {
-        return new Icon(INSTANCE::variable, options);
+    public static Icon lucideUsers(IconOptions options) {
+        return new Icon(INSTANCE::lucideUsers, options);
     }
 
-    public static Icon vault() {
-        return vault(IconOptions.DEFAULT);
+    public static Icon lucideUsersRound() {
+        return lucideUsersRound(IconOptions.DEFAULT);
     }
 
-    public static Icon vault(IconOptions options) {
-        return new Icon(INSTANCE::vault, options);
+    public static Icon lucideUsersRound(IconOptions options) {
+        return new Icon(INSTANCE::lucideUsersRound, options);
     }
 
-    public static Icon vectorPolygon() {
-        return vectorPolygon(IconOptions.DEFAULT);
+    public static Icon lucideUtensils() {
+        return lucideUtensils(IconOptions.DEFAULT);
     }
 
-    public static Icon vectorPolygon(IconOptions options) {
-        return new Icon(INSTANCE::vectorPolygon, options);
+    public static Icon lucideUtensils(IconOptions options) {
+        return new Icon(INSTANCE::lucideUtensils, options);
     }
 
-    public static Icon vectorSquare() {
-        return vectorSquare(IconOptions.DEFAULT);
+    public static Icon lucideUtensilsCrossed() {
+        return lucideUtensilsCrossed(IconOptions.DEFAULT);
     }
 
-    public static Icon vectorSquare(IconOptions options) {
-        return new Icon(INSTANCE::vectorSquare, options);
+    public static Icon lucideUtensilsCrossed(IconOptions options) {
+        return new Icon(INSTANCE::lucideUtensilsCrossed, options);
     }
 
-    public static Icon vegan() {
-        return vegan(IconOptions.DEFAULT);
+    public static Icon lucideUtilityPole() {
+        return lucideUtilityPole(IconOptions.DEFAULT);
     }
 
-    public static Icon vegan(IconOptions options) {
-        return new Icon(INSTANCE::vegan, options);
+    public static Icon lucideUtilityPole(IconOptions options) {
+        return new Icon(INSTANCE::lucideUtilityPole, options);
     }
 
-    public static Icon venetianMask() {
-        return venetianMask(IconOptions.DEFAULT);
+    public static Icon lucideVan() {
+        return lucideVan(IconOptions.DEFAULT);
     }
 
-    public static Icon venetianMask(IconOptions options) {
-        return new Icon(INSTANCE::venetianMask, options);
+    public static Icon lucideVan(IconOptions options) {
+        return new Icon(INSTANCE::lucideVan, options);
     }
 
-    public static Icon venus() {
-        return venus(IconOptions.DEFAULT);
+    public static Icon lucideVariable() {
+        return lucideVariable(IconOptions.DEFAULT);
     }
 
-    public static Icon venus(IconOptions options) {
-        return new Icon(INSTANCE::venus, options);
+    public static Icon lucideVariable(IconOptions options) {
+        return new Icon(INSTANCE::lucideVariable, options);
     }
 
-    public static Icon venusAndMars() {
-        return venusAndMars(IconOptions.DEFAULT);
+    public static Icon lucideVault() {
+        return lucideVault(IconOptions.DEFAULT);
     }
 
-    public static Icon venusAndMars(IconOptions options) {
-        return new Icon(INSTANCE::venusAndMars, options);
+    public static Icon lucideVault(IconOptions options) {
+        return new Icon(INSTANCE::lucideVault, options);
     }
 
-    public static Icon vibrate() {
-        return vibrate(IconOptions.DEFAULT);
+    public static Icon lucideVectorPolygon() {
+        return lucideVectorPolygon(IconOptions.DEFAULT);
     }
 
-    public static Icon vibrate(IconOptions options) {
-        return new Icon(INSTANCE::vibrate, options);
+    public static Icon lucideVectorPolygon(IconOptions options) {
+        return new Icon(INSTANCE::lucideVectorPolygon, options);
     }
 
-    public static Icon vibrateOff() {
-        return vibrateOff(IconOptions.DEFAULT);
+    public static Icon lucideVectorSquare() {
+        return lucideVectorSquare(IconOptions.DEFAULT);
     }
 
-    public static Icon vibrateOff(IconOptions options) {
-        return new Icon(INSTANCE::vibrateOff, options);
+    public static Icon lucideVectorSquare(IconOptions options) {
+        return new Icon(INSTANCE::lucideVectorSquare, options);
     }
 
-    public static Icon video() {
-        return video(IconOptions.DEFAULT);
+    public static Icon lucideVegan() {
+        return lucideVegan(IconOptions.DEFAULT);
     }
 
-    public static Icon video(IconOptions options) {
-        return new Icon(INSTANCE::video, options);
+    public static Icon lucideVegan(IconOptions options) {
+        return new Icon(INSTANCE::lucideVegan, options);
     }
 
-    public static Icon videoOff() {
-        return videoOff(IconOptions.DEFAULT);
+    public static Icon lucideVenetianMask() {
+        return lucideVenetianMask(IconOptions.DEFAULT);
     }
 
-    public static Icon videoOff(IconOptions options) {
-        return new Icon(INSTANCE::videoOff, options);
+    public static Icon lucideVenetianMask(IconOptions options) {
+        return new Icon(INSTANCE::lucideVenetianMask, options);
     }
 
-    public static Icon videotape() {
-        return videotape(IconOptions.DEFAULT);
+    public static Icon lucideVenus() {
+        return lucideVenus(IconOptions.DEFAULT);
     }
 
-    public static Icon videotape(IconOptions options) {
-        return new Icon(INSTANCE::videotape, options);
+    public static Icon lucideVenus(IconOptions options) {
+        return new Icon(INSTANCE::lucideVenus, options);
     }
 
-    public static Icon view() {
-        return view(IconOptions.DEFAULT);
+    public static Icon lucideVenusAndMars() {
+        return lucideVenusAndMars(IconOptions.DEFAULT);
     }
 
-    public static Icon view(IconOptions options) {
-        return new Icon(INSTANCE::view, options);
+    public static Icon lucideVenusAndMars(IconOptions options) {
+        return new Icon(INSTANCE::lucideVenusAndMars, options);
     }
 
-    public static Icon virus() {
-        return virus(IconOptions.DEFAULT);
+    public static Icon lucideVibrate() {
+        return lucideVibrate(IconOptions.DEFAULT);
     }
 
-    public static Icon virus(IconOptions options) {
-        return new Icon(INSTANCE::virus, options);
+    public static Icon lucideVibrate(IconOptions options) {
+        return new Icon(INSTANCE::lucideVibrate, options);
     }
 
-    public static Icon virusOff() {
-        return virusOff(IconOptions.DEFAULT);
+    public static Icon lucideVibrateOff() {
+        return lucideVibrateOff(IconOptions.DEFAULT);
     }
 
-    public static Icon virusOff(IconOptions options) {
-        return new Icon(INSTANCE::virusOff, options);
+    public static Icon lucideVibrateOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideVibrateOff, options);
     }
 
-    public static Icon voicemail() {
-        return voicemail(IconOptions.DEFAULT);
+    public static Icon lucideVideo() {
+        return lucideVideo(IconOptions.DEFAULT);
     }
 
-    public static Icon voicemail(IconOptions options) {
-        return new Icon(INSTANCE::voicemail, options);
+    public static Icon lucideVideo(IconOptions options) {
+        return new Icon(INSTANCE::lucideVideo, options);
     }
 
-    public static Icon volleyball() {
-        return volleyball(IconOptions.DEFAULT);
+    public static Icon lucideVideoOff() {
+        return lucideVideoOff(IconOptions.DEFAULT);
     }
 
-    public static Icon volleyball(IconOptions options) {
-        return new Icon(INSTANCE::volleyball, options);
+    public static Icon lucideVideoOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideVideoOff, options);
     }
 
-    public static Icon volume() {
-        return volume(IconOptions.DEFAULT);
+    public static Icon lucideVideotape() {
+        return lucideVideotape(IconOptions.DEFAULT);
     }
 
-    public static Icon volume(IconOptions options) {
-        return new Icon(INSTANCE::volume, options);
+    public static Icon lucideVideotape(IconOptions options) {
+        return new Icon(INSTANCE::lucideVideotape, options);
     }
 
-    public static Icon volume1() {
-        return volume1(IconOptions.DEFAULT);
+    public static Icon lucideView() {
+        return lucideView(IconOptions.DEFAULT);
     }
 
-    public static Icon volume1(IconOptions options) {
-        return new Icon(INSTANCE::volume1, options);
+    public static Icon lucideView(IconOptions options) {
+        return new Icon(INSTANCE::lucideView, options);
     }
 
-    public static Icon volume2() {
-        return volume2(IconOptions.DEFAULT);
+    public static Icon lucideVirus() {
+        return lucideVirus(IconOptions.DEFAULT);
     }
 
-    public static Icon volume2(IconOptions options) {
-        return new Icon(INSTANCE::volume2, options);
+    public static Icon lucideVirus(IconOptions options) {
+        return new Icon(INSTANCE::lucideVirus, options);
     }
 
-    public static Icon volumeOff() {
-        return volumeOff(IconOptions.DEFAULT);
+    public static Icon lucideVirusOff() {
+        return lucideVirusOff(IconOptions.DEFAULT);
     }
 
-    public static Icon volumeOff(IconOptions options) {
-        return new Icon(INSTANCE::volumeOff, options);
+    public static Icon lucideVirusOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideVirusOff, options);
     }
 
-    public static Icon volumeX() {
-        return volumeX(IconOptions.DEFAULT);
+    public static Icon lucideVoicemail() {
+        return lucideVoicemail(IconOptions.DEFAULT);
     }
 
-    public static Icon volumeX(IconOptions options) {
-        return new Icon(INSTANCE::volumeX, options);
+    public static Icon lucideVoicemail(IconOptions options) {
+        return new Icon(INSTANCE::lucideVoicemail, options);
     }
 
-    public static Icon vote() {
-        return vote(IconOptions.DEFAULT);
+    public static Icon lucideVolleyball() {
+        return lucideVolleyball(IconOptions.DEFAULT);
     }
 
-    public static Icon vote(IconOptions options) {
-        return new Icon(INSTANCE::vote, options);
+    public static Icon lucideVolleyball(IconOptions options) {
+        return new Icon(INSTANCE::lucideVolleyball, options);
     }
 
-    public static Icon wallet() {
-        return wallet(IconOptions.DEFAULT);
+    public static Icon lucideVolume() {
+        return lucideVolume(IconOptions.DEFAULT);
     }
 
-    public static Icon wallet(IconOptions options) {
-        return new Icon(INSTANCE::wallet, options);
+    public static Icon lucideVolume(IconOptions options) {
+        return new Icon(INSTANCE::lucideVolume, options);
     }
 
-    public static Icon walletCards() {
-        return walletCards(IconOptions.DEFAULT);
+    public static Icon lucideVolume1() {
+        return lucideVolume1(IconOptions.DEFAULT);
     }
 
-    public static Icon walletCards(IconOptions options) {
-        return new Icon(INSTANCE::walletCards, options);
+    public static Icon lucideVolume1(IconOptions options) {
+        return new Icon(INSTANCE::lucideVolume1, options);
     }
 
-    public static Icon walletMinimal() {
-        return walletMinimal(IconOptions.DEFAULT);
+    public static Icon lucideVolume2() {
+        return lucideVolume2(IconOptions.DEFAULT);
     }
 
-    public static Icon walletMinimal(IconOptions options) {
-        return new Icon(INSTANCE::walletMinimal, options);
+    public static Icon lucideVolume2(IconOptions options) {
+        return new Icon(INSTANCE::lucideVolume2, options);
     }
 
-    public static Icon wallpaper() {
-        return wallpaper(IconOptions.DEFAULT);
+    public static Icon lucideVolumeOff() {
+        return lucideVolumeOff(IconOptions.DEFAULT);
     }
 
-    public static Icon wallpaper(IconOptions options) {
-        return new Icon(INSTANCE::wallpaper, options);
+    public static Icon lucideVolumeOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideVolumeOff, options);
     }
 
-    public static Icon wand() {
-        return wand(IconOptions.DEFAULT);
+    public static Icon lucideVolumeX() {
+        return lucideVolumeX(IconOptions.DEFAULT);
     }
 
-    public static Icon wand(IconOptions options) {
-        return new Icon(INSTANCE::wand, options);
+    public static Icon lucideVolumeX(IconOptions options) {
+        return new Icon(INSTANCE::lucideVolumeX, options);
     }
 
-    public static Icon wandSparkles() {
-        return wandSparkles(IconOptions.DEFAULT);
+    public static Icon lucideVote() {
+        return lucideVote(IconOptions.DEFAULT);
     }
 
-    public static Icon wandSparkles(IconOptions options) {
-        return new Icon(INSTANCE::wandSparkles, options);
+    public static Icon lucideVote(IconOptions options) {
+        return new Icon(INSTANCE::lucideVote, options);
     }
 
-    public static Icon warehouse() {
-        return warehouse(IconOptions.DEFAULT);
+    public static Icon lucideWallet() {
+        return lucideWallet(IconOptions.DEFAULT);
     }
 
-    public static Icon warehouse(IconOptions options) {
-        return new Icon(INSTANCE::warehouse, options);
+    public static Icon lucideWallet(IconOptions options) {
+        return new Icon(INSTANCE::lucideWallet, options);
     }
 
-    public static Icon washingMachine() {
-        return washingMachine(IconOptions.DEFAULT);
+    public static Icon lucideWalletCards() {
+        return lucideWalletCards(IconOptions.DEFAULT);
     }
 
-    public static Icon washingMachine(IconOptions options) {
-        return new Icon(INSTANCE::washingMachine, options);
+    public static Icon lucideWalletCards(IconOptions options) {
+        return new Icon(INSTANCE::lucideWalletCards, options);
     }
 
-    public static Icon watch() {
-        return watch(IconOptions.DEFAULT);
+    public static Icon lucideWalletMinimal() {
+        return lucideWalletMinimal(IconOptions.DEFAULT);
     }
 
-    public static Icon watch(IconOptions options) {
-        return new Icon(INSTANCE::watch, options);
+    public static Icon lucideWalletMinimal(IconOptions options) {
+        return new Icon(INSTANCE::lucideWalletMinimal, options);
     }
 
-    public static Icon wavesArrowDown() {
-        return wavesArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideWallpaper() {
+        return lucideWallpaper(IconOptions.DEFAULT);
     }
 
-    public static Icon wavesArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::wavesArrowDown, options);
+    public static Icon lucideWallpaper(IconOptions options) {
+        return new Icon(INSTANCE::lucideWallpaper, options);
     }
 
-    public static Icon wavesArrowUp() {
-        return wavesArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideWand() {
+        return lucideWand(IconOptions.DEFAULT);
     }
 
-    public static Icon wavesArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::wavesArrowUp, options);
+    public static Icon lucideWand(IconOptions options) {
+        return new Icon(INSTANCE::lucideWand, options);
     }
 
-    public static Icon wavesHorizontal() {
-        return wavesHorizontal(IconOptions.DEFAULT);
+    public static Icon lucideWandSparkles() {
+        return lucideWandSparkles(IconOptions.DEFAULT);
     }
 
-    public static Icon wavesHorizontal(IconOptions options) {
-        return new Icon(INSTANCE::wavesHorizontal, options);
+    public static Icon lucideWandSparkles(IconOptions options) {
+        return new Icon(INSTANCE::lucideWandSparkles, options);
     }
 
-    public static Icon wavesLadder() {
-        return wavesLadder(IconOptions.DEFAULT);
+    public static Icon lucideWarehouse() {
+        return lucideWarehouse(IconOptions.DEFAULT);
     }
 
-    public static Icon wavesLadder(IconOptions options) {
-        return new Icon(INSTANCE::wavesLadder, options);
+    public static Icon lucideWarehouse(IconOptions options) {
+        return new Icon(INSTANCE::lucideWarehouse, options);
     }
 
-    public static Icon wavesVertical() {
-        return wavesVertical(IconOptions.DEFAULT);
+    public static Icon lucideWashingMachine() {
+        return lucideWashingMachine(IconOptions.DEFAULT);
     }
 
-    public static Icon wavesVertical(IconOptions options) {
-        return new Icon(INSTANCE::wavesVertical, options);
+    public static Icon lucideWashingMachine(IconOptions options) {
+        return new Icon(INSTANCE::lucideWashingMachine, options);
     }
 
-    public static Icon waypoints() {
-        return waypoints(IconOptions.DEFAULT);
+    public static Icon lucideWatch() {
+        return lucideWatch(IconOptions.DEFAULT);
     }
 
-    public static Icon waypoints(IconOptions options) {
-        return new Icon(INSTANCE::waypoints, options);
+    public static Icon lucideWatch(IconOptions options) {
+        return new Icon(INSTANCE::lucideWatch, options);
     }
 
-    public static Icon webcam() {
-        return webcam(IconOptions.DEFAULT);
+    public static Icon lucideWavesArrowDown() {
+        return lucideWavesArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon webcam(IconOptions options) {
-        return new Icon(INSTANCE::webcam, options);
+    public static Icon lucideWavesArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideWavesArrowDown, options);
     }
 
-    public static Icon webcamOff() {
-        return webcamOff(IconOptions.DEFAULT);
+    public static Icon lucideWavesArrowUp() {
+        return lucideWavesArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon webcamOff(IconOptions options) {
-        return new Icon(INSTANCE::webcamOff, options);
+    public static Icon lucideWavesArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideWavesArrowUp, options);
     }
 
-    public static Icon webhook() {
-        return webhook(IconOptions.DEFAULT);
+    public static Icon lucideWavesHorizontal() {
+        return lucideWavesHorizontal(IconOptions.DEFAULT);
     }
 
-    public static Icon webhook(IconOptions options) {
-        return new Icon(INSTANCE::webhook, options);
+    public static Icon lucideWavesHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideWavesHorizontal, options);
     }
 
-    public static Icon webhookOff() {
-        return webhookOff(IconOptions.DEFAULT);
+    public static Icon lucideWavesLadder() {
+        return lucideWavesLadder(IconOptions.DEFAULT);
     }
 
-    public static Icon webhookOff(IconOptions options) {
-        return new Icon(INSTANCE::webhookOff, options);
+    public static Icon lucideWavesLadder(IconOptions options) {
+        return new Icon(INSTANCE::lucideWavesLadder, options);
     }
 
-    public static Icon weight() {
-        return weight(IconOptions.DEFAULT);
+    public static Icon lucideWavesVertical() {
+        return lucideWavesVertical(IconOptions.DEFAULT);
     }
 
-    public static Icon weight(IconOptions options) {
-        return new Icon(INSTANCE::weight, options);
+    public static Icon lucideWavesVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideWavesVertical, options);
     }
 
-    public static Icon weightTilde() {
-        return weightTilde(IconOptions.DEFAULT);
+    public static Icon lucideWaypoints() {
+        return lucideWaypoints(IconOptions.DEFAULT);
     }
 
-    public static Icon weightTilde(IconOptions options) {
-        return new Icon(INSTANCE::weightTilde, options);
+    public static Icon lucideWaypoints(IconOptions options) {
+        return new Icon(INSTANCE::lucideWaypoints, options);
     }
 
-    public static Icon wheat() {
-        return wheat(IconOptions.DEFAULT);
+    public static Icon lucideWebcam() {
+        return lucideWebcam(IconOptions.DEFAULT);
     }
 
-    public static Icon wheat(IconOptions options) {
-        return new Icon(INSTANCE::wheat, options);
+    public static Icon lucideWebcam(IconOptions options) {
+        return new Icon(INSTANCE::lucideWebcam, options);
     }
 
-    public static Icon wheatOff() {
-        return wheatOff(IconOptions.DEFAULT);
+    public static Icon lucideWebcamOff() {
+        return lucideWebcamOff(IconOptions.DEFAULT);
     }
 
-    public static Icon wheatOff(IconOptions options) {
-        return new Icon(INSTANCE::wheatOff, options);
+    public static Icon lucideWebcamOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideWebcamOff, options);
     }
 
-    public static Icon whistle() {
-        return whistle(IconOptions.DEFAULT);
+    public static Icon lucideWebhook() {
+        return lucideWebhook(IconOptions.DEFAULT);
     }
 
-    public static Icon whistle(IconOptions options) {
-        return new Icon(INSTANCE::whistle, options);
+    public static Icon lucideWebhook(IconOptions options) {
+        return new Icon(INSTANCE::lucideWebhook, options);
     }
 
-    public static Icon wholeWord() {
-        return wholeWord(IconOptions.DEFAULT);
+    public static Icon lucideWebhookOff() {
+        return lucideWebhookOff(IconOptions.DEFAULT);
     }
 
-    public static Icon wholeWord(IconOptions options) {
-        return new Icon(INSTANCE::wholeWord, options);
+    public static Icon lucideWebhookOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideWebhookOff, options);
     }
 
-    public static Icon wifi() {
-        return wifi(IconOptions.DEFAULT);
+    public static Icon lucideWeight() {
+        return lucideWeight(IconOptions.DEFAULT);
     }
 
-    public static Icon wifi(IconOptions options) {
-        return new Icon(INSTANCE::wifi, options);
+    public static Icon lucideWeight(IconOptions options) {
+        return new Icon(INSTANCE::lucideWeight, options);
     }
 
-    public static Icon wifiCog() {
-        return wifiCog(IconOptions.DEFAULT);
+    public static Icon lucideWeightTilde() {
+        return lucideWeightTilde(IconOptions.DEFAULT);
     }
 
-    public static Icon wifiCog(IconOptions options) {
-        return new Icon(INSTANCE::wifiCog, options);
+    public static Icon lucideWeightTilde(IconOptions options) {
+        return new Icon(INSTANCE::lucideWeightTilde, options);
     }
 
-    public static Icon wifiHigh() {
-        return wifiHigh(IconOptions.DEFAULT);
+    public static Icon lucideWheat() {
+        return lucideWheat(IconOptions.DEFAULT);
     }
 
-    public static Icon wifiHigh(IconOptions options) {
-        return new Icon(INSTANCE::wifiHigh, options);
+    public static Icon lucideWheat(IconOptions options) {
+        return new Icon(INSTANCE::lucideWheat, options);
     }
 
-    public static Icon wifiLow() {
-        return wifiLow(IconOptions.DEFAULT);
+    public static Icon lucideWheatOff() {
+        return lucideWheatOff(IconOptions.DEFAULT);
     }
 
-    public static Icon wifiLow(IconOptions options) {
-        return new Icon(INSTANCE::wifiLow, options);
+    public static Icon lucideWheatOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideWheatOff, options);
     }
 
-    public static Icon wifiOff() {
-        return wifiOff(IconOptions.DEFAULT);
+    public static Icon lucideWhistle() {
+        return lucideWhistle(IconOptions.DEFAULT);
     }
 
-    public static Icon wifiOff(IconOptions options) {
-        return new Icon(INSTANCE::wifiOff, options);
+    public static Icon lucideWhistle(IconOptions options) {
+        return new Icon(INSTANCE::lucideWhistle, options);
     }
 
-    public static Icon wifiPen() {
-        return wifiPen(IconOptions.DEFAULT);
+    public static Icon lucideWholeWord() {
+        return lucideWholeWord(IconOptions.DEFAULT);
     }
 
-    public static Icon wifiPen(IconOptions options) {
-        return new Icon(INSTANCE::wifiPen, options);
+    public static Icon lucideWholeWord(IconOptions options) {
+        return new Icon(INSTANCE::lucideWholeWord, options);
     }
 
-    public static Icon wifiSync() {
-        return wifiSync(IconOptions.DEFAULT);
+    public static Icon lucideWifi() {
+        return lucideWifi(IconOptions.DEFAULT);
     }
 
-    public static Icon wifiSync(IconOptions options) {
-        return new Icon(INSTANCE::wifiSync, options);
+    public static Icon lucideWifi(IconOptions options) {
+        return new Icon(INSTANCE::lucideWifi, options);
     }
 
-    public static Icon wifiZero() {
-        return wifiZero(IconOptions.DEFAULT);
+    public static Icon lucideWifiCog() {
+        return lucideWifiCog(IconOptions.DEFAULT);
     }
 
-    public static Icon wifiZero(IconOptions options) {
-        return new Icon(INSTANCE::wifiZero, options);
+    public static Icon lucideWifiCog(IconOptions options) {
+        return new Icon(INSTANCE::lucideWifiCog, options);
     }
 
-    public static Icon wind() {
-        return wind(IconOptions.DEFAULT);
+    public static Icon lucideWifiHigh() {
+        return lucideWifiHigh(IconOptions.DEFAULT);
     }
 
-    public static Icon wind(IconOptions options) {
-        return new Icon(INSTANCE::wind, options);
+    public static Icon lucideWifiHigh(IconOptions options) {
+        return new Icon(INSTANCE::lucideWifiHigh, options);
     }
 
-    public static Icon windArrowDown() {
-        return windArrowDown(IconOptions.DEFAULT);
+    public static Icon lucideWifiLock() {
+        return lucideWifiLock(IconOptions.DEFAULT);
     }
 
-    public static Icon windArrowDown(IconOptions options) {
-        return new Icon(INSTANCE::windArrowDown, options);
+    public static Icon lucideWifiLock(IconOptions options) {
+        return new Icon(INSTANCE::lucideWifiLock, options);
     }
 
-    public static Icon windArrowUp() {
-        return windArrowUp(IconOptions.DEFAULT);
+    public static Icon lucideWifiLow() {
+        return lucideWifiLow(IconOptions.DEFAULT);
     }
 
-    public static Icon windArrowUp(IconOptions options) {
-        return new Icon(INSTANCE::windArrowUp, options);
+    public static Icon lucideWifiLow(IconOptions options) {
+        return new Icon(INSTANCE::lucideWifiLow, options);
     }
 
-    public static Icon wine() {
-        return wine(IconOptions.DEFAULT);
+    public static Icon lucideWifiOff() {
+        return lucideWifiOff(IconOptions.DEFAULT);
     }
 
-    public static Icon wine(IconOptions options) {
-        return new Icon(INSTANCE::wine, options);
+    public static Icon lucideWifiOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideWifiOff, options);
     }
 
-    public static Icon wineOff() {
-        return wineOff(IconOptions.DEFAULT);
+    public static Icon lucideWifiPen() {
+        return lucideWifiPen(IconOptions.DEFAULT);
     }
 
-    public static Icon wineOff(IconOptions options) {
-        return new Icon(INSTANCE::wineOff, options);
+    public static Icon lucideWifiPen(IconOptions options) {
+        return new Icon(INSTANCE::lucideWifiPen, options);
     }
 
-    public static Icon workflow() {
-        return workflow(IconOptions.DEFAULT);
+    public static Icon lucideWifiSync() {
+        return lucideWifiSync(IconOptions.DEFAULT);
     }
 
-    public static Icon workflow(IconOptions options) {
-        return new Icon(INSTANCE::workflow, options);
+    public static Icon lucideWifiSync(IconOptions options) {
+        return new Icon(INSTANCE::lucideWifiSync, options);
     }
 
-    public static Icon worm() {
-        return worm(IconOptions.DEFAULT);
+    public static Icon lucideWifiZero() {
+        return lucideWifiZero(IconOptions.DEFAULT);
     }
 
-    public static Icon worm(IconOptions options) {
-        return new Icon(INSTANCE::worm, options);
+    public static Icon lucideWifiZero(IconOptions options) {
+        return new Icon(INSTANCE::lucideWifiZero, options);
     }
 
-    public static Icon wrench() {
-        return wrench(IconOptions.DEFAULT);
+    public static Icon lucideWind() {
+        return lucideWind(IconOptions.DEFAULT);
     }
 
-    public static Icon wrench(IconOptions options) {
-        return new Icon(INSTANCE::wrench, options);
+    public static Icon lucideWind(IconOptions options) {
+        return new Icon(INSTANCE::lucideWind, options);
     }
 
-    public static Icon wrenchOff() {
-        return wrenchOff(IconOptions.DEFAULT);
+    public static Icon lucideWindArrowDown() {
+        return lucideWindArrowDown(IconOptions.DEFAULT);
     }
 
-    public static Icon wrenchOff(IconOptions options) {
-        return new Icon(INSTANCE::wrenchOff, options);
+    public static Icon lucideWindArrowDown(IconOptions options) {
+        return new Icon(INSTANCE::lucideWindArrowDown, options);
     }
 
-    public static Icon x() {
-        return x(IconOptions.DEFAULT);
+    public static Icon lucideWindArrowUp() {
+        return lucideWindArrowUp(IconOptions.DEFAULT);
     }
 
-    public static Icon x(IconOptions options) {
-        return new Icon(INSTANCE::x, options);
+    public static Icon lucideWindArrowUp(IconOptions options) {
+        return new Icon(INSTANCE::lucideWindArrowUp, options);
     }
 
-    public static Icon xLineTop() {
-        return xLineTop(IconOptions.DEFAULT);
+    public static Icon lucideWine() {
+        return lucideWine(IconOptions.DEFAULT);
     }
 
-    public static Icon xLineTop(IconOptions options) {
-        return new Icon(INSTANCE::xLineTop, options);
+    public static Icon lucideWine(IconOptions options) {
+        return new Icon(INSTANCE::lucideWine, options);
     }
 
-    public static Icon zap() {
-        return zap(IconOptions.DEFAULT);
+    public static Icon lucideWineOff() {
+        return lucideWineOff(IconOptions.DEFAULT);
     }
 
-    public static Icon zap(IconOptions options) {
-        return new Icon(INSTANCE::zap, options);
+    public static Icon lucideWineOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideWineOff, options);
     }
 
-    public static Icon zapOff() {
-        return zapOff(IconOptions.DEFAULT);
+    public static Icon lucideWorkflow() {
+        return lucideWorkflow(IconOptions.DEFAULT);
     }
 
-    public static Icon zapOff(IconOptions options) {
-        return new Icon(INSTANCE::zapOff, options);
+    public static Icon lucideWorkflow(IconOptions options) {
+        return new Icon(INSTANCE::lucideWorkflow, options);
     }
 
-    public static Icon zodiacAquarius() {
-        return zodiacAquarius(IconOptions.DEFAULT);
+    public static Icon lucideWorm() {
+        return lucideWorm(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacAquarius(IconOptions options) {
-        return new Icon(INSTANCE::zodiacAquarius, options);
+    public static Icon lucideWorm(IconOptions options) {
+        return new Icon(INSTANCE::lucideWorm, options);
     }
 
-    public static Icon zodiacAries() {
-        return zodiacAries(IconOptions.DEFAULT);
+    public static Icon lucideWrench() {
+        return lucideWrench(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacAries(IconOptions options) {
-        return new Icon(INSTANCE::zodiacAries, options);
+    public static Icon lucideWrench(IconOptions options) {
+        return new Icon(INSTANCE::lucideWrench, options);
     }
 
-    public static Icon zodiacCancer() {
-        return zodiacCancer(IconOptions.DEFAULT);
+    public static Icon lucideWrenchOff() {
+        return lucideWrenchOff(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacCancer(IconOptions options) {
-        return new Icon(INSTANCE::zodiacCancer, options);
+    public static Icon lucideWrenchOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideWrenchOff, options);
     }
 
-    public static Icon zodiacCapricorn() {
-        return zodiacCapricorn(IconOptions.DEFAULT);
+    public static Icon lucideX() {
+        return lucideX(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacCapricorn(IconOptions options) {
-        return new Icon(INSTANCE::zodiacCapricorn, options);
+    public static Icon lucideX(IconOptions options) {
+        return new Icon(INSTANCE::lucideX, options);
     }
 
-    public static Icon zodiacGemini() {
-        return zodiacGemini(IconOptions.DEFAULT);
+    public static Icon lucideXLineTop() {
+        return lucideXLineTop(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacGemini(IconOptions options) {
-        return new Icon(INSTANCE::zodiacGemini, options);
+    public static Icon lucideXLineTop(IconOptions options) {
+        return new Icon(INSTANCE::lucideXLineTop, options);
     }
 
-    public static Icon zodiacLeo() {
-        return zodiacLeo(IconOptions.DEFAULT);
+    public static Icon lucideZap() {
+        return lucideZap(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacLeo(IconOptions options) {
-        return new Icon(INSTANCE::zodiacLeo, options);
+    public static Icon lucideZap(IconOptions options) {
+        return new Icon(INSTANCE::lucideZap, options);
     }
 
-    public static Icon zodiacLibra() {
-        return zodiacLibra(IconOptions.DEFAULT);
+    public static Icon lucideZapOff() {
+        return lucideZapOff(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacLibra(IconOptions options) {
-        return new Icon(INSTANCE::zodiacLibra, options);
+    public static Icon lucideZapOff(IconOptions options) {
+        return new Icon(INSTANCE::lucideZapOff, options);
     }
 
-    public static Icon zodiacOphiuchus() {
-        return zodiacOphiuchus(IconOptions.DEFAULT);
+    public static Icon lucideZodiacAquarius() {
+        return lucideZodiacAquarius(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacOphiuchus(IconOptions options) {
-        return new Icon(INSTANCE::zodiacOphiuchus, options);
+    public static Icon lucideZodiacAquarius(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacAquarius, options);
     }
 
-    public static Icon zodiacPisces() {
-        return zodiacPisces(IconOptions.DEFAULT);
+    public static Icon lucideZodiacAries() {
+        return lucideZodiacAries(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacPisces(IconOptions options) {
-        return new Icon(INSTANCE::zodiacPisces, options);
+    public static Icon lucideZodiacAries(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacAries, options);
     }
 
-    public static Icon zodiacSagittarius() {
-        return zodiacSagittarius(IconOptions.DEFAULT);
+    public static Icon lucideZodiacCancer() {
+        return lucideZodiacCancer(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacSagittarius(IconOptions options) {
-        return new Icon(INSTANCE::zodiacSagittarius, options);
+    public static Icon lucideZodiacCancer(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacCancer, options);
     }
 
-    public static Icon zodiacScorpio() {
-        return zodiacScorpio(IconOptions.DEFAULT);
+    public static Icon lucideZodiacCapricorn() {
+        return lucideZodiacCapricorn(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacScorpio(IconOptions options) {
-        return new Icon(INSTANCE::zodiacScorpio, options);
+    public static Icon lucideZodiacCapricorn(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacCapricorn, options);
     }
 
-    public static Icon zodiacTaurus() {
-        return zodiacTaurus(IconOptions.DEFAULT);
+    public static Icon lucideZodiacGemini() {
+        return lucideZodiacGemini(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacTaurus(IconOptions options) {
-        return new Icon(INSTANCE::zodiacTaurus, options);
+    public static Icon lucideZodiacGemini(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacGemini, options);
     }
 
-    public static Icon zodiacVirgo() {
-        return zodiacVirgo(IconOptions.DEFAULT);
+    public static Icon lucideZodiacLeo() {
+        return lucideZodiacLeo(IconOptions.DEFAULT);
     }
 
-    public static Icon zodiacVirgo(IconOptions options) {
-        return new Icon(INSTANCE::zodiacVirgo, options);
+    public static Icon lucideZodiacLeo(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacLeo, options);
     }
 
-    public static Icon zoomIn() {
-        return zoomIn(IconOptions.DEFAULT);
+    public static Icon lucideZodiacLibra() {
+        return lucideZodiacLibra(IconOptions.DEFAULT);
     }
 
-    public static Icon zoomIn(IconOptions options) {
-        return new Icon(INSTANCE::zoomIn, options);
+    public static Icon lucideZodiacLibra(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacLibra, options);
     }
 
-    public static Icon zoomOut() {
-        return zoomOut(IconOptions.DEFAULT);
+    public static Icon lucideZodiacOphiuchus() {
+        return lucideZodiacOphiuchus(IconOptions.DEFAULT);
     }
 
-    public static Icon zoomOut(IconOptions options) {
-        return new Icon(INSTANCE::zoomOut, options);
+    public static Icon lucideZodiacOphiuchus(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacOphiuchus, options);
+    }
+
+    public static Icon lucideZodiacPisces() {
+        return lucideZodiacPisces(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideZodiacPisces(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacPisces, options);
+    }
+
+    public static Icon lucideZodiacSagittarius() {
+        return lucideZodiacSagittarius(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideZodiacSagittarius(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacSagittarius, options);
+    }
+
+    public static Icon lucideZodiacScorpio() {
+        return lucideZodiacScorpio(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideZodiacScorpio(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacScorpio, options);
+    }
+
+    public static Icon lucideZodiacTaurus() {
+        return lucideZodiacTaurus(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideZodiacTaurus(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacTaurus, options);
+    }
+
+    public static Icon lucideZodiacVirgo() {
+        return lucideZodiacVirgo(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideZodiacVirgo(IconOptions options) {
+        return new Icon(INSTANCE::lucideZodiacVirgo, options);
+    }
+
+    public static Icon lucideZoomIn() {
+        return lucideZoomIn(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideZoomIn(IconOptions options) {
+        return new Icon(INSTANCE::lucideZoomIn, options);
+    }
+
+    public static Icon lucideZoomOut() {
+        return lucideZoomOut(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideZoomOut(IconOptions options) {
+        return new Icon(INSTANCE::lucideZoomOut, options);
     }
 }

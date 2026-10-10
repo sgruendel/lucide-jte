@@ -1,0 +1,25 @@
+<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/arrow-right-left --%>
+
+@import io.github.sgruendel.lucide.jte.IconOptions
+@import io.github.sgruendel.lucide.jte.internal.IconAttributes
+
+@param IconOptions options = IconOptions.DEFAULT
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="${options.size()}"
+  height="${options.size()}"
+  viewBox="0 0 24 24"
+  fill="${options.fill()}"
+  stroke="${options.color()}"
+  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="${IconAttributes.classAppend("lucide lucide-arrow-right-left-icon lucide-arrow-right-left", options.attrs())}"
+  $unsafe{IconAttributes.attrs(options.attrs())}
+>
+  <path d="m16 3 4 4-4 4" />
+  <path d="M20 7H4" />
+  <path d="m8 21-4-4 4-4" />
+  <path d="M4 17h16" />
+</svg>

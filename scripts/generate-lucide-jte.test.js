@@ -14,11 +14,13 @@ test("canonical exports deduplicate aliases and have deterministic ordering", ()
   assert.throws(() => canonicalFiles("changed upstream format"), /No canonical/);
 });
 
-test("template names support camel case and Java keywords", () => {
-  assert.equal(templateName("book-open"), "bookOpen");
-  assert.equal(templateName("arrow-down-0-1"), "arrowDown01");
-  assert.equal(templateName("package"), "packageIcon");
-  assert.equal(templateName("import"), "importIcon");
+test("template names prefix camel case icon names and Java keywords with lucide", () => {
+  assert.equal(templateName("activity"), "lucideActivity");
+  assert.equal(templateName("book-open"), "lucideBookOpen");
+  assert.equal(templateName("arrow-down-0-1"), "lucideArrowDown01");
+  assert.equal(templateName("a-arrow-down"), "lucideAArrowDown");
+  assert.equal(templateName("package"), "lucidePackage");
+  assert.equal(templateName("import"), "lucideImport");
   assert.throws(() => templateName("0-invalid"), /Java method/);
 });
 
@@ -41,19 +43,24 @@ test("generation removes stale icons, updates notices, and check mode detects dr
     write("node_modules/lucide/dist/esm/iconsAndAliases.mjs", "export { default as Check, default as Alias } from './icons/check.mjs';");
     write("node_modules/lucide/dist/esm/icons/check.mjs", 'export default [["path", {d:"test"}]];');
     write("scripts/templates/lucide-icon.jte", "{{LUCIDE_VERSION}} {{ICON_FILE_NAME}}\n{{CHILDREN}}\n");
-    write("src/main/jte/stale.jte", "obsolete");
+    write("src/main/jte/check.jte", "obsolete unprefixed template");
     assert.equal(await generate(root), 1);
-    assert.equal(fs.existsSync(path.join(root, "src/main/jte/stale.jte")), false);
+    assert.equal(fs.existsSync(path.join(root, "src/main/jte/check.jte")), false);
     assert.equal(fs.readFileSync(path.join(root, "THIRD-PARTY-LICENSES/LUCIDE.txt"), "utf8"), "upstream notice\n");
     await generate(root, true);
     const facade = "src/main/java/io/github/sgruendel/lucide/jte/LucideIcons.java";
+    const helpers = fs.readFileSync(path.join(root, facade), "utf8");
+    assert.match(helpers, /public static Icon lucideCheck\(\)/);
+    assert.match(helpers, /public static Icon lucideCheck\(IconOptions options\)/);
+    assert.match(helpers, /INSTANCE::lucideCheck/);
+    assert.doesNotMatch(helpers, /public static Icon check\(/);
     write(facade, "drift");
     await assert.rejects(generate(root, true), /out of date/);
     assert.equal(fs.readFileSync(path.join(root, facade), "utf8"), "drift");
     await generate(root);
-    write("src/main/jte/check.jte", "drift");
+    write("src/main/jte/lucideCheck.jte", "drift");
     await assert.rejects(generate(root, true), /out of date/);
-    assert.equal(fs.readFileSync(path.join(root, "src/main/jte/check.jte"), "utf8"), "drift");
+    assert.equal(fs.readFileSync(path.join(root, "src/main/jte/lucideCheck.jte"), "utf8"), "drift");
   } finally {
     fs.rmSync(root, { recursive: true, force: true });
   }

@@ -3,7 +3,7 @@
 [![Maven Central][maven-badge]][maven-central]
 [![Build status][build-badge]][build-status]
 [![Java 17+][java-badge]](#dependency)
-[![Lucide 1.54.0][lucide-badge]](https://lucide.dev/)
+[![Lucide 1.55.0][lucide-badge]](https://lucide.dev/)
 [![License: MIT][license-badge]](LICENSE)
 
 [maven-badge]: https://img.shields.io/maven-central/v/io.github.sgruendel/lucide-jte.svg
@@ -11,14 +11,14 @@
 [build-badge]: https://github.com/sgruendel/lucide-jte/actions/workflows/verify.yml/badge.svg?branch=main
 [build-status]: https://github.com/sgruendel/lucide-jte/actions/workflows/verify.yml
 [java-badge]: https://img.shields.io/badge/Java-17%2B-blue.svg
-[lucide-badge]: https://img.shields.io/badge/Lucide-1.54.0-f56565.svg
+[lucide-badge]: https://img.shields.io/badge/Lucide-1.55.0-f56565.svg
 [license-badge]: https://img.shields.io/badge/License-MIT-green.svg
 
 Type-safe [Lucide](https://lucide.dev/) icon components for
 [Java Template Engine (JTE)](https://jte.gg/). A regular Java library with no
 Spring or Basecoat dependency.
 
-Requires Java 17 or newer. Built with JTE 3.2.4 and Lucide 1.54.0.
+Requires Java 17 or newer. Built with JTE 3.2.4 and Lucide 1.55.0.
 
 ## Dependency
 
@@ -28,7 +28,7 @@ Available on [Maven Central][maven-central]. Add the dependency to your project:
 <dependency>
     <groupId>io.github.sgruendel</groupId>
     <artifactId>lucide-jte</artifactId>
-    <version>1.54.2</version>
+    <version>1.55.0</version>
 </dependency>
 ```
 
@@ -40,7 +40,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.sgruendel:lucide-jte:1.54.2")
+    implementation("io.github.sgruendel:lucide-jte:1.55.0")
 }
 ```
 
@@ -49,15 +49,15 @@ dependencies {
 ```jte
 @import static io.github.sgruendel.lucide.jte.LucideIcons.*
 
-${mailSearch()}
-${bookOpen()}
+${lucideMailSearch()}
+${lucideBookOpen()}
 
 <button>
-  ${check().size(16).cssClass("size-4")}
+  ${lucideCheck().size(16).cssClass("size-4")}
   Save
 </button>
 
-${bookOpen().attr("aria-hidden", "true").attr("focusable", "false")}
+${lucideBookOpen().attr("aria-hidden", "true").attr("focusable", "false")}
 ```
 
 Each helper returns an immutable `Icon` with Lucide's default options. Chain styling
@@ -67,16 +67,21 @@ The consumer's ordinary JTE template resolver works in both development and
 precompiled production builds. No template extraction or custom resolver is needed.
 Consumers do not need Node or npm.
 
-Canonical filenames become lower camel case: `book-open` becomes `bookOpen`.
-Java keywords get an `Icon` suffix: `package` becomes `packageIcon`, and `import`
-becomes `importIcon`. Lucide alias exports do not create duplicate methods.
+Icon factory methods use a `lucide` prefix followed by the camel case icon name:
+`book-open` becomes `lucideBookOpen`, `package` becomes `lucidePackage`, and
+`import` becomes `lucideImport`. Lucide alias exports do not create duplicate methods.
+The same naming applies to the generated static and dynamic APIs.
+
+Starting with 1.55.0, the unprefixed methods have been removed. Update calls such as
+`check()` to `lucideCheck()` and `packageIcon()` to `lucidePackage()`. Fluent styling
+methods such as `size()` and `color()` are unchanged.
 
 ## Use icons from Java
 
 ```java
 import static io.github.sgruendel.lucide.jte.LucideIcons.*;
 
-String svg = circleCheck().size(20).color("green").render();
+String svg = lucideCircleCheck().size(20).color("green").render();
 ```
 
 `Icon` implements `JteModel`. You can also pass an icon to a template parameter of type
@@ -121,7 +126,7 @@ CSS classes use `cssClass(...)` because `class` is a Java keyword.
 The size must be positive, stroke width nonnegative, and fill/color non-null.
 
 ```java
-var icon = check()
+var icon = lucideCheck()
     .size(16)
     .strokeWidth(2)
     .absoluteStrokeWidth(true)
@@ -133,8 +138,8 @@ For shared settings, pass `IconOptions` to an icon helper:
 
 ```java
 var options = IconOptions.DEFAULT.size(16).cssClass("size-4");
-var saveIcon = check(options);
-var bookIcon = bookOpen(options);
+var saveIcon = lucideCheck(options);
+var bookIcon = lucideBookOpen(options);
 ```
 
 `attrs(Map<String, ?>)` merges attributes, replacing previous values with
@@ -159,7 +164,7 @@ in the browser. Utility classes such as `size-4` require your application's CSS.
 
 ## Icon versions
 
-Version 1.54.2 provides 1,870 canonical icons from Lucide 1.54.0. Library patch
+Version 1.55.0 provides 1,877 canonical icons from Lucide 1.55.0. Library patch
 releases can improve the Java API without changing the included icon set.
 Browse the [Lucide icon catalog](https://lucide.dev/icons/)
 to find icon names. Upgrading may rename or remove Java methods when the corresponding

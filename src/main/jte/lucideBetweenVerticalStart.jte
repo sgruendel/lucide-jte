@@ -1,0 +1,24 @@
+<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/between-vertical-start --%>
+
+@import io.github.sgruendel.lucide.jte.IconOptions
+@import io.github.sgruendel.lucide.jte.internal.IconAttributes
+
+@param IconOptions options = IconOptions.DEFAULT
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="${options.size()}"
+  height="${options.size()}"
+  viewBox="0 0 24 24"
+  fill="${options.fill()}"
+  stroke="${options.color()}"
+  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="${IconAttributes.classAppend("lucide lucide-between-vertical-start-icon lucide-between-vertical-start", options.attrs())}"
+  $unsafe{IconAttributes.attrs(options.attrs())}
+>
+  <rect width="7" height="13" x="3" y="8" rx="1" />
+  <path d="m15 2-3 3-3-3" />
+  <rect width="7" height="13" x="14" y="8" rx="1" />
+</svg>

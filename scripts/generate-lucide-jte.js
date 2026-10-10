@@ -2,22 +2,12 @@ const fs = require("node:fs");
 const path = require("node:path");
 const { pathToFileURL } = require("node:url");
 
-// Java keywords cannot become facade method names. Keep canonical SVG classes.
-const JAVA_RESERVED = new Set((
-  "abstract assert boolean break byte case catch char class const continue default " +
-  "do double else enum extends final finally float for goto if implements import " +
-  "instanceof int interface long native new package private protected public return " +
-  "short static strictfp super switch synchronized this throw throws transient try " +
-  "void volatile while true false null _"
-).split(" "));
-
 function templateName(fileName) {
   const camel = fileName.replace(/-([a-zA-Z0-9])/g, (_, letter) => letter.toUpperCase());
-  const name = JAVA_RESERVED.has(camel) ? `${camel}Icon` : camel;
-  if (!/^[A-Za-z_$][A-Za-z0-9_$]*$/.test(name)) {
+  if (!/^[A-Za-z_$][A-Za-z0-9_$]*$/.test(camel)) {
     throw new Error(`Icon filename cannot become a Java method: ${fileName}`);
   }
-  return name;
+  return `lucide${camel[0].toUpperCase()}${camel.slice(1)}`;
 }
 
 function canonicalFiles(source) {

@@ -14,10 +14,10 @@ class IconTest {
         var options = IconOptions.DEFAULT.size(16).fill("red").color("blue")
                 .strokeWidth(3).absoluteStrokeWidth(true).cssClass("size-4")
                 .attrs(Map.of("aria-hidden", "true")).attr("title", "<Save \"draft\"> & continue");
-        var icon = check().size(16).fill("red").color("blue")
+        var icon = lucideCheck().size(16).fill("red").color("blue")
                 .strokeWidth(3).absoluteStrokeWidth(true).cssClass("size-4")
                 .attrs(Map.of("aria-hidden", "true")).attr("title", "<Save \"draft\"> & continue");
-        assertEquals(StaticLucideIcon.INSTANCE.check(options).render(), icon.render());
+        assertEquals(StaticLucideIcon.INSTANCE.lucideCheck(options).render(), icon.render());
         var output = new StringOutput();
         icon.writeTo(output);
         assertEquals(icon.render(), output.toString());
@@ -25,7 +25,7 @@ class IconTest {
 
     @Test
     void stylesProduceIndependentIconsAndCopyAttributeMaps() {
-        var base = check();
+        var base = lucideCheck();
         var original = base.render();
         var input = new LinkedHashMap<String, Object>();
         input.put("title", "Original");
@@ -46,13 +46,13 @@ class IconTest {
 
     @Test
     void fluentStylesRetainValidation() {
-        assertThrows(IllegalArgumentException.class, () -> check().size(0));
-        assertThrows(IllegalArgumentException.class, () -> check().strokeWidth(-1));
-        assertThrows(NullPointerException.class, () -> check().color(null));
-        assertThrows(NullPointerException.class, () -> check().fill(null));
-        assertThrows(NullPointerException.class, () -> check().attrs(null));
-        assertThrows(NullPointerException.class, () -> check().attr(null, "value"));
-        var failure = assertThrows(TemplateException.class, () -> check().attr("bad name", "value").render());
+        assertThrows(IllegalArgumentException.class, () -> lucideCheck().size(0));
+        assertThrows(IllegalArgumentException.class, () -> lucideCheck().strokeWidth(-1));
+        assertThrows(NullPointerException.class, () -> lucideCheck().color(null));
+        assertThrows(NullPointerException.class, () -> lucideCheck().fill(null));
+        assertThrows(NullPointerException.class, () -> lucideCheck().attrs(null));
+        assertThrows(NullPointerException.class, () -> lucideCheck().attr(null, "value"));
+        var failure = assertThrows(TemplateException.class, () -> lucideCheck().attr("bad name", "value").render());
         assertInstanceOf(IllegalArgumentException.class, failure.getCause());
     }
 }

@@ -13,7 +13,7 @@ class LucideIconTest {
 
     @Test
     void rendersOptionsClassesAndEscapedAttributes() {
-        String html = icons.check(IconOptions.DEFAULT.size(16).color("red")
+        String html = icons.lucideCheck(IconOptions.DEFAULT.size(16).color("red")
                 .strokeWidth(3).absoluteStrokeWidth(true).attrs(Map.of(
                         "class", "size-4", "aria-hidden", "true", "focusable", "false",
                         "title", "<Save \"draft\"> & continue"))).render();
@@ -32,7 +32,7 @@ class LucideIconTest {
 
     @Test
     void rendersBooleanNullNumericAndEventAttributes() {
-        String html = icons.check(IconOptions.DEFAULT.attr("data-visible", true)
+        String html = icons.lucideCheck(IconOptions.DEFAULT.attr("data-visible", true)
                 .attr("hidden", false).attr("title", null).attr("data-count", 3)
                 .attr("onclick", "alert('x')")).render();
         assertTrue(html.contains(" data-visible"));
@@ -40,14 +40,14 @@ class LucideIconTest {
         assertFalse(html.contains(" title="));
         assertTrue(html.contains("data-count=\"3\""));
         assertTrue(html.contains("onclick=\"alert(\\x27x\\x27)\""));
-        assertFalse(icons.check(IconOptions.DEFAULT.attr("class", false)).render().contains("lucide-check false"));
+        assertFalse(icons.lucideCheck(IconOptions.DEFAULT.attr("class", false)).render().contains("lucide-check false"));
     }
 
     @Test
     void rejectsInvalidAttributeNames() {
         for (var name : List.of("", "data slot", "data/slot", "data=slot", "data>slot", "data\"slot", "data'slot", "\u0000data", "data\uFDD0slot")) {
             var failure = assertThrows(TemplateException.class,
-                    () -> icons.check(IconOptions.DEFAULT.attr(name, "value")).render());
+                    () -> icons.lucideCheck(IconOptions.DEFAULT.attr(name, "value")).render());
             assertInstanceOf(IllegalArgumentException.class, failure.getCause());
         }
     }
@@ -63,13 +63,14 @@ class LucideIconTest {
         assertEquals(Integer.parseInt(metadata.getProperty("icon.count")), methods.length);
         assertTrue(methods.length > 1000);
         for (var method : methods) {
+            assertTrue(method.getName().startsWith("lucide"), method.getName());
             assertArrayEquals(new Class<?>[]{IconOptions.class}, method.getParameterTypes());
             assertEquals(JteModel.class, method.getReturnType());
             var model = (JteModel) method.invoke(icons, IconOptions.DEFAULT);
             assertTrue(model.render().contains("<svg"), method.getName());
         }
-        assertTrue(icons.packageIcon(IconOptions.DEFAULT).render().contains("lucide-package"));
-        assertTrue(icons.importIcon(IconOptions.DEFAULT).render().contains("lucide-import"));
+        assertTrue(icons.lucidePackage(IconOptions.DEFAULT).render().contains("lucide-package"));
+        assertTrue(icons.lucideImport(IconOptions.DEFAULT).render().contains("lucide-import"));
     }
 
     @Test
@@ -78,6 +79,7 @@ class LucideIconTest {
         assertEquals(methods.length * 2, LucideIcons.class.getDeclaredMethods().length);
         var custom = IconOptions.DEFAULT.size(16).color("red").cssClass("custom-icon");
         for (var method : methods) {
+            assertTrue(method.getName().startsWith("lucide"), method.getName());
             var defaultHelper = LucideIcons.class.getDeclaredMethod(method.getName());
             var customHelper = LucideIcons.class.getDeclaredMethod(method.getName(), IconOptions.class);
             var expectedDefault = (JteModel) method.invoke(icons, IconOptions.DEFAULT);
@@ -91,7 +93,7 @@ class LucideIconTest {
             assertEquals(expectedCustom.render(),
                     actualDefault.size(16).color("red").cssClass("custom-icon").render(), method.getName());
         }
-        assertTrue(LucideIcons.packageIcon().render().contains("lucide-package"));
-        assertTrue(LucideIcons.importIcon().render().contains("lucide-import"));
+        assertTrue(LucideIcons.lucidePackage().render().contains("lucide-package"));
+        assertTrue(LucideIcons.lucideImport().render().contains("lucide-import"));
     }
 }
