@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/lambda --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/lambda --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

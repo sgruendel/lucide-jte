@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/touchpad --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/touchpad --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/parasol --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/parasol --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

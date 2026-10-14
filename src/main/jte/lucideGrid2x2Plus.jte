@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/grid-2x2-plus --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/grid-2x2-plus --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

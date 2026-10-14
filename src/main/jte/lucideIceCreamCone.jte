@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/ice-cream-cone --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/ice-cream-cone --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

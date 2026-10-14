@@ -1,4 +1,4 @@
-// Generated from Lucide 1.55.0 by npm run generate:lucide-jte. Do not edit.
+// Generated from Lucide 1.57.0 by npm run generate:lucide-jte. Do not edit.
 package io.github.sgruendel.lucide.jte;
 
 import static io.github.sgruendel.lucide.jte.StaticLucideIcon.INSTANCE;
@@ -1280,6 +1280,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideBeerOff, options);
     }
 
+    public static Icon lucideBelarusianRuble() {
+        return lucideBelarusianRuble(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideBelarusianRuble(IconOptions options) {
+        return new Icon(INSTANCE::lucideBelarusianRuble, options);
+    }
+
     public static Icon lucideBell() {
         return lucideBell(IconOptions.DEFAULT);
     }
@@ -2182,6 +2190,14 @@ public final class LucideIcons {
 
     public static Icon lucideCalendarCheck2(IconOptions options) {
         return new Icon(INSTANCE::lucideCalendarCheck2, options);
+    }
+
+    public static Icon lucideCalendarChevronsLeft() {
+        return lucideCalendarChevronsLeft(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideCalendarChevronsLeft(IconOptions options) {
+        return new Icon(INSTANCE::lucideCalendarChevronsLeft, options);
     }
 
     public static Icon lucideCalendarChevronsRight() {
@@ -3174,6 +3190,14 @@ public final class LucideIcons {
 
     public static Icon lucideCircleFadingArrowUp(IconOptions options) {
         return new Icon(INSTANCE::lucideCircleFadingArrowUp, options);
+    }
+
+    public static Icon lucideCircleFadingPlay() {
+        return lucideCircleFadingPlay(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideCircleFadingPlay(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleFadingPlay, options);
     }
 
     public static Icon lucideCircleFadingPlus() {
@@ -4174,6 +4198,14 @@ public final class LucideIcons {
 
     public static Icon lucideCpu(IconOptions options) {
         return new Icon(INSTANCE::lucideCpu, options);
+    }
+
+    public static Icon lucideCpuAi() {
+        return lucideCpuAi(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideCpuAi(IconOptions options) {
+        return new Icon(INSTANCE::lucideCpuAi, options);
     }
 
     public static Icon lucideCreativeCommons() {
@@ -5984,6 +6016,22 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideFolderUp, options);
     }
 
+    public static Icon lucideFolderUser() {
+        return lucideFolderUser(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideFolderUser(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderUser, options);
+    }
+
+    public static Icon lucideFolderUsers() {
+        return lucideFolderUsers(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideFolderUsers(IconOptions options) {
+        return new Icon(INSTANCE::lucideFolderUsers, options);
+    }
+
     public static Icon lucideFolderX() {
         return lucideFolderX(IconOptions.DEFAULT);
     }
@@ -6464,6 +6512,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideGrape, options);
     }
 
+    public static Icon lucideGraphStar() {
+        return lucideGraphStar(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideGraphStar(IconOptions options) {
+        return new Icon(INSTANCE::lucideGraphStar, options);
+    }
+
     public static Icon lucideGrid2x2() {
         return lucideGrid2x2(IconOptions.DEFAULT);
     }
@@ -6558,6 +6614,14 @@ public final class LucideIcons {
 
     public static Icon lucideGuitar(IconOptions options) {
         return new Icon(INSTANCE::lucideGuitar, options);
+    }
+
+    public static Icon lucideGuitarElectric() {
+        return lucideGuitarElectric(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideGuitarElectric(IconOptions options) {
+        return new Icon(INSTANCE::lucideGuitarElectric, options);
     }
 
     public static Icon lucideHam() {
@@ -8504,6 +8568,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideMessageCircleReply, options);
     }
 
+    public static Icon lucideMessageCircleText() {
+        return lucideMessageCircleText(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideMessageCircleText(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleText, options);
+    }
+
     public static Icon lucideMessageCircleWarning() {
         return lucideMessageCircleWarning(IconOptions.DEFAULT);
     }
@@ -9894,6 +9966,14 @@ public final class LucideIcons {
 
     public static Icon lucidePercent(IconOptions options) {
         return new Icon(INSTANCE::lucidePercent, options);
+    }
+
+    public static Icon lucidePerfumeBottle() {
+        return lucidePerfumeBottle(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucidePerfumeBottle(IconOptions options) {
+        return new Icon(INSTANCE::lucidePerfumeBottle, options);
     }
 
     public static Icon lucidePersonStanding() {
@@ -11374,6 +11454,14 @@ public final class LucideIcons {
 
     public static Icon lucideServerCrash(IconOptions options) {
         return new Icon(INSTANCE::lucideServerCrash, options);
+    }
+
+    public static Icon lucideServerNas() {
+        return lucideServerNas(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideServerNas(IconOptions options) {
+        return new Icon(INSTANCE::lucideServerNas, options);
     }
 
     public static Icon lucideServerOff() {
@@ -14296,12 +14384,28 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideUsers, options);
     }
 
+    public static Icon lucideUsersCollaboration() {
+        return lucideUsersCollaboration(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideUsersCollaboration(IconOptions options) {
+        return new Icon(INSTANCE::lucideUsersCollaboration, options);
+    }
+
     public static Icon lucideUsersRound() {
         return lucideUsersRound(IconOptions.DEFAULT);
     }
 
     public static Icon lucideUsersRound(IconOptions options) {
         return new Icon(INSTANCE::lucideUsersRound, options);
+    }
+
+    public static Icon lucideUsersRoundCollaboration() {
+        return lucideUsersRoundCollaboration(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideUsersRoundCollaboration(IconOptions options) {
+        return new Icon(INSTANCE::lucideUsersRoundCollaboration, options);
     }
 
     public static Icon lucideUtensils() {

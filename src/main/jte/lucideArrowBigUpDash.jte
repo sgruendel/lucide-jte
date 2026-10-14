@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/arrow-big-up-dash --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/arrow-big-up-dash --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

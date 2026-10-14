@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/receipt-russian-ruble --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/receipt-russian-ruble --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

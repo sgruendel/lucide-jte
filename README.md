@@ -3,7 +3,7 @@
 [![Maven Central][maven-badge]][maven-central]
 [![Build status][build-badge]][build-status]
 [![Java 17+][java-badge]](#dependency)
-[![Lucide 1.55.0][lucide-badge]](https://lucide.dev/)
+[![Lucide 1.57.0][lucide-badge]](https://lucide.dev/)
 [![License: MIT][license-badge]](LICENSE)
 
 [maven-badge]: https://img.shields.io/maven-central/v/io.github.sgruendel/lucide-jte.svg
@@ -11,14 +11,14 @@
 [build-badge]: https://github.com/sgruendel/lucide-jte/actions/workflows/verify.yml/badge.svg?branch=main
 [build-status]: https://github.com/sgruendel/lucide-jte/actions/workflows/verify.yml
 [java-badge]: https://img.shields.io/badge/Java-17%2B-blue.svg
-[lucide-badge]: https://img.shields.io/badge/Lucide-1.55.0-f56565.svg
+[lucide-badge]: https://img.shields.io/badge/Lucide-1.57.0-f56565.svg
 [license-badge]: https://img.shields.io/badge/License-MIT-green.svg
 
 Type-safe [Lucide](https://lucide.dev/) icon components for
 [Java Template Engine (JTE)](https://jte.gg/). A regular Java library with no
 Spring or Basecoat dependency.
 
-Requires Java 17 or newer. Built with JTE 3.2.4 and Lucide 1.55.0.
+Requires Java 17 or newer. Built with JTE 3.2.4 and Lucide 1.57.0.
 
 ## Dependency
 
@@ -28,7 +28,7 @@ Available on [Maven Central][maven-central]. Add the dependency to your project:
 <dependency>
     <groupId>io.github.sgruendel</groupId>
     <artifactId>lucide-jte</artifactId>
-    <version>1.55.0</version>
+    <version>1.57.0</version>
 </dependency>
 ```
 
@@ -40,7 +40,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.sgruendel:lucide-jte:1.55.0")
+    implementation("io.github.sgruendel:lucide-jte:1.57.0")
 }
 ```
 
@@ -164,7 +164,7 @@ in the browser. Utility classes such as `size-4` require your application's CSS.
 
 ## Icon versions
 
-Version 1.55.0 provides 1,877 canonical icons from Lucide 1.55.0. Library patch
+Version 1.57.0 provides 1,877 canonical icons from Lucide 1.57.0. Library patch
 releases can improve the Java API without changing the included icon set.
 Browse the [Lucide icon catalog](https://lucide.dev/icons/)
 to find icon names. Upgrading may rename or remove Java methods when the corresponding

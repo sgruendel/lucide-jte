@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/mouse-pointer-2-off --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/mouse-pointer-2-off --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

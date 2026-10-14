@@ -1,0 +1,27 @@
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/message-circle-text --%>
+
+@import io.github.sgruendel.lucide.jte.IconOptions
+@import io.github.sgruendel.lucide.jte.internal.IconAttributes
+
+@param IconOptions options = IconOptions.DEFAULT
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="${options.size()}"
+  height="${options.size()}"
+  viewBox="0 0 24 24"
+  fill="${options.fill()}"
+  stroke="${options.color()}"
+  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class="${IconAttributes.classAppend("lucide lucide-message-circle-text-icon lucide-message-circle-text", options.attrs())}"
+  $unsafe{IconAttributes.attrs(options.attrs())}
+>
+  <path
+    d="M3.086 17.509a2 2 0 00-.094-1.167 10 10 0 114.777 4.719 2 2 0 00-1.099-.092l-3.413.998a1 1 0 01-1.236-1.168z"
+  />
+  <path d="M8 12h9" />
+  <path d="M8 16h5" />
+  <path d="M8 8h7" />
+</svg>

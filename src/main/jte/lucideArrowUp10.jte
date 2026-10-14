@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/arrow-up-1-0 --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/arrow-up-1-0 --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

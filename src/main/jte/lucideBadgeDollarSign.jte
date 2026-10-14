@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/badge-dollar-sign --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/badge-dollar-sign --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes

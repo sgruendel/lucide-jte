@@ -1,4 +1,4 @@
-<%-- Generated from Lucide 1.55.0. See https://lucide.dev/icons/text-align-justify-center --%>
+<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/text-align-justify-center --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
