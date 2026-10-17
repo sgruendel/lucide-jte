@@ -14,20 +14,31 @@ class LucideIconTest {
     @Test
     void rendersOptionsClassesAndEscapedAttributes() {
         String html = icons.lucideCheck(IconOptions.DEFAULT.size(16).color("red")
-                .strokeWidth(3).absoluteStrokeWidth(true).attrs(Map.of(
+                .strokeWidth(3).nonScalingStroke(true).attrs(Map.of(
                         "class", "size-4", "aria-hidden", "true", "focusable", "false",
                         "title", "<Save \"draft\"> & continue"))).render();
         assertTrue(html.contains("<svg"));
         assertTrue(html.contains("width=\"16\""));
         assertTrue(html.contains("height=\"16\""));
         assertTrue(html.contains("stroke=\"red\""));
-        assertTrue(html.contains("stroke-width=\"4.5\""));
+        assertTrue(html.contains("stroke-width=\"3\""));
+        assertTrue(html.contains("<path vector-effect=\"non-scaling-stroke\" d=\"M20 6 9 17l-5-5\""));
         assertTrue(html.contains("class=\"lucide lucide-check-icon lucide-check size-4\""));
         assertEquals(1, html.split("class=", -1).length - 1);
         assertTrue(html.contains("aria-hidden=\"true\""));
         assertTrue(html.contains("focusable=\"false\""));
         assertTrue(html.contains("&lt;Save &#34;draft&#34;> &amp; continue"));
         assertTrue(html.contains("M20 6 9 17l-5-5"));
+    }
+
+    @Test
+    void nonScalingStrokeSetsVectorEffectOnEveryChildLikeLucide() {
+        var plain = icons.lucideCircleCheck(IconOptions.DEFAULT.size(48)).render();
+        assertFalse(plain.contains("vector-effect"));
+        var html = icons.lucideCircleCheck(IconOptions.DEFAULT.size(48).nonScalingStroke(true)).render();
+        assertTrue(html.contains("stroke-width=\"2\""));
+        assertEquals(2, html.split("vector-effect=\"non-scaling-stroke\"", -1).length - 1);
+        assertFalse(html.contains("<svg vector-effect"));
     }
 
     @Test
@@ -41,6 +52,21 @@ class LucideIconTest {
         assertTrue(html.contains("data-count=\"3\""));
         assertTrue(html.contains("onclick=\"alert(\\x27x\\x27)\""));
         assertFalse(icons.lucideCheck(IconOptions.DEFAULT.attr("class", false)).render().contains("lucide-check false"));
+    }
+
+    @Test
+    void decorativeIconsAreHiddenFromAssistiveTechnologyLikeLucideReact() {
+        assertTrue(icons.lucideCheck(IconOptions.DEFAULT).render().contains(" aria-hidden=\"true\""));
+        assertTrue(icons.lucideCheck(IconOptions.DEFAULT.cssClass("size-4").attr("data-x", "1"))
+                .render().contains(" aria-hidden=\"true\""));
+        for (var name : List.of("aria-label", "aria-labelledby", "role", "title", "ARIA-LABEL", "Role")) {
+            var html = icons.lucideCheck(IconOptions.DEFAULT.attr(name, "Save")).render();
+            assertFalse(html.contains("aria-hidden"), name);
+        }
+        var explicit = icons.lucideCheck(IconOptions.DEFAULT.attr("aria-hidden", "false")).render();
+        assertEquals(1, explicit.split("aria-hidden", -1).length - 1);
+        assertTrue(explicit.contains("aria-hidden=\"false\""));
+        assertFalse(icons.lucideCheck(IconOptions.DEFAULT.attr("aria-hidden", null)).render().contains("aria-hidden"));
     }
 
     @Test

@@ -51,8 +51,12 @@ No Central or GPG secrets are required in GitHub Actions.
 
    This updates the project version, SCM tag, README dependency snippets and
    library version, consumer dependency, and npm package and lockfile versions.
+   It also syncs the README's Lucide badge, Lucide version, and icon count from the
+   pinned `lucide` dependency and `src/main/resources/META-INF/lucide-jte.properties`,
+   and the README and consumer JTE versions from the POM's `jte.version`.
+   It fails if the generated icons don't match the pinned Lucide version.
    It also repairs stale versions when the POM already has the requested version.
-   The Lucide dependency and icon-set version stay independent.
+   The library version stays independent of the Lucide version.
 
 2. Check the changes locally:
 
@@ -108,6 +112,6 @@ GitHub release for the existing tag separately; do not deploy that version again
 
 For an upstream icon update, pin the desired `lucide` dependency with
 `npm install --save-dev --save-exact lucide@VERSION`, then run
-`npm run generate:lucide-jte`. Update README's Lucide badge, upstream version, and
-icon count using `src/main/resources/META-INF/lucide-jte.properties`. Review
+`npm run generate:lucide-jte`. Running `npm run sync-version` in the release steps
+above then updates the README's Lucide badge, version, and icon count. Review
 renamed or removed Java methods before preparing a new library release above.

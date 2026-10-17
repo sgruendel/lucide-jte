@@ -18,14 +18,49 @@ public final class IconAttributes {
                     + "\\x{BFFFE}\\x{BFFFF}\\x{CFFFE}\\x{CFFFF}\\x{DFFFE}\\x{DFFFF}\\x{EFFFE}\\x{EFFFF}"
                     + "\\x{FFFFE}\\x{FFFFF}\\x{10FFFE}\\x{10FFFF}]).+$");
 
-    public static String classAppend(String base, Map<String, ?> attrs) {
-        Object extra = attrs.get("class");
+    /**
+     * Appends the {@code class} attribute from the map to a base class string. If the map does
+     * not contain a {@code class} attribute, or if it is null, false, or empty, the base string
+     * is returned unchanged.
+     *
+     * @param base  the base class string
+     * @param attrs the attribute map
+     * @return the combined class string
+     */
+    public static String classAppend(final String base, final Map<String, ?> attrs) {
+        final Object extra = attrs.get("class");
         return extra == null || Boolean.FALSE.equals(extra) || extra.toString().isEmpty()
                 ? base : base + " " + extra;
     }
 
-    public static String attrs(Map<String, ?> attrs) {
-        var output = new StringBuilder();
+    /**
+     * Matches Lucide's {@code hasA11yProp}: an icon without an {@code aria-*}, {@code role},
+     * or {@code title} attribute is decorative. The name only needs to be present, so a null
+     * or false value also opts out of the default {@code aria-hidden}.
+     */
+    static boolean hasA11yAttr(final Map<String, ?> attrs) {
+        for (final var name : attrs.keySet()) {
+            if (name.regionMatches(true, 0, "aria-", 0, 5)
+                    || name.equalsIgnoreCase("role") || name.equalsIgnoreCase("title")) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Renders HTML attributes from a map. Attributes with a null or false value are omitted.
+     * Attributes with a true value are rendered without a value. If no accessibility attributes
+     * are present, {@code aria-hidden="true"} is added.
+     *
+     * @param attrs the attribute map
+     * @return the rendered attributes
+     */
+    public static String attrs(final Map<String, ?> attrs) {
+        final var output = new StringBuilder();
+        if (!hasA11yAttr(attrs)) {
+            output.append(" aria-hidden=\"true\"");
+        }
         attrs.forEach((name, value) -> {
             if (!HTML_ATTR_NAME.matcher(name).matches()) {
                 throw new IllegalArgumentException("Illegal HTML attribute name " + name);

@@ -12,10 +12,10 @@ class IconTest {
     @Test
     void fluentStylesRenderWithTheSameSemanticsAsExplicitOptions() {
         var options = IconOptions.DEFAULT.size(16).fill("red").color("blue")
-                .strokeWidth(3).absoluteStrokeWidth(true).cssClass("size-4")
+                .strokeWidth(3).nonScalingStroke(true).cssClass("size-4")
                 .attrs(Map.of("aria-hidden", "true")).attr("title", "<Save \"draft\"> & continue");
         var icon = lucideCheck().size(16).fill("red").color("blue")
-                .strokeWidth(3).absoluteStrokeWidth(true).cssClass("size-4")
+                .strokeWidth(3).nonScalingStroke(true).cssClass("size-4")
                 .attrs(Map.of("aria-hidden", "true")).attr("title", "<Save \"draft\"> & continue");
         assertEquals(StaticLucideIcon.INSTANCE.lucideCheck(options).render(), icon.render());
         var output = new StringOutput();

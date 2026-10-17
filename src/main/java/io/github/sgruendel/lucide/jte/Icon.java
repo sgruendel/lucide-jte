@@ -39,9 +39,9 @@ public final class Icon implements JteModel {
         return new Icon(renderer, options.strokeWidth(strokeWidth));
     }
 
-    /** Returns an icon with the given stroke scaling behavior. */
-    public Icon absoluteStrokeWidth(boolean absoluteStrokeWidth) {
-        return new Icon(renderer, options.absoluteStrokeWidth(absoluteStrokeWidth));
+    /** Returns an icon that keeps the on-screen stroke width constant when resizing. */
+    public Icon nonScalingStroke(boolean nonScalingStroke) {
+        return new Icon(renderer, options.nonScalingStroke(nonScalingStroke));
     }
 
     /** Merges attributes; additions replace existing values with the same name. */

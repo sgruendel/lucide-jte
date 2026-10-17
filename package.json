@@ -1,6 +1,6 @@
 {
   "name": "lucide-jte",
-  "version": "1.57.0",
+  "version": "1.59.0",
   "private": true,
   "description": "Type-safe Lucide icon components for Java Template Engine (JTE)",
   "author": "Stefan Gründel",
@@ -21,6 +21,6 @@
     "publish:maven-central": "mise exec java@temurin-17 -- ./mvnw --no-transfer-progress -Prelease -DautoPublish=true -DwaitUntil=published deploy"
   },
   "devDependencies": {
-    "lucide": "1.57.0"
+    "lucide": "1.59.0"
   }
 }
