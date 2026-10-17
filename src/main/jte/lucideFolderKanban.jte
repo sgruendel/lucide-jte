@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/folder-kanban --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/folder-kanban --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,16 +14,17 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-folder-kanban-icon lucide-folder-kanban", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
   <path
+    vector-effect="${vectorEffect}"
     d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"
   />
-  <path d="M8 10v4" />
-  <path d="M12 10v2" />
-  <path d="M16 10v6" />
+  <path vector-effect="${vectorEffect}" d="M8 10v4" />
+  <path vector-effect="${vectorEffect}" d="M12 10v2" />
+  <path vector-effect="${vectorEffect}" d="M16 10v6" />
 </svg>

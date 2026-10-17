@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/redo-2 --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/redo-2 --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,12 +14,12 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-redo-2-icon lucide-redo-2", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="m15 14 5-5-5-5" />
-  <path d="M20 9H9.5A5.5 5.5 0 0 0 4 14.5A5.5 5.5 0 0 0 9.5 20H13" />
+  <path vector-effect="${vectorEffect}" d="m15 14 5-5-5-5" />
+  <path vector-effect="${vectorEffect}" d="M20 9H9.5A5.5 5.5 0 0 0 4 14.5A5.5 5.5 0 0 0 9.5 20H13" />
 </svg>

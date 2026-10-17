@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/brush-cleaning --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/brush-cleaning --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,16 +14,17 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-brush-cleaning-icon lucide-brush-cleaning", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="m16 22-1-4" />
+  <path vector-effect="${vectorEffect}" d="m16 22-1-4" />
   <path
+    vector-effect="${vectorEffect}"
     d="M19 14a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2h-3a1 1 0 0 1-1-1V4a2 2 0 0 0-4 0v5a1 1 0 0 1-1 1H6a2 2 0 0 0-2 2v1a1 1 0 0 0 1 1"
   />
-  <path d="M19 14H5l-1.973 6.767A1 1 0 0 0 4 22h16a1 1 0 0 0 .973-1.233z" />
-  <path d="m8 22 1-4" />
+  <path vector-effect="${vectorEffect}" d="M19 14H5l-1.973 6.767A1 1 0 0 0 4 22h16a1 1 0 0 0 .973-1.233z" />
+  <path vector-effect="${vectorEffect}" d="m8 22 1-4" />
 </svg>

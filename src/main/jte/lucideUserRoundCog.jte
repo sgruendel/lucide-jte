@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/user-round-cog --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/user-round-cog --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,21 +14,21 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-user-round-cog-icon lucide-user-round-cog", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="m14.305 19.53.923-.382" />
-  <path d="m15.228 16.852-.923-.383" />
-  <path d="m16.852 15.228-.383-.923" />
-  <path d="m16.852 20.772-.383.924" />
-  <path d="m19.148 15.228.383-.923" />
-  <path d="m19.53 21.696-.382-.924" />
-  <path d="M2 21a8 8 0 0 1 10.434-7.62" />
-  <path d="m20.772 16.852.924-.383" />
-  <path d="m20.772 19.148.924.383" />
-  <circle cx="10" cy="8" r="5" />
-  <circle cx="18" cy="18" r="3" />
+  <path vector-effect="${vectorEffect}" d="m14.305 19.53.923-.382" />
+  <path vector-effect="${vectorEffect}" d="m15.228 16.852-.923-.383" />
+  <path vector-effect="${vectorEffect}" d="m16.852 15.228-.383-.923" />
+  <path vector-effect="${vectorEffect}" d="m16.852 20.772-.383.924" />
+  <path vector-effect="${vectorEffect}" d="m19.148 15.228.383-.923" />
+  <path vector-effect="${vectorEffect}" d="m19.53 21.696-.382-.924" />
+  <path vector-effect="${vectorEffect}" d="M2 21a8 8 0 0 1 10.434-7.62" />
+  <path vector-effect="${vectorEffect}" d="m20.772 16.852.924-.383" />
+  <path vector-effect="${vectorEffect}" d="m20.772 19.148.924.383" />
+  <circle vector-effect="${vectorEffect}" cx="10" cy="8" r="5" />
+  <circle vector-effect="${vectorEffect}" cx="18" cy="18" r="3" />
 </svg>

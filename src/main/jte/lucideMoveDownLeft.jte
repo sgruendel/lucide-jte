@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/move-down-left --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/move-down-left --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,12 +14,12 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-move-down-left-icon lucide-move-down-left", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M11 19H5V13" />
-  <path d="M19 5L5 19" />
+  <path vector-effect="${vectorEffect}" d="M11 19H5V13" />
+  <path vector-effect="${vectorEffect}" d="M19 5L5 19" />
 </svg>

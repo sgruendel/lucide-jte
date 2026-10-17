@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/badge-pound-sterling --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/badge-pound-sterling --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,16 +14,17 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-badge-pound-sterling-icon lucide-badge-pound-sterling", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
   <path
+    vector-effect="${vectorEffect}"
     d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"
   />
-  <path d="M8 12h4" />
-  <path d="M10 16V9.5a2.5 2.5 0 0 1 5 0" />
-  <path d="M8 16h7" />
+  <path vector-effect="${vectorEffect}" d="M8 12h4" />
+  <path vector-effect="${vectorEffect}" d="M10 16V9.5a2.5 2.5 0 0 1 5 0" />
+  <path vector-effect="${vectorEffect}" d="M8 16h7" />
 </svg>

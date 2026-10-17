@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/germ-off --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/germ-off --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,23 +14,23 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-germ-off-icon lucide-germ-off", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="m11 2 .925 1.848" />
-  <path d="M13 15h.01" />
-  <path d="M13.424 7.768a2 2 0 112.808 2.808" />
-  <path d="m16 21-1-2.472" />
-  <path d="M16.988 16.988A12 12 0 019 20a5 5 0 01-2.759-9.171 8.8 8.8 0 002.307-2.28" />
-  <path d="m19 2-1 1.804" />
-  <path d="m2 19 2.746-1.373" />
-  <path d="m2 2 20 20" />
-  <path d="m22 16-2.474-2.13a12 12 0 001.376-3.786 6 6 0 00-10.313-5.151" />
-  <path d="m22 5-1.804 1" />
-  <path d="m3 10 2 2" />
-  <path d="M9 16h.01" />
-  <path d="M9 20v2" />
+  <path vector-effect="${vectorEffect}" d="m11 2 .925 1.848" />
+  <path vector-effect="${vectorEffect}" d="M13 15h.01" />
+  <path vector-effect="${vectorEffect}" d="M13.424 7.768a2 2 0 112.808 2.808" />
+  <path vector-effect="${vectorEffect}" d="m16 21-1-2.472" />
+  <path vector-effect="${vectorEffect}" d="M16.988 16.988A12 12 0 019 20a5 5 0 01-2.759-9.171 8.8 8.8 0 002.307-2.28" />
+  <path vector-effect="${vectorEffect}" d="m19 2-1 1.804" />
+  <path vector-effect="${vectorEffect}" d="m2 19 2.746-1.373" />
+  <path vector-effect="${vectorEffect}" d="m2 2 20 20" />
+  <path vector-effect="${vectorEffect}" d="m22 16-2.474-2.13a12 12 0 001.376-3.786 6 6 0 00-10.313-5.151" />
+  <path vector-effect="${vectorEffect}" d="m22 5-1.804 1" />
+  <path vector-effect="${vectorEffect}" d="m3 10 2 2" />
+  <path vector-effect="${vectorEffect}" d="M9 16h.01" />
+  <path vector-effect="${vectorEffect}" d="M9 20v2" />
 </svg>

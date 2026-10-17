@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/hourglass-cog --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/hourglass-cog --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,23 +14,23 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-hourglass-cog-icon lucide-hourglass-cog", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="m14.305 19.53.923-.382" />
-  <path d="m15.228 16.852-.923-.383" />
-  <path d="m16.852 15.228-.383-.923" />
-  <path d="m16.852 20.772-.383.924" />
-  <path d="M17 2v4.172a2 2 0 0 1-.586 1.414l-8.828 8.828A2 2 0 0 0 7 17.828V22" />
-  <path d="m19.148 15.228.383-.923" />
-  <path d="m19.53 21.696-.382-.924" />
-  <path d="m20.772 16.852.924-.383" />
-  <path d="m20.772 19.148.924.383" />
-  <path d="M5 22h6.159" />
-  <path d="M5 2h14" />
-  <path d="M7 2v4.172a2 2 0 0 0 .586 1.414l5.188 5.188" />
-  <circle cx="18" cy="18" r="3" />
+  <path vector-effect="${vectorEffect}" d="m14.305 19.53.923-.382" />
+  <path vector-effect="${vectorEffect}" d="m15.228 16.852-.923-.383" />
+  <path vector-effect="${vectorEffect}" d="m16.852 15.228-.383-.923" />
+  <path vector-effect="${vectorEffect}" d="m16.852 20.772-.383.924" />
+  <path vector-effect="${vectorEffect}" d="M17 2v4.172a2 2 0 0 1-.586 1.414l-8.828 8.828A2 2 0 0 0 7 17.828V22" />
+  <path vector-effect="${vectorEffect}" d="m19.148 15.228.383-.923" />
+  <path vector-effect="${vectorEffect}" d="m19.53 21.696-.382-.924" />
+  <path vector-effect="${vectorEffect}" d="m20.772 16.852.924-.383" />
+  <path vector-effect="${vectorEffect}" d="m20.772 19.148.924.383" />
+  <path vector-effect="${vectorEffect}" d="M5 22h6.159" />
+  <path vector-effect="${vectorEffect}" d="M5 2h14" />
+  <path vector-effect="${vectorEffect}" d="M7 2v4.172a2 2 0 0 0 .586 1.414l5.188 5.188" />
+  <circle vector-effect="${vectorEffect}" cx="18" cy="18" r="3" />
 </svg>

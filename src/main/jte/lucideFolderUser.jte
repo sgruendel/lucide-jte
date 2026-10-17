@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/folder-user --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/folder-user --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,15 +14,16 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-folder-user-icon lucide-folder-user", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
   <path
+    vector-effect="${vectorEffect}"
     d="M10.254 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2V9.255"
   />
-  <path d="M22 22a4 4 0 0 0-8 0" />
-  <circle cx="18" cy="15" r="3" />
+  <path vector-effect="${vectorEffect}" d="M22 22a4 4 0 0 0-8 0" />
+  <circle vector-effect="${vectorEffect}" cx="18" cy="15" r="3" />
 </svg>

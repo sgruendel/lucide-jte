@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/ungroup --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/ungroup --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,12 +14,12 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-ungroup-icon lucide-ungroup", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <rect x="11" y="14" width="10" height="7" rx="2" />
-  <rect x="3" y="3" width="10" height="7" rx="2" />
+  <rect vector-effect="${vectorEffect}" x="11" y="14" width="10" height="7" rx="2" />
+  <rect vector-effect="${vectorEffect}" x="3" y="3" width="10" height="7" rx="2" />
 </svg>

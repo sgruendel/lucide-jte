@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/clipboard-pen-line --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/clipboard-pen-line --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,17 +14,18 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-clipboard-pen-line-icon lucide-clipboard-pen-line", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <rect width="8" height="4" x="8" y="2" rx="1" />
-  <path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5" />
-  <path d="M16 4h2a2 2 0 0 1 1.73 1" />
-  <path d="M8 18h1" />
+  <rect vector-effect="${vectorEffect}" width="8" height="4" x="8" y="2" rx="1" />
+  <path vector-effect="${vectorEffect}" d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5" />
+  <path vector-effect="${vectorEffect}" d="M16 4h2a2 2 0 0 1 1.73 1" />
+  <path vector-effect="${vectorEffect}" d="M8 18h1" />
   <path
+    vector-effect="${vectorEffect}"
     d="M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"
   />
 </svg>

@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/hotel --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/hotel --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,20 +14,20 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-hotel-icon lucide-hotel", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M10 22v-6.57" />
-  <path d="M12 11h.01" />
-  <path d="M12 7h.01" />
-  <path d="M14 15.43V22" />
-  <path d="M15 16a5 5 0 0 0-6 0" />
-  <path d="M16 11h.01" />
-  <path d="M16 7h.01" />
-  <path d="M8 11h.01" />
-  <path d="M8 7h.01" />
-  <rect x="4" y="2" width="16" height="20" rx="2" />
+  <path vector-effect="${vectorEffect}" d="M10 22v-6.57" />
+  <path vector-effect="${vectorEffect}" d="M12 11h.01" />
+  <path vector-effect="${vectorEffect}" d="M12 7h.01" />
+  <path vector-effect="${vectorEffect}" d="M14 15.43V22" />
+  <path vector-effect="${vectorEffect}" d="M15 16a5 5 0 0 0-6 0" />
+  <path vector-effect="${vectorEffect}" d="M16 11h.01" />
+  <path vector-effect="${vectorEffect}" d="M16 7h.01" />
+  <path vector-effect="${vectorEffect}" d="M8 11h.01" />
+  <path vector-effect="${vectorEffect}" d="M8 7h.01" />
+  <rect vector-effect="${vectorEffect}" x="4" y="2" width="16" height="20" rx="2" />
 </svg>

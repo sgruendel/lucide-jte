@@ -9,14 +9,16 @@ class IconOptionsTest {
     @Test
     void defaultsAndFluentOptionsAreIndependent() {
         var custom = IconOptions.DEFAULT.size(16).fill("red").color("blue")
-                .strokeWidth(3).absoluteStrokeWidth(true).cssClass("size-4");
+                .strokeWidth(3).nonScalingStroke(true).cssClass("size-4");
         assertEquals(16, custom.size());
         assertEquals("red", custom.fill());
         assertEquals("blue", custom.color());
-        assertEquals("4.5", custom.calculatedStrokeWidth());
+        assertEquals(3, custom.strokeWidth());
+        assertTrue(custom.nonScalingStroke());
         assertEquals("size-4", custom.attrs().get("class"));
         assertEquals(24, IconOptions.DEFAULT.size());
-        assertEquals("2", IconOptions.DEFAULT.calculatedStrokeWidth());
+        assertEquals(2, IconOptions.DEFAULT.strokeWidth());
+        assertFalse(IconOptions.DEFAULT.nonScalingStroke());
         assertTrue(IconOptions.DEFAULT.attrs().isEmpty());
     }
 
@@ -44,7 +46,7 @@ class IconOptionsTest {
         assertThrows(IllegalArgumentException.class, () -> IconOptions.DEFAULT.size(0));
         assertThrows(IllegalArgumentException.class, () -> IconOptions.DEFAULT.size(-1));
         assertThrows(IllegalArgumentException.class, () -> IconOptions.DEFAULT.strokeWidth(-1));
-        assertEquals("0", IconOptions.DEFAULT.strokeWidth(0).calculatedStrokeWidth());
+        assertEquals(0, IconOptions.DEFAULT.strokeWidth(0).strokeWidth());
         assertThrows(NullPointerException.class, () -> IconOptions.DEFAULT.color(null));
         assertThrows(NullPointerException.class, () -> IconOptions.DEFAULT.fill(null));
         assertThrows(NullPointerException.class, () -> IconOptions.DEFAULT.attr(null, "value"));

@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/recycle --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/recycle --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,18 +14,19 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-recycle-icon lucide-recycle", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5" />
-  <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12" />
-  <path d="m14 16-3 3 3 3" />
-  <path d="M8.293 13.596 7.196 9.5 3.1 10.598" />
+  <path vector-effect="${vectorEffect}" d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5" />
+  <path vector-effect="${vectorEffect}" d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12" />
+  <path vector-effect="${vectorEffect}" d="m14 16-3 3 3 3" />
+  <path vector-effect="${vectorEffect}" d="M8.293 13.596 7.196 9.5 3.1 10.598" />
   <path
+    vector-effect="${vectorEffect}"
     d="m9.344 5.811 1.093-1.892A1.83 1.83 0 0 1 11.985 3a1.784 1.784 0 0 1 1.546.888l3.943 6.843"
   />
-  <path d="m13.378 9.633 4.096 1.098 1.097-4.096" />
+  <path vector-effect="${vectorEffect}" d="m13.378 9.633 4.096 1.098 1.097-4.096" />
 </svg>

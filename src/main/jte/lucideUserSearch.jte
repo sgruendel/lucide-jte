@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/user-search --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/user-search --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,14 +14,14 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-user-search-icon lucide-user-search", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <circle cx="10" cy="7" r="4" />
-  <path d="M10.3 15H7a4 4 0 0 0-4 4v2" />
-  <circle cx="17" cy="17" r="3" />
-  <path d="m21 21-1.9-1.9" />
+  <circle vector-effect="${vectorEffect}" cx="10" cy="7" r="4" />
+  <path vector-effect="${vectorEffect}" d="M10.3 15H7a4 4 0 0 0-4 4v2" />
+  <circle vector-effect="${vectorEffect}" cx="17" cy="17" r="3" />
+  <path vector-effect="${vectorEffect}" d="m21 21-1.9-1.9" />
 </svg>

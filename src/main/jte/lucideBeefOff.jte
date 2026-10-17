@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/beef-off --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/beef-off --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,18 +14,19 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-beef-off-icon lucide-beef-off", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M11.771 6.109a2.5 2.5 0 0 1 3.12 3.12" />
-  <path d="M17.852 12.185a6.5 6.5 0 0 0-9.035-9.04" />
-  <path d="M18.013 18.013C15.029 20.349 10.831 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5" />
-  <path d="m18.5 6 2.19 4.5a6.48 6.48 0 0 1-.139 4.393" />
-  <path d="m2 2 20 20" />
+  <path vector-effect="${vectorEffect}" d="M11.771 6.109a2.5 2.5 0 0 1 3.12 3.12" />
+  <path vector-effect="${vectorEffect}" d="M17.852 12.185a6.5 6.5 0 0 0-9.035-9.04" />
+  <path vector-effect="${vectorEffect}" d="M18.013 18.013C15.029 20.349 10.831 22 7 22a3 3 0 0 1-2.68-1.66L2.4 16.5" />
+  <path vector-effect="${vectorEffect}" d="m18.5 6 2.19 4.5a6.48 6.48 0 0 1-.139 4.393" />
+  <path vector-effect="${vectorEffect}" d="m2 2 20 20" />
   <path
+    vector-effect="${vectorEffect}"
     d="M6.355 6.37a7 7 0 0 0-.075.23c-1.1 3.13-.78 3.9-3.18 6.08A3 3 0 0 0 5 18c3.356 0 6.993-1.267 9.85-3.151"
   />
 </svg>

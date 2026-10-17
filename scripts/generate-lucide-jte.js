@@ -30,9 +30,11 @@ function renderNode([tag, attributes]) {
     if (!/^[a-zA-Z][a-zA-Z0-9:-]*$/.test(name)) throw new Error(`Invalid SVG attribute: ${name}`);
     return `${name}="${escapeAttribute(value)}"`;
   });
+  // Like Lucide's nonScalingStroke, children get vector-effect; jte omits it when null.
+  const all = ['vector-effect="${vectorEffect}"', ...attrs];
   return attrs.join(" ").length <= 80
-    ? `  <${tag} ${attrs.join(" ")} />`
-    : `  <${tag}\n${attrs.map((attr) => `    ${attr}`).join("\n")}\n  />`;
+    ? `  <${tag} ${all.join(" ")} />`
+    : `  <${tag}\n${all.map((attr) => `    ${attr}`).join("\n")}\n  />`;
 }
 
 function renderTemplate(stub, values) {

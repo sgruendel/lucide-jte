@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/credit-card-x --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/credit-card-x --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,15 +14,15 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-credit-card-x-icon lucide-credit-card-x", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M12.5 19H4a2 2 0 01-2-2V7a2 2 0 012-2h16a2 2 0 012 2v3.5" />
-  <path d="M2 10h20" />
-  <path d="M6 14h2" />
-  <path d="m16.5 14.5 5 5" />
-  <path d="m21.5 14.5-5 5" />
+  <path vector-effect="${vectorEffect}" d="M12.5 19H4a2 2 0 01-2-2V7a2 2 0 012-2h16a2 2 0 012 2v3.5" />
+  <path vector-effect="${vectorEffect}" d="M2 10h20" />
+  <path vector-effect="${vectorEffect}" d="M6 14h2" />
+  <path vector-effect="${vectorEffect}" d="m16.5 14.5 5 5" />
+  <path vector-effect="${vectorEffect}" d="m21.5 14.5-5 5" />
 </svg>

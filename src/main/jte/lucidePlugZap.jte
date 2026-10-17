@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/plug-zap --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/plug-zap --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,15 +14,15 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-plug-zap-icon lucide-plug-zap", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z" />
-  <path d="m2 22 3-3" />
-  <path d="M7.5 13.5 10 11" />
-  <path d="M10.5 16.5 13 14" />
-  <path d="m18 3-4 4h6l-4 4" />
+  <path vector-effect="${vectorEffect}" d="M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z" />
+  <path vector-effect="${vectorEffect}" d="m2 22 3-3" />
+  <path vector-effect="${vectorEffect}" d="M7.5 13.5 10 11" />
+  <path vector-effect="${vectorEffect}" d="M10.5 16.5 13 14" />
+  <path vector-effect="${vectorEffect}" d="m18 3-4 4h6l-4 4" />
 </svg>

@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/rat --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/rat --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,17 +14,18 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-rat-icon lucide-rat", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M13 22H4a2 2 0 0 1 0-4h12" />
-  <path d="M13.236 18a3 3 0 0 0-2.2-5" />
-  <path d="M16 9h.01" />
+  <path vector-effect="${vectorEffect}" d="M13 22H4a2 2 0 0 1 0-4h12" />
+  <path vector-effect="${vectorEffect}" d="M13.236 18a3 3 0 0 0-2.2-5" />
+  <path vector-effect="${vectorEffect}" d="M16 9h.01" />
   <path
+    vector-effect="${vectorEffect}"
     d="M16.82 3.94a3 3 0 1 1 3.237 4.868l1.815 2.587a1.5 1.5 0 0 1-1.5 2.1l-2.872-.453a3 3 0 0 0-3.5 3"
   />
-  <path d="M17 4.988a3 3 0 1 0-5.2 2.052A7 7 0 0 0 4 14.015 4 4 0 0 0 8 18" />
+  <path vector-effect="${vectorEffect}" d="M17 4.988a3 3 0 1 0-5.2 2.052A7 7 0 0 0 4 14.015 4 4 0 0 0 8 18" />
 </svg>

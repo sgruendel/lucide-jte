@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/library-big --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/library-big --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,15 +14,16 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-library-big-icon lucide-library-big", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <rect width="8" height="18" x="3" y="3" rx="1" />
-  <path d="M7 3v18" />
+  <rect vector-effect="${vectorEffect}" width="8" height="18" x="3" y="3" rx="1" />
+  <path vector-effect="${vectorEffect}" d="M7 3v18" />
   <path
+    vector-effect="${vectorEffect}"
     d="M20.4 18.9c.2.5-.1 1.1-.6 1.3l-1.9.7c-.5.2-1.1-.1-1.3-.6L11.1 5.1c-.2-.5.1-1.1.6-1.3l1.9-.7c.5-.2 1.1.1 1.3.6Z"
   />
 </svg>

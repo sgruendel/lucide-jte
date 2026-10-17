@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/squircle-dashed --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/squircle-dashed --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,18 +14,18 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-squircle-dashed-icon lucide-squircle-dashed", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M13.77 3.043a34 34 0 0 0-3.54 0" />
-  <path d="M13.771 20.956a33 33 0 0 1-3.541.001" />
-  <path d="M20.18 17.74c-.51 1.15-1.29 1.93-2.439 2.44" />
-  <path d="M20.18 6.259c-.51-1.148-1.291-1.929-2.44-2.438" />
-  <path d="M20.957 10.23a33 33 0 0 1 0 3.54" />
-  <path d="M3.043 10.23a34 34 0 0 0 .001 3.541" />
-  <path d="M6.26 20.179c-1.15-.508-1.93-1.29-2.44-2.438" />
-  <path d="M6.26 3.82c-1.149.51-1.93 1.291-2.44 2.44" />
+  <path vector-effect="${vectorEffect}" d="M13.77 3.043a34 34 0 0 0-3.54 0" />
+  <path vector-effect="${vectorEffect}" d="M13.771 20.956a33 33 0 0 1-3.541.001" />
+  <path vector-effect="${vectorEffect}" d="M20.18 17.74c-.51 1.15-1.29 1.93-2.439 2.44" />
+  <path vector-effect="${vectorEffect}" d="M20.18 6.259c-.51-1.148-1.291-1.929-2.44-2.438" />
+  <path vector-effect="${vectorEffect}" d="M20.957 10.23a33 33 0 0 1 0 3.54" />
+  <path vector-effect="${vectorEffect}" d="M3.043 10.23a34 34 0 0 0 .001 3.541" />
+  <path vector-effect="${vectorEffect}" d="M6.26 20.179c-1.15-.508-1.93-1.29-2.44-2.438" />
+  <path vector-effect="${vectorEffect}" d="M6.26 3.82c-1.149.51-1.93 1.291-2.44 2.44" />
 </svg>

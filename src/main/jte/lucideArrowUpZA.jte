@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/arrow-up-z-a --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/arrow-up-z-a --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,15 +14,15 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-arrow-up-z-a-icon lucide-arrow-up-z-a", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="m3 8 4-4 4 4" />
-  <path d="M7 4v16" />
-  <path d="M15 4h5l-5 6h5" />
-  <path d="M15 20v-3.5a2.5 2.5 0 0 1 5 0V20" />
-  <path d="M20 18h-5" />
+  <path vector-effect="${vectorEffect}" d="m3 8 4-4 4 4" />
+  <path vector-effect="${vectorEffect}" d="M7 4v16" />
+  <path vector-effect="${vectorEffect}" d="M15 4h5l-5 6h5" />
+  <path vector-effect="${vectorEffect}" d="M15 20v-3.5a2.5 2.5 0 0 1 5 0V20" />
+  <path vector-effect="${vectorEffect}" d="M20 18h-5" />
 </svg>

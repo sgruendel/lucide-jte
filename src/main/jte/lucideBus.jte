@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/bus --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/bus --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,19 +14,20 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-bus-icon lucide-bus", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M8 6v6" />
-  <path d="M15 6v6" />
-  <path d="M2 12h19.6" />
+  <path vector-effect="${vectorEffect}" d="M8 6v6" />
+  <path vector-effect="${vectorEffect}" d="M15 6v6" />
+  <path vector-effect="${vectorEffect}" d="M2 12h19.6" />
   <path
+    vector-effect="${vectorEffect}"
     d="M18 18h3s.5-1.7.8-2.8c.1-.4.2-.8.2-1.2 0-.4-.1-.8-.2-1.2l-1.4-5C20.1 6.8 19.1 6 18 6H4a2 2 0 0 0-2 2v10h3"
   />
-  <circle cx="7" cy="18" r="2" />
-  <path d="M9 18h5" />
-  <circle cx="16" cy="18" r="2" />
+  <circle vector-effect="${vectorEffect}" cx="7" cy="18" r="2" />
+  <path vector-effect="${vectorEffect}" d="M9 18h5" />
+  <circle vector-effect="${vectorEffect}" cx="16" cy="18" r="2" />
 </svg>

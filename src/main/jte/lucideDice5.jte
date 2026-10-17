@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/dice-5 --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/dice-5 --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,16 +14,16 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-dice-5-icon lucide-dice-5", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
-  <path d="M16 8h.01" />
-  <path d="M8 8h.01" />
-  <path d="M8 16h.01" />
-  <path d="M16 16h.01" />
-  <path d="M12 12h.01" />
+  <rect vector-effect="${vectorEffect}" width="18" height="18" x="3" y="3" rx="2" ry="2" />
+  <path vector-effect="${vectorEffect}" d="M16 8h.01" />
+  <path vector-effect="${vectorEffect}" d="M8 8h.01" />
+  <path vector-effect="${vectorEffect}" d="M8 16h.01" />
+  <path vector-effect="${vectorEffect}" d="M16 16h.01" />
+  <path vector-effect="${vectorEffect}" d="M12 12h.01" />
 </svg>

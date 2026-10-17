@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/candy-off --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/candy-off --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,21 +14,23 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-candy-off-icon lucide-candy-off", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M10 10v7.9" />
-  <path d="M11.802 6.145a5 5 0 0 1 6.053 6.053" />
-  <path d="M14 6.1v2.243" />
-  <path d="m15.5 15.571-.964.964a5 5 0 0 1-7.071 0 5 5 0 0 1 0-7.07l.964-.965" />
+  <path vector-effect="${vectorEffect}" d="M10 10v7.9" />
+  <path vector-effect="${vectorEffect}" d="M11.802 6.145a5 5 0 0 1 6.053 6.053" />
+  <path vector-effect="${vectorEffect}" d="M14 6.1v2.243" />
+  <path vector-effect="${vectorEffect}" d="m15.5 15.571-.964.964a5 5 0 0 1-7.071 0 5 5 0 0 1 0-7.07l.964-.965" />
   <path
+    vector-effect="${vectorEffect}"
     d="M16 7V3a1 1 0 0 1 1.707-.707 2.5 2.5 0 0 0 2.152.717 1 1 0 0 1 1.131 1.131 2.5 2.5 0 0 0 .717 2.152A1 1 0 0 1 21 8h-4"
   />
-  <path d="m2 2 20 20" />
+  <path vector-effect="${vectorEffect}" d="m2 2 20 20" />
   <path
+    vector-effect="${vectorEffect}"
     d="M8 17v4a1 1 0 0 1-1.707.707 2.5 2.5 0 0 0-2.152-.717 1 1 0 0 1-1.131-1.131 2.5 2.5 0 0 0-.717-2.152A1 1 0 0 1 3 16h4"
   />
 </svg>

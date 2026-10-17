@@ -1,4 +1,4 @@
-// Generated from Lucide 1.57.0 by npm run generate:lucide-jte. Do not edit.
+// Generated from Lucide 1.59.0 by npm run generate:lucide-jte. Do not edit.
 package io.github.sgruendel.lucide.jte;
 
 import static io.github.sgruendel.lucide.jte.StaticLucideIcon.INSTANCE;
@@ -2568,6 +2568,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideCctvOff, options);
     }
 
+    public static Icon lucideCertificate() {
+        return lucideCertificate(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideCertificate(IconOptions options) {
+        return new Icon(INSTANCE::lucideCertificate, options);
+    }
+
     public static Icon lucideChartArea() {
         return lucideChartArea(IconOptions.DEFAULT);
     }
@@ -4872,6 +4880,22 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideEggOff, options);
     }
 
+    public static Icon lucideEighthNote() {
+        return lucideEighthNote(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideEighthNote(IconOptions options) {
+        return new Icon(INSTANCE::lucideEighthNote, options);
+    }
+
+    public static Icon lucideEighthNotes() {
+        return lucideEighthNotes(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideEighthNotes(IconOptions options) {
+        return new Icon(INSTANCE::lucideEighthNotes, options);
+    }
+
     public static Icon lucideEject() {
         return lucideEject(IconOptions.DEFAULT);
     }
@@ -6622,6 +6646,14 @@ public final class LucideIcons {
 
     public static Icon lucideGuitarElectric(IconOptions options) {
         return new Icon(INSTANCE::lucideGuitarElectric, options);
+    }
+
+    public static Icon lucideHalfNote() {
+        return lucideHalfNote(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideHalfNote(IconOptions options) {
+        return new Icon(INSTANCE::lucideHalfNote, options);
     }
 
     public static Icon lucideHam() {
@@ -9272,38 +9304,6 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideMoveVertical, options);
     }
 
-    public static Icon lucideMusic() {
-        return lucideMusic(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideMusic(IconOptions options) {
-        return new Icon(INSTANCE::lucideMusic, options);
-    }
-
-    public static Icon lucideMusic2() {
-        return lucideMusic2(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideMusic2(IconOptions options) {
-        return new Icon(INSTANCE::lucideMusic2, options);
-    }
-
-    public static Icon lucideMusic3() {
-        return lucideMusic3(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideMusic3(IconOptions options) {
-        return new Icon(INSTANCE::lucideMusic3, options);
-    }
-
-    public static Icon lucideMusic4() {
-        return lucideMusic4(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideMusic4(IconOptions options) {
-        return new Icon(INSTANCE::lucideMusic4, options);
-    }
-
     public static Icon lucideNavigation() {
         return lucideNavigation(IconOptions.DEFAULT);
     }
@@ -11894,6 +11894,14 @@ public final class LucideIcons {
 
     public static Icon lucideSiren(IconOptions options) {
         return new Icon(INSTANCE::lucideSiren, options);
+    }
+
+    public static Icon lucideSixteenthNotes() {
+        return lucideSixteenthNotes(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideSixteenthNotes(IconOptions options) {
+        return new Icon(INSTANCE::lucideSixteenthNotes, options);
     }
 
     public static Icon lucideSkipBack() {

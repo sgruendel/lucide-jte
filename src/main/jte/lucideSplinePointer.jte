@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/spline-pointer --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/spline-pointer --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,16 +14,17 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-spline-pointer-icon lucide-spline-pointer", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
   <path
+    vector-effect="${vectorEffect}"
     d="M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z"
   />
-  <path d="M5 17A12 12 0 0 1 17 5" />
-  <circle cx="19" cy="5" r="2" />
-  <circle cx="5" cy="19" r="2" />
+  <path vector-effect="${vectorEffect}" d="M5 17A12 12 0 0 1 17 5" />
+  <circle vector-effect="${vectorEffect}" cx="19" cy="5" r="2" />
+  <circle vector-effect="${vectorEffect}" cx="5" cy="19" r="2" />
 </svg>

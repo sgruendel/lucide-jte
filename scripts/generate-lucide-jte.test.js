@@ -25,7 +25,8 @@ test("template names prefix camel case icon names and Java keywords with lucide"
 });
 
 test("SVG rendering escapes attribute values and rejects unknown nodes", () => {
-  assert.equal(renderNode(["path", { d: 'a&"<>' }]), '  <path d="a&amp;&quot;&lt;&gt;" />');
+  assert.equal(renderNode(["path", { d: 'a&"<>' }]),
+    '  <path vector-effect="${vectorEffect}" d="a&amp;&quot;&lt;&gt;" />');
   assert.throws(() => renderNode(["script", {}]), /Unexpected SVG/);
   assert.throws(() => renderTemplate("{{MISSING}}", {}), /Missing template value/);
 });

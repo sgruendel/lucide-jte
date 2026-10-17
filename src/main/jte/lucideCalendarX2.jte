@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/calendar-x-2 --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/calendar-x-2 --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,16 +14,16 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-calendar-x-2-icon lucide-calendar-x-2", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M16 2v3" />
-  <path d="m17 16 5 5" />
-  <path d="m17 21 5-5" />
-  <path d="M21 12V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8" />
-  <path d="M3 9h18" />
-  <path d="M8 2v3" />
+  <path vector-effect="${vectorEffect}" d="M16 2v3" />
+  <path vector-effect="${vectorEffect}" d="m17 16 5 5" />
+  <path vector-effect="${vectorEffect}" d="m17 21 5-5" />
+  <path vector-effect="${vectorEffect}" d="M21 12V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8" />
+  <path vector-effect="${vectorEffect}" d="M3 9h18" />
+  <path vector-effect="${vectorEffect}" d="M8 2v3" />
 </svg>

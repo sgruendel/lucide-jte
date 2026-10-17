@@ -3,7 +3,7 @@
 [![Maven Central][maven-badge]][maven-central]
 [![Build status][build-badge]][build-status]
 [![Java 17+][java-badge]](#dependency)
-[![Lucide 1.57.0][lucide-badge]](https://lucide.dev/)
+[![Lucide 1.59.0][lucide-badge]](https://lucide.dev/)
 [![License: MIT][license-badge]](LICENSE)
 
 [maven-badge]: https://img.shields.io/maven-central/v/io.github.sgruendel/lucide-jte.svg
@@ -11,14 +11,14 @@
 [build-badge]: https://github.com/sgruendel/lucide-jte/actions/workflows/verify.yml/badge.svg?branch=main
 [build-status]: https://github.com/sgruendel/lucide-jte/actions/workflows/verify.yml
 [java-badge]: https://img.shields.io/badge/Java-17%2B-blue.svg
-[lucide-badge]: https://img.shields.io/badge/Lucide-1.57.0-f56565.svg
+[lucide-badge]: https://img.shields.io/badge/Lucide-1.59.0-f56565.svg
 [license-badge]: https://img.shields.io/badge/License-MIT-green.svg
 
 Type-safe [Lucide](https://lucide.dev/) icon components for
 [Java Template Engine (JTE)](https://jte.gg/). A regular Java library with no
 Spring or Basecoat dependency.
 
-Requires Java 17 or newer. Built with JTE 3.2.4 and Lucide 1.57.0.
+Requires Java 17 or newer. Built with JTE 3.2.4 and Lucide 1.59.0.
 
 ## Dependency
 
@@ -28,7 +28,7 @@ Available on [Maven Central][maven-central]. Add the dependency to your project:
 <dependency>
     <groupId>io.github.sgruendel</groupId>
     <artifactId>lucide-jte</artifactId>
-    <version>1.57.0</version>
+    <version>1.59.0</version>
 </dependency>
 ```
 
@@ -40,7 +40,7 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.sgruendel:lucide-jte:1.57.0")
+    implementation("io.github.sgruendel:lucide-jte:1.59.0")
 }
 ```
 
@@ -57,7 +57,7 @@ ${lucideBookOpen()}
   Save
 </button>
 
-${lucideBookOpen().attr("aria-hidden", "true").attr("focusable", "false")}
+${lucideBookOpen().attr("aria-label", "Documentation").attr("role", "img")}
 ```
 
 Each helper returns an immutable `Icon` with Lucide's default options. Chain styling
@@ -117,19 +117,21 @@ Icons start with Lucide's defaults:
 | `fill` | `"none"` |
 | `color` | `"currentColor"` |
 | `strokeWidth` | `2` |
-| `absoluteStrokeWidth` | `false` |
+| `nonScalingStroke` | `false` |
 | `attrs` | Empty map |
 
 Fluent methods return new icons: `size`, `fill`, `color`,
-`strokeWidth`, `absoluteStrokeWidth`, `attrs`, `attr`, and `cssClass`.
+`strokeWidth`, `nonScalingStroke`, `attrs`, `attr`, and `cssClass`.
 CSS classes use `cssClass(...)` because `class` is a Java keyword.
 The size must be positive, stroke width nonnegative, and fill/color non-null.
+`nonScalingStroke(true)` keeps the stroke at `strokeWidth` pixels on screen at any size,
+using `vector-effect="non-scaling-stroke"` like Lucide's framework packages.
 
 ```java
 var icon = lucideCheck()
     .size(16)
     .strokeWidth(2)
-    .absoluteStrokeWidth(true)
+    .nonScalingStroke(true)
     .attrs(Map.of("class", "size-4", "aria-label", "Save"))
     .attr("data-action", "save");
 ```
@@ -159,12 +161,31 @@ reserve `attrs` for additional attributes such as class, role, ARIA, and data at
 Inline event handler values remain JavaScript code; escaping preserves attribute
 syntax and does not make untrusted JavaScript safe.
 
+## Accessibility
+
+Like Lucide's React components, icons render with `aria-hidden="true"` by default,
+so screen readers skip decorative icons. Setting any `aria-*`, `role`, or `title`
+attribute removes the default. Names are matched case-insensitively.
+
+```java
+lucideTrash().attr("aria-label", "Delete");  // announced, no aria-hidden
+lucideTrash().attr("aria-hidden", null);     // neither hidden nor labelled
+```
+
+When an icon sits inside a button or link, label the button instead of the icon:
+
+```jte
+<button aria-label="Delete">${lucideTrash()}</button>
+```
+
+## Rendering notes
+
 The library renders inline SVG; it does not supply CSS or require Lucide JavaScript
 in the browser. Utility classes such as `size-4` require your application's CSS.
 
 ## Icon versions
 
-Version 1.57.0 provides 1,877 canonical icons from Lucide 1.57.0. Library patch
+Version 1.59.0 provides 1,891 canonical icons from Lucide 1.59.0. Library patch
 releases can improve the Java API without changing the included icon set.
 Browse the [Lucide icon catalog](https://lucide.dev/icons/)
 to find icon names. Upgrading may rename or remove Java methods when the corresponding

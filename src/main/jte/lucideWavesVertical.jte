@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/waves-vertical --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/waves-vertical --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,13 +14,13 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-waves-vertical-icon lucide-waves-vertical", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M12 2q2 2.5 0 5t0 5 0 5 0 5" />
-  <path d="M19 2q2 2.5 0 5t0 5 0 5 0 5" />
-  <path d="M5 2q2 2.5 0 5t0 5 0 5 0 5" />
+  <path vector-effect="${vectorEffect}" d="M12 2q2 2.5 0 5t0 5 0 5 0 5" />
+  <path vector-effect="${vectorEffect}" d="M19 2q2 2.5 0 5t0 5 0 5 0 5" />
+  <path vector-effect="${vectorEffect}" d="M5 2q2 2.5 0 5t0 5 0 5 0 5" />
 </svg>

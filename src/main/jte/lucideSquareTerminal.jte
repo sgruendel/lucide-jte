@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/square-terminal --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/square-terminal --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,13 +14,13 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-square-terminal-icon lucide-square-terminal", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="m7 11 2-2-2-2" />
-  <path d="M11 13h4" />
-  <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+  <path vector-effect="${vectorEffect}" d="m7 11 2-2-2-2" />
+  <path vector-effect="${vectorEffect}" d="M11 13h4" />
+  <rect vector-effect="${vectorEffect}" width="18" height="18" x="3" y="3" rx="2" ry="2" />
 </svg>

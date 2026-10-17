@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/monitor-check --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/monitor-check --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,14 +14,14 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-monitor-check-icon lucide-monitor-check", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="m9 10 2 2 4-4" />
-  <rect width="20" height="14" x="2" y="3" rx="2" />
-  <path d="M12 17v4" />
-  <path d="M8 21h8" />
+  <path vector-effect="${vectorEffect}" d="m9 10 2 2 4-4" />
+  <rect vector-effect="${vectorEffect}" width="20" height="14" x="2" y="3" rx="2" />
+  <path vector-effect="${vectorEffect}" d="M12 17v4" />
+  <path vector-effect="${vectorEffect}" d="M8 21h8" />
 </svg>

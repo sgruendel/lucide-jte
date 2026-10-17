@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/align-horizontal-space-between --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/align-horizontal-space-between --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,14 +14,14 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-align-horizontal-space-between-icon lucide-align-horizontal-space-between", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <rect width="6" height="14" x="3" y="5" rx="2" />
-  <rect width="6" height="10" x="15" y="7" rx="2" />
-  <path d="M3 2v20" />
-  <path d="M21 2v20" />
+  <rect vector-effect="${vectorEffect}" width="6" height="14" x="3" y="5" rx="2" />
+  <rect vector-effect="${vectorEffect}" width="6" height="10" x="15" y="7" rx="2" />
+  <path vector-effect="${vectorEffect}" d="M3 2v20" />
+  <path vector-effect="${vectorEffect}" d="M21 2v20" />
 </svg>

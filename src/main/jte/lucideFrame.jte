@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/frame --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/frame --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,14 +14,14 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-frame-icon lucide-frame", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <line x1="22" x2="2" y1="6" y2="6" />
-  <line x1="22" x2="2" y1="18" y2="18" />
-  <line x1="6" x2="6" y1="2" y2="22" />
-  <line x1="18" x2="18" y1="2" y2="22" />
+  <line vector-effect="${vectorEffect}" x1="22" x2="2" y1="6" y2="6" />
+  <line vector-effect="${vectorEffect}" x1="22" x2="2" y1="18" y2="18" />
+  <line vector-effect="${vectorEffect}" x1="6" x2="6" y1="2" y2="22" />
+  <line vector-effect="${vectorEffect}" x1="18" x2="18" y1="2" y2="22" />
 </svg>

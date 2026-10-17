@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/map-pin-search --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/map-pin-search --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,16 +14,17 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-map-pin-search-icon lucide-map-pin-search", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
   <path
+    vector-effect="${vectorEffect}"
     d="M 12.248 21.969 a 1 1 0 0 1 -0.849 -0.17 C 9.539 20.193 4 14.993 4 10 a 8 8 0 0 1 16 0 C 20 10.42 19.961 10.841 19.888 11.262"
   />
-  <path d="m22 22-1.88-1.88" />
-  <circle cx="12" cy="10" r="3" />
-  <circle cx="18" cy="18" r="3" />
+  <path vector-effect="${vectorEffect}" d="m22 22-1.88-1.88" />
+  <circle vector-effect="${vectorEffect}" cx="12" cy="10" r="3" />
+  <circle vector-effect="${vectorEffect}" cx="18" cy="18" r="3" />
 </svg>

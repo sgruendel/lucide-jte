@@ -1,9 +1,11 @@
-<%-- Generated from Lucide 1.57.0. See https://lucide.dev/icons/brick-wall-fire --%>
+<%-- Generated from Lucide 1.59.0. See https://lucide.dev/icons/brick-wall-fire --%>
 
 @import io.github.sgruendel.lucide.jte.IconOptions
 @import io.github.sgruendel.lucide.jte.internal.IconAttributes
 
 @param IconOptions options = IconOptions.DEFAULT
+
+!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -12,19 +14,20 @@
   viewBox="0 0 24 24"
   fill="${options.fill()}"
   stroke="${options.color()}"
-  stroke-width="${options.calculatedStrokeWidth()}"
+  stroke-width="${options.strokeWidth()}"
   stroke-linecap="round"
   stroke-linejoin="round"
   class="${IconAttributes.classAppend("lucide lucide-brick-wall-fire-icon lucide-brick-wall-fire", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path d="M16 3v2.107" />
+  <path vector-effect="${vectorEffect}" d="M16 3v2.107" />
   <path
+    vector-effect="${vectorEffect}"
     d="M17 9c1 3 2.5 3.5 3.5 4.5A5 5 0 0 1 22 17a5 5 0 0 1-10 0c0-.3 0-.6.1-.9a2 2 0 1 0 3.3-2C13 11.5 16 9 17 9"
   />
-  <path d="M21 8.274V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.938" />
-  <path d="M3 15h5.253" />
-  <path d="M3 9h8.228" />
-  <path d="M8 15v6" />
-  <path d="M8 3v6" />
+  <path vector-effect="${vectorEffect}" d="M21 8.274V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.938" />
+  <path vector-effect="${vectorEffect}" d="M3 15h5.253" />
+  <path vector-effect="${vectorEffect}" d="M3 9h8.228" />
+  <path vector-effect="${vectorEffect}" d="M8 15v6" />
+  <path vector-effect="${vectorEffect}" d="M8 3v6" />
 </svg>
