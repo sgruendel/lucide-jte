@@ -39,11 +39,11 @@ test("generation removes stale icons, updates notices, and check mode detects dr
     mkdir("node_modules/lucide/dist/esm/icons");
     mkdir("scripts/templates");
     mkdir("src/main/jte");
-    write("node_modules/lucide/package.json", '{"version":"test"}');
+    write("node_modules/lucide/package.json", '{"version":"9.9.9"}');
     write("node_modules/lucide/LICENSE", "upstream notice\n");
     write("node_modules/lucide/dist/esm/iconsAndAliases.mjs", "export { default as Check, default as Alias } from './icons/check.mjs';");
     write("node_modules/lucide/dist/esm/icons/check.mjs", 'export default [["path", {d:"test"}]];');
-    write("scripts/templates/lucide-icon.jte", "{{LUCIDE_VERSION}} {{ICON_FILE_NAME}}\n{{CHILDREN}}\n");
+    write("scripts/templates/lucide-icon.jte", "{{ICON_FILE_NAME}}\n{{CHILDREN}}\n");
     write("src/main/jte/check.jte", "obsolete unprefixed template");
     assert.equal(await generate(root), 1);
     assert.equal(fs.existsSync(path.join(root, "src/main/jte/check.jte")), false);
@@ -55,6 +55,11 @@ test("generation removes stale icons, updates notices, and check mode detects dr
     assert.match(helpers, /public static Icon lucideCheck\(IconOptions options\)/);
     assert.match(helpers, /INSTANCE::lucideCheck/);
     assert.doesNotMatch(helpers, /public static Icon check\(/);
+    // The Lucide version only lives in the properties file, so upgrades don't touch unchanged icons.
+    assert.doesNotMatch(helpers, /9\.9\.9/);
+    assert.doesNotMatch(fs.readFileSync(path.join(root, "src/main/jte/lucideCheck.jte"), "utf8"), /9\.9\.9/);
+    assert.match(fs.readFileSync(path.join(root, "src/main/resources/META-INF/lucide-jte.properties"), "utf8"),
+      /lucide\.version=9\.9\.9/);
     write(facade, "drift");
     await assert.rejects(generate(root, true), /out of date/);
     assert.equal(fs.readFileSync(path.join(root, facade), "utf8"), "drift");
