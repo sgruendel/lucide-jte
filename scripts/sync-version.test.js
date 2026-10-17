@@ -6,7 +6,8 @@ const { spawnSync } = require("node:child_process");
 const { test } = require("node:test");
 const { sync } = require("./sync-version");
 
-const files = ["pom.xml", "README.md", "examples/consumer/pom.xml", "package.json", "package-lock.json"];
+const metadata = "src/main/resources/META-INF/lucide-jte.properties";
+const files = ["pom.xml", "README.md", "examples/consumer/pom.xml", "package.json", "package-lock.json", metadata];
 
 function fixture(t) {
   const projectRoot = fs.mkdtempSync(path.join(os.tmpdir(), "lucide-version-test-"));
@@ -67,6 +68,55 @@ test("same-version sync repairs stale fields and check mode never writes", t => 
   sync(undefined, { ...project, check: true });
   assert.equal(JSON.parse(project.read("package.json")).version, version);
   assert.ok(project.read("pom.xml").includes(`<tag>v${version}</tag>`));
+});
+
+test("sync updates Lucide version, icon count, and JTE version from their sources", t => {
+  const project = fixture(t);
+  const lucide = JSON.parse(project.read("package.json")).devDependencies.lucide;
+  const jte = project.read("pom.xml").match(/<jte\.version>([^<]+)</)[1];
+  const version = JSON.parse(project.read("package.json")).version;
+  project.write(metadata, `# Generated\nlucide.version=${lucide}\nicon.count=12345\n`);
+  project.write("README.md", project.read("README.md")
+    .replace(/Lucide-[^-]+-/, "Lucide-0.0.1-")
+    .replace(/\[!\[Lucide [^\]]+\]/, "[![Lucide 0.0.1]")
+    .replace(/Built with JTE \S+ and Lucide \S+?\./, "Built with JTE 0.0.2 and Lucide 0.0.1.")
+    .replace(/provides [\d,]+ canonical icons from Lucide \S+?\./, "provides 7 canonical icons from Lucide 0.0.1.")
+    .replace(/(<artifactId>jte<\/artifactId>\s*<version>)[^<]+/, "$10.0.2")
+    .replace(/gg\.jte:jte:[^"]+/, "gg.jte:jte:0.0.2"));
+  project.write("examples/consumer/pom.xml", project.read("examples/consumer/pom.xml")
+    .replace(/<jte\.version>[^<]+</, "<jte.version>0.0.2<"));
+  const before = project.snapshot();
+  assert.throws(() => sync(version, { ...project, check: true }), /Versions do not match .*README\.md, examples\/consumer\/pom\.xml/);
+  assert.deepEqual(project.snapshot(), before);
+
+  sync(version, project);
+  const readme = project.read("README.md");
+  assert.doesNotMatch(readme, /0\.0\.[12]/);
+  assert.ok(readme.includes(`[![Lucide ${lucide}][lucide-badge]]`));
+  assert.ok(readme.includes(`badge/Lucide-${lucide}-`));
+  assert.ok(readme.includes(`Built with JTE ${jte} and Lucide ${lucide}.`));
+  assert.ok(readme.includes(`Version ${version} provides 12,345 canonical icons from Lucide ${lucide}.`));
+  assert.ok(readme.includes(`implementation("gg.jte:jte:${jte}")`));
+  assert.match(readme, new RegExp(`<artifactId>jte</artifactId>\\s*<version>${jte.replaceAll(".", "\\.")}</version>`));
+  assert.ok(project.read("examples/consumer/pom.xml").includes(`<jte.version>${jte}</jte.version>`));
+  sync(undefined, { ...project, check: true });
+});
+
+test("generated icons from another Lucide version are rejected without writes", t => {
+  const project = fixture(t);
+  for (const [content, expected] of [
+    ["lucide.version=0.0.1\nicon.count=1\n", /Generated icons are from Lucide 0\.0\.1.*generate:lucide-jte/],
+    ["lucide.version=x\n", /Cannot find icon count/],
+  ]) {
+    project.write(metadata, content);
+    const before = project.snapshot();
+    assert.throws(() => sync("9.8.7", project), expected);
+    assert.deepEqual(project.snapshot(), before);
+  }
+  const pkg = JSON.parse(project.read("package.json"));
+  pkg.devDependencies.lucide = "^1.0.0";
+  project.write("package.json", JSON.stringify(pkg));
+  assert.throws(() => sync("9.8.7", project), /must pin an exact lucide version/);
 });
 
 test("invalid fields and malformed JSON fail before any file is changed", t => {
