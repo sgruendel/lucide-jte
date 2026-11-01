@@ -5,7 +5,7 @@
 
 @param IconOptions options = IconOptions.DEFAULT
 
-!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
+!{final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null;}
 
 <svg
   xmlns="http://www.w3.org/2000/svg"

@@ -5,7 +5,7 @@
 
 @param IconOptions options = IconOptions.DEFAULT
 
-!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
+!{final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null;}
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@
   class="${IconAttributes.classAppend("lucide lucide-philippine-peso-icon lucide-philippine-peso", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path vector-effect="${vectorEffect}" d="M20 11H4" />
-  <path vector-effect="${vectorEffect}" d="M20 7H4" />
-  <path vector-effect="${vectorEffect}" d="M7 21V4a1 1 0 0 1 1-1h4a1 1 0 0 1 0 12H7" />
+  <path vector-effect="${vectorEffect}" d="M4 12h16" />
+  <path vector-effect="${vectorEffect}" d="M4 8h16" />
+  <path vector-effect="${vectorEffect}" d="M6 20V5a1 1 0 011-1h5a6 6 0 010 12H6" />
 </svg>

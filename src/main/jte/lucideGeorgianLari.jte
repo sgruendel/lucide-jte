@@ -5,7 +5,7 @@
 
 @param IconOptions options = IconOptions.DEFAULT
 
-!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
+!{final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null;}
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -20,8 +20,8 @@
   class="${IconAttributes.classAppend("lucide lucide-georgian-lari-icon lucide-georgian-lari", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path vector-effect="${vectorEffect}" d="M11.5 21a7.5 7.5 0 1 1 7.35-9" />
-  <path vector-effect="${vectorEffect}" d="M13 12V3" />
-  <path vector-effect="${vectorEffect}" d="M4 21h16" />
-  <path vector-effect="${vectorEffect}" d="M9 12V3" />
+  <path vector-effect="${vectorEffect}" d="M10 10V3" />
+  <path vector-effect="${vectorEffect}" d="M14 10V3" />
+  <path vector-effect="${vectorEffect}" d="M19 13a7 7 0 10-7 7" />
+  <path vector-effect="${vectorEffect}" d="M5 20h14" />
 </svg>

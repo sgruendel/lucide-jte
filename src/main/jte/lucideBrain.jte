@@ -5,7 +5,7 @@
 
 @param IconOptions options = IconOptions.DEFAULT
 
-!{ final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null; }
+!{final var vectorEffect = options.nonScalingStroke() ? "non-scaling-stroke" : null;}
 
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -21,11 +21,11 @@
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
   <path vector-effect="${vectorEffect}" d="M12 18V5" />
-  <path vector-effect="${vectorEffect}" d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4" />
-  <path vector-effect="${vectorEffect}" d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5" />
-  <path vector-effect="${vectorEffect}" d="M17.997 5.125a4 4 0 0 1 2.526 5.77" />
-  <path vector-effect="${vectorEffect}" d="M18 18a4 4 0 0 0 2-7.464" />
-  <path vector-effect="${vectorEffect}" d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517" />
-  <path vector-effect="${vectorEffect}" d="M6 18a4 4 0 0 1-2-7.464" />
-  <path vector-effect="${vectorEffect}" d="M6.003 5.125a4 4 0 0 0-2.526 5.77" />
+  <path vector-effect="${vectorEffect}" d="M15 13a4.17 4.17 0 01-3-4 4.17 4.17 0 01-3 4" />
+  <path vector-effect="${vectorEffect}" d="M17.707 6.294A3 3 0 1012 5a3 3 0 10-5.707 1.294" />
+  <path vector-effect="${vectorEffect}" d="M17.996 5.125a4 4 0 012.526 5.77" />
+  <path vector-effect="${vectorEffect}" d="M18 18a4 4 0 002-7.465" />
+  <path vector-effect="${vectorEffect}" d="M19.967 17.482a4 4 0 11-7.967.517 4 4 0 11-7.967-.517" />
+  <path vector-effect="${vectorEffect}" d="M6 18a4 4 0 01-2-7.465" />
+  <path vector-effect="${vectorEffect}" d="M6.004 5.125a4 4 0 00-2.526 5.77" />
 </svg>
