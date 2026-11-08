@@ -920,14 +920,6 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideBadge, options);
     }
 
-    public static Icon lucideBadgeAlert() {
-        return lucideBadgeAlert(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideBadgeAlert(IconOptions options) {
-        return new Icon(INSTANCE::lucideBadgeAlert, options);
-    }
-
     public static Icon lucideBadgeCent() {
         return lucideBadgeCent(IconOptions.DEFAULT);
     }
@@ -958,6 +950,14 @@ public final class LucideIcons {
 
     public static Icon lucideBadgeEuro(IconOptions options) {
         return new Icon(INSTANCE::lucideBadgeEuro, options);
+    }
+
+    public static Icon lucideBadgeExclamationPoint() {
+        return lucideBadgeExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideBadgeExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideBadgeExclamationPoint, options);
     }
 
     public static Icon lucideBadgeIndianRupee() {
@@ -1200,6 +1200,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideBatteryCharging, options);
     }
 
+    public static Icon lucideBatteryExclamationPoint() {
+        return lucideBatteryExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideBatteryExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideBatteryExclamationPoint, options);
+    }
+
     public static Icon lucideBatteryFull() {
         return lucideBatteryFull(IconOptions.DEFAULT);
     }
@@ -1230,14 +1238,6 @@ public final class LucideIcons {
 
     public static Icon lucideBatteryPlus(IconOptions options) {
         return new Icon(INSTANCE::lucideBatteryPlus, options);
-    }
-
-    public static Icon lucideBatteryWarning() {
-        return lucideBatteryWarning(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideBatteryWarning(IconOptions options) {
-        return new Icon(INSTANCE::lucideBatteryWarning, options);
     }
 
     public static Icon lucideBeaker() {
@@ -1600,14 +1600,6 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideBookA, options);
     }
 
-    public static Icon lucideBookAlert() {
-        return lucideBookAlert(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideBookAlert(IconOptions options) {
-        return new Icon(INSTANCE::lucideBookAlert, options);
-    }
-
     public static Icon lucideBookAudio() {
         return lucideBookAudio(IconOptions.DEFAULT);
     }
@@ -1654,6 +1646,14 @@ public final class LucideIcons {
 
     public static Icon lucideBookDown(IconOptions options) {
         return new Icon(INSTANCE::lucideBookDown, options);
+    }
+
+    public static Icon lucideBookExclamationPoint() {
+        return lucideBookExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideBookExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideBookExclamationPoint, options);
     }
 
     public static Icon lucideBookHeadphones() {
@@ -3088,14 +3088,6 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideCircle, options);
     }
 
-    public static Icon lucideCircleAlert() {
-        return lucideCircleAlert(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideCircleAlert(IconOptions options) {
-        return new Icon(INSTANCE::lucideCircleAlert, options);
-    }
-
     public static Icon lucideCircleArrowDown() {
         return lucideCircleArrowDown(IconOptions.DEFAULT);
     }
@@ -3312,12 +3304,28 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideCircleEuro, options);
     }
 
+    public static Icon lucideCircleExclamationPoint() {
+        return lucideCircleExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideCircleExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleExclamationPoint, options);
+    }
+
     public static Icon lucideCircleFadingArrowUp() {
         return lucideCircleFadingArrowUp(IconOptions.DEFAULT);
     }
 
     public static Icon lucideCircleFadingArrowUp(IconOptions options) {
         return new Icon(INSTANCE::lucideCircleFadingArrowUp, options);
+    }
+
+    public static Icon lucideCircleFadingCheck() {
+        return lucideCircleFadingCheck(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideCircleFadingCheck(IconOptions options) {
+        return new Icon(INSTANCE::lucideCircleFadingCheck, options);
     }
 
     public static Icon lucideCircleFadingPlay() {
@@ -3952,14 +3960,6 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideClock9, options);
     }
 
-    public static Icon lucideClockAlert() {
-        return lucideClockAlert(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideClockAlert(IconOptions options) {
-        return new Icon(INSTANCE::lucideClockAlert, options);
-    }
-
     public static Icon lucideClockArrowDown() {
         return lucideClockArrowDown(IconOptions.DEFAULT);
     }
@@ -4000,6 +4000,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideClockCheck, options);
     }
 
+    public static Icon lucideClockExclamationPoint() {
+        return lucideClockExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideClockExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideClockExclamationPoint, options);
+    }
+
     public static Icon lucideClockFading() {
         return lucideClockFading(IconOptions.DEFAULT);
     }
@@ -4030,14 +4038,6 @@ public final class LucideIcons {
 
     public static Icon lucideCloud(IconOptions options) {
         return new Icon(INSTANCE::lucideCloud, options);
-    }
-
-    public static Icon lucideCloudAlert() {
-        return lucideCloudAlert(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideCloudAlert(IconOptions options) {
-        return new Icon(INSTANCE::lucideCloudAlert, options);
     }
 
     public static Icon lucideCloudBackup() {
@@ -4078,6 +4078,14 @@ public final class LucideIcons {
 
     public static Icon lucideCloudDrizzle(IconOptions options) {
         return new Icon(INSTANCE::lucideCloudDrizzle, options);
+    }
+
+    public static Icon lucideCloudExclamationPoint() {
+        return lucideCloudExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideCloudExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideCloudExclamationPoint, options);
     }
 
     public static Icon lucideCloudFog() {
@@ -4790,6 +4798,22 @@ public final class LucideIcons {
 
     public static Icon lucideDessert(IconOptions options) {
         return new Icon(INSTANCE::lucideDessert, options);
+    }
+
+    public static Icon lucideDiagramFlowHorizontal() {
+        return lucideDiagramFlowHorizontal(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideDiagramFlowHorizontal(IconOptions options) {
+        return new Icon(INSTANCE::lucideDiagramFlowHorizontal, options);
+    }
+
+    public static Icon lucideDiagramFlowVertical() {
+        return lucideDiagramFlowVertical(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideDiagramFlowVertical(IconOptions options) {
+        return new Icon(INSTANCE::lucideDiagramFlowVertical, options);
     }
 
     public static Icon lucideDiameter() {
@@ -6816,6 +6840,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideGlobe, options);
     }
 
+    public static Icon lucideGlobeBan() {
+        return lucideGlobeBan(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideGlobeBan(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlobeBan, options);
+    }
+
     public static Icon lucideGlobeCheck() {
         return lucideGlobeCheck(IconOptions.DEFAULT);
     }
@@ -6846,6 +6878,14 @@ public final class LucideIcons {
 
     public static Icon lucideGlobeOff(IconOptions options) {
         return new Icon(INSTANCE::lucideGlobeOff, options);
+    }
+
+    public static Icon lucideGlobePlus() {
+        return lucideGlobePlus(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideGlobePlus(IconOptions options) {
+        return new Icon(INSTANCE::lucideGlobePlus, options);
     }
 
     public static Icon lucideGlobeX() {
@@ -6950,6 +6990,14 @@ public final class LucideIcons {
 
     public static Icon lucideGrid3x3(IconOptions options) {
         return new Icon(INSTANCE::lucideGrid3x3, options);
+    }
+
+    public static Icon lucideGrid3x3Off() {
+        return lucideGrid3x3Off(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideGrid3x3Off(IconOptions options) {
+        return new Icon(INSTANCE::lucideGrid3x3Off, options);
     }
 
     public static Icon lucideGrip() {
@@ -8808,6 +8856,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideMailDot, options);
     }
 
+    public static Icon lucideMailExclamationPoint() {
+        return lucideMailExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideMailExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideMailExclamationPoint, options);
+    }
+
     public static Icon lucideMailMinus() {
         return lucideMailMinus(IconOptions.DEFAULT);
     }
@@ -8856,14 +8912,6 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideMailSearch, options);
     }
 
-    public static Icon lucideMailWarning() {
-        return lucideMailWarning(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideMailWarning(IconOptions options) {
-        return new Icon(INSTANCE::lucideMailWarning, options);
-    }
-
     public static Icon lucideMailX() {
         return lucideMailX(IconOptions.DEFAULT);
     }
@@ -8886,6 +8934,14 @@ public final class LucideIcons {
 
     public static Icon lucideMails(IconOptions options) {
         return new Icon(INSTANCE::lucideMails, options);
+    }
+
+    public static Icon lucideMango() {
+        return lucideMango(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideMango(IconOptions options) {
+        return new Icon(INSTANCE::lucideMango, options);
     }
 
     public static Icon lucideMap() {
@@ -9208,6 +9264,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideMessageCircleDashedCheck, options);
     }
 
+    public static Icon lucideMessageCircleExclamationPoint() {
+        return lucideMessageCircleExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideMessageCircleExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageCircleExclamationPoint, options);
+    }
+
     public static Icon lucideMessageCircleHeart() {
         return lucideMessageCircleHeart(IconOptions.DEFAULT);
     }
@@ -9264,14 +9328,6 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideMessageCircleText, options);
     }
 
-    public static Icon lucideMessageCircleWarning() {
-        return lucideMessageCircleWarning(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideMessageCircleWarning(IconOptions options) {
-        return new Icon(INSTANCE::lucideMessageCircleWarning, options);
-    }
-
     public static Icon lucideMessageCircleX() {
         return lucideMessageCircleX(IconOptions.DEFAULT);
     }
@@ -9326,6 +9382,14 @@ public final class LucideIcons {
 
     public static Icon lucideMessageSquareDot(IconOptions options) {
         return new Icon(INSTANCE::lucideMessageSquareDot, options);
+    }
+
+    public static Icon lucideMessageSquareExclamationPoint() {
+        return lucideMessageSquareExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideMessageSquareExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideMessageSquareExclamationPoint, options);
     }
 
     public static Icon lucideMessageSquareHeart() {
@@ -9398,14 +9462,6 @@ public final class LucideIcons {
 
     public static Icon lucideMessageSquareText(IconOptions options) {
         return new Icon(INSTANCE::lucideMessageSquareText, options);
-    }
-
-    public static Icon lucideMessageSquareWarning() {
-        return lucideMessageSquareWarning(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideMessageSquareWarning(IconOptions options) {
-        return new Icon(INSTANCE::lucideMessageSquareWarning, options);
     }
 
     public static Icon lucideMessageSquareX() {
@@ -9734,6 +9790,14 @@ public final class LucideIcons {
 
     public static Icon lucideMopSparkles(IconOptions options) {
         return new Icon(INSTANCE::lucideMopSparkles, options);
+    }
+
+    public static Icon lucideMoped() {
+        return lucideMoped(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideMoped(IconOptions options) {
+        return new Icon(INSTANCE::lucideMoped, options);
     }
 
     public static Icon lucideMosque() {
@@ -10128,12 +10192,12 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideOctagon, options);
     }
 
-    public static Icon lucideOctagonAlert() {
-        return lucideOctagonAlert(IconOptions.DEFAULT);
+    public static Icon lucideOctagonExclamationPoint() {
+        return lucideOctagonExclamationPoint(IconOptions.DEFAULT);
     }
 
-    public static Icon lucideOctagonAlert(IconOptions options) {
-        return new Icon(INSTANCE::lucideOctagonAlert, options);
+    public static Icon lucideOctagonExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideOctagonExclamationPoint, options);
     }
 
     public static Icon lucideOctagonMinus() {
@@ -10166,6 +10230,14 @@ public final class LucideIcons {
 
     public static Icon lucideOmega(IconOptions options) {
         return new Icon(INSTANCE::lucideOmega, options);
+    }
+
+    public static Icon lucideOpacity() {
+        return lucideOpacity(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideOpacity(IconOptions options) {
+        return new Icon(INSTANCE::lucideOpacity, options);
     }
 
     public static Icon lucideOption() {
@@ -10232,12 +10304,28 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucidePackageOpen, options);
     }
 
+    public static Icon lucidePackagePen() {
+        return lucidePackagePen(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucidePackagePen(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackagePen, options);
+    }
+
     public static Icon lucidePackagePlus() {
         return lucidePackagePlus(IconOptions.DEFAULT);
     }
 
     public static Icon lucidePackagePlus(IconOptions options) {
         return new Icon(INSTANCE::lucidePackagePlus, options);
+    }
+
+    public static Icon lucidePackageQuestionMark() {
+        return lucidePackageQuestionMark(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucidePackageQuestionMark(IconOptions options) {
+        return new Icon(INSTANCE::lucidePackageQuestionMark, options);
     }
 
     public static Icon lucidePackageSearch() {
@@ -12016,14 +12104,6 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideSearch, options);
     }
 
-    public static Icon lucideSearchAlert() {
-        return lucideSearchAlert(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideSearchAlert(IconOptions options) {
-        return new Icon(INSTANCE::lucideSearchAlert, options);
-    }
-
     public static Icon lucideSearchCheck() {
         return lucideSearchCheck(IconOptions.DEFAULT);
     }
@@ -12038,6 +12118,14 @@ public final class LucideIcons {
 
     public static Icon lucideSearchCode(IconOptions options) {
         return new Icon(INSTANCE::lucideSearchCode, options);
+    }
+
+    public static Icon lucideSearchExclamationPoint() {
+        return lucideSearchExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideSearchExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideSearchExclamationPoint, options);
     }
 
     public static Icon lucideSearchSlash() {
@@ -12224,14 +12312,6 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideShield, options);
     }
 
-    public static Icon lucideShieldAlert() {
-        return lucideShieldAlert(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideShieldAlert(IconOptions options) {
-        return new Icon(INSTANCE::lucideShieldAlert, options);
-    }
-
     public static Icon lucideShieldBan() {
         return lucideShieldBan(IconOptions.DEFAULT);
     }
@@ -12270,6 +12350,14 @@ public final class LucideIcons {
 
     public static Icon lucideShieldEllipsis(IconOptions options) {
         return new Icon(INSTANCE::lucideShieldEllipsis, options);
+    }
+
+    public static Icon lucideShieldExclamationPoint() {
+        return lucideShieldExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideShieldExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideShieldExclamationPoint, options);
     }
 
     public static Icon lucideShieldHalf() {
@@ -13158,6 +13246,14 @@ public final class LucideIcons {
 
     public static Icon lucideSquareDashedPlus(IconOptions options) {
         return new Icon(INSTANCE::lucideSquareDashedPlus, options);
+    }
+
+    public static Icon lucideSquareDashedSearch() {
+        return lucideSquareDashedSearch(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideSquareDashedSearch(IconOptions options) {
+        return new Icon(INSTANCE::lucideSquareDashedSearch, options);
     }
 
     public static Icon lucideSquareDashedText() {
@@ -14904,20 +15000,20 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideTriangle, options);
     }
 
-    public static Icon lucideTriangleAlert() {
-        return lucideTriangleAlert(IconOptions.DEFAULT);
-    }
-
-    public static Icon lucideTriangleAlert(IconOptions options) {
-        return new Icon(INSTANCE::lucideTriangleAlert, options);
-    }
-
     public static Icon lucideTriangleDashed() {
         return lucideTriangleDashed(IconOptions.DEFAULT);
     }
 
     public static Icon lucideTriangleDashed(IconOptions options) {
         return new Icon(INSTANCE::lucideTriangleDashed, options);
+    }
+
+    public static Icon lucideTriangleExclamationPoint() {
+        return lucideTriangleExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideTriangleExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideTriangleExclamationPoint, options);
     }
 
     public static Icon lucideTriangleRight() {
@@ -15192,6 +15288,14 @@ public final class LucideIcons {
         return new Icon(INSTANCE::lucideUserCog, options);
     }
 
+    public static Icon lucideUserExclamationPoint() {
+        return lucideUserExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideUserExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserExclamationPoint, options);
+    }
+
     public static Icon lucideUserGroup() {
         return lucideUserGroup(IconOptions.DEFAULT);
     }
@@ -15270,6 +15374,14 @@ public final class LucideIcons {
 
     public static Icon lucideUserRoundCog(IconOptions options) {
         return new Icon(INSTANCE::lucideUserRoundCog, options);
+    }
+
+    public static Icon lucideUserRoundExclamationPoint() {
+        return lucideUserRoundExclamationPoint(IconOptions.DEFAULT);
+    }
+
+    public static Icon lucideUserRoundExclamationPoint(IconOptions options) {
+        return new Icon(INSTANCE::lucideUserRoundExclamationPoint, options);
     }
 
     public static Icon lucideUserRoundGroup() {

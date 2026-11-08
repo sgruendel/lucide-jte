@@ -43,20 +43,35 @@ No Central or GPG secrets are required in GitHub Actions.
 
 ## Prepare and publish
 
-1. Update the library version. For example, for the next patch release:
+1. Select the release version. The argument sets **both the library version and
+   the exact Lucide package version**:
 
    ```sh
-   npm run sync-version -- 1.55.1
+   npm run sync-version -- 1.70.0
    ```
 
    This updates the project version, SCM tag, README dependency snippets and
    library version, consumer dependency, and npm package and lockfile versions.
-   It also syncs the README's Lucide badge, Lucide version, and icon count from the
-   pinned `lucide` dependency and `src/main/resources/META-INF/lucide-jte.properties`,
-   and the README and consumer JTE versions from the POM's `jte.version`.
-   It fails if the generated icons don't match the pinned Lucide version.
-   It also repairs stale versions when the POM already has the requested version.
-   The library version stays independent of the Lucide version.
+   If Lucide is pinned, locked, installed, or generated at another version (or
+   is not installed), the script runs:
+
+   ```sh
+   npm install --save-dev --save-exact --include=dev lucide@1.70.0
+   ```
+
+   This installs the actual package into `node_modules` and updates the dependency
+   pin and lockfile. When the generated icon set is from another Lucide version,
+   the script also runs the icon generator. It then syncs the README's Lucide badge,
+   version, and icon count from the generated metadata, and the README and consumer
+   JTE versions from the POM's `jte.version`. No manual dependency edit or separate
+   install or generation command is needed. The version must exist on npm.
+
+   Installation or generation failures stop the remaining release version updates;
+   inspect any dependency or generated-file changes before retrying. Repeating
+   the command repairs stale release fields even when the POM already has the
+   requested version, and skips installation when all Lucide versions match.
+   `--check` only verifies files: it never installs dependencies, regenerates
+   icons, or writes files, and does not require `node_modules` to exist.
 
 2. Check the changes locally:
 
@@ -76,7 +91,9 @@ No Central or GPG secrets are required in GitHub Actions.
 
    ```sh
    git add pom.xml README.md examples/consumer/pom.xml package.json package-lock.json
-   git commit -m "chore(release): prepare 1.55.1"
+   git add src/main/jte src/main/java/io/github/sgruendel/lucide/jte/LucideIcons.java
+   git add src/main/resources/META-INF/lucide-jte.properties THIRD-PARTY-LICENSES/LUCIDE.txt
+   git commit -m "chore(release): prepare 1.70.0"
    git push origin main
    ```
 
@@ -97,8 +114,8 @@ No Central or GPG secrets are required in GitHub Actions.
 5. After Maven Central publication succeeds, create and push the matching tag:
 
    ```sh
-   git tag v1.55.1
-   git push origin v1.55.1
+   git tag v1.70.0
+   git push origin v1.70.0
    ```
 
    The GitHub Release action verifies the tagged commit and creates the GitHub
@@ -110,8 +127,12 @@ GitHub release for the existing tag separately; do not deploy that version again
 
 ## Update the Lucide icon set
 
-For an upstream icon update, pin the desired `lucide` dependency with
-`npm install --save-dev --save-exact lucide@VERSION`, then run
-`npm run generate:lucide-jte`. Running `npm run sync-version` in the release steps
-above then updates the README's Lucide badge, version, and icon count. Review
-renamed or removed Java methods before preparing a new library release above.
+Run `npm run sync-version -- VERSION` with the desired upstream Lucide version.
+The script installs that version, regenerates the icon set, and uses the same
+version for the library release and README.
+
+Review renamed or removed Java methods and the generated diff before publishing.
+Alongside the release files, stage changes under `src/main/jte/`,
+`src/main/java/io/github/sgruendel/lucide/jte/LucideIcons.java`,
+`src/main/resources/META-INF/lucide-jte.properties`, and
+`THIRD-PARTY-LICENSES/LUCIDE.txt`.

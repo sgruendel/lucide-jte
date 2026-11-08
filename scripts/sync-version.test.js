@@ -20,19 +20,43 @@ function fixture(t) {
   const read = file => fs.readFileSync(path.join(projectRoot, file), "utf8");
   const write = (file, content) => fs.writeFileSync(path.join(projectRoot, file), content);
   const snapshot = () => files.map(file => [file, read(file)]);
-  return { projectRoot, read, write, snapshot };
+  // Keep fixture versions aligned even when the working tree is mid-release.
+  const pkg = JSON.parse(read("package.json"));
+  for (const file of files) write(file, read(file).replaceAll(pkg.devDependencies.lucide, pkg.version));
+  fs.mkdirSync(path.join(projectRoot, "node_modules/lucide"), { recursive: true });
+  write("node_modules/lucide/package.json", JSON.stringify({
+    version: JSON.parse(read("package.json")).devDependencies.lucide,
+  }));
+  const run = () => assert.fail("Unexpected install or generation");
+  return { projectRoot, read, write, snapshot, run };
 }
 
-test("sync updates library versions while preserving an equal upstream version", t => {
+test("sync keeps library and Lucide versions aligned without reinstalling a matching version", t => {
   const project = fixture(t);
   const upstream = JSON.parse(project.read("package.json")).devDependencies.lucide;
-  // Align library and upstream versions, then release a library-only patch.
+  // Matching versions need neither npm nor the generator.
   sync(upstream, project);
   const before = project.read("README.md");
   const next = upstream.split(".");
   next[2] = String(Number(next[2]) + 1);
   const version = next.join(".");
-  sync(version, project);
+  const calls = [];
+  sync(version, { ...project, run: (command) => {
+    calls.push(command);
+    if (command === "npm") {
+      const pkg = JSON.parse(project.read("package.json"));
+      pkg.devDependencies.lucide = version;
+      project.write("package.json", JSON.stringify(pkg));
+      const lock = JSON.parse(project.read("package-lock.json"));
+      lock.packages[""].devDependencies.lucide = version;
+      lock.packages["node_modules/lucide"].version = version;
+      project.write("package-lock.json", JSON.stringify(lock));
+      project.write("node_modules/lucide/package.json", JSON.stringify({ version }));
+    } else {
+      project.write(metadata, project.read(metadata).replace(upstream, version));
+    }
+  } });
+  assert.deepEqual(calls, ["npm", process.execPath]);
 
   assert.match(project.read("pom.xml"), new RegExp(`<version>${version.replaceAll(".", "\\.")}</version>`));
   assert.ok(project.read("pom.xml").includes(`<tag>v${version}</tag>`));
@@ -41,14 +65,14 @@ test("sync updates library versions while preserving an equal upstream version",
   assert.ok(project.read("README.md").includes(`<version>${version}</version>`));
   assert.ok(project.read("examples/consumer/pom.xml").includes(`<lucide-jte.version>${version}</lucide-jte.version>`));
   assert.deepEqual(project.read("README.md").split("\n").filter(line => line.includes("lucide-badge")),
-    before.split("\n").filter(line => line.includes("lucide-badge")));
-  assert.ok(project.read("README.md").includes(`icons from Lucide ${upstream}.`));
+    before.replaceAll(upstream, version).split("\n").filter(line => line.includes("lucide-badge")));
+  assert.ok(project.read("README.md").includes(`icons from Lucide ${version}.`));
   assert.equal(JSON.parse(project.read("package.json")).version, version);
-  assert.equal(JSON.parse(project.read("package.json")).devDependencies.lucide, upstream);
+  assert.equal(JSON.parse(project.read("package.json")).devDependencies.lucide, version);
   const lock = JSON.parse(project.read("package-lock.json"));
   assert.equal(lock.version, version);
   assert.equal(lock.packages[""].version, version);
-  assert.equal(lock.packages["node_modules/lucide"].version, upstream);
+  assert.equal(lock.packages["node_modules/lucide"].version, version);
   sync(version, { ...project, check: true });
 });
 
@@ -102,21 +126,116 @@ test("sync updates Lucide version, icon count, and JTE version from their source
   sync(undefined, { ...project, check: true });
 });
 
-test("generated icons from another Lucide version are rejected without writes", t => {
+test("check rejects stale icons without commands or writes", t => {
   const project = fixture(t);
+  const version = JSON.parse(project.read("package.json")).version;
   for (const [content, expected] of [
-    ["lucide.version=0.0.1\nicon.count=1\n", /Generated icons are from Lucide 0\.0\.1.*generate:lucide-jte/],
+    ["lucide.version=0.0.1\nicon.count=1\n", /Generated icons are from Lucide 0\.0\.1.*sync-version/],
     ["lucide.version=x\n", /Cannot find icon count/],
   ]) {
     project.write(metadata, content);
     const before = project.snapshot();
-    assert.throws(() => sync("9.8.7", project), expected);
+    assert.throws(() => sync(version, { ...project, check: true }), expected);
     assert.deepEqual(project.snapshot(), before);
   }
   const pkg = JSON.parse(project.read("package.json"));
   pkg.devDependencies.lucide = "^1.0.0";
   project.write("package.json", JSON.stringify(pkg));
   assert.throws(() => sync("9.8.7", project), /must pin an exact lucide version/);
+});
+
+test("a new release installs its Lucide version, regenerates, and syncs refreshed inputs", t => {
+  const project = fixture(t);
+  const lucide = "9.8.7";
+  const calls = [];
+  const run = (command, args, cwd) => {
+    calls.push([command, args]);
+    assert.equal(cwd, project.projectRoot);
+    // Release files must stay untouched until both commands succeed.
+    assert.doesNotMatch(project.read("pom.xml"), /<version>9\.8\.7<\/version>/);
+    if (command === "npm") {
+      const pkg = JSON.parse(project.read("package.json"));
+      pkg.devDependencies.lucide = lucide;
+      project.write("package.json", JSON.stringify(pkg));
+      const lock = JSON.parse(project.read("package-lock.json"));
+      lock.packages[""].devDependencies.lucide = lucide;
+      lock.packages["node_modules/lucide"] = { version: lucide, integrity: "new-integrity" };
+      project.write("package-lock.json", JSON.stringify(lock));
+      project.write("node_modules/lucide/package.json", JSON.stringify({ version: lucide }));
+    } else {
+      assert.equal(JSON.parse(project.read("node_modules/lucide/package.json")).version, lucide);
+      project.write(metadata, `lucide.version=${lucide}\nicon.count=2345\n`);
+    }
+  };
+  sync("9.8.7", { ...project, run });
+  assert.deepEqual(calls, [
+    ["npm", ["install", "--save-dev", "--save-exact", "--include=dev", `lucide@${lucide}`]],
+    [process.execPath, [path.join(project.projectRoot, "scripts/generate-lucide-jte.js")]],
+  ]);
+  assert.match(project.read("README.md"), /Version 9\.8\.7 provides 2,345 canonical icons from Lucide 9\.8\.7\./);
+  const lock = JSON.parse(project.read("package-lock.json"));
+  assert.equal(lock.packages["node_modules/lucide"].integrity, "new-integrity");
+  assert.equal(lock.version, "9.8.7");
+  sync("9.8.7", project); // No repeat install when everything matches.
+  sync(undefined, { ...project, check: true });
+});
+
+test("a stale lock or missing installation is repaired without regenerating matching icons", t => {
+  for (const missing of [false, true]) {
+    const project = fixture(t);
+    const lucide = JSON.parse(project.read("package.json")).devDependencies.lucide;
+    const lock = project.read("package-lock.json");
+    if (missing) fs.unlinkSync(path.join(project.projectRoot, "node_modules/lucide/package.json"));
+    else project.write("package-lock.json", lock.replaceAll(lucide, "0.0.1"));
+    let calls = 0;
+    sync(lucide, { ...project, run: (command, args) => {
+      calls++;
+      assert.equal(command, "npm");
+      assert.deepEqual(args, ["install", "--save-dev", "--save-exact", "--include=dev", `lucide@${lucide}`]);
+      project.write("package-lock.json", lock);
+      project.write("node_modules/lucide/package.json", JSON.stringify({ version: lucide }));
+    } });
+    assert.equal(calls, 1);
+  }
+});
+
+test("check validates the lock without needing an installation", t => {
+  const project = fixture(t);
+  fs.unlinkSync(path.join(project.projectRoot, "node_modules/lucide/package.json"));
+  sync(undefined, { ...project, check: true });
+  const lock = JSON.parse(project.read("package-lock.json"));
+  lock.packages["node_modules/lucide"].version = "0.0.1";
+  project.write("package-lock.json", JSON.stringify(lock));
+  const before = project.snapshot();
+  assert.throws(() => sync(undefined, { ...project, check: true }), /package-lock.json does not match Lucide/);
+  assert.deepEqual(project.snapshot(), before);
+});
+
+test("failed or ineffective installation stops before syncing release files", t => {
+  const project = fixture(t);
+  const pkg = JSON.parse(project.read("package.json"));
+  pkg.devDependencies.lucide = "9.9.9";
+  project.write("package.json", JSON.stringify(pkg));
+  const before = project.snapshot();
+  assert.throws(() => sync("9.8.7", { ...project, run: () => {
+    throw new Error("installation failed");
+  } }), /installation failed/);
+  assert.deepEqual(project.snapshot(), before);
+  assert.throws(() => sync("9.8.7", { ...project, run: () => {} }), /did not install and lock Lucide/);
+  assert.deepEqual(project.snapshot(), before);
+});
+
+test("failed or ineffective generation stops before syncing release files", t => {
+  const project = fixture(t);
+  const version = JSON.parse(project.read("package.json")).version;
+  project.write(metadata, "lucide.version=0.0.1\nicon.count=1\n");
+  const before = project.snapshot();
+  assert.throws(() => sync(version, { ...project, run: command => {
+    if (command !== "npm") throw new Error("generation failed");
+  } }), /generation failed/);
+  assert.deepEqual(project.snapshot(), before);
+  assert.throws(() => sync(version, { ...project, run: () => {} }), /Icon generation did not produce Lucide/);
+  assert.deepEqual(project.snapshot(), before);
 });
 
 test("invalid fields and malformed JSON fail before any file is changed", t => {
@@ -160,7 +279,29 @@ test("CLI check rejects a tag mismatch without writes", t => {
   fs.copyFileSync(path.join(__dirname, "sync-version.js"), script);
   const before = project.snapshot();
   const result = spawnSync(process.execPath, [script, "--check", "9.8.7"], { encoding: "utf8" });
+  assert.ifError(result.error);
   assert.equal(result.status, 1);
-  assert.match(result.stderr, /Versions do not match 9.8.7/);
+  assert.match(result.stderr, /Lucide dependency .* does not match release version 9.8.7/);
+  assert.deepEqual(project.snapshot(), before);
+});
+
+test("CLI propagates a failed npm install without syncing release files", t => {
+  const project = fixture(t);
+  const scripts = path.join(project.projectRoot, "scripts");
+  fs.mkdirSync(scripts);
+  const script = path.join(scripts, "sync-version.js");
+  fs.copyFileSync(path.join(__dirname, "sync-version.js"), script);
+  // A local npm stand-in exercises the real subprocess runner without network.
+  const bin = path.join(project.projectRoot, "bin");
+  fs.mkdirSync(bin);
+  fs.writeFileSync(path.join(bin, "npm"), "#!/bin/sh\nexit 73\n", { mode: 0o755 });
+  const before = project.snapshot();
+  const result = spawnSync(process.execPath, [script, "9.8.7"], {
+    encoding: "utf8",
+    env: { ...process.env, PATH: `${bin}${path.delimiter}${process.env.PATH}` },
+  });
+  assert.ifError(result.error);
+  assert.equal(result.status, 1);
+  assert.match(result.stderr, /npm install .*lucide@9\.8\.7 failed \(73\)/);
   assert.deepEqual(project.snapshot(), before);
 });

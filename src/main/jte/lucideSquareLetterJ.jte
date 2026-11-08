@@ -20,6 +20,6 @@
   class="${IconAttributes.classAppend("lucide lucide-square-letter-j-icon lucide-square-letter-j", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path vector-effect="${vectorEffect}" d="M15 8v5a3 3 0 1 1-6 0" />
+  <path vector-effect="${vectorEffect}" d="M14 8v5.5a1 1 0 01-5 0V13" />
   <rect vector-effect="${vectorEffect}" width="18" height="18" x="3" y="3" rx="2" />
 </svg>

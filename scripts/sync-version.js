@@ -1,5 +1,6 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { spawnSync } = require("node:child_process");
 
 const root = path.resolve(__dirname, "..");
 const projectVersion = /(<artifactId>lucide-jte<\/artifactId>\s*<version>)([^<]+)(<\/version>)/;
@@ -18,16 +19,20 @@ function properties(content) {
     .map(line => line.split("=", 2).map(part => part.trim())));
 }
 
-// Versions and counts that are not the library version: the pinned Lucide release, the
-// icon count generated from it, and the JTE version from the POM.
-function upstream(originals) {
-  const lucide = JSON.parse(originals.get("package.json")).devDependencies?.lucide;
-  if (!semver.test(lucide ?? "")) throw new Error(`package.json must pin an exact lucide version, got: ${lucide}`);
+// Release versions select Lucide too; the generated count and JTE version have
+// their own sources.
+function upstream(originals, version, allowStaleIcons = false) {
+  const pinned = JSON.parse(originals.get("package.json")).devDependencies?.lucide;
+  if (!semver.test(pinned ?? "")) throw new Error(`package.json must pin an exact lucide version, got: ${pinned}`);
+  const lucide = version;
+  if (!allowStaleIcons && pinned !== lucide) {
+    throw new Error(`Lucide dependency ${pinned} does not match release version ${lucide}. Run npm run sync-version -- ${lucide}.`);
+  }
   const generated = properties(originals.get(metadata));
   if (!/^[1-9]\d*$/.test(generated["icon.count"] ?? "")) throw new Error(`Cannot find icon count in ${metadata}`);
-  if (generated["lucide.version"] !== lucide) {
+  if (!allowStaleIcons && generated["lucide.version"] !== lucide) {
     throw new Error(`Generated icons are from Lucide ${generated["lucide.version"]}, but package.json pins ${lucide}. `
-      + "Run npm ci and npm run generate:lucide-jte.");
+      + `Run npm run sync-version -- ${lucide}.`);
   }
   const jte = originals.get("pom.xml").match(/<jte\.version>([^<]+)<\/jte\.version>/)?.[1];
   if (!jte) throw new Error("Cannot find jte.version in pom.xml");
@@ -35,7 +40,26 @@ function upstream(originals) {
   return { lucide, iconCount, jte };
 }
 
-function sync(version, { projectRoot = root, check = false } = {}) {
+function runCommand(command, args, cwd) {
+  const result = spawnSync(command, args, { cwd, stdio: "inherit" });
+  if (result.error) throw result.error;
+  if (result.status !== 0) {
+    throw new Error(`${command} ${args.join(" ")} failed (${result.signal ?? result.status}).`);
+  }
+}
+
+function installedVersion(projectRoot) {
+  const file = path.join(projectRoot, "node_modules/lucide/package.json");
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")).version : undefined;
+}
+
+function lockMatches(content, lucide) {
+  const lock = JSON.parse(content);
+  return lock.packages?.[""]?.devDependencies?.lucide === lucide
+    && lock.packages?.["node_modules/lucide"]?.version === lucide;
+}
+
+function sync(version, { projectRoot = root, check = false, run = runCommand } = {}) {
   // Read and validate every file before changing any of them.
   const originals = new Map(files.map(file => [file, fs.readFileSync(path.join(projectRoot, file), "utf8")]));
   if (version === undefined && check) {
@@ -47,7 +71,7 @@ function sync(version, { projectRoot = root, check = false } = {}) {
     throw new Error(`Version must be major.minor.patch, got: ${version}`);
   }
 
-  const { lucide, iconCount, jte } = upstream(originals);
+  const { lucide, iconCount, jte } = upstream(originals, version, !check);
   const updates = new Map(originals);
   let pom = replaceField(originals.get("pom.xml"), "pom.xml", "project version", projectVersion, version);
   pom = replaceField(pom, "pom.xml", "SCM tag", /(<scm>[\s\S]*?<tag>)([^<]+)(<\/tag>)/, `v${version}`);
@@ -86,6 +110,10 @@ function sync(version, { projectRoot = root, check = false } = {}) {
     if (typeof json.version !== "string") throw new Error(`Cannot find package version in ${file}`);
     let needsUpdate = json.version !== version;
     json.version = version;
+    if (file === "package.json") {
+      needsUpdate ||= json.devDependencies.lucide !== lucide;
+      json.devDependencies.lucide = lucide;
+    }
     if (file === "package-lock.json") {
       if (typeof json.packages?.[""]?.version !== "string") {
         throw new Error(`Cannot find root package version in ${file}`);
@@ -94,6 +122,33 @@ function sync(version, { projectRoot = root, check = false } = {}) {
       json.packages[""].version = version;
     }
     if (needsUpdate) updates.set(file, JSON.stringify(json, null, 2) + "\n");
+  }
+
+  const locked = lockMatches(originals.get("package-lock.json"), lucide);
+  if (check && !locked) {
+    throw new Error(`package-lock.json does not match Lucide ${lucide}. Run npm run sync-version -- ${version}.`);
+  }
+  if (!check) {
+    const staleIcons = properties(originals.get(metadata))["lucide.version"] !== lucide;
+    const pinned = JSON.parse(originals.get("package.json")).devDependencies.lucide;
+    if (pinned !== lucide || staleIcons || !locked || installedVersion(projectRoot) !== lucide) {
+      console.log(`Installing Lucide ${lucide}.`);
+      run("npm", ["install", "--save-dev", "--save-exact", "--include=dev", `lucide@${lucide}`], projectRoot);
+      if (installedVersion(projectRoot) !== lucide
+          || JSON.parse(fs.readFileSync(path.join(projectRoot, "package.json"), "utf8")).devDependencies?.lucide !== lucide
+          || !lockMatches(fs.readFileSync(path.join(projectRoot, "package-lock.json"), "utf8"), lucide)) {
+        throw new Error(`npm install did not install and lock Lucide ${lucide}.`);
+      }
+      if (staleIcons) {
+        run(process.execPath, [path.join(projectRoot, "scripts/generate-lucide-jte.js")], projectRoot);
+        const generated = properties(fs.readFileSync(path.join(projectRoot, metadata), "utf8"));
+        if (generated["lucide.version"] !== lucide) {
+          throw new Error(`Icon generation did not produce Lucide ${lucide}.`);
+        }
+      }
+      // npm and the generator changed inputs; rebuild updates from their output.
+      return sync(version, { projectRoot, run });
+    }
   }
 
   const changed = [...updates].filter(([file, content]) => content !== originals.get(file));
