@@ -21,12 +21,12 @@
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
   <path vector-effect="${vectorEffect}" d="M12 22V12l8.71-5" />
-  <path vector-effect="${vectorEffect}" d="M17 15.27c.2-.4.5-.8.9-1a2.1 2.1 0 0 1 2.6.4c.3.4.5.8.5 1.3 0 1.3-2 2-2 2" />
-  <path vector-effect="${vectorEffect}" d="M19 21.99h.01" />
   <path
     vector-effect="${vectorEffect}"
     d="M21 10.342V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l2.33-1.332"
   />
   <path vector-effect="${vectorEffect}" d="M3.29 7 12 12" />
   <path vector-effect="${vectorEffect}" d="m7.5 4.27 9 5.15" />
+  <path vector-effect="${vectorEffect}" d="M19 18.5c.5-1 2-1 2-2.5a2 2 0 00-2-2 2.5 2.5 0 00-2 1" />
+  <path vector-effect="${vectorEffect}" d="M19 22h.01" />
 </svg>

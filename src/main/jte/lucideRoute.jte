@@ -20,7 +20,7 @@
   class="${IconAttributes.classAppend("lucide lucide-route-icon lucide-route", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <circle vector-effect="${vectorEffect}" cx="6" cy="19" r="3" />
-  <path vector-effect="${vectorEffect}" d="M9 19h8.5a3.5 3.5 0 0 0 0-7h-11a3.5 3.5 0 0 1 0-7H15" />
-  <circle vector-effect="${vectorEffect}" cx="18" cy="5" r="3" />
+  <path vector-effect="${vectorEffect}" d="M9 5h8.5a1 1 0 010 7h-11a1 1 0 000 7H15" />
+  <circle vector-effect="${vectorEffect}" cx="18" cy="19" r="3" />
+  <circle vector-effect="${vectorEffect}" cx="6" cy="5" r="3" />
 </svg>

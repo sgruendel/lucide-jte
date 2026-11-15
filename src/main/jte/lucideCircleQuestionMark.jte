@@ -21,6 +21,6 @@
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
   <circle vector-effect="${vectorEffect}" cx="12" cy="12" r="10" />
-  <path vector-effect="${vectorEffect}" d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+  <path vector-effect="${vectorEffect}" d="M9 9.5a3 2.5 0 016 0c0 2-2 2-3 3.5" />
   <path vector-effect="${vectorEffect}" d="M12 17h.01" />
 </svg>

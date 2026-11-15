@@ -20,7 +20,7 @@
   class="${IconAttributes.classAppend("lucide lucide-square-arrow-right-enter-icon lucide-square-arrow-right-enter", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path vector-effect="${vectorEffect}" d="m10 16 4-4-4-4" />
-  <path vector-effect="${vectorEffect}" d="M3 12h11" />
-  <path vector-effect="${vectorEffect}" d="M3 8V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3" />
+  <path vector-effect="${vectorEffect}" d="M3 12h10" />
+  <path vector-effect="${vectorEffect}" d="M3 8V5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2v-3" />
+  <path vector-effect="${vectorEffect}" d="m9 16 4-4-4-4" />
 </svg>
