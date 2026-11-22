@@ -20,9 +20,9 @@
   class="${IconAttributes.classAppend("lucide lucide-mail-clock-icon lucide-mail-clock", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path vector-effect="${vectorEffect}" d="M16 14v2.2l1.6 1" />
-  <path vector-effect="${vectorEffect}" d="m22 7-.759.484" />
-  <path vector-effect="${vectorEffect}" d="M6.835 20H4a2 2 0 01-2-2V6a2 2 0 012-2h16a2 2 0 012 2v2" />
-  <path vector-effect="${vectorEffect}" d="M7.605 10.567 2 7" />
-  <circle vector-effect="${vectorEffect}" cx="16" cy="16" r="6" />
+  <path vector-effect="${vectorEffect}" d="M17 15.5v1.7l1 .625" />
+  <path vector-effect="${vectorEffect}" d="m22 7-2.244 1.43" />
+  <path vector-effect="${vectorEffect}" d="M22 9.516V6a2 2 0 00-2-2H4a2 2 0 00-2 2v12a2 2 0 002 2h4.512" />
+  <path vector-effect="${vectorEffect}" d="M9.62 11.848 2 7" />
+  <circle vector-effect="${vectorEffect}" cx="17" cy="17" r="5" />
 </svg>

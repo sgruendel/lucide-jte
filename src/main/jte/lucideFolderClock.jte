@@ -20,10 +20,10 @@
   class="${IconAttributes.classAppend("lucide lucide-folder-clock-icon lucide-folder-clock", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path vector-effect="${vectorEffect}" d="M16 14v2.2l1.6 1" />
+  <path vector-effect="${vectorEffect}" d="M17 15.5v1.7l1 .625" />
   <path
     vector-effect="${vectorEffect}"
-    d="M7 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2"
+    d="M8.512 20H4a2 2 0 01-2-2V5a2 2 0 012-2h3.9a2 2 0 011.69.9l.81 1.2a2 2 0 001.67.9H20a2 2 0 012 2v1.516"
   />
-  <circle vector-effect="${vectorEffect}" cx="16" cy="16" r="6" />
+  <circle vector-effect="${vectorEffect}" cx="17" cy="17" r="5" />
 </svg>

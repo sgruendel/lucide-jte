@@ -20,14 +20,14 @@
   class="${IconAttributes.classAppend("lucide lucide-spray-can-icon lucide-spray-can", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path vector-effect="${vectorEffect}" d="M3 3h.01" />
-  <path vector-effect="${vectorEffect}" d="M7 5h.01" />
-  <path vector-effect="${vectorEffect}" d="M11 7h.01" />
-  <path vector-effect="${vectorEffect}" d="M3 7h.01" />
-  <path vector-effect="${vectorEffect}" d="M7 9h.01" />
-  <path vector-effect="${vectorEffect}" d="M3 11h.01" />
-  <rect vector-effect="${vectorEffect}" width="4" height="4" x="15" y="5" />
-  <path vector-effect="${vectorEffect}" d="m19 9 2 2v10c0 .6-.4 1-1 1h-6c-.6 0-1-.4-1-1V11l2-2" />
-  <path vector-effect="${vectorEffect}" d="m13 14 8-2" />
-  <path vector-effect="${vectorEffect}" d="m13 19 8-2" />
+  <path vector-effect="${vectorEffect}" d="m12 19 8-3" />
+  <path vector-effect="${vectorEffect}" d="M14 6h-2" />
+  <path vector-effect="${vectorEffect}" d="M18 8.172V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v3.172" />
+  <path vector-effect="${vectorEffect}" d="m20 11-8 3" />
+  <path vector-effect="${vectorEffect}" d="M20 20a2 2 0 01-2 2h-4a2 2 0 01-2-2v-9a3 3 0 013-3h2a3 3 0 013 3z" />
+  <path vector-effect="${vectorEffect}" d="M4 10h.01" />
+  <path vector-effect="${vectorEffect}" d="M4 2h.01" />
+  <path vector-effect="${vectorEffect}" d="M4 6h.01" />
+  <path vector-effect="${vectorEffect}" d="M8 4h.01" />
+  <path vector-effect="${vectorEffect}" d="M8 8h.01" />
 </svg>

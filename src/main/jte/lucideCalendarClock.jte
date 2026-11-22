@@ -20,10 +20,10 @@
   class="${IconAttributes.classAppend("lucide lucide-calendar-clock-icon lucide-calendar-clock", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path vector-effect="${vectorEffect}" d="M16 14v2.2l1.6 1" />
   <path vector-effect="${vectorEffect}" d="M16 2v3" />
-  <path vector-effect="${vectorEffect}" d="M21 7.338V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h2.338" />
-  <path vector-effect="${vectorEffect}" d="M3 9h5.859" />
+  <path vector-effect="${vectorEffect}" d="M17 15.5v1.7l1 .625" />
+  <path vector-effect="${vectorEffect}" d="M21 8.936V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h3.935" />
+  <path vector-effect="${vectorEffect}" d="M3 9h9.873" />
   <path vector-effect="${vectorEffect}" d="M8 2v3" />
-  <circle vector-effect="${vectorEffect}" cx="16" cy="16" r="6" />
+  <circle vector-effect="${vectorEffect}" cx="17" cy="17" r="5" />
 </svg>

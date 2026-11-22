@@ -20,9 +20,9 @@
   class="${IconAttributes.classAppend("lucide lucide-clipboard-clock-icon lucide-clipboard-clock", options.attrs())}"
   $unsafe{IconAttributes.attrs(options.attrs())}
 >
-  <path vector-effect="${vectorEffect}" d="M16 14v2.2l1.6 1" />
-  <path vector-effect="${vectorEffect}" d="M16 4h2a2 2 0 0 1 2 2v.832" />
-  <path vector-effect="${vectorEffect}" d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h2" />
-  <circle vector-effect="${vectorEffect}" cx="16" cy="16" r="6" />
+  <path vector-effect="${vectorEffect}" d="M16 4h2a2 2 0 012 2v2.512" />
+  <path vector-effect="${vectorEffect}" d="M17 15.5v1.7l1 .625" />
+  <path vector-effect="${vectorEffect}" d="M8 4H6a2 2 0 00-2 2v14a2 2 0 002 2h3.516" />
+  <circle vector-effect="${vectorEffect}" cx="17" cy="17" r="5" />
   <rect vector-effect="${vectorEffect}" x="8" y="2" width="8" height="4" rx="1" />
 </svg>
